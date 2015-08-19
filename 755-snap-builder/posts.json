@@ -21,12 +21,12 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": "哈鲁皮一个人的时候都在干嘛?"
+          "translate": "哈鲁P一个人的时候做什么呢？"
         },
         {
           "text": "フリーコイン貯めてる",
           "bodyType": 1,
-          "translate": "收集freecoin"
+          "translate": "攒Free Coin（line）"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_047_01.png",
@@ -67,12 +67,12 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "读了HKT的历史书，看到密瓜汁选拔的时候，哈鲁P和撒酷拉糖的那段往事，我不自觉地就哭出来了。儿玉进了今天发布的akb48选拔呢。在网上的新闻里，有哈鲁P的名字，我特别地开心。"
         },
         {
           "text": "ありがとうございます。\nこうやって喜んでくださる方がいるのが私の心の支えです。\n\n私なんかが、HKT48の代表でいいのか、AKB48の選抜にはいっていいのか不安になる時がありますが、皆さんの声を聞くと勇気がでてきます。\n\nまだまだな私ですが\n精一杯がんばります！！",
           "bodyType": 1,
-          "translate": ""
+          "translate": "谢谢你。有为我觉得开心的你们在，就是我内心的支柱。我代表HKT48真的可以吗，在AKB48的选拔里真的好吗，在觉得不安的时候，听到大家声音我就得到了勇气。 我虽然差的很远，会拼尽全力的！"
         }
       ],
       "good": 371,
@@ -108,17 +108,17 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P是豆沙派？豆馅派？"
         },
         {
           "text": "こしあんは",
           "bodyType": 1,
-          "translate": ""
+          "translate": "豆沙派"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_008_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_008_01.png"
         }
       ],
       "good": 41,
@@ -154,22 +154,22 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P喜欢的彩姐是center呢！开心吗？"
         },
         {
           "text": "めっちゃ嬉しいよ",
           "bodyType": 1,
-          "translate": ""
+          "translate": "超开心"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_004_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_004_01.png"
         },
         {
           "text": "\nさや姉の歌い出し想像しただけで興奮してくる！！",
           "bodyType": 1,
-          "translate": ""
+          "translate": "想象着彩姐领唱就已经兴奋了！"
         }
       ],
       "good": 250,
@@ -205,17 +205,17 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P不改头发的长度吗？"
         },
         {
           "text": "今伸びてきたから、着る予定だよー",
           "bodyType": 1,
-          "translate": ""
+          "translate": "现在变长了，打算留着"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_008_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_008_01.png"
         }
       ],
       "good": 137,
@@ -251,17 +251,17 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P，我第一次来握手，但是好可爱啊，谢谢 选拔恭喜了"
         },
         {
           "text": "こちらこそありがとう",
           "bodyType": 1,
-          "translate": ""
+          "translate": "要说谢谢的是我。"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_001_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_001_01.png"
         }
       ],
       "good": 79,
@@ -297,17 +297,17 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "我是哈鲁P神推，今天是第一次握手，紧张地说不出话(T_T)"
         },
         {
           "text": "イベント来てくださってありがとうねー",
           "bodyType": 1,
-          "translate": ""
+          "translate": "谢谢你来参加活动。"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_002_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_002_01.png"
         }
       ],
       "good": 103,
@@ -343,12 +343,12 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "好想喝星巴克的新作品“栗子”啊"
         },
         {
           "text": "私も、めっちゃ楽しみ！！\n栗大好き！！",
           "bodyType": 1,
-          "translate": ""
+          "translate": "我也是，很期待！最喜欢栗子了！"
         }
       ],
       "good": 56,
@@ -384,22 +384,22 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "诶？？ 但是有官方的字样，运营也说这是真的啊！"
         },
         {
           "text": "ちょっと偽物ぶりたかっただけです",
           "bodyType": 1,
-          "translate": ""
+          "translate": "稍微想装成假货呢"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_026_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_026_01.png"
         },
         {
           "text": "笑\n\n惑わせちゃってごめんなたい。",
           "bodyType": 1,
-          "translate": ""
+          "translate": "笑 抱歉让你困扰了"
         }
       ],
       "good": 198,
@@ -435,12 +435,12 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P 你好 今天是什么工作呢"
         },
         {
           "text": "新宿の紀伊国屋書店でヒストリー本『腐ったら、負け』のイベントだよー！！",
           "bodyType": 1,
-          "translate": ""
+          "translate": "新宿的纪伊国书店的HKT48历史书〔腐了你就输了〕的宣传活动！"
         }
       ],
       "good": 176,
@@ -476,17 +476,17 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "早上好，好不容易找到哈鲁P在哪里，哈鲁P开头的名字太多了。。。"
         },
         {
           "text": "え、私偽物だよ",
           "bodyType": 1,
-          "translate": ""
+          "translate": "诶、我不是本人哦"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_009_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_009_01.png"
         }
       ],
       "good": 191,
@@ -522,32 +522,32 @@
             "delete": false
           },
           "bodyType": 4,
-          "translate": ""
+          "translate": "哈鲁P 早上好 今天看了ZIP，武井壮 很喜欢HKT48呢"
         },
         {
           "text": "えー！！嬉しすぎます",
           "bodyType": 1,
-          "translate": ""
+          "translate": "诶－！太开心了"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_025_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_025_01.png"
         },
         {
           "text": "\n武井壮さんからいただいた象のぬいぐるみ今も大切に枕元に置いてるんです",
           "bodyType": 1,
-          "translate": ""
+          "translate": "武井壮桑给的大象玩偶还很珍惜地放在枕头旁边呢"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_026_01.png",
           "bodyType": 2,
-          "translate": ""
+          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_026_01.png"
         },
         {
           "text": "笑",
           "bodyType": 1,
-          "translate": ""
+          "translate": "笑"
         }
       ],
       "good": 232,
@@ -560,29 +560,6 @@
       "time": 1439874624,
       "timeOrDay": "9時間前",
       "shareUrl": "http://7gogo.jp/lp/hiJUcq7tYoaWkVIvojdMdG==/2488",
-      "delete": false
-    },
-    {
-      "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
-      "postId": 2487,
-      "postType": 1,
-      "body": [
-        {
-          "text": "こんにちは^o^東京到着",
-          "bodyType": 1,
-          "translate": ""
-        }
-      ],
-      "good": 226,
-      "rtCount": 7,
-      "sender": "eaIiGytNG3Qo",
-      "sendUserImage": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/o07480748p.jpg",
-      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
-      "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "userOfficialStatus": 1,
-      "time": 1439874540,
-      "timeOrDay": "9時間前",
-      "shareUrl": "http://7gogo.jp/lp/hiJUcq7tYoaWkVIvojdMdG==/2487",
       "delete": false
     }
   ]
