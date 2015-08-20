@@ -13,7 +13,7 @@
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030734,
-      "timeOrDay": "4時間前"
+      "timeOrDay": "9時間前"
     },
     {
       "postId": 2504,
@@ -21,14 +21,13 @@
       "body": [
         {
           "image": "http://7gogo.jp/7gogo/pack/0004/0004_013_01.png",
-          "bodyType": 2,
-          "translate": "http://7gogo.jp/7gogo/pack/0004/0004_013_01.png"
+          "bodyType": 2
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030727,
-      "timeOrDay": "4時間前"
+      "timeOrDay": "9時間前"
     },
     {
       "postId": 2503,
@@ -40,8 +39,7 @@
             "text": "いつも服どんなところで買ってるの？\n後、好きなブランドとかオススメのお店教えて下さい(>_<)！！",
             "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150802/07/51/Bj/p/t02400240p.png",
             "sendUserName": "いぶき",
-            "time": 1439987399,
-            "timeOrDay": "17時間前",
+            "timeOrDay": "21時間前",
             "translate": ""
           },
           "bodyType": 4
@@ -55,7 +53,7 @@
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030721,
-      "timeOrDay": "4時間前"
+      "timeOrDay": "9時間前"
     },
     {
       "postId": 2502,
@@ -67,8 +65,7 @@
             "text": "腐ったら負け読んでるよ！\nHKT好きで、おでかけとか見てたけど…こんなにも頑張って大きくなっていったんだね。\n1ページ1ページ噛み締めながら読んでます！\nこの本に出会えて良かった！\nありがとう！",
             "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150108/01/fe/ks/j/t02400240p.jpg",
             "sendUserName": "しおり",
-            "time": 1440008487,
-            "timeOrDay": "11時間前",
+            "timeOrDay": "15時間前",
             "translate": ""
           },
           "bodyType": 4
@@ -80,14 +77,13 @@
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_001_01.png",
-          "bodyType": 2,
-          "translate": "http://7gogo.jp/7gogo/pack/9001/9001_001_01.png"
+          "bodyType": 2
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030585,
-      "timeOrDay": "5時間前"
+      "timeOrDay": "9時間前"
     },
     {
       "postId": 2501,
@@ -96,13 +92,14 @@
         {
           "text": "https://plus.google.com/111907069956262615426/posts/D4hYjBNfjYN",
           "bodyType": 1,
-          "translate": ""
+          "translate": "",
+          "isUri": true
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030540,
-      "timeOrDay": "5時間前"
+      "timeOrDay": "9時間前"
     },
     {
       "postId": 2500,
@@ -117,7 +114,7 @@
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
       "time": 1440030523,
-      "timeOrDay": "5時間前"
+      "timeOrDay": "9時間前"
     }
   ]
 }

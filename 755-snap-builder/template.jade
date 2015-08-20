@@ -1,3 +1,67 @@
+mixin quot(comment)
+  div.tq-cts
+    div.tq-hdr
+      div.tq-th(style='background-image: url(#{comment.sendUserThumbnail})')
+      span.tq-pstr #{comment.sendUserName}
+      span.tq-ts #{comment.timeOrDay}
+    p.tq.tq-r #{comment.text} 
+    p.tq.tq-r.translate #{comment.translate}
+
+mixin body(bodyList)
+  //- try get text length
+  - var fontSizeClass = 'tp-r'
+  each body in bodyList
+    case body.bodyType
+      when 1
+        if body.text.length > 25
+          - fontSizeClass = "tp-s"
+
+  p(class="tp #{fontSizeClass}")
+    each body in bodyList
+      case body.bodyType
+        when 1
+          //- text
+          if body.isUrl == 'true'
+            a(href=#{body.text})
+          else
+            | #{body.text}
+
+        when 2
+          //- image
+          <img class="tp_sgt" src=#{body.image}><br>
+
+mixin body-single-image(bodyList)
+  p(class="tp tp-r")
+    each body in bodyList
+      case body.bodyType
+        when 1
+          //- text
+          - console.log("error: text in image only post")
+        when 2
+          //- image
+          <img class="tp_sg" src=#{body.image}><br>
+
+mixin body-translated(bodyList)
+  //- try get text length
+  - var fontSizeClass = 'tp-r'
+  each body in bodyList
+    case body.bodyType
+      when 1
+        if body.text.length > 25
+          - fontSizeClass = "tp-s"
+
+  p(class="tp #{fontSizeClass} translate")
+    each body in bodyList
+      case body.bodyType
+        when 1
+          //- text
+          | #{body.translate}
+        when 2
+          //- image
+          <img class="tp_sgt" src=#{body.image}><br>
+
+
+
 doctype html
 html
   head
@@ -15,65 +79,36 @@ html
     div.col.col3--main
       div.panel.panel-nb.panel-md-latestPosts
         h2.ltp-heading 最新のトーク
-
         div.ltps
           ul.ltps-ul
 
             //- repeat start
             each post in posts
               li.box.ltp
-                div
-                  div
-                    div.tp-hdr
-                      div.tp-th(style='background-image: url(http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg);')
-                      i.icn.icn-01.icn-tp-ofl
-                      span.tp-pstr #{post.sendUserName}
-                      span.tp-ts #{post.timeOrDay}
+                div.tp-hdr
+                  div.tp-th(style='background-image: url(http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg);')
+                  i.icn.icn-01.icn-tp-ofl
+                  span.tp-pstr #{post.sendUserName}
+                  span.tp-ts #{post.timeOrDay}
 
-                    //- determin text class
-                    - var fontSizeClass = "tp-r"
-                    each body,i in post.body
-                      if body.bodyType == 1
-                        if body.text.length > 25
-                          - fontSizeClass="tp-s"
+                    case post.postType
+                      when 1
+                        //- text
+                        +body(post.body)
+                        +body-translated(post.body)
 
-                    //- origin text
-                    p(class="tp #{fontSizeClass}")
-                      each body,i in post.body
-                        if i != 0
+                      when 2
+                        //- image
+                        +body-single-image(post.body)
 
-                          case body.bodyType
-                            when 1 
-                              | #{body.text} 
-                            when 2 
-                              <img class="tp_sgt" src=#{body.image}><br>
-                        else
-                          if post.postType == 1
-                            | #{body.text} 
+                      when 4
+                        //- retalk
+                        +body(post.body)
+                        +body-translated(post.body)
+                        +quot(post.body[0].comment)
 
-                      //- translate text
-                      p(class="tp #{fontSizeClass} translate")
-                          each body,i in post.body
-                            if i != 0
 
-                              case body.bodyType
-                                when 1 
-                                  | #{body.translate} 
-                                when 2 
-                                  <img class="tp_sgt" src=#{body.image}><br>
-                            else
-                              if post.postType == 1
-                                | #{body.translate} 
 
-                    //- is re-talk
-                    if post.postType == 4
-                      div.tq-cts
-                        div.tq-hdr
-                          div.tq-th(style='background-image: url(#{post.body[0].comment.sendUserThumbnail})')
-                          span.tq-pstr #{post.body[0].comment.sendUserName}
-                          span.tq-ts #{post.body[0].comment.timeOrDay}
-                        p.tq.tq-r #{post.body[0].comment.text} 
-                        p.tq.tq-r.translate #{post.body[0].comment.translate}
 
 
 

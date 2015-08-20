@@ -1,0 +1,77 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    link(href='app.css',rel='stylesheet')
+    style.
+      //- .ltp .tp.translate{
+      //-   color:grey;
+      //- }
+      //- .tq.translate{
+      //-   color:grey;
+      //- }
+
+  body
+    div.col.col3--main
+      div.panel.panel-nb.panel-md-latestPosts
+        h2.ltp-heading 最新のトーク
+
+        div.ltps
+          ul.ltps-ul
+
+            //- repeat start
+            each post in posts
+              li.box.ltp
+                div
+                  div
+                    div.tp-hdr
+                      div.tp-th(style='background-image: url(http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg);')
+                      i.icn.icn-01.icn-tp-ofl
+                      span.tp-pstr #{post.sendUserName}
+                      span.tp-ts #{post.timeOrDay}
+
+                    //- determin text class
+                    - var fontSizeClass = "tp-r"
+                    each body,i in post.body
+                      if body.bodyType == 1
+                        if body.text.length > 25
+                          - fontSizeClass="tp-s"
+
+                    //- origin text
+                    p(class="tp #{fontSizeClass}")
+                      each body,i in post.body
+                        case body.bodyType
+                          when 1 
+                            | #{body.text} 
+                          when 2 
+                            <img class="tp_sgt" src=#{body.image}><br>
+
+                        if post.postType == 1
+                          | #{body.text} 
+
+                      //- translate text
+                      p(class="tp #{fontSizeClass} translate")
+                          each body,i in post.body
+                            if i != 0
+
+                              case body.bodyType
+                                when 1 
+                                  | #{body.translate} 
+                                when 2 
+                                  <img class="tp_sgt" src=#{body.image}><br>
+                            else
+                              if post.postType == 1
+                                | #{body.translate} 
+
+                    //- is re-talk
+                    if post.postType == 4
+                      div.tq-cts
+                        div.tq-hdr
+                          div.tq-th(style='background-image: url(#{post.body[0].comment.sendUserThumbnail})')
+                          span.tq-pstr #{post.body[0].comment.sendUserName}
+                          span.tq-ts #{post.body[0].comment.timeOrDay}
+                        p.tq.tq-r #{post.body[0].comment.text} 
+                        p.tq.tq-r.translate #{post.body[0].comment.translate}
+
+
+

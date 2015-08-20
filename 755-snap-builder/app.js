@@ -2,6 +2,7 @@ var request=require('request');
 var _ = require('underscore');
 var moment = require('moment');
 var fs = require('fs');
+var validUrl = require('valid-url');
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=XDXHrpvEVMS9GtN76wEuUm%3D%3D';
 
@@ -51,10 +52,8 @@ request(metaUrl,function(err,res){
       delete p.userOfficialStatus;
       delete p.rtCount;
       delete p.shareUrl;
-      delete p.time;
       delete p['delete'];
 
-      // console.log(p)
       if (p.time> endOfYesterday) {
         _.each(p.body,function(b){
 
@@ -72,16 +71,20 @@ request(metaUrl,function(err,res){
             return;
           }
           else if (b.bodyType === 2 ) {
-            b.translate = b.image;
+
           }
-          else{
+          else if (b.bodyType === 1){
             b.translate = '';
+            if (validUrl.isUri(b.text)) {
+              b.isUri = true;
+            }
           }
           
         });
 
         return true;
       }
+
     });
 
     filtered = {posts:filtered};
