@@ -10,19 +10,21 @@ mixin quot(comment)
 mixin body(bodyList)
   //- try get text length
   - var fontSizeClass = 'tp-r'
+  - var isUrl = false
   each body in bodyList
     case body.bodyType
       when 1
+        - isUrl = (body.text.indexOf('http') == 0)
         if body.text.length > 25
-          - fontSizeClass = "tp-s"
+          - fontSizeClass = (isUrl?"tp-m":"tp-s")
 
   p(class="tp #{fontSizeClass}")
     each body in bodyList
       case body.bodyType
         when 1
           //- text
-          if body.isUrl == 'true'
-            a(href=#{body.text})
+          if isUrl == true
+            a(href='#{body.text}') #{body.text}
           else
             | #{body.text}
 
@@ -91,21 +93,21 @@ html
                   span.tp-pstr #{post.sendUserName}
                   span.tp-ts #{post.timeOrDay}
 
-                    case post.postType
-                      when 1
-                        //- text
-                        +body(post.body)
-                        +body-translated(post.body)
+                case post.postType
+                  when 1
+                    //- text
+                    +body(post.body)
+                    +body-translated(post.body)
 
-                      when 2
-                        //- image
-                        +body-single-image(post.body)
+                  when 2
+                    //- image
+                    +body-single-image(post.body)
 
-                      when 4
-                        //- retalk
-                        +body(post.body)
-                        +body-translated(post.body)
-                        +quot(post.body[0].comment)
+                  when 4
+                    //- retalk
+                    +body(post.body)
+                    +body-translated(post.body)
+                    +quot(post.body[0].comment)
 
 
 

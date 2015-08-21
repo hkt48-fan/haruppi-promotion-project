@@ -2,10 +2,8 @@ var request=require('request');
 var _ = require('underscore');
 var moment = require('moment');
 var fs = require('fs');
-var validUrl = require('valid-url');
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=XDXHrpvEVMS9GtN76wEuUm%3D%3D';
-
 
 
 request(metaUrl,function(err,res){
@@ -73,11 +71,8 @@ request(metaUrl,function(err,res){
           else if (b.bodyType === 2 ) {
 
           }
-          else if (b.bodyType === 1){
+          else if (b.bodyType === 1) {
             b.translate = '';
-            if (validUrl.isUri(b.text)) {
-              b.isUri = true;
-            }
           }
           
         });
