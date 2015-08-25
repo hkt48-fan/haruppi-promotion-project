@@ -1,120 +1,437 @@
 {
   "posts": [
     {
-      "postId": 2505,
-      "postType": 1,
+      "postId": 2530,
+      "postType": 4,
       "body": [
         {
-          "text": "ってなった！！😂😂😂",
+          "commentId": 305899,
+          "comment": {
+            "text": "３話から出るんだね？\nHuluでみーよぉっと‼",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150103/22/c3/re/p/t02390240p.png",
+            "sendUserName": "あおたく",
+            "timeOrDay": "21時間前",
+            "translate": "从第三话开始出场是吧，在hulu看咯！"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "ふふふ、どうかな",
           "bodyType": 1,
-          "translate": ""
-        }
-      ],
-      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
-      "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030734,
-      "timeOrDay": "9時間前"
-    },
-    {
-      "postId": 2504,
-      "postType": 2,
-      "body": [
+          "translate": "呼呼呼，会怎样呢"
+        },
         {
-          "image": "http://7gogo.jp/7gogo/pack/0004/0004_013_01.png",
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_015_01.png",
           "bodyType": 2
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030727,
-      "timeOrDay": "9時間前"
+      "time": 1440464328,
+      "timeOrDay": "13時間前"
     },
     {
-      "postId": 2503,
+      "postId": 2529,
       "postType": 4,
       "body": [
         {
-          "commentId": 303838,
+          "commentId": 305928,
           "comment": {
-            "text": "いつも服どんなところで買ってるの？\n後、好きなブランドとかオススメのお店教えて下さい(>_<)！！",
-            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150802/07/51/Bj/p/t02400240p.png",
-            "sendUserName": "いぶき",
-            "timeOrDay": "21時間前",
-            "translate": ""
+            "text": "はるっぴおはよう🎵\n\n今福岡かなり危険だよ😵家がミシミシ揺れてます😫助けて❗",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150811/23/5b/WZ/p/t02400240p.png",
+            "sendUserName": "✔なる（由莉耶神推し）",
+            "timeOrDay": "16時間前",
+            "translate": "哈鲁P早上好，现在福冈很危险呢，家在嘎吱嘎吱地遥，救命啊 "
           },
           "bodyType": 4
         },
         {
-          "text": "いろんなとこで買うよー^o^\nこの前GUのセールコーナーで同い年の子に声かけられて…",
+          "text": "心配です",
+          "bodyType": 1,
+          "translate": "好担心啊"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_025_01.png",
+          "bodyType": 2
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_025_01.png",
+          "bodyType": 2
+        },
+        {
+          "text": "\n気をつけてくださいね！\n明日は、博多座だけど飛行機がどうなるかドキドキしとるっちゃんねー",
+          "bodyType": 1,
+          "translate": "要小心哦！明天是博多座，飞机会怎么样呢，好紧张呢。"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_021_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440464258,
+      "timeOrDay": "13時間前"
+    },
+    {
+      "postId": 2528,
+      "postType": 4,
+      "body": [
+        {
+          "commentId": 305967,
+          "comment": {
+            "text": "おはよう！\nついにマジすかはじまったね‼️",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150817/09/a4/ob/j/t02400240p.jpg",
+            "sendUserName": "paceli",
+            "timeOrDay": "13時間前",
+            "translate": "早上好 终于真女5开播咯！！"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "そやねん",
+          "bodyType": 1,
+          "translate": "是呢"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_015_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440464172,
+      "timeOrDay": "13時間前"
+    },
+    {
+      "postId": 2527,
+      "postType": 1,
+      "body": [
+        {
+          "text": "huluの方ではもう3話まで観ることができますよー",
+          "bodyType": 1,
+          "translate": "用hulu的话，可以看到 第三话哦"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_004_01.png",
+          "bodyType": 2
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_004_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440464153,
+      "timeOrDay": "13時間前"
+    },
+    {
+      "postId": 2526,
+      "postType": 1,
+      "body": [
+        {
+          "text": "マジすか学園5第1話が\n放送されましたが\n皆さん見ていただけましたかー？？",
+          "bodyType": 1,
+          "translate": "真女学园5第1话已经开播了，大家看了吗？？"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440464123,
+      "timeOrDay": "13時間前"
+    },
+    {
+      "postId": 2525,
+      "postType": 1,
+      "body": [
+        {
+          "text": "おはようございます^o^",
+          "bodyType": 1,
+          "translate": "早上好"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440464067,
+      "timeOrDay": "13時間前"
+    },
+    {
+      "postId": 2524,
+      "postType": 6,
+      "body": [
+        {
+          "movieUrlHls": "http://moviestat.7gogo.jp/output/XDXHrpvEVMS9GtN76wEuUm==/hls/ANftD08e68tkybbXu5LPBV63/ANftD08e68tkybbXu5LPBV63_.m3u8",
+          "movieUrlHq": "http://moviestat.7gogo.jp/output/XDXHrpvEVMS9GtN76wEuUm==/hq/ANftD08e68tkybbXu5LPBV63.mp4",
+          "movieUrlNormal": "http://moviestat.7gogo.jp/output/XDXHrpvEVMS9GtN76wEuUm==/normal/ANftD08e68tkybbXu5LPBV63.mp4",
+          "thumbnailUrl": "http://moviestat.7gogo.jp/output/XDXHrpvEVMS9GtN76wEuUm==/thumbnail/ANftD08e68tkybbXu5LPBV63/thumbnail.jpg",
+          "height": 992,
+          "width": 736,
+          "monitoringThumbnails": [
+            {
+              "videoId": "ANftD08e68tkybbXu5LPBV63",
+              "thumbnailUrl": "output/XDXHrpvEVMS9GtN76wEuUm==/normal/thumbnail/ANftD08e68tkybbXu5LPBV63/ANftD08e68tkybbXu5LPBV63-thumbnail-00001.png"
+            },
+            {
+              "videoId": "ANftD08e68tkybbXu5LPBV63",
+              "thumbnailUrl": "output/XDXHrpvEVMS9GtN76wEuUm==/normal/thumbnail/ANftD08e68tkybbXu5LPBV63/ANftD08e68tkybbXu5LPBV63-thumbnail-00002.png"
+            }
+          ],
+          "videoId": "ANftD08e68tkybbXu5LPBV63",
+          "bodyType": 8
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440400332,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2523,
+      "postType": 1,
+      "body": [
+        {
+          "text": "ごぼてん収録行ってきます！",
+          "bodyType": 1,
+          "translate": "去收录牛蒡天咯！"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440400325,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2522,
+      "postType": 4,
+      "body": [
+        {
+          "commentId": 305269,
+          "comment": {
+            "text": "最近よく聴く曲ってある(･_･?)",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150815/23/bc/mV/j/t02400240p.jpg",
+            "sendUserName": "ひで⊿",
+            "timeOrDay": "1日前",
+            "translate": "最近有一直听的歌吗？"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "家入レオさんの、\n君がくれた夏\nいい曲好きっちゃん",
+          "bodyType": 1,
+          "translate": "家入レオ桑的，君がくれた夏 是很好的歌，喜欢上了"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_042_01.png",
+          "bodyType": 2
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_035_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440379149,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2521,
+      "postType": 4,
+      "body": [
+        {
+          "commentId": 305341,
+          "comment": {
+            "text": "96年生まれなの？\n\n同い年だ！（笑）",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150822/01/ae/sd/j/t02400240p.jpg",
+            "sendUserName": "すぅ☆",
+            "timeOrDay": "1日前",
+            "translate": "96年出生的吗？ 一样大哦（笑）"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "タメやね！よろしくね！笑",
+          "bodyType": 1,
+          "translate": "平辈（的口气）呢，请多关照！ 笑"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440379074,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2520,
+      "postType": 4,
+      "body": [
+        {
+          "commentId": 305369,
+          "comment": {
+            "text": "はるっぴ今日のご予定は？",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150722/07/56/Sf/p/t02400240p.png",
+            "sendUserName": "May ＆ Qoo",
+            "timeOrDay": "1日前",
+            "translate": "哈鲁P今天的计划是？"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "今日は、結構みっちりだよー",
+          "bodyType": 1,
+          "translate": "今天要全力以赴哦"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_046_01.png",
+          "bodyType": 2
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_043_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440379054,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2519,
+      "postType": 1,
+      "body": [
+        {
+          "text": "http://ameblo.jp/akb48cafe/entry-12064176537.html",
           "bodyType": 1,
           "translate": ""
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030721,
-      "timeOrDay": "9時間前"
+      "time": 1440379032,
+      "timeOrDay": "1日前"
     },
     {
-      "postId": 2502,
-      "postType": 4,
+      "postId": 2518,
+      "postType": 1,
       "body": [
         {
-          "commentId": 303892,
-          "comment": {
-            "text": "腐ったら負け読んでるよ！\nHKT好きで、おでかけとか見てたけど…こんなにも頑張って大きくなっていったんだね。\n1ページ1ページ噛み締めながら読んでます！\nこの本に出会えて良かった！\nありがとう！",
-            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150108/01/fe/ks/j/t02400240p.jpg",
-            "sendUserName": "しおり",
-            "timeOrDay": "15時間前",
-            "translate": ""
-          },
-          "bodyType": 4
-        },
-        {
-          "text": "読んでくれてありがとう",
+          "text": "今回は、私服でも着やすそうなデザインを考えてみました",
           "bodyType": 1,
-          "translate": ""
+          "translate": "这次的设计，我考虑到了平时也能穿的低羞耻度设计"
         },
         {
           "image": "http://7gogo.jp/7gogo/pack/9001/9001_001_01.png",
           "bodyType": 2
-        }
-      ],
-      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
-      "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030585,
-      "timeOrDay": "9時間前"
-    },
-    {
-      "postId": 2501,
-      "postType": 1,
-      "body": [
+        },
         {
-          "text": "https://plus.google.com/111907069956262615426/posts/D4hYjBNfjYN",
-          "bodyType": 1,
-          "translate": "",
-          "isUri": true
-        }
-      ],
-      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
-      "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030540,
-      "timeOrDay": "9時間前"
-    },
-    {
-      "postId": 2500,
-      "postType": 1,
-      "body": [
-        {
-          "text": "おはようございます＼(^o^)／",
+          "text": "\n気に入ってもらえたらいいなぁ",
           "bodyType": 1,
           "translate": ""
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_042_01.png",
+          "bodyType": 2
         }
       ],
       "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
       "sendUserName": "兒玉遥（HKT48/AKB48）",
-      "time": 1440030523,
-      "timeOrDay": "9時間前"
+      "time": 1440378466,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2517,
+      "postType": 1,
+      "body": [
+        {
+          "text": "今年も、私のデザインした生誕Tシャツが発売されています！",
+          "bodyType": 1,
+          "translate": "今年，我设计的生诞T恤页发卖啦！"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440378409,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2516,
+      "postType": 3,
+      "body": [
+        {
+          "image": "http://stat.7gogo.jp/appimg_images/20150824/10/53/6E/j/o08000701p.jpg",
+          "thumbnail": "http://stat.7gogo.jp/appimg_images/20150824/10/53/6E/j/t02200193p.jpg",
+          "bodyType": 3
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440378373,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2515,
+      "postType": 3,
+      "body": [
+        {
+          "image": "http://stat.7gogo.jp/appimg_images/20150824/10/61/3D/j/o08000701p.jpg",
+          "thumbnail": "http://stat.7gogo.jp/appimg_images/20150824/10/61/3D/j/t02200193p.jpg",
+          "bodyType": 3
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440378373,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2514,
+      "postType": 1,
+      "body": [
+        {
+          "text": "おはようございます^o^",
+          "bodyType": 1,
+          "translate": "早上好"
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440378349,
+      "timeOrDay": "1日前"
+    },
+    {
+      "postId": 2513,
+      "postType": 4,
+      "body": [
+        {
+          "commentId": 304875,
+          "comment": {
+            "text": "お姉ちゃんがはるっぴ大好きで、うちもすきになったよ♡",
+            "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150706/22/69/ks/p/t02400240p.png",
+            "sendUserName": "と も か",
+            "timeOrDay": "2日前",
+            "translate": "姐姐很喜欢哈鲁P，我也加推了♡"
+          },
+          "bodyType": 4
+        },
+        {
+          "text": "わー！そういうの嬉しいなぁ",
+          "bodyType": 1,
+          "translate": "哇！像这样的好开心啊"
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_004_01.png",
+          "bodyType": 2
+        },
+        {
+          "image": "http://7gogo.jp/7gogo/pack/9001/9001_037_01.png",
+          "bodyType": 2
+        }
+      ],
+      "sendUserThumbnail": "http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg",
+      "sendUserName": "兒玉遥（HKT48/AKB48）",
+      "time": 1440303257,
+      "timeOrDay": "2日前"
     }
+ 
   ]
 }

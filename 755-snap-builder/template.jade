@@ -42,6 +42,9 @@ mixin body-single-image(bodyList)
         when 2
           //- image
           <img class="tp_sg" src=#{body.image}><br>
+        when 3
+          //- image
+          <img class="tp_g" src=#{body.image}><br>
 
 mixin body-translated(bodyList)
   //- try get text length
@@ -62,6 +65,10 @@ mixin body-translated(bodyList)
           //- image
           <img class="tp_sgt" src=#{body.image}><br>
 
+mixin body-video(body)
+  p.tp.tp-r
+    <img class="tp_g" src=#{body.thumbnailUrl}><br>
+
 
 
 doctype html
@@ -70,12 +77,18 @@ html
     meta(charset='UTF-8')
     link(href='app.css',rel='stylesheet')
     style.
-      //- .ltp .tp.translate{
-      //-   color:grey;
-      //- }
-      //- .tq.translate{
-      //-   color:grey;
-      //- }
+      .ltp .tp_g, .ltp .tp_m{
+        max-width: 420px;
+      }
+      .tp.translate{
+        color:#CF0011;
+      }
+      .tq-r.translate{
+        color:#CF0011;
+      }
+      .box.ltp.bottom{
+        padding:5px;
+      }
 
   body
     div.col.col3--main
@@ -103,11 +116,32 @@ html
                     //- image
                     +body-single-image(post.body)
 
+                  when 3
+                    //- user upload image
+                    +body-single-image(post.body)
+
                   when 4
                     //- retalk
                     +body(post.body)
                     +body-translated(post.body)
                     +quot(post.body[0].comment)
+
+                  when 6
+                    //- video
+                    +body-video(post.body[0])
+        
+            li.box.ltp.bottom
+              
+              p.tp.tp-s 
+                | 翻译: @根基挡炎爆 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              p.tp.tp-s
+                span.tp-ts
+                  | #{(new Date()).toLocaleString()}
+              p.tp.tp-s
+                span.tp-ts Powered by hkt48-fan/haruppi-promotion-project@github
+                
+
 
 
 

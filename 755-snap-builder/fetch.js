@@ -4,6 +4,21 @@ var moment = require('moment');
 var fs = require('fs');
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=XDXHrpvEVMS9GtN76wEuUm%3D%3D';
+var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=' 
+
+var deadLineTime = moment(0,"HH").add(-1,'s');
+
+// todo better implement
+if (process.argv[2]) {
+  console.log(process.argv[2])
+  var time = moment(process.argv[2])
+
+  if (time.isValid()) {
+    deadLineTime = time;
+  }
+}
+var deadLine = deadLineTime.valueOf()/1000;
+console.log(deadLineTime.format("YYYY-MM-DD"));
 
 
 request(metaUrl,function(err,res){
@@ -17,7 +32,7 @@ request(metaUrl,function(err,res){
   var lastPostId = meta.talks[0].lastPostId;
 
 
-  var postUrl = "http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=" + lastPostId + "&talkId=XDXHrpvEVMS9GtN76wEuUm%3D%3D";
+  var postUrl = postUrlBase + lastPostId + "&talkId=XDXHrpvEVMS9GtN76wEuUm%3D%3D";
 
   console.log("ok");
 
@@ -35,9 +50,9 @@ request(metaUrl,function(err,res){
     var posts = postData.posts;
 
 
-    var endOfYesterday = moment(0,"HH").add(-1,'s').valueOf()/1000;
+    
     console.log("last");
-    console.log(endOfYesterday);
+    console.log(deadLine);
 
 
     // get todays post
@@ -52,7 +67,7 @@ request(metaUrl,function(err,res){
       delete p.shareUrl;
       delete p['delete'];
 
-      if (p.time> endOfYesterday) {
+      if (p.time> deadLine) {
         _.each(p.body,function(b){
 
           if (b.bodyType === 4) {
