@@ -1,10 +1,30 @@
+//- POST_TYPE_TEXT: 1,
+//- POST_TYPE_STAMP: 2,
+//- POST_TYPE_IMAGE: 3,
+//- POST_TYPE_QUOTATION: 4,
+//- POST_TYPE_RETALK: 5,
+//- POST_TYPE_MOVIE: 6,
+//- POST_TYPE_TEXT_IMAGE: 7,
+//- POST_TYPE_TEXT_MOVIE: 8,
+//- POST_TYPE_NEWS: 9,
+//- BODY_TYPE_TEXT: 1,
+//- BODY_TYPE_STAMP: 2,
+//- BODY_TYPE_IMAGE: 3,
+//- BODY_TYPE_QUOTATION: 4,
+//- BODY_TYPE_TALKID: 5,
+//- BODY_TYPE_USERID: 6,
+//- BODY_TYPE_POST: 7,
+//- BODY_TYPE_MOVIE: 8,
+//- BODY_TYPE_NEWS: 9,
+
+
 mixin quot(comment)
   div.tq-cts
     div.tq-hdr
       div.tq-th(style='background-image: url(#{comment.sendUserThumbnail})')
       span.tq-pstr #{comment.sendUserName}
       span.tq-ts #{comment.timeOrDay}
-    p.tq.tq-r #{comment.text} 
+    p.tq.tq-r #{comment.text}
     p.tq.tq-r.translate #{comment.translate}
 
 mixin body(bodyList)
@@ -30,7 +50,7 @@ mixin body(bodyList)
 
         when 2
           //- image
-          <img class="tp_sgt" src=#{body.image}><br>
+          <img class="tp_sgt" src=#{body.image}>
 
 mixin body-single-image(bodyList)
   p(class="tp tp-r")
@@ -63,11 +83,26 @@ mixin body-translated(bodyList)
           | #{body.translate}
         when 2
           //- image
-          <img class="tp_sgt" src=#{body.image}><br>
+          <img class="tp_sgt" src=#{body.image}>
+
+mixin body-retalk(body)
+  p.rt-ttl
+    i.icon.icon-rt
+    span
+      a #{body.talkName} からリトーク
+    ul.rt-cts
+      li.rt-list
+        div.rtp-hdr
+          div.rtp-th(style='background-image:url(' + body.sendUserImage + ')')
+          i.icn.icn-01.icn-rtp-ofl
+          span.rtp-pstr #{body.sendUserName}
+          span.rtp-ts #{body.timeOrDay}
+        p.rtp.rtp-r
+          img.tp_g(src=body.thumbnailUrl)
 
 mixin body-video(body)
   p.tp.tp-r
-    <img class="tp_g" src=#{body.thumbnailUrl}><br>
+    img.tp_g(src=body.thumbnailUrl)
 
 
 
@@ -121,26 +156,30 @@ html
                     +body-single-image(post.body)
 
                   when 4
-                    //- retalk
+                    //- quotation
                     +body(post.body)
                     +body-translated(post.body)
                     +quot(post.body[0].comment)
 
+                  when 5
+                    //- retalk
+                    +body-retalk(post.body[0])
+
                   when 6
                     //- video
                     +body-video(post.body[0])
-        
+
             li.box.ltp.bottom
-              
-              p.tp.tp-s 
-                | 翻译: @根基挡炎爆
+
+              //- p.tp.tp-s
+              //-   | 翻译: @根基挡炎爆
 
               p.tp.tp-s
                 span.tp-ts
                   | #{(new Date()).toLocaleString()}
               p.tp.tp-s
                 span.tp-ts Powered by hkt48-fan/haruppi-promotion-project@github
-                
+
 
 
 

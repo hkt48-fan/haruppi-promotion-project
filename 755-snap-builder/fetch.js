@@ -4,7 +4,7 @@ var moment = require('moment');
 var fs = require('fs');
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=XDXHrpvEVMS9GtN76wEuUm%3D%3D';
-var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=' 
+var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId='
 
 var deadLineTime = moment(0,"HH").add(-1,'s');
 
@@ -50,7 +50,7 @@ request(metaUrl,function(err,res){
     var posts = postData.posts;
 
 
-    
+
     console.log("last");
     console.log(deadLine);
 
@@ -69,8 +69,18 @@ request(metaUrl,function(err,res){
 
       if (p.time> deadLine) {
         _.each(p.body,function(b){
-
-          if (b.bodyType === 4) {
+          //retalk
+          if (b.bodyType === 7) {
+            var post = _.find(postData.sourcePosts,{talkId:b.talkId});
+            console.log("---------")
+            console.log(post.body.thumbnailUrl)
+            b.thumbnailUrl=post.body[0].thumbnailUrl;
+            b.talkName = post.talkName;
+            b.sendUserName = post.sendUserName;
+            b.timeOrDay = post.timeOrDay;
+            b.sendUserImage = post.sendUserImage;
+          }
+          else if (b.bodyType === 4) {
             var c= b.comment;
             delete c.talkId;
             delete c.commentId;
@@ -89,7 +99,7 @@ request(metaUrl,function(err,res){
           else if (b.bodyType === 1) {
             b.translate = '';
           }
-          
+
         });
 
         return true;
@@ -97,7 +107,11 @@ request(metaUrl,function(err,res){
 
     });
 
-    filtered = {posts:filtered};
+    filtered = {
+      posts:filtered,
+      sourcePosts:postData.sourcePosts
+    };
+
 
     console.log(posts.length);
     console.log(filtered.posts.length);
