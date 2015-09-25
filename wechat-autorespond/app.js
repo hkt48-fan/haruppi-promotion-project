@@ -19,7 +19,10 @@ server = http.createServer(function(req,res){
 		res.end('wrong method');
 	};
 });
-
+    
+    
+    
+    
 
 var credential = {appid:'wxad5b7c1413177124',secret:'083812aa3f3a41f7b0a977886f3619ae'};
 
