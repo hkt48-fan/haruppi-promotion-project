@@ -17,6 +17,8 @@ var TokenManager = function(){
           throw new Error("cant parse token object");
         }
         self.credential.token = token.access_token;
+        console.log('current token is:');
+        console.log(self.credential.token);
         setTimeout(self._startRefresh,token.expires_in*1000);
       });
     });
