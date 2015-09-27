@@ -56,7 +56,7 @@ request(metaUrl,function(err,res){
 
 
     // get todays post
-    var filtered = _.filter(posts,function(p){
+    var filtered = _.chain(posts).filter(function(p){
 
       delete p.talkId;
       delete p.good;
@@ -71,14 +71,33 @@ request(metaUrl,function(err,res){
         _.each(p.body,function(b){
           //retalk
           if (b.bodyType === 7) {
-            var post = _.find(postData.sourcePosts,{talkId:b.talkId});
+            // merge data to retalk object
+            var post = _.find(postData.sourcePosts,{talkId:b.talkId,postId:b.postId});
             console.log("---------")
-            console.log(post.body.thumbnailUrl)
+            console.log(post.body)
+
+            b.postType=p.postType;
+            b.sourceBodyType = post.body[0].bodyType
+            // console.log(b.sourceBodyType);
+
+            // for video
             b.thumbnailUrl=post.body[0].thumbnailUrl;
             b.talkName = post.talkName;
             b.sendUserName = post.sendUserName;
             b.timeOrDay = post.timeOrDay;
             b.sendUserImage = post.sendUserImage;
+
+            // for img
+            b.image = post.body[0].image;
+
+            // for text
+            b.text = post.body[0].text;
+            if(b.sourceBodyType === 1){
+              b.translate = "";
+            }
+
+
+
           }
           else if (b.bodyType === 4) {
             var c= b.comment;
@@ -105,11 +124,11 @@ request(metaUrl,function(err,res){
         return true;
       }
 
-    });
+    }).reverse().value();
 
     filtered = {
       posts:filtered,
-      sourcePosts:postData.sourcePosts
+      // sourcePosts:postData.sourcePosts
     };
 
 

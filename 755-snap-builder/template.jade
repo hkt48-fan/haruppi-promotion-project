@@ -7,6 +7,7 @@
 //- POST_TYPE_TEXT_IMAGE: 7,
 //- POST_TYPE_TEXT_MOVIE: 8,
 //- POST_TYPE_NEWS: 9,
+
 //- BODY_TYPE_TEXT: 1,
 //- BODY_TYPE_STAMP: 2,
 //- BODY_TYPE_IMAGE: 3,
@@ -60,7 +61,7 @@ mixin body-single-image(bodyList)
           //- text
           - console.log("error: text in image only post")
         when 2
-          //- image
+          //- stamp
           <img class="tp_sg" src=#{body.image}><br>
         when 3
           //- image
@@ -89,7 +90,7 @@ mixin body-retalk(body)
   p.rt-ttl
     i.icon.icon-rt
     span
-      a #{body.talkName} からリトーク
+      a 「#{body.talkName}」 からリトーク
     ul.rt-cts
       li.rt-list
         div.rtp-hdr
@@ -98,7 +99,23 @@ mixin body-retalk(body)
           span.rtp-pstr #{body.sendUserName}
           span.rtp-ts #{body.timeOrDay}
         p.rtp.rtp-r
-          img.tp_g(src=body.thumbnailUrl)
+          case body.sourceBodyType
+            when 1
+              //- text
+              if isUrl == true
+                a(href='#{body.text}') #{body.text}
+              else
+                | #{body.text}
+            when 3
+              //- image
+              <img class="tp_g" src=#{body.image}><br>
+            when 8
+              img.tp_g(src=body.thumbnailUrl)
+
+        //- workround translate text in retalk
+        if body.sourceBodyType == 1
+          p.rtp.rtp-r
+            #{body.translate}
 
 mixin body-video(body)
   p.tp.tp-r
