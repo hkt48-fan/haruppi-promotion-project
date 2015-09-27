@@ -16,10 +16,10 @@ liveManager.startRefresh();
 app.use(xmlparser());
 
 // attach token to all incoming request
-// app.use(function(req,res,next){
-//   req.token = tokenManager.getToken();
-//   next();
-// });
+app.use(function(req,res,next){
+  req.token = tokenManager.getToken();
+  next();
+});
 
 app.get('/',verify);
 
