@@ -1,5 +1,6 @@
 var crypto = require('crypto');
 var credential = require('../.credential');
+var _ = require('lodash');
 
 function hashSHA1(data) {
   var generator = crypto.createHash('sha1');
@@ -16,8 +17,9 @@ module.exports = function(req,res,next){
     query.nonce &&
     query.echostr &&
     credential.api_token) {
-    var str = query.nonce + query.timestamp + credential.api_token;
-
+    var arr = [query.nonce , query.timestamp , credential.api_token];
+    var str = _.sortBy(arr).join('');
+    console.log(str);
     var sha1 = hashSHA1(str);
     if (sha1 === query.signature) {
       console.log("access");
