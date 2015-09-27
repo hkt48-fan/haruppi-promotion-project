@@ -73,30 +73,30 @@ request(metaUrl,function(err,res){
           if (b.bodyType === 7) {
             // merge data to retalk object
             var post = _.find(postData.sourcePosts,{talkId:b.talkId,postId:b.postId});
-            console.log("---------")
-            console.log(post.body)
 
+            // common
             b.postType=p.postType;
-            b.sourceBodyType = post.body[0].bodyType
-            // console.log(b.sourceBodyType);
-
-            // for video
-            b.thumbnailUrl=post.body[0].thumbnailUrl;
+            b.sourceBodyType = post.body[0].bodyType;
             b.talkName = post.talkName;
             b.sendUserName = post.sendUserName;
             b.timeOrDay = post.timeOrDay;
             b.sendUserImage = post.sendUserImage;
 
-            // for img
-            b.image = post.body[0].image;
-
-            // for text
-            b.text = post.body[0].text;
-            if(b.sourceBodyType === 1){
-              b.translate = "";
+            // for video
+            switch(b.sourceBodyType){
+              case 1:
+                // text
+                b.translate = "";
+                b.text = post.body[0].text;
+                break;
+              case 3:
+                // image
+                b.image = post.body[0].image;
+                break;
+              case 3:
+                // movie
+                b.thumbnailUrl=post.body[0].thumbnailUrl;
             }
-
-
 
           }
           else if (b.bodyType === 4) {
