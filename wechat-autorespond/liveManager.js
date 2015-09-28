@@ -40,7 +40,7 @@ var LiveManager = function(){
         self.bag.schedule = schedule;
       }
 
-      setTimeout(self.refreshRoom,300*1000);
+      setTimeout(self.refreshSchedule,300*1000);
     });
   };
 
