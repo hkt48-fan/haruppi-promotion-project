@@ -12,7 +12,7 @@ var app = express();
 var _ = require('lodash');
 
 var xml2js = require('xml2js');
-var builder = new xml2js.Builder({cdata:true});
+var builder = new xml2js.Builder({cdata:true,headless:true});
 var parseString = xml2js.parseString;
 
 
@@ -39,28 +39,33 @@ var userMsgCommands = [
     respondBuilder: function(userMsg){
       var respd= {
         xml:{
-          ToUserName: result.xml.fromusername,
-          FromUserName: result.xml.tousername,
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
           CreateTime: Date.now(),
           MsgType: ['text']
         }
       };
 
-      var liveData = liveManager.getLiveData;
-      var content = "直播预告:";
-
+      var liveData = liveManager.getLiveData();
+      var content = "直播预告:\n";
+      //var content = '';
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
-        content += s.begin + s.end + s.description;
+        content += '������' +  s.begin +'\n'
+            + s.end + '\n'
+            + s.description + '\n';
+        //content += "description";
       }
 
-      content += "直播中:";
+      //content += "直播中:";
       for(var j=0;j<liveData.room.length;j++){
         var r = liveData.room[i];
-        content += r.room_name;
+        content += r.room_name + '\n';
       }
 
-      respd.xml.content=content;
+      respd.xml.Content=content;
+      console.log('---------');
+      console.log(respd.xml.content);
       return respd;
 
     }
@@ -72,13 +77,14 @@ var userMsgCommands = [
     respondBuilder: function(userMsg){
       var respd= {
         xml:{
-          ToUserName: result.xml.fromusername,
-          FromUserName: result.xml.tousername,
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
           CreateTime: Date.now(),
           MsgType: ['text'],
           Content: ['hei!']
         }
       };
+      return respd;
     }
   }
 ];
@@ -100,6 +106,7 @@ app.post('/',function(req,res,next){
   if (!cmd) {
     console.log("not match any keyword");
     res.end();
+    return;
   }
 
   var respond = cmd.respondBuilder(req.body);
@@ -120,7 +127,7 @@ app.post('/',function(req,res,next){
   var xml = builder.buildObject(req.respond);
   console.log(xml);
   res.write(xml);
-
+  res.end();
 });
 
 
