@@ -1,4 +1,4 @@
-// var http = require('http');
+
 var tokenManager = require('./tokenManager');
 var liveManager = require('./liveManager');
 
@@ -22,11 +22,6 @@ liveManager.startRefresh();
 
 app.use(xmlparser());
 
-// attach token to all incoming request
-// app.use(function(req,res,next){
-//   req.token = tokenManager.getToken();
-//   next();
-// });
 
 app.get('/',verify);
 
@@ -34,7 +29,7 @@ app.get('/',verify);
 var userMsgCommands = [
   {
     key: 'live',
-    keywords: ['live','ev','直播','番组表','节目表'],
+    keywords: ['live','ev','直播','节目表','番组表'],
     description: 'live schedule and room status',
     respondBuilder: function(userMsg){
       var respd= {
@@ -47,17 +42,16 @@ var userMsgCommands = [
       };
 
       var liveData = liveManager.getLiveData();
-      var content = "直播预告:\n";
-      //var content = '';
+      var content = "番组表:\n";
+
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
-        content += '������' +  s.begin +'\n'
-            + s.end + '\n'
-            + s.description + '\n';
-        //content += "description";
+        content += '📺'  + 
+          s.begin +'\n' + 
+          s.end + '\n' + 
+          s.description + '\n';
       }
 
-      //content += "直播中:";
       for(var j=0;j<liveData.room.length;j++){
         var r = liveData.room[i];
         content += r.room_name + '\n';
@@ -99,8 +93,7 @@ var getMatchedCommand = function(userMsg){
 
 // parse 
 app.post('/',function(req,res,next){
-  console.log(req.body);
-  // var result = req.body; 
+  //console.log(req.body);
 
   var cmd = getMatchedCommand(req.body);
   if (!cmd) {
@@ -116,7 +109,6 @@ app.post('/',function(req,res,next){
 });
 
 app.post('/',function(req,res,next){
-  // 
 
   console.log("middleware for output xml");
   if (!req.respond) {
@@ -131,37 +123,7 @@ app.post('/',function(req,res,next){
 });
 
 
-// server = http.createServer(function(req,res){
-//   if(req.method === 'POST'){
-//     var body ='';
-//     req.on('data',function(data){
-//       body += data;
-//     });
-//     req.on('end',function(data){
-//       console.log(body);
-//     });
-//     res.writeHead(200,{'Content-Type':'text/html'});
-//     res.end('');
-//   }
-//   else{
-//     console.log('wrong method');
-//     res.writeHead(200,{'Content-Type':'text/html'});
-//     res.end('wrong method');
-//   }
-// });
-
-
-
-
-// console.log('token url: '+ tokenUrl);
-
-
-
-
-
-
-// server.listen(7788,'0.0.0.0');
-app.listen(7788)
+app.listen(7788);
 console.log('server started.');
 
 
