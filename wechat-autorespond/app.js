@@ -31,35 +31,96 @@ app.use(xmlparser());
 app.get('/',verify);
 
 
-app.post('/',function(req,res,next){
-  console.log(req.body)
-  var result = req.body; 
-  var keywords =['ev','live'];
-  console.log('content: '+ result.xml.content +'|');
-  console.log(typeof result.xml.content);
-  console.log(_.includes(keywords,'ev'));
-  var isMatch = _.includes(keywords,result.xml.content.toString());
-  console.log(isMatch);
-  if(isMatch){
-    // build xml string
-    console.log('matched');
-    var respd= {
-      xml:{
-        ToUserName: result.xml.fromusername,
-        FromUserName: result.xml.tousername,
-        CreateTime: Date.now(),
-        MsgType: ['text'],
-        Content: ['hei!']
-      }
-    };
+var userMsgCommands = [
+  {
+    key: 'live',
+    keywords: ['live','ev','直播','番组表','节目表'],
+    description: 'live schedule and room status',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: result.xml.fromusername,
+          FromUserName: result.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text']
+        }
+      };
 
-    var xml = builder.buildObject(respd);
-    console.log(xml);
-    res.write(xml);
+      var liveData = liveManager.getLiveData;
+      var content = "直播预告:";
+
+      for(var i=0;i<liveData.schedule.length;i++){
+        var s = liveData.schedule[i];
+        content += s.begin + s.end + s.description;
+      }
+
+      content += "直播中:";
+      for(var j=0;j<liveData.room.length;j++){
+        var r = liveData.room[i];
+        content += r.room_name;
+      }
+
+      respd.xml.content=content;
+      return respd;
+
+    }
+  },
+  {
+    key: 'performance',
+    keywords: ['perf','gongyan','公演'],
+    description: 'performance info',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: result.xml.fromusername,
+          FromUserName: result.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+          Content: ['hei!']
+        }
+      };
+    }
   }
-  
-  // console.log(liveManager.getLiveData());
-  res.end();
+];
+
+var getMatchedCommand = function(userMsg){
+  var result = _.find(userMsgCommands,function(cmd){
+    return _.includes(cmd.keywords,userMsg.xml.content.toString());
+  });
+  return result;
+};
+
+
+// parse 
+app.post('/',function(req,res,next){
+  console.log(req.body);
+  // var result = req.body; 
+
+  var cmd = getMatchedCommand(req.body);
+  if (!cmd) {
+    console.log("not match any keyword");
+    res.end();
+  }
+
+  var respond = cmd.respondBuilder(req.body);
+
+  req.respond = respond;
+  next();
+});
+
+app.post('/',function(req,res,next){
+  // 
+
+  console.log("middleware for output xml");
+  if (!req.respond) {
+    console.log("respond is empty");
+    res.end();
+  }
+
+  var xml = builder.buildObject(req.respond);
+  console.log(xml);
+  res.write(xml);
+
 });
 
 
