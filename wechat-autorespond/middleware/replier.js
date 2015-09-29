@@ -96,7 +96,7 @@ module.exports = function(req,res,next){
   }
 
   console.log("Replied: " + cmd.description);
-  var xml = builder.buildObject(req.respond);
+  var xml = builder.buildObject(respond);
 
   res.end(xml);
 
