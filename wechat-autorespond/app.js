@@ -46,20 +46,26 @@ var userMsgCommands = [
 
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
-        content += '📺'  + 
+        content += '>'  + 
           s.begin +'\n' + 
           s.end + '\n' + 
           s.description + '\n';
       }
 
+      if(liveData.room.length !== 0){
+        content +="\n直播中:\n";
+      }
       for(var j=0;j<liveData.room.length;j++){
-        var r = liveData.room[i];
+        var r = liveData.room[j];
+        //console.log(liveData.room);
+        //console.log(r);
         content += r.room_name + '\n';
       }
 
       respd.xml.Content=content;
-      console.log('---------');
-      console.log(respd.xml.content);
+      //console.log('---------');
+      //console.log(respd.xml.Content);
+      // console
       return respd;
 
     }
@@ -85,6 +91,10 @@ var userMsgCommands = [
 
 var getMatchedCommand = function(userMsg){
   var result = _.find(userMsgCommands,function(cmd){
+    if(!userMsg.xml.content){
+      return false;
+    }
+
     return _.includes(cmd.keywords,userMsg.xml.content.toString());
   });
   return result;
@@ -121,6 +131,34 @@ app.post('/',function(req,res,next){
   res.write(xml);
   res.end();
 });
+
+
+var google = require('googleapis');
+var OAuth2 = google.auth.OAuth2;
+var credential = require('./.credential');
+app.get('/auth',function(req,res,next){
+  console.log('in auth');
+  var oauth2Client = new OAuth2(credential.client_id,credential.client_secret,'http://wechat.sashi.co/oauth2callback');
+  var scopes =[
+    'https://www.googleapis.com/auth/calendar.readonly'
+  ];
+
+  var url = oauth2Client.generateAuthUrl({
+    access_type: 'offline',
+    scope: scopes
+  });
+
+  var html = '<html><body><a href="' + url + '">auth me</a></body></html>';
+
+  res.end(html);
+});
+
+
+app.get('/oauth2callback',function(req,res,next){
+  console.log('in oauth2callback')
+});
+
+
 
 
 app.listen(7788);
