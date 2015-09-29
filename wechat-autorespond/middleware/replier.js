@@ -1,6 +1,6 @@
 var _ = require('lodash');
 var xml2js = require('xml2js');
-var liveManager = require('./liveManager');
+var liveManager = require('../liveManager');
 var builder = new xml2js.Builder({
   cdata:true,
   headless:true,
