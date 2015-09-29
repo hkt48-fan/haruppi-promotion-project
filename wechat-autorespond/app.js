@@ -12,7 +12,14 @@ var app = express();
 var _ = require('lodash');
 
 var xml2js = require('xml2js');
-var builder = new xml2js.Builder({cdata:true,headless:true});
+var builder = new xml2js.Builder({
+  cdata:true,
+  headless:true,
+  xmldec:{
+    allowSurrogateChars: true
+  }
+});
+
 var parseString = xml2js.parseString;
 
 
@@ -46,7 +53,7 @@ var userMsgCommands = [
 
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
-        content += '>'  + 
+        content += '📺'  + 
           s.begin +'\n' + 
           s.end + '\n' + 
           s.description + '\n';
@@ -57,15 +64,10 @@ var userMsgCommands = [
       }
       for(var j=0;j<liveData.room.length;j++){
         var r = liveData.room[j];
-        //console.log(liveData.room);
-        //console.log(r);
         content += r.room_name + '\n';
       }
 
       respd.xml.Content=content;
-      //console.log('---------');
-      //console.log(respd.xml.Content);
-      // console
       return respd;
 
     }
