@@ -19,7 +19,6 @@ module.exports = function(req,res,next){
     credential.api_token) {
     var arr = [query.nonce , query.timestamp , credential.api_token];
     var str = _.sortBy(arr).join('');
-    console.log(str);
     var sha1 = hashSHA1(str);
     if (sha1 === query.signature) {
       console.log("access");
@@ -28,8 +27,6 @@ module.exports = function(req,res,next){
     else{
       console.log("denined");
       console.log(req.query);
-      console.log(credential.api_token);
-
 
       next('verify failed');
     }
@@ -38,4 +35,4 @@ module.exports = function(req,res,next){
   else{
     next("varify input error.");
   }
-}
+};
