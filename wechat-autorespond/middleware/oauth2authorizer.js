@@ -24,5 +24,15 @@ exports.auth = function(req,res,next){
 
 exports.callback = function(req,res,next){
   console.log('in oauth2callback');
+  var code = req.query.code;
+  oauth2Client.getToken(code,function(err,tokens){
+    if (!err) {
+      console.log(tokens);
+    }
+
+    
+
+  })
+  
 };
 
