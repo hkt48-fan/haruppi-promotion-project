@@ -1,9 +1,26 @@
 var google = require('googleapis');
 var OAuth2 = google.auth.OAuth2;
 var credential = require('../.credential');
+var fs = require('fs');
+var tokenFilePath = '../.token';
 
-var oauth2Client = new OAuth2(credential.client_id,credential.client_secret,'http://wechat.sashi.co/oauth2callback');
+var oauth2Client = new OAuth2(
+  credential.client_id,
+  credential.client_secret,
+  'http://wechat.sashi.co/oauth2callback');
 google.options({auth: oauth2Client});
+
+// load token from file
+fs.readFile(tokenFilePath,function(err,data){
+  if (err) {
+    console.log(err);
+    return;
+  }
+  
+  var tokens = JSON.parse(data);
+  oauth2Client.setCredentials(tokens);
+  console.log("token loaded");
+});
 
 
 // var exports = module.exports;
@@ -33,8 +50,18 @@ exports.callback = function(req,res,next){
       // TODO save copy for service restarting
       // and implement code for token loading
       //
+
       oauth2Client.setCredentials(tokens);
-      return res.end('success');
+      fs.writeFile(tokenFilePath,tokens,function(err){
+        if (err) {
+          console.log(err);
+          return res.end('cant write file');
+        }
+        console.log("token file saved");
+        return res.end('success');
+      });
+
+      
     }
 
     return res.end(err);
@@ -43,5 +70,5 @@ exports.callback = function(req,res,next){
 
 exports.getGoogleAPI = function(){
   return google;
-}
+};
 
