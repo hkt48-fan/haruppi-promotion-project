@@ -30,9 +30,9 @@ var userMsgCommands = [
 
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
-        content += '📺'  + 
-          s.begin +'\n' + 
-          s.end + '\n' + 
+        content += '📺'  +
+          s.begin +'\n' +
+          s.end + '\n' +
           s.description + '\n';
       }
 
@@ -79,6 +79,31 @@ var userMsgCommands = [
       respd.xml.Content=content;
       return respd;
     }
+  },
+  {
+    key: 'silly',
+    keywords: ['我爱你'],
+    description: 'hehe',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+          //Content: ['hei!']
+        }
+      };
+
+      var members= ['奶茶','根根','三遥','肉丝','泡泡','特特','果子','snow','zfboy','小鱼','鱼嫂','cam'];
+      var r = parseInt(Math.random() * members.length +1);
+      var m = members[r];
+
+      var content = '对不起我已经爱上' + m + '了';
+
+      respd.xml.Content = content;
+    }
+
   }
 ];
 
