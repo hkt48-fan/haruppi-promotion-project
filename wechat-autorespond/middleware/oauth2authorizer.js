@@ -2,25 +2,37 @@ var google = require('googleapis');
 var OAuth2 = google.auth.OAuth2;
 var credential = require('../.credential');
 var fs = require('fs');
-var tokenFilePath = '../.token';
+var tokenFilePath = './.token';
 
 var oauth2Client = new OAuth2(
   credential.client_id,
   credential.client_secret,
   'http://wechat.sashi.co/oauth2callback');
+
 google.options({auth: oauth2Client});
+console.log('set google auth')
+
 
 // load token from file
-fs.readFile(tokenFilePath,function(err,data){
-  if (err) {
-    console.log(err);
-    return;
+var tokens = {};
+try{
+
+  var tokenString = fs.readFileSync(tokenFilePath);
+  if(!tokenString){
+    console.log('failed open token file');
   }
-  
-  var tokens = JSON.parse(data);
-  oauth2Client.setCredentials(tokens);
-  console.log("token loaded");
-});
+  else{
+    //console.log(tokenString);
+    tokens = JSON.parse(tokenString);
+    console.log(tokens);
+    oauth2Client.setCredentials(tokens);
+    //google.options({auth: oauth2Client});
+    console.log('token loaded');
+  }
+}
+catch(e){}
+google.options({auth: oauth2Client});
+
 
 
 // var exports = module.exports;
@@ -44,15 +56,19 @@ exports.auth = function(req,res,next){
 exports.callback = function(req,res,next){
   console.log('in oauth2callback');
   var code = req.query.code;
-  oauth2Client.getToken(code,function(err,tokens){
+  oauth2Client.getToken(code,function(err,t){
     if (!err) {
-      console.log(tokens);
+      console.log(t);
       // TODO save copy for service restarting
       // and implement code for token loading
       //
 
+      Object.assign(tokens,t);
       oauth2Client.setCredentials(tokens);
-      fs.writeFile(tokenFilePath,tokens,function(err){
+      console.log('will save to file:');
+      console.log(tokens);
+      var tokenString = JSON.stringify(tokens);
+      fs.writeFile(tokenFilePath,tokenString,'utf8',function(err){
         if (err) {
           console.log(err);
           return res.end('cant write file');
@@ -69,6 +85,11 @@ exports.callback = function(req,res,next){
 };
 
 exports.getGoogleAPI = function(){
+  console.log('return google api object');
   return google;
 };
 
+//
+exports.getAuth = function(){
+  return oauth2Client;
+};

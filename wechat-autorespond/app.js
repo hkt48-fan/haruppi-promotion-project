@@ -1,7 +1,7 @@
 
 var tokenManager = require('./tokenManager');
 var liveManager = require('./liveManager');
-var PerformanceManager = require('./performanceManager');
+var performanceManager = require('./performanceManager');
 
 var config = require('./config');
 
@@ -29,10 +29,10 @@ app.post('/',replier);
 app.get('/auth',oauth2authorizer.auth);
 app.get('/oauth2callback',oauth2authorizer.callback);
 
-var performanceManager = new PerformanceManager(oauth2authorizer.getGoogleAPI());
+
+console.log('init performancemanager')
+performanceManager.setGoogle(oauth2authorizer.getGoogleAPI());
 performanceManager.startRefresh();
-
-
 
 
 // server start

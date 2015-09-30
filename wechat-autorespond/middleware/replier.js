@@ -1,6 +1,7 @@
 var _ = require('lodash');
 var xml2js = require('xml2js');
 var liveManager = require('../liveManager');
+var performanceManager = require('../performanceManager');
 var builder = new xml2js.Builder({
   cdata:true,
   headless:true,
@@ -59,9 +60,23 @@ var userMsgCommands = [
           FromUserName: userMsg.xml.tousername,
           CreateTime: Date.now(),
           MsgType: ['text'],
-          Content: ['hei!']
+          //Content: ['hei!']
         }
       };
+
+      var perfData = performanceManager.getPerfs();
+      var content = '';
+      var moment = require('moment-timezone');
+
+      for(var i=0;i<perfData.length;i++){
+        var p = perfData[i];
+        //console.log(JSON.stringify(p,null,2))
+        var d=moment(p.start.dateTime);
+        content += d.tz('Asia/Shanghai').format('YYYY-MM-DD hh:mm') + '\n';
+        content += p.summary + '\n';
+      }
+
+      respd.xml.Content=content;
       return respd;
     }
   }
