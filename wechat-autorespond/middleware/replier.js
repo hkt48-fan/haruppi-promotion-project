@@ -98,6 +98,7 @@ module.exports = function(req,res,next){
   var cmd = getMatchedCommand(req.body);
   if (!cmd) {
     console.log("not match any keyword");
+    console.log(req.body.xml.content.toString());
     // TODO export unrecognized text to log file
     return res.end();
   }
