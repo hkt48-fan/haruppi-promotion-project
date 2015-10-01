@@ -197,6 +197,7 @@ var getMatchedCommand = function(userMsg){
 
 module.exports = function(req,res,next){
   console.log(JSON.stringify(req.body.xml,null,2));
+  console.log(req.body.xml.msgtype.toString()==='subscribe');
   if (!req.body.xml || req.body.xml.msgtype[0] !== 'text') {
     next();
   }
