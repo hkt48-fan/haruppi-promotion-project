@@ -196,8 +196,8 @@ var getMatchedCommand = function(userMsg){
 };
 
 module.exports = function(req,res,next){
-  console.log(JSON.stringify(req.body.xml));
-  if (!req.body.xml || req.body.xml.msgType !== 'text') {
+  console.log(JSON.stringify(req.body.xml,null,2));
+  if (!req.body.xml || req.body.xml.msgType[0] !== 'text') {
     next();
   }
 

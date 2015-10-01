@@ -9,8 +9,8 @@ var builder = new xml2js.Builder({
 
 module.exports = function(req,res,next){
   if(!req.body.xml || 
-    req.body.xml.msgType !== 'event' || 
-    req.body.xml.event !=='subscribe'){
+    req.body.xml.msgType[0] !== 'event' || 
+    req.body.xml.event['0'] !=='subscribe'){
     next();
   }
 
