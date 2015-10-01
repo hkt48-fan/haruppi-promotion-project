@@ -1,6 +1,7 @@
 var _ = require('lodash');
 //var OpenCC = require('opencc');
 //var opencc = new OpenCC('t2s.json');
+var gossip = require('./hkt-gossip');
 var xml2js = require('xml2js');
 var liveManager = require('../liveManager');
 var performanceManager = require('../performanceManager');
@@ -62,7 +63,6 @@ var userMsgCommands = [
           FromUserName: userMsg.xml.tousername,
           CreateTime: Date.now(),
           MsgType: ['text'],
-          //Content: ['hei!']
         }
       };
 
@@ -72,7 +72,6 @@ var userMsgCommands = [
 
       for(var i=0;i<perfData.length;i++){
         var p = perfData[i];
-        //console.log(JSON.stringify(p,null,2))
         var d=moment(p.start.dateTime);
         content += d.tz('Asia/Shanghai').format('YYYY-MM-DD hh:mm') + '\n';
         content += p.summary + '\n';
@@ -93,21 +92,84 @@ var userMsgCommands = [
           FromUserName: userMsg.xml.tousername,
           CreateTime: Date.now(),
           MsgType: ['text'],
-          //Content: ['hei!']
         }
       };
 
       var members= ['奶茶','软软','地狱模块','Dowdeswell','奶茶','沙沙','唯唯','根根','三遥','肉丝','泡泡','特特','果子','snow','zybof','豪豪','小鱼','鱼嫂','cam','奶茶'];
       var r = parseInt(Math.random() * members.length);
       var m = members[r];
-      // console.log(r);
       var content = '对不起我已经爱上' + m + '了';
 
       respd.xml.Content = content;
       return respd;
     }
+  },
+  {
+    key: 'gossip',
+    keywords: ['hkt','开踢'],
+    description: 'HKT48\'s gossip',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+        }
+      };
 
-  }
+      var r = parseInt(Math.random() * gossip.length);
+      var g = gossip[r];
+      var content = g;
+
+      respd.xml.Content = content;
+      return respd;
+    }
+  },
+  {
+    key: 'help',
+    keywords: ['?','？','help','帮助'],
+    description: 'help content',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+        }
+      };
+      var content = '兒玉派 指令说明\n';
+      content += '?/help/帮助: 本信息\n';
+      content += 'ev/live/直播: 48系番组直播间节目表';
+      content += '(http://www.zhanqi.tv/akb49)';
+      content += 'perf/公演: 当日HKT48公演信息';
+      content += 'hkt/开踢: HKT48冷知识';
+      content += 'haruppi/儿玉遥: 兒玉遥简介';
+
+      respd.xml.Content = content;
+      return respd;
+    }
+  },
+  {
+    key: 'profile',
+    keywords: ['haruppi','儿玉遥','兒玉遥','profile'],
+    description: 'haruppi profile',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+        }
+      };
+      var content = '兒玉派 指令说明\n';
+
+      respd.xml.Content = content;
+      return respd;
+    }
+  },
 ];
 
 var getMatchedCommand = function(userMsg){
