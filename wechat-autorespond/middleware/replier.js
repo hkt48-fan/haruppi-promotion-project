@@ -141,10 +141,10 @@ var userMsgCommands = [
       };
       var content = '兒玉派 指令说明\n';
       content += '?/help/帮助: 本信息\n';
-      content += 'ev/live/直播: 48系番组直播间节目表';
-      content += '(http://www.zhanqi.tv/akb49)';
-      content += 'perf/公演: 当日HKT48公演信息';
-      content += 'hkt/开踢: HKT48冷知识';
+      content += 'ev/live/直播: 48系番组直播间节目表\n';
+      content += '(http://www.zhanqi.tv/akb49)\n';
+      content += 'perf/公演: 当日HKT48公演信息\n';
+      content += 'hkt/开踢: HKT48冷知识\n';
       content += 'haruppi/儿玉遥: 兒玉遥简介';
 
       respd.xml.Content = content;
