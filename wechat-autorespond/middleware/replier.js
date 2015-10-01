@@ -140,12 +140,12 @@ var userMsgCommands = [
         }
       };
       var content = '兒玉派 指令说明\n';
-      content += '▫️ ?/help/帮助: 本信息\n';
-      content += '▫️ ev/live/直播: 48系番组直播间节目表\n';
-      // content += '▫️ (http://www.zhanqi.tv/akb49)\n';
-      content += '▫️ perf/公演: 当日HKT48公演信息\n';
-      content += '▫️ hkt/开踢: HKT48冷知识\n';
-      content += '▫️ haruppi/儿玉遥: 兒玉遥档案';
+      content += '▪️ ?/help/帮助: 本信息\n';
+      content += '▪️ ev/live/直播: 48系番组直播间节目表\n';
+      // content += '▪️ (http://www.zhanqi.tv/akb49)\n';
+      content += '▪️ perf/公演: 当日HKT48公演信息\n';
+      content += '▪️ hkt/开踢: HKT48冷知识\n';
+      content += '▪️ haruppi/儿玉遥: 兒玉遥档案';
 
       respd.xml.Content = content;
       return respd;
@@ -164,16 +164,16 @@ var userMsgCommands = [
           MsgType: ['text'],
         }
       };
-      var content = '兒玉遥档案';
-      content += '昵称：哈鲁P\n';
-      content += '生年月日：1996年9月19日（凌晨3点46分）\n';
-      content += '血液型：O\n';
-      content += '出身地：福冈县\n';
-      content += '身高：158cm\n';
-      content += '兴趣：观赏电影・吃东西・拉伸运动\n';
-      content += '特技：享受每一天\n';
-      content += '魅力点：眼珠的颜色\n';
-      content += '将来的梦想：多栖艺人、在吉尼斯纪录中留名\n';
+      var content = '兒玉遥档案\n';
+      content += '▪️ 昵称：哈鲁P\n';
+      content += '▪️ 生年月日：1996年9月19日（凌晨3点46分）\n';
+      content += '▪️ 血液型：O\n';
+      content += '▪️ 出身地：福冈县\n';
+      content += '▪️ 身高：158cm\n';
+      content += '▪️ 兴趣：观赏电影・吃东西・拉伸运动\n';
+      content += '▪️ 特技：享受每一天\n';
+      content += '▪️ 魅力点：眼珠的颜色\n';
+      content += '▪️ 将来的梦想：多栖艺人、在吉尼斯纪录中留名\n';
       content += '今天的心情是happy－happy－“哈鲁鲁P－” 每天happy！博多的精灵，昵称哈鲁P的儿玉遥\n';
 
       respd.xml.Content = content;
