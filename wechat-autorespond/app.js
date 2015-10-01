@@ -8,6 +8,7 @@ var config = require('./config');
 // middlewares
 var verify = require('./middleware/verify');
 var replier = require('./middleware/replier');
+var moderator = require('./middleware/moderator');
 var oauth2authorizer = require('./middleware/oauth2authorizer');
 
 // 3rd parts middlewares
@@ -25,12 +26,13 @@ app.use(xmlparser());
 
 app.get('/',verify);
 app.post('/',replier);
+app.post('/',moderator);
 
 app.get('/auth',oauth2authorizer.auth);
 app.get('/oauth2callback',oauth2authorizer.callback);
 
 
-console.log('init performancemanager')
+console.log('init performancemanager');
 performanceManager.setGoogle(oauth2authorizer.getGoogleAPI());
 performanceManager.startRefresh();
 
