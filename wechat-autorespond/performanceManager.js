@@ -32,7 +32,7 @@ var PerformanceManager = function(){
       timeZone:7
     };
     calendar.events.list(params,function(err,events){
-      console.log("callback in calendar.list");
+     // console.log("callback in calendar.list");
       if (err) {
         console.log(err);
         //return;

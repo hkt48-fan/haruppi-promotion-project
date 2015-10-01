@@ -1,4 +1,6 @@
 var _ = require('lodash');
+//var OpenCC = require('opencc');
+//var opencc = new OpenCC('t2s.json');
 var xml2js = require('xml2js');
 var liveManager = require('../liveManager');
 var performanceManager = require('../performanceManager');
@@ -95,13 +97,14 @@ var userMsgCommands = [
         }
       };
 
-      var members= ['奶茶','根根','三遥','肉丝','泡泡','特特','果子','snow','zfboy','小鱼','鱼嫂','cam'];
-      var r = parseInt(Math.random() * members.length +1);
+      var members= ['奶茶','软软','地狱模块','Dowdeswell','奶茶','沙沙','唯唯','根根','三遥','肉丝','泡泡','特特','果子','snow','zybof','豪豪','小鱼','鱼嫂','cam','奶茶'];
+      var r = parseInt(Math.random() * members.length);
       var m = members[r];
-
+      // console.log(r);
       var content = '对不起我已经爱上' + m + '了';
 
       respd.xml.Content = content;
+      return respd;
     }
 
   }
@@ -113,7 +116,9 @@ var getMatchedCommand = function(userMsg){
       return false;
     }
 
-    return _.includes(cmd.keywords,userMsg.xml.content.toString());
+    var msg = userMsg.xml.content.toString().trim();
+    //msg = opencc.convertSync(msg);
+    return _.includes(cmd.keywords,msg);
   });
   return result;
 };
@@ -123,8 +128,14 @@ module.exports = function(req,res,next){
   var cmd = getMatchedCommand(req.body);
   if (!cmd) {
     console.log("not match any keyword");
-    console.log(req.body.xml.content.toString());
-    // TODO export unrecognized text to log file
+    if(req.body.xml.content){
+
+      console.log(req.body.xml.content.toString());
+    } 
+    else{
+      console.log('cant parse content');
+    } 
+      // TODO export unrecognized text to log file
     return res.end();
   }
 
