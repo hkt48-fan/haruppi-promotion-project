@@ -3,8 +3,12 @@ var _ = require('underscore');
 var moment = require('moment');
 var fs = require('fs');
 
-var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=XDXHrpvEVMS9GtN76wEuUm%3D%3D';
-var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId='
+
+var talkId ='XDXHrpvEVMS9GtN76wEuUm%3D%3D';
+talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
+
+var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
+var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
 
 var deadLineTime = moment(0,"HH").add(-1,'s');
 
@@ -32,7 +36,7 @@ request(metaUrl,function(err,res){
   var lastPostId = meta.talks[0].lastPostId;
 
 
-  var postUrl = postUrlBase + lastPostId + "&talkId=XDXHrpvEVMS9GtN76wEuUm%3D%3D";
+  var postUrl = postUrlBase + lastPostId + "&talkId=" + talkId;
 
   console.log("ok");
 

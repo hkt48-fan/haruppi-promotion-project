@@ -153,7 +153,7 @@ html
             each post in posts
               li.box.ltp
                 div.tp-hdr
-                  div.tp-th(style='background-image: url(http://stat.7gogo.jp/appimg_images/20150705/12/79/zb/j/t02400240p.jpg);')
+                  div.tp-th(style='background-image: url(' + post.sendUserThumbnail + ');')
                   i.icn.icn-01.icn-tp-ofl
                   span.tp-pstr #{post.sendUserName}
                   span.tp-ts #{post.timeOrDay}
