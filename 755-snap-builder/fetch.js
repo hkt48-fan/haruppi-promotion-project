@@ -5,12 +5,22 @@ var fs = require('fs');
 
 
 var talkId ='XDXHrpvEVMS9GtN76wEuUm%3D%3D';
-talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
+// talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
 var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
 
 var deadLineTime = moment(0,"HH").add(-1,'s');
+
+
+var buildTimeOrDay = function(timestamp){
+  var ts= timestamp * 1000;
+  var d = new Date(ts);
+  var h = d.getHours();
+  var m = d.getMinutes();
+  var tod = (h<10?'0':'') + h + ':' + (m<10?'0':'') + m;
+  return tod;
+};
 
 // todo better implement
 if (process.argv[2]) {
@@ -71,6 +81,8 @@ request(metaUrl,function(err,res){
       delete p.shareUrl;
       delete p['delete'];
 
+      p.timeOrDay = buildTimeOrDay(p.time);
+
       if (p.time> deadLine) {
         _.each(p.body,function(b){
           //retalk
@@ -83,7 +95,7 @@ request(metaUrl,function(err,res){
             b.sourceBodyType = post.body[0].bodyType;
             b.talkName = post.talkName;
             b.sendUserName = post.sendUserName;
-            b.timeOrDay = post.timeOrDay;
+            b.timeOrDay = buildTimeOrDay(post.time);
             b.sendUserImage = post.sendUserImage;
 
             // for video
@@ -110,8 +122,9 @@ request(metaUrl,function(err,res){
             delete c.sender;
             delete c.sendUserImage;
             delete c.userOfficialStatus;
-            delete c.time;
             delete c['delete'];
+            c.timeOrDay = buildTimeOrDay(c.time);
+            delete c.time;
 
             c.translate = '';
             return;
@@ -131,7 +144,8 @@ request(metaUrl,function(err,res){
     }).reverse().value();
 
     filtered = {
-      posts:filtered,
+      postTitle: meta.talks[0].name,
+      posts:filtered
       // sourcePosts:postData.sourcePosts
     };
 
