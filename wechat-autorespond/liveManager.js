@@ -11,7 +11,7 @@ var LiveManager = function(){
 
 
   LiveManager.prototype.refreshRoom = function(){
-    console.log(self.roomAPI)
+    // console.log(self.roomAPI);
     request(self.roomAPI,function(err,res,data){
 
       if (err) {
@@ -23,12 +23,12 @@ var LiveManager = function(){
         self.bag.room = _.filter(room,{show_status:1});
       }
 
-      setTimeout(self.refreshRoom,300*1000);
+      setTimeout(self.refreshRoom,5*60*1000);
     });
   };
 
   LiveManager.prototype.refreshSchedule = function(){
-    console.log(self.scheduleAPI)
+    // console.log(self.scheduleAPI);
     request(self.scheduleAPI,function(err,res,data){
 
       if (err) {
@@ -40,18 +40,18 @@ var LiveManager = function(){
         self.bag.schedule = schedule;
       }
 
-      setTimeout(self.refreshSchedule,300*1000);
+      setTimeout(self.refreshSchedule,15*60*1000);
     });
   };
 
   LiveManager.prototype.startRefresh = function(){
     this.refreshSchedule();
     this.refreshRoom();
-  }
+  };
 
   LiveManager.prototype.getLiveData = function(){
     return this.bag;
-  }
+  };
 
 };
 

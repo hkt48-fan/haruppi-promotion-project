@@ -2,13 +2,13 @@ var moment = require('moment-timezone');
 
 var _getTimeRange = function(){
   var m = moment().utcOffset(9);
-  
+
   var ret = {
     min: m.year() + '-' + (m.month()+1) + '-' + m.date() + 'T00:00:00.000Z',
     max: m.year() + '-' + (m.month()+1) + '-' + m.date() + 'T23:59:59.000Z',
-  }
+  };
   return ret;
-}
+};
 
 var PerformanceManager = function(){
   this.google = null;
@@ -40,13 +40,13 @@ var PerformanceManager = function(){
       else{
 
         if(events.items.length !== 0){
-       
+
            self.perfs = events.items.map(function(p){
 
              return {
                start: p.start,
                summary: p.summary
-             }
+             };
            });
         }
         //console.log(events);
@@ -58,10 +58,10 @@ var PerformanceManager = function(){
 
   PerformanceManager.prototype.setGoogle = function(google){
     this.google = google;
-  }
+  };
   PerformanceManager.prototype.getPerfs = function(){
     return this.perfs;
-  }
+  };
   PerformanceManager.prototype.startRefresh = this._startRefresh;
 };
 
