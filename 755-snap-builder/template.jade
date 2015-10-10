@@ -28,54 +28,8 @@ mixin quot(comment)
     p.tq.tq-r #{comment.text}
     p.tq.tq-r.translate #{comment.translate}
 
-//- mixin body(bodyList)
-//-   //- try get text length
-//-   - var fontSizeClass = 'tp-r'
-//-   - var isUrl = false
-//-   each body in bodyList
-//-     case body.bodyType
-//-       when 1
-//-         - isUrl = (body.text.indexOf('http') == 0)
-//-         if body.text.length > 25
-//-           - fontSizeClass = (isUrl?"tp-m":"tp-s")
 
-//-   p(class="tp #{fontSizeClass}")
-//-     each body in bodyList
-//-       case body.bodyType
-//-         when 1
-//-           //- text
-//-           if isUrl == true
-//-             a(href='#{body.text}') #{body.text}
-//-           else
-//-             | #{body.text}
-
-//-         when 2
-//-           //- image
-//-           <img class="tp_sgt" src=#{body.image}>
-
-
-
-//- mixin body-translated(bodyList)
-//-   //- try get text length
-//-   - var fontSizeClass = 'tp-r'
-//-   each body in bodyList
-//-     case body.bodyType
-//-       when 1
-//-         if body.text.length > 25
-//-           - fontSizeClass = "tp-s"
-
-//-   p(class="tp #{fontSizeClass} translate")
-//-     each body in bodyList
-//-       case body.bodyType
-//-         when 1
-//-           //- text
-//-           | #{body.translate}
-//-         when 2
-//-           //- image
-//-           <img class="tp_sgt" src=#{body.image}>
-
-
-mixin renderBody(bodyList,isTranslate)
+mixin body(bodyList,isTranslate)
   - var fontSizeClass = 'tp-r'
   - var isUrl = false
   - var translateClass = isTranslate?'translate':''
@@ -105,8 +59,6 @@ mixin retalk-banner(body)
     i.icon.icon-rt
     span
       a 「#{body.talkName}」 からリトーク
-
-
 
 mixin body-single-image(bodyList)
   p(class="tp tp-r")
@@ -200,7 +152,6 @@ mixin body-video(body)
     img.tp_g(src=body.thumbnailUrl)
 
 
-
 doctype html
 html
   head
@@ -239,8 +190,8 @@ html
                 case post.postType
                   when 1
                     //- text
-                    +renderBody(post.body)
-                    +renderBody(post.body,true)
+                    +body(post.body)
+                    +body(post.body,true)
 
                   when 2
                     //- image
@@ -252,8 +203,8 @@ html
 
                   when 4
                     //- quotation
-                    +renderBody(post.body)
-                    +renderBody(post.body,true)
+                    +body(post.body)
+                    +body(post.body,true)
                     +quot(post.body[0].comment)
 
                   when 5
