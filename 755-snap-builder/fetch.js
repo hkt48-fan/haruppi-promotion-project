@@ -6,6 +6,7 @@ var fs = require('fs');
 
 var talkId ='XDXHrpvEVMS9GtN76wEuUm%3D%3D';
 // talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
+// talkId ='UQgkwvL3xAu9GtN76wEuUm%3D%3D';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
 var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
@@ -109,9 +110,27 @@ request(metaUrl,function(err,res){
                 // image
                 b.image = post.body[0].image;
                 break;
-              case 3:
+              case 4:
+                // QUOTATION
+                console.log(post);
+                b.body = post.body;
+
+                _.each(b.body,function(innerBody){
+                  if (innerBody.bodyType===4) {
+                    innerBody.comment.translate = '';
+                  }
+                  else{
+                    innerBody.translate ="";
+                  }
+
+                });
+
+                // b.translate = '';
+                break;
+              case 8:
                 // movie
                 b.thumbnailUrl=post.body[0].thumbnailUrl;
+                break;
             }
 
           }

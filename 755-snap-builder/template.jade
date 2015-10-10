@@ -28,30 +28,85 @@ mixin quot(comment)
     p.tq.tq-r #{comment.text}
     p.tq.tq-r.translate #{comment.translate}
 
-mixin body(bodyList)
-  //- try get text length
+//- mixin body(bodyList)
+//-   //- try get text length
+//-   - var fontSizeClass = 'tp-r'
+//-   - var isUrl = false
+//-   each body in bodyList
+//-     case body.bodyType
+//-       when 1
+//-         - isUrl = (body.text.indexOf('http') == 0)
+//-         if body.text.length > 25
+//-           - fontSizeClass = (isUrl?"tp-m":"tp-s")
+
+//-   p(class="tp #{fontSizeClass}")
+//-     each body in bodyList
+//-       case body.bodyType
+//-         when 1
+//-           //- text
+//-           if isUrl == true
+//-             a(href='#{body.text}') #{body.text}
+//-           else
+//-             | #{body.text}
+
+//-         when 2
+//-           //- image
+//-           <img class="tp_sgt" src=#{body.image}>
+
+
+
+//- mixin body-translated(bodyList)
+//-   //- try get text length
+//-   - var fontSizeClass = 'tp-r'
+//-   each body in bodyList
+//-     case body.bodyType
+//-       when 1
+//-         if body.text.length > 25
+//-           - fontSizeClass = "tp-s"
+
+//-   p(class="tp #{fontSizeClass} translate")
+//-     each body in bodyList
+//-       case body.bodyType
+//-         when 1
+//-           //- text
+//-           | #{body.translate}
+//-         when 2
+//-           //- image
+//-           <img class="tp_sgt" src=#{body.image}>
+
+
+mixin renderBody(bodyList,isTranslate)
   - var fontSizeClass = 'tp-r'
   - var isUrl = false
+  - var translateClass = isTranslate?'translate':''
   each body in bodyList
     case body.bodyType
       when 1
         - isUrl = (body.text.indexOf('http') == 0)
         if body.text.length > 25
-          - fontSizeClass = (isUrl?"tp-m":"tp-s")
+          - fontSizeClass = (isUrl?'tp-m':'tp-s')
 
-  p(class="tp #{fontSizeClass}")
+  p(class="tp #{fontSizeClass} #{translateClass}")
     each body in bodyList
       case body.bodyType
         when 1
           //- text
-          if isUrl == true
-            a(href='#{body.text}') #{body.text}
+          if isTranslate == true
+            | #{body.translate}
           else
             | #{body.text}
 
         when 2
-          //- image
+          //- stamp
           <img class="tp_sgt" src=#{body.image}>
+
+mixin retalk-banner(body)
+  p.rt-ttl
+    i.icon.icon-rt
+    span
+      a 「#{body.talkName}」 からリトーク
+
+
 
 mixin body-single-image(bodyList)
   p(class="tp tp-r")
@@ -67,55 +122,78 @@ mixin body-single-image(bodyList)
           //- image
           <img class="tp_g" src=#{body.image}><br>
 
-mixin body-translated(bodyList)
-  //- try get text length
-  - var fontSizeClass = 'tp-r'
-  each body in bodyList
-    case body.bodyType
-      when 1
-        if body.text.length > 25
-          - fontSizeClass = "tp-s"
-
-  p(class="tp #{fontSizeClass} translate")
-    each body in bodyList
-      case body.bodyType
-        when 1
-          //- text
-          | #{body.translate}
-        when 2
-          //- image
-          <img class="tp_sgt" src=#{body.image}>
-
 mixin body-retalk(body)
-  p.rt-ttl
-    i.icon.icon-rt
-    span
-      a 「#{body.talkName}」 からリトーク
-    ul.rt-cts
-      li.rt-list
-        div.rtp-hdr
-          div.rtp-th(style='background-image:url(' + body.sendUserImage + ')')
-          i.icn.icn-01.icn-rtp-ofl
-          span.rtp-pstr #{body.sendUserName}
-          span.rtp-ts #{body.timeOrDay}
-        p.rtp.rtp-r
-          case body.sourceBodyType
-            when 1
-              //- text
-              if isUrl == true
-                a(href='#{body.text}') #{body.text}
-              else
-                | #{body.text}
-            when 3
-              //- image
-              <img class="tp_g" src=#{body.image}><br>
-            when 8
-              img.tp_g(src=body.thumbnailUrl)
+  ul.rt-cts
+    li.rt-list
+      div.rtp-hdr
+        div.rtp-th(style='background-image:url(' + body.sendUserImage + ')')
+        i.icn.icn-01.icn-rtp-ofl
+        span.rtp-pstr #{body.sendUserName}
+        span.rtp-ts #{body.timeOrDay}
+      p.rtp.rtp-r
 
-        //- workround translate text in retalk
-        if body.sourceBodyType == 1
-          p.rtp.rtp-r
-            #{body.translate}
+        case body.sourceBodyType
+          when 1
+            //- text
+            if isUrl == true
+              a(href='#{body.text}') #{body.text}
+            else
+              | #{body.text}
+          when 3
+            //- image
+            <img class="tp_g" src=#{body.image}><br>
+
+          when 4
+            //- quota
+            //- comment
+            - var innerBody = body.body
+            each ibody in innerBody
+              case ibody.bodyType
+                when 1
+                  //- text
+                  if isUrl == true
+                    a(href='#{ibody.text}') #{ibody.text}
+                  else
+                    | #{ibody.text}
+                when 2
+                  //- image
+                  <img class="rtp_sgt" src=#{ibody.image}>
+
+
+
+
+            p.rtp.rtp-r
+              //- translate
+              each ibody in innerBody
+                case ibody.bodyType
+                  when 1
+                    //- text
+                    if isUrl == true
+                      a(href='#{ibody.translate}') #{ibody.translate}
+                    else
+                      | #{ibody.translate}
+                  when 2
+                    //- image
+                    <img class="rtp_sgt" src=#{ibody.image}>
+
+            //- origin
+            div.rtq-cts
+              div.rtq-hdr
+                div.tq-th(style='background-image: url(#{innerBody[0].comment.sendUserThumbnail})')
+                span.tq-pstr #{innerBody[0].comment.sendUserName}
+                span.tq-ts #{innerBody[0].comment.timeOrDay}
+
+              p.rtq.rtq-m #{innerBody[0].comment.text}
+              p.rtq.rtq-m.translate #{innerBody[0].comment.translate}
+
+
+          when 8
+            img.tp_g(src=body.thumbnailUrl)
+
+      //- workround translate text in retalk
+      if body.sourceBodyType == 1
+        p.rtp.rtp-r
+          #{body.translate}
 
 mixin body-video(body)
   p.tp.tp-r
@@ -161,8 +239,8 @@ html
                 case post.postType
                   when 1
                     //- text
-                    +body(post.body)
-                    +body-translated(post.body)
+                    +renderBody(post.body)
+                    +renderBody(post.body,true)
 
                   when 2
                     //- image
@@ -174,12 +252,13 @@ html
 
                   when 4
                     //- quotation
-                    +body(post.body)
-                    +body-translated(post.body)
+                    +renderBody(post.body)
+                    +renderBody(post.body,true)
                     +quot(post.body[0].comment)
 
                   when 5
                     //- retalk
+                    +retalk-banner(post.body[0])
                     +body-retalk(post.body[0])
 
                   when 6
