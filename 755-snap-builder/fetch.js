@@ -3,9 +3,17 @@ var _ = require('underscore');
 var moment = require('moment');
 var fs = require('fs');
 
+var TranScriptGen = require('./libs/TranslateScriptGenerator');
 
+var tgen = new TranScriptGen();
+
+// haruppi
 var talkId ='XDXHrpvEVMS9GtN76wEuUm%3D%3D';
+
+// mirashige
 // talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
+
+// chihiro
 // talkId ='UQgkwvL3xAu9GtN76wEuUm%3D%3D';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
@@ -34,6 +42,11 @@ if (process.argv[2]) {
 }
 var deadLine = deadLineTime.valueOf()/1000;
 console.log(deadLineTime.format("YYYY-MM-DD"));
+
+// var currentTranslateId = 0;
+// var translateScript = [];
+
+
 
 
 request(metaUrl,function(err,res){
@@ -103,8 +116,11 @@ request(metaUrl,function(err,res){
             switch(b.sourceBodyType){
               case 1:
                 // text
-                b.translate = "";
+                // b.translate = "";
                 b.text = post.body[0].text;
+                tgen.wrapTranslate(b);
+
+                // b.tid = tgen.add(post.body[0].text);
                 break;
               case 3:
                 // image
@@ -112,20 +128,23 @@ request(metaUrl,function(err,res){
                 break;
               case 4:
                 // QUOTATION
-                console.log(post);
+                // console.log(post);
                 b.body = post.body;
 
                 _.each(b.body,function(innerBody){
                   if (innerBody.bodyType===4) {
-                    innerBody.comment.translate = '';
+                    // innerBody.comment.translate = '';
+                    // innerBody.comment.tid = tgen.add(innerBody.comment.text);
+                    tgen.wrapTranslate(innerBody.comment);
                   }
                   else{
-                    innerBody.translate ="";
+                    // innerBody.translate ="";
+                    // innerBody.tid = tgen.add(innerBody.text);
+                    tgen.wrapTranslate(innerBody);
                   }
 
                 });
 
-                // b.translate = '';
                 break;
               case 8:
                 // movie
@@ -145,14 +164,16 @@ request(metaUrl,function(err,res){
             c.timeOrDay = buildTimeOrDay(c.time);
             delete c.time;
 
-            c.translate = '';
+            // c.translate = '';
+            tgen.wrapTranslate(c);
             return;
           }
           else if (b.bodyType === 2 ) {
 
           }
           else if (b.bodyType === 1) {
-            b.translate = '';
+            // b.translate = '';
+            tgen.wrapTranslate(b);
           }
 
         });
@@ -172,6 +193,7 @@ request(metaUrl,function(err,res){
     console.log(posts.length);
     console.log(filtered.posts.length);
     fs.writeFileSync('posts.json',JSON.stringify(filtered,null,2));
+    fs.writeFileSync('transcript.json',JSON.stringify(tgen.getTranScript(),null,2));
 
   });
 
