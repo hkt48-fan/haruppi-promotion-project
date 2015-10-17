@@ -8,13 +8,19 @@ var TranScriptGen = require('./libs/TranslateScriptGenerator');
 var tgen = new TranScriptGen();
 
 // haruppi
-var talkId ='XDXHrpvEVMS9GtN76wEuUm%3D%3D';
+var talkId ='XDXHrpvEVMS9GtN76wEuUm==';
+
+// hazuki
+talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
 
 // mirashige
 // talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
 
 // chihiro
 // talkId ='UQgkwvL3xAu9GtN76wEuUm%3D%3D';
+
+//t8
+talkId = 'i27bnW405mi9GtN76wEuUm==';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
 var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
@@ -33,15 +39,16 @@ var buildTimeOrDay = function(timestamp){
 
 // todo better implement
 if (process.argv[2]) {
-  console.log(process.argv[2])
-  var time = moment(process.argv[2])
+
+  var time = moment(process.argv[2]);
+  console.log("Parsed Time:" + time.format("YYYY-MM-DD"));
 
   if (time.isValid()) {
     deadLineTime = time;
   }
 }
 var deadLine = deadLineTime.valueOf()/1000;
-console.log(deadLineTime.format("YYYY-MM-DD"));
+console.log("Deadline Time: " + deadLineTime.format("YYYY-MM-DD"));
 
 // var currentTranslateId = 0;
 // var translateScript = [];
@@ -55,33 +62,18 @@ request(metaUrl,function(err,res){
   }
 
   var meta = JSON.parse(res.body);
-
-
   var lastPostId = meta.talks[0].lastPostId;
-
-
   var postUrl = postUrlBase + lastPostId + "&talkId=" + talkId;
 
-  console.log("ok");
-
-  console.log(postUrl);
+  // console.log(postUrl);
 
   request(postUrl,function(err,res){
-    console.log("err?");
     if (err) {
       throw err;
     }
 
-    console.log("try");
-
     var postData = JSON.parse(res.body);
     var posts = postData.posts;
-
-
-
-    console.log("last");
-    console.log(deadLine);
-
 
     // get todays post
     var filtered = _.chain(posts).filter(function(p){
@@ -97,7 +89,8 @@ request(metaUrl,function(err,res){
 
       p.timeOrDay = buildTimeOrDay(p.time);
 
-      if (p.time> deadLine) {
+      // console.log(p.time)
+      if (p.time> deadLine ) {
         _.each(p.body,function(b){
           //retalk
           if (b.bodyType === 7) {
@@ -190,8 +183,8 @@ request(metaUrl,function(err,res){
     };
 
 
-    console.log(posts.length);
-    console.log(filtered.posts.length);
+    console.log("Post Total: " + posts.length);
+    console.log("Filtered: " + filtered.posts.length);
     fs.writeFileSync('posts.json',JSON.stringify(filtered,null,2));
     fs.writeFileSync('transcript.json',JSON.stringify(tgen.getTranScript(),null,2));
 
