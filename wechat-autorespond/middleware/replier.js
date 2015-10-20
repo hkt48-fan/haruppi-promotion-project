@@ -145,7 +145,7 @@ var userMsgCommands = [
       // content += '▪️ (http://www.zhanqi.tv/akb49)\n';
       content += '▪️perf/公演: 当日HKT48公演信息\n';
       content += '▪️hkt/开踢: HKT48冷知识\n';
-      content += '▪️haruppi/儿玉遥: 兒玉遥迷你档案';
+      content += '▪️haruppi/儿玉遥: 兒玉遥迷你档案\n';
       content += '▪️有任何建议请在这里留言';
 
       respd.xml.Content = content;
