@@ -154,6 +154,9 @@ html
           width: 500px;
           margin: 0;
       }
+      .ltp .tp_g, .ltp .tp_m{
+        max-width: 390px;
+      }
 
   body
     div.col.col3--main
@@ -199,6 +202,12 @@ html
                   when 6
                     //- video
                     +body-video(post.body[0])
+
+                  when 7
+                    //- text & image
+                    +body-single-image(post.body)
+                    +body(post.body)
+                    +body(post.body,false,true)
 
             li.box.ltp.bottom
 

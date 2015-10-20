@@ -10,8 +10,11 @@ var tgen = new TranScriptGen();
 // haruppi
 var talkId ='XDXHrpvEVMS9GtN76wEuUm==';
 
+// meru
+talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
+
 // hazuki
-talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
+// talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
 
 // mirashige
 // talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
@@ -20,7 +23,7 @@ talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
 // talkId ='UQgkwvL3xAu9GtN76wEuUm%3D%3D';
 
 //t8
-talkId = 'i27bnW405mi9GtN76wEuUm==';
+// talkId = 'i27bnW405mi9GtN76wEuUm==';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
 var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
@@ -49,10 +52,6 @@ if (process.argv[2]) {
 }
 var deadLine = deadLineTime.valueOf()/1000;
 console.log("Deadline Time: " + deadLineTime.format("YYYY-MM-DD"));
-
-// var currentTranslateId = 0;
-// var translateScript = [];
-
 
 
 
