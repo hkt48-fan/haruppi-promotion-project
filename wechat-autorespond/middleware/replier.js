@@ -165,7 +165,7 @@ var userMsgCommands = [
           MsgType: ['text'],
         }
       };
-      var content = '兒玉遥档案\n';
+      var content = '兒玉遥迷你档案\n';
       content += '▪️昵称: 哈鲁P\n';
       content += '▪️生年月日: 1996年9月19日（凌晨3点46分）\n';
       content += '▪️血液型: O\n';
