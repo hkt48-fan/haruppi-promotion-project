@@ -145,7 +145,8 @@ var userMsgCommands = [
       // content += '▪️ (http://www.zhanqi.tv/akb49)\n';
       content += '▪️perf/公演: 当日HKT48公演信息\n';
       content += '▪️hkt/开踢: HKT48冷知识\n';
-      content += '▪️haruppi/儿玉遥: 兒玉遥档案';
+      content += '▪️haruppi/儿玉遥: 兒玉遥迷你档案';
+      content += '▪️有任何建议请在这里留言';
 
       respd.xml.Content = content;
       return respd;
@@ -188,7 +189,7 @@ var getMatchedCommand = function(userMsg){
       return false;
     }
 
-    var msg = userMsg.xml.content.toString().trim();
+    var msg = userMsg.xml.content.toString().trim().toLowerCase();
     //msg = opencc.convertSync(msg);
     return _.includes(cmd.keywords,msg);
   });
@@ -206,10 +207,10 @@ module.exports = function(req,res,next){
     if(req.body.xml.content){
 
       console.log(req.body.xml.content.toString());
-    } 
+    }
     else{
       console.log('cant parse content');
-    } 
+    }
       // TODO export unrecognized text to log file
     return res.end();
   }
