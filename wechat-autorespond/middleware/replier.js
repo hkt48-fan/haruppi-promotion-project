@@ -149,6 +149,7 @@ var userMsgCommands = [
       content += '▪️perf/公演: 当日HKT48公演信息\n';
       content += '▪️hkt/开踢: HKT48冷知识\n';
       content += '▪️haruppi/儿玉遥: 兒玉遥迷你档案\n';
+      content += '▪️红包: 当天红包密令(双11限定,淘宝手机版中使用)\n';
       content += '▪️有任何建议请在这里留言';
 
       respd.xml.Content = content;
@@ -199,6 +200,7 @@ var userMsgCommands = [
       };
       var content = '今天的红包密令是:\n';
       content += luckyMoneyStore.token;
+      content += '\n去手机淘宝天猫搜索框输入密令抢红包';
 
       respd.xml.Content = content;
       return respd;

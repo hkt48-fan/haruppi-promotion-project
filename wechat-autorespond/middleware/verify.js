@@ -33,6 +33,6 @@ module.exports = function(req,res,next){
 
   }
   else{
-    next("varify input error.");
+    next("verify input error.");
   }
 };

@@ -11,7 +11,7 @@ var replier = require('./middleware/replier');
 var moderator = require('./middleware/moderator');
 var oauth2authorizer = require('./middleware/oauth2authorizer');
 
-var luckyMoneyUpdater = require('./middleware/luckyMoneyUpdater');
+var luckyMoney = require('./middleware/luckyMoney');
 
 // 3rd parts middlewares
 var bodyParser = require('body-parser');
@@ -31,7 +31,7 @@ app.get('/',verify);
 app.post('/',replier);
 app.post('/',moderator);
 
-app.use('/luckymoney',luckyMoneyUpdater);
+app.use('/luckymoney',luckyMoney);
 
 app.get('/auth',oauth2authorizer.auth);
 app.get('/oauth2callback',oauth2authorizer.callback);
