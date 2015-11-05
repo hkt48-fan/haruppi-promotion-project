@@ -5,6 +5,9 @@ var gossip = require('./hkt-gossip');
 var xml2js = require('xml2js');
 var liveManager = require('../liveManager');
 var performanceManager = require('../performanceManager');
+
+var luckyMoneyStore = require('../lib/luckyMoneyStore');
+
 var builder = new xml2js.Builder({
   cdata:true,
   headless:true,
@@ -181,6 +184,26 @@ var userMsgCommands = [
       return respd;
     }
   },
+  {
+    key: 'luckyMoney',
+    keywords: ['红包'],
+    description: 'lucky money token',
+    respondBuilder: function(userMsg){
+      var respd= {
+        xml:{
+          ToUserName: userMsg.xml.fromusername,
+          FromUserName: userMsg.xml.tousername,
+          CreateTime: Date.now(),
+          MsgType: ['text'],
+        }
+      };
+      var content = '今天的红包密令是:\n';
+      content += luckyMoneyStore.token;
+
+      respd.xml.Content = content;
+      return respd;
+    }
+  },
 ];
 
 var getMatchedCommand = function(userMsg){
@@ -197,6 +220,7 @@ var getMatchedCommand = function(userMsg){
 };
 
 module.exports = function(req,res,next){
+  console.log(req.body.xml)
   if (!req.body.xml || req.body.xml.msgtype[0] !== 'text') {
     return next();
   }
