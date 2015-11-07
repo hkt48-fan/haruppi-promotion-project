@@ -4,8 +4,6 @@ var fs = require('fs');
 
 
 assetTranslate = function(target){
-  console.log(target)
-  console.log('-----------')
   if (target.tid !== void 0) {
     target.translate = tranScript[target.tid].trans;
     delete target.tid;
@@ -26,22 +24,6 @@ travelBody = function(body){
 
 // console.log(posts)
 posts.posts.forEach(function(body){
-  // console.log(k);
-  // body.body.forEach(function(b){
-  //   // console.log(b)
-  //   // if (b.tid !== void 0) {
-  //   //   b.translate = tranScript[b.tid].trans;
-  //   //   delete b.tid;
-  //   // }
-  //   // else if (b.comment){
-  //   //   // console.log(b.comment)
-  //   //   if (b.comment.tid !== void 0) {
-  //   //     b.comment.translate = tranScript[b.comment.tid].trans;
-  //   //     delete b.comment.tid;
-  //   //   }
-  //   // }
-  //   assetTranslate(b);
-  // });
   travelBody(body.body);
 });
 
