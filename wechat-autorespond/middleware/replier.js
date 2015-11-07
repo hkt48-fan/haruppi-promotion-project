@@ -203,7 +203,7 @@ var userMsgCommands = [
       content += '\n去手机淘宝天猫搜索框输入密令抢红包';
 
       if (luckyMoneyStore.token === 'none') {
-        content = '今天的红包已抢完 请明天再来';
+        content = '今天的红包已抢完 请明早9点再来';
       };
 
       respd.xml.Content = content;
