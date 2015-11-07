@@ -11,7 +11,10 @@ var tgen = new TranScriptGen();
 var talkId ='XDXHrpvEVMS9GtN76wEuUm==';
 
 // meru
-talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
+// talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
+
+// harutan
+// talkId = 'p1aRwszeN0u9GtN76wEuUm==';
 
 // hazuki
 // talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
