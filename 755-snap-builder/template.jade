@@ -68,6 +68,8 @@ mixin body-single-image(bodyList)
         when 1
           //- text
           - console.log("error: text in image only post")
+          p.tp.tp-s.translate
+            #{body.text}
         when 2
           //- stamp
           <img class="tp_sg" src=#{body.image}><br>
@@ -118,6 +120,14 @@ mixin body-retalk(body)
           when 8
             img.tp_g(src=body.thumbnailUrl)
 
+          when 9
+            img.rtp_g(src=body.image)
+            br
+            p.rtp.rtp-r.rtp__newsTitle #{body.title}
+            p.rtp.rtp-r.rtp__newsDetail #{body.detail}...
+            p.rtp.rtp-r
+              a.rtp__newsLink 続きを読む
+
       //- workround translate text in retalk
       if body.sourceBodyType == 1
         p.rtp.rtp-r
@@ -151,22 +161,25 @@ html
         padding:5px;
       }
       .col3--main {
-          width: 500px;
+          width: 560px;
           margin: 0;
       }
       .ltp .tp_g, .ltp .tp_m{
-        max-width: 390px;
+        //- max-width: 390px;
+        max-height: initial;
       }
 
-      body{
-        -webkit-transform: scale(2);
-        -webkit-transform-origin: 0% 0%;
-      }
+
+
+      //- body{
+      //-   -webkit-transform: scale(2);
+      //-   -webkit-transform-origin: 0% 0%;
+      //- }
 
   body
     div.col.col3--main
       div.panel.panel-nb.panel-md-latestPosts
-        h2.ltp-heading #{postTitle}
+        h2.ltp-heading #{postTitle} (#{postDate})
         div.ltps
           ul.ltps-ul
 
@@ -192,6 +205,7 @@ html
                   when 3
                     //- user upload image
                     +body-single-image(post.body)
+                    +body(post.body,false,true)
 
                   when 4
                     //- quotation
