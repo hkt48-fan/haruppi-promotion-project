@@ -107,7 +107,22 @@ request(metaUrl,function(err,res){
             b.sendUserName = post.sendUserName;
             b.timeOrDay = buildTimeOrDay(post.time);
             b.sendUserImage = post.sendUserImage;
+            b.sourceBody = post.body;
 
+            // iterate source body
+            _.each(b.sourceBody,function(sb){
+              switch(sb.bodyType){
+                case 1:
+                  tgen.wrapTranslate(sb);
+                  break;
+                case 4:
+                  tgen.wrapTranslate(sb);
+                  break;
+              }
+            });
+
+
+            /*
             // for video
             switch(b.sourceBodyType){
               case 1:
@@ -154,6 +169,7 @@ request(metaUrl,function(err,res){
                 b.detail = post.body[0].detail;
                 break;
             }
+            */
 
           }
           else if (b.bodyType === 4) {

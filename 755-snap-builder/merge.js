@@ -14,6 +14,9 @@ assetTranslate = function(target){
   else if (target.body){
     travelBody(target.body);
   }
+  else if (target.sourceBody){
+    travelBody(target.sourceBody);
+  }
 };
 
 travelBody = function(body){
@@ -28,3 +31,6 @@ posts.posts.forEach(function(body){
 });
 
 fs.writeFileSync('full.json',JSON.stringify(posts,null,2));
+
+var metadataPath = 'metadata/' + posts.postDate + '.json'
+fs.writeFileSync(metadataPath, JSON.stringify(posts,null,2));
