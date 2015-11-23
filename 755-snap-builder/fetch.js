@@ -11,7 +11,10 @@ var tgen = new TranScriptGen();
 var talkId ='XDXHrpvEVMS9GtN76wEuUm==';
 
 // meru
-talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
+// talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
+
+// harutan
+// talkId = 'p1aRwszeN0u9GtN76wEuUm==';
 
 // hazuki
 // talkId = 'XfFwaWXBN9b9GtN76wEuUm==';
@@ -26,7 +29,7 @@ talkId = 'r0_jQdkiNAS9GtN76wEuUm==';
 // talkId = 'i27bnW405mi9GtN76wEuUm==';
 
 var metaUrl = 'http://7gogo.jp/api/talk/info?talkIds=' + talkId;
-var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=30&postId=';
+var postUrlBase = 'http://7gogo.jp/api/talk/post/list?direction=PREV&limit=100&postId=';
 
 var deadLineTime = moment(0,"HH").add(-1,'s');
 
@@ -89,7 +92,8 @@ request(metaUrl,function(err,res){
       p.timeOrDay = buildTimeOrDay(p.time);
 
       // console.log(p.time)
-      if (p.time> deadLine ) {
+      // if (p.time> deadLine ) {
+      if (p.time > deadLine && p.time < deadLine + 86400) {
         _.each(p.body,function(b){
           //retalk
           if (b.bodyType === 7) {
@@ -103,7 +107,22 @@ request(metaUrl,function(err,res){
             b.sendUserName = post.sendUserName;
             b.timeOrDay = buildTimeOrDay(post.time);
             b.sendUserImage = post.sendUserImage;
+            b.sourceBody = post.body;
 
+            // iterate source body
+            _.each(b.sourceBody,function(sb){
+              switch(sb.bodyType){
+                case 1:
+                  tgen.wrapTranslate(sb);
+                  break;
+                case 4:
+                  tgen.wrapTranslate(sb);
+                  break;
+              }
+            });
+
+
+            /*
             // for video
             switch(b.sourceBodyType){
               case 1:
@@ -142,7 +161,15 @@ request(metaUrl,function(err,res){
                 // movie
                 b.thumbnailUrl=post.body[0].thumbnailUrl;
                 break;
+
+              case 9:
+                // news
+                b.image = post.body[0].image;
+                b.title = post.body[0].title;
+                b.detail = post.body[0].detail;
+                break;
             }
+            */
 
           }
           else if (b.bodyType === 4) {
@@ -177,6 +204,7 @@ request(metaUrl,function(err,res){
 
     filtered = {
       postTitle: meta.talks[0].name,
+      postDate: process.argv[2],
       posts:filtered
       // sourcePosts:postData.sourcePosts
     };
