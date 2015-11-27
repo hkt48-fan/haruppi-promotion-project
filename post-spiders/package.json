@@ -1,0 +1,15 @@
+{
+  "name": "post-spiders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google-plus-spider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^2.1.6"
+  }
+}
