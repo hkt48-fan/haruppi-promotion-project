@@ -5,7 +5,7 @@ import path from 'path';
 
 import config from './lib/tieba/config';
 
-import loadgplus from './lib/google-plus/loader';
+import loadGooglePlusPosts from './lib/google-plus/loader';
 
 var request = requestBase.defaults({
     host: 'tieba.baidu.com',
@@ -13,6 +13,12 @@ var request = requestBase.defaults({
         Cookie: config.cookiesRaw
     }
 });
+
+var fromPostId ='79631415504';
+var fromPageNum = 201;
+
+var gplusPosts = [];
+loadGooglePlusPosts('./posts/google-plus').then();
 
 var invalidPostData = [];
 
@@ -36,24 +42,21 @@ var getPageData = (pageIndex)=>{
     });
 }
 
+
 var writeSinglePost =(postObj)=>{
-    var lines = postObj.split('<br>');
-    var postBody = [];
-    var postLine = '';
 
-    // 0: title
-    var parseState = 0;
-    for (var i = 0; i< lines.length; i++) {
-        var line = lines[i];
-        if (line.length === 0) {
-            continue;
-        }
-
-
-    }
+    var lines = postObj.html.split('<br>');
+    postObj.html = lines[0]
+    console.log(postObj);
 
 }
 
+var parsePostContent=(raw)=>{
+
+}
+
+
+var parsePostDataActived = false;
 var parsePostData =(post)=>{
 
     var img = post.find('img');
@@ -65,13 +68,26 @@ var parsePostData =(post)=>{
     var html = post.html();
 
     var id = post.attr('id').replace('post_content_','');
-    var obj = {
+    if (id === fromPostId) {
+        parsePostDataActived = true;
+    };
+
+    if (!parsePostDataActived) {
+        return;
+    };
+
+    var raw = {
         id: id,
         img: imgUrl,
         html: html
     };
-    writeSinglePost(obj);
-    postsData.push(obj);
+
+    var obj = parsePostContent(raw)
+    // postsData.push(obj);
+
+    // writeSinglePost(obj);
+
+    return obj;
 }
 
 var parsePageData = ($)=>{
@@ -80,15 +96,38 @@ var parsePageData = ($)=>{
     var posts = $('.d_post_content');
     posts.each((i,ele)=>{
         var post = $(ele);
-        parsePostData(post);
+        var obj = parsePostData(post);
+
+        postsData.push(obj);
     });
 
-    fs.writeFileSync('./temp.json',JSON.stringify(postsData,null,2));
+    fs.writeFileSync('./temp.json',JSON.stringify(postsData,null,4));
     console.log('write done');
 }
 
+
+var getLastPageNum = ()=>{
+    return new Promise((resolve,reject)=>{
+        var url = buildPageUrl(1);
+
+        request(url,function(err,res,body){
+            if (err) {
+                reject(err);
+            }
+            else{
+                var $ = cheerio.load(body,{decodeEntities: false});
+                var href = $('.p_thread .l_pager>a:last-child').first().attr('href');
+                var lastPage = parseInt(href.match(/pn=(\d+)/)[1]);
+                resolve(lastPage);
+            }
+        });
+    })
+}
+
 var start = async function(){
-    for (var i = 197; i < 200; i++) {
+    var lastPage = await getLastPageNum();
+    for (var i = fromPageNum; i <= lastPage; i++) {
+        console.log(`page: ${i}`);
         await getPageData(i).then(parsePageData);
     }
 }
