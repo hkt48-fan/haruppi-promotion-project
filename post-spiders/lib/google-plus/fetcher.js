@@ -14,6 +14,9 @@ var oauth2Client = new OAuth2(
 oauth2Client.setCredentials(tokens);
 
 var haruppiUserId = '111907069956262615426'
+var akbChildrenRoomUserId = '106758056094193397775'
+var hktChildrenRoomUserId = '111799140715858863784'
+
 var listParams = {
     userId: haruppiUserId,
     collection: 'public',
@@ -35,13 +38,17 @@ var fetchPosts = (nextPageToken)=>{
             return;
         }
 
-        // console.log(posts, null, 4)
-
         posts.items.forEach(item=>{
-            var published = moment(item.published).utcOffset('+0600').format('YYYY-MM-DD HH:mm:ss.SSS');
-            var updated = moment(item.updated).utcOffset('+0600').format('YYYY-MM-DD HH:mm:ss.SSS');
-            var filename = moment(item.published).utcOffset('+0600').format('YYYY-MM-DD HH:mm:ss');
-            console.log(`processing: ${published}`);
+            var published = moment(item.published).utcOffset('+0900').format('YYYY-MM-DD HH:mm:ss.SSS');
+            var updated = moment(item.updated).utcOffset('+0900').format('YYYY-MM-DD HH:mm:ss.SSS');
+            var filename = moment(item.published).utcOffset('+0900').format('YYYY-MM-DD HH:mm:ss');
+            // console.log(`processing: ${published}`);
+
+            // if (!/HKT48(.*?)(?=兒玉遥)/.test(item.object.content)) {
+            //     if(!/HKT48(.*?)(?=こだまはるか)/.test(item.object.content)){
+            //         return;
+            //     }
+            // }
 
             var images = [];
             var videos = [];
@@ -60,6 +67,10 @@ var fetchPosts = (nextPageToken)=>{
                         videos.push(attachment.image.url);
                     }
                     else if(attachment.objectType === 'article'){
+                        if (!attachment.fullImage) {
+                            console.log(attachment);
+                            throw new Error()
+                        };
                         images.push(attachment.fullImage.url);
                     }
                     else{
@@ -71,10 +82,11 @@ var fetchPosts = (nextPageToken)=>{
             var post = {
                 published,
                 updated,
-                descript: item.title,
+                description: item.title,
                 content: item.object.content,
                 url: item.url,
-                images
+                images,
+                videos
             };
 
             var filePath = `${config.postSavePath}/${filename}.json`;
