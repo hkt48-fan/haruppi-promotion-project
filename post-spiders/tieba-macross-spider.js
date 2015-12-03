@@ -1,11 +1,11 @@
 import requestBase from 'request';
 import cheerio from 'cheerio';
 import fs from 'fs';
-import path from 'path';
 
 import config from './lib/tieba/config';
 
-import loadGooglePlusPosts from './lib/google-plus/loader';
+import parser from './lib/tieba/postParser';
+import moment from 'moment';
 
 var request = requestBase.defaults({
     host: 'tieba.baidu.com',
@@ -17,10 +17,6 @@ var request = requestBase.defaults({
 var fromPostId ='79631415504';
 var fromPageNum = 201;
 
-var gplusPosts = [];
-loadGooglePlusPosts('./posts/google-plus').then();
-
-var invalidPostData = [];
 
 var buildPageUrl = (pageIndex)=>{
     return `${config.baseUrl}?pn=${pageIndex}&ajax=1&t=${Date.now()}`;
@@ -40,19 +36,6 @@ var getPageData = (pageIndex)=>{
             }
         });
     });
-}
-
-
-var writeSinglePost =(postObj)=>{
-
-    var lines = postObj.html.split('<br>');
-    postObj.html = lines[0]
-    console.log(postObj);
-
-}
-
-var parsePostContent=(raw)=>{
-
 }
 
 
@@ -77,17 +60,29 @@ var parsePostData =(post)=>{
     };
 
     var raw = {
-        id: id,
+        tiebaId: id,
         img: imgUrl,
         html: html
     };
 
-    var obj = parsePostContent(raw)
-    // postsData.push(obj);
+    var result = parser.tryParse(raw)
 
-    // writeSinglePost(obj);
+    if (result.match) {
+        // console.log(result.source);
+        var published = moment(result.body.published).format('YYYY-MM-DD HH:mm:ss')
+        var filePath = `./posts/tieba-macross/${published}-${result.source}.json`
+        // console.log(filePath);
+        fs.writeFileSync(filePath,JSON.stringify(result.body,null,4))
 
-    return obj;
+
+    }
+    else{
+        console.log("!!!!!!!!nomatch!!!!!!!!");
+    }
+
+
+
+    return result;
 }
 
 var parsePageData = ($)=>{
@@ -97,6 +92,7 @@ var parsePageData = ($)=>{
     posts.each((i,ele)=>{
         var post = $(ele);
         var obj = parsePostData(post);
+
 
         postsData.push(obj);
     });
