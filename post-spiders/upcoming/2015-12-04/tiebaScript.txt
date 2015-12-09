@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月4日 9:51:28 JST<br>件名: おっはのーん！<br><br>起きてるー？<br><strong>起床了吗？</strong><br><br>私は、今メイクしてるよん^o^<br>あ、メイクしてるけど手を止めてメールしてる！<br><strong>我，现在正在化妆哦^o^</strong><br><strong>啊，虽然在化妆却停下手在发邮件了！</strong><br><br>ふふっ<br><strong>呼呼</strong><br><br>今日も、1日がんばろーねん( ´ ▽ ` )ノ<br><strong>今天1天，也加油吧( ´ ▽ ` )ノ</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月4日 18:06:38 JST<br>件名: あのね！<br><br>福岡に帰ってきて思ったこと！<br><strong>回到福岡后感受到的！</strong><br><br>寒い！！<br><strong>好冷！！</strong><br><br>福岡はわりと南の方にあるけん<br>関東らへんに比べてあったかそうなイメージあるとか言うやん？<br><strong>福岡说起来还算是南方了</strong><br><strong>与关东那边比起来还被说印象是比较暖和的吧？</strong><br>そんなことない！<br>ほんとに激さむ（；＿；）<br><strong>没有那种事！</strong><br><strong>真的超级冷（；＿；）</strong><br>今、ヒートテックに腹巻にカイロでお腹と背中サンドイッチだから！笑<br><strong>现在，摇粒绒和裹腰和暖炉把肚子和背包的像三明治了！笑</strong><br>暑い夏があっても、やっぱり寒い冬がくるのねん。<br><strong>就算夏天再热，果然寒冬还是会到来呢。</strong><br>それが日本なのなん。<br>四季って素敵ねん。<br><strong>这就是日本啊。</strong><br><strong>四季分明真不错呢。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月4日 20:46:28 JST<br>件名: 3日間<br>今日から、3日間あることに挑戦してるんだー( ´ ▽ ` )ノ<br><strong>今天开始，3天里要挑战某个事情( ´ ▽ ` )ノ</strong><br>3日間といえば…<br><strong>说到3天时间…</strong><br><br>言葉に出す前に行動するくせつけたいから<br>ちゃんと成功してから伝えるけん！！<br><strong>想要养成在说出口前就开始行动的习惯</strong><br><strong>能够成功后再告诉大家！！</strong><br>ちなみに、酵素断食じゃないよ(ノ_＜)<br><strong>顺便一说，不是酵素断食哦(ノ_＜)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月4日 21:46:38 JST<br>件名: mステ<br>365日の紙飛行機<br><strong>365天的纸飞机</strong><br><br>披露していましたが、いませんでした！<br><strong>虽然披露了，但我不在！</strong><br><br>いるかな？って探してた方もいるかも！<br>と思ってメールしました！<br><strong>有没有在呢？也许有人在找我吧！</strong><br><strong>这样想着发的邮件！</strong><br>そうですね、、、<br><strong>说的是呢、、、</strong><br><br>曲つなぎで、シングル曲の<br>唇にbe my babyと365日の紙飛行機を二曲とも披露する機会が最近多いけど<br>やっぱり、シングル選抜の方がAKB48を引っ張っていくメインだから！<br><strong>中是曲是，单曲的</strong><br><strong>嘴唇be my baby和365天的纸飞机这两首都披露的机会最近虽然很多</strong><br><strong>果然，单曲选拔的人都是引领AKB48的主要成员！</strong><br><br>どうしよもないってところがあるのかも。。。<br><strong>也许有怎么样都没办法的方面。。。</strong><br>もちろん、私も出演したかった。<br>さっしーやさくちゃんたちと一緒に<br>テレビから微笑んでいたかったよ。<br><strong>当然，我也很想出演。</strong><br><strong>和撒西 樱花一起</strong><br><strong>在电视上对大家展露微笑啊。</strong><br>この気持ちをバネに変えて<br>前向きにこれからもがんばる！<br><strong>要以这份心情为动力去改变</strong><br><strong>向前看今后继续加油！</strong><br>いつも、ありがとう！<br><strong>一直都，谢谢了！</strong><br>少しずつしか、進めないわたしでごめんね。<br><strong>只能慢慢的，朝前进的我对不起了。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月4日 22:17:38 JST<br>件名: また、明日ね！<br><br>おやすみなさい★<br>ぷひゅーはー！！<br><strong>晚安★</strong><br><strong>噗咻~~哈~~！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午9:20 <br>『矛盾』<br>こんばんは^o^兒玉遥です！<br><strong>『矛盾』</strong><br><strong>晚上好^o^是兒玉遥！</strong><br><br>今日は、お仕事が早めにおわったのでふらりと本屋さんに行ってきました！！<br><strong>今天是，工作比较早结束了突然想去书店了！！</strong><br><br>そんなに、長居する予定じゃなかったのに気づけば2時間(ﾟoﾟ;;<br><strong>明明，没有打算呆这么长时间的注意到时已经2小时了(ﾟoﾟ;;</strong><br><br>改めて、本の魅力に気づかされた日でした。<br><strong>再一次，感受到书本魅力的一天。</strong><br><br>自分が手にとっている本で自然と今の自分が分かるなーとも思いました。<br><strong>拿在自己手上的书自然的就感觉能了解现在的自己了。</strong><br><br>今回購入した本は、2冊！！<br><strong>这次买的书是，2本！！</strong><br><br>ダイエットや健康法の本と美味しそうなごはんの本！！<br><strong>减肥和健康法的书和看上去很美味的食物的书！！</strong><br>矛盾しすぎーヽ(；▽；)ノ笑<br><strong>太矛盾了ヽ(；▽；)ノ笑</strong><br><br>痩せたいけど食べたい。<br>永遠のテーマ。<br><strong>虽然想瘦却也想吃。</strong><br><strong>永远的主题。</strong><br><br>明日からも、がんばるけん！！<br><strong>明天开始也要，加油了！！</strong><br><br>夜更かしはいいことないので<br>おやすみなさい★<br><strong>熬夜可没什么好处</strong><br><strong>晚安★</strong><br>');
+
+
+

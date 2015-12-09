@@ -40,6 +40,7 @@ fs.access(dest,(err)=>{
         try{
 
             var plain = '';
+            var tiebaScript = '';
 
             var dirs = fs.readdirSync(postsPath);
             dirs = _.chain(dirs).filter(filename=>{
@@ -60,6 +61,7 @@ fs.access(dest,(err)=>{
 
                 var m = moment(post.published,'YYYY-MM-DD HH:mm:ss');
                 if (post.images) {
+                    console.log(post.images)
                     post.images.forEach((imgurl,idx)=>{
                         var imgPath = path.join(dest, `${m.format('HH:mm:ss')}-${(idx+1)}.jpg`);
                         plusRequest.get(imgurl).pipe(fs.createWriteStream(imgPath));
@@ -70,10 +72,20 @@ fs.access(dest,(err)=>{
                     tiebaRequest.get(post.img).pipe(fs.createWriteStream(imgPath));
                 }
 
+                var plainContent = post.html.trim().replace(/(<br>){3,}/g,'<br>').replace(/\n/g,'');
                 plain += '<blockquote><span style="font-size: 14px;">';
-                plain += post.html.trim().replace(/(<br>){3,}/g,'<br>').replace(/\n/g,'');
+                plain += plainContent;
                 plain += '</span></blockquote>';
                 plain += '<p><br/></p>';
+
+                // for tieba
+                // UE.getEditor('ueditor_replace').setContent('444')
+
+
+                tiebaScript += `UE.getEditor("ueditor_replace").setContent('${plainContent}');\r\n\r\n\r\n\r\n`;
+                // fs.writeFileSync(path.join(p,'tiebaScript.txt'),tiebaScript);
+
+
             });
 
         }
@@ -83,6 +95,9 @@ fs.access(dest,(err)=>{
 
         var plainPath = path.join(dest,'plain.txt');
         fs.writeFileSync(plainPath, plain);
+
+        var tiebaScriptPath = path.join(dest,'tiebaScript.txt');
+        fs.writeFileSync(tiebaScriptPath, tiebaScript);
         // console.log(dirs)
 
 

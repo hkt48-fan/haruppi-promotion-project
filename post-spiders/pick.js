@@ -32,4 +32,10 @@ else{
 
   fs.writeFileSync('./fullScript.txt',output);
 
+
+
+
+
 }
+
+

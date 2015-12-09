@@ -14,8 +14,8 @@ var request = requestBase.defaults({
     }
 });
 
-var fromPostId ='79631415504';
-var fromPageNum = 201;
+var fromPostId ='79725947719';
+var fromPageNum = 202;
 
 
 var buildPageUrl = (pageIndex)=>{

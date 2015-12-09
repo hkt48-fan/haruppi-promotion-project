@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月5日 10:21:47 JST<br>件名: おはの！<br>今日すごいいい天気！<br>太陽で、目覚めたっちゃん！<br><strong>今天天气非常好！</strong><br><strong>太阳，让我醒来的！</strong><br>と思ってたら、あれ？、<br>本当にいま、太陽が雲ががってみえなくなっちゃった( ；´Д｀)<br><strong>这样想着，啊来？、</strong><br><strong>其实现在，太阳被云挡住了看不见( ；´Д｀)</strong><br><br>今日は、くもりみたいー<br><strong>今天，好像是阴天</strong><br><br>気分はいつでもはるっぴ晴れ( ´ ▽ ` )ノ<br>行ってきまーす！<br><strong>心情一直是哈鲁P晴天( ´ ▽ ` )ノ</strong><br><strong>我出发了！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月5日 18:41:48 JST<br>件名: やっと！<br>本屋さんで最終話をゲット！！<br><strong>书店里买到了最终话！！</strong><br><br>早く読みたい〜( ；´Д｀)<br><strong>好想快点读〜( ；´Д｀)</strong><br><br>お家に着いたら速攻読もっと！！！<br><strong>回到家就立马开始读！！！</strong><br>ぁあ〜、最終的に翔くん助けられるのかな？<br>気になる〜<br><strong>啊啊〜，最终翔君有得救吗？</strong><br><strong>好在意〜</strong><br>ハッピーエンドだったらいいなぁ…<br><strong>大团圆结局就好啦…</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月5日 22:06:48 JST<br>件名: orange<br><br>いい漫画やったー^o^<br><strong>真是不错的漫画啊^o^</strong><br>過去と未来<br>どうしても変えたい過去があって<br>それに対する登場人物の思いに心を打たれたなぁ！<br><strong>过去与未来</strong><br><strong>有无论如何都想去改变的未来</strong><br><strong>与此相对的登场人物的思想深入我心中啊！</strong><br><br>仲間想いも素敵だし<br>恋愛も本当にまっすぐな気持ちが<br>本当キラキラしていて、心を洗浄されるかのようないい話だった。笑<br><strong>同伴之情也很美好</strong><br><strong>恋爱也是真的很直接的感情</strong><br><strong>真的闪闪发光的，感觉心灵都被清洗了的好故事。笑</strong><br>私も、時間が過ぎてから<br>変えたい！って後悔しない今を生きようと思った。<br><strong>我也，经过了许多时间</strong><br><strong>想要改变！想到要去度过不会后悔的现在的人生。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月5日 22:11:28 JST<br>件名: よる<br><br>お母さんさんと、おしゃべりしてる。<br><strong>和妈妈，在聊天。</strong><br><br>悩みは誰にも話さないけど、心に沢山たまっちゃったとき、本当に辛いときは<br>お母さんが1番の相談相手かも。<br><strong>烦恼虽然和谁都说不出口，心中积蓄了很多的时候，直接很辛苦的时候</strong><br><strong>妈妈是最好的变心对象了吧。</strong><br><br>私って、本当、お母さんっ子。<br><strong>我是，真的，粘妈妈的孩子。</strong><br>まだ寝ないけど、今日は最後のメール。<br>おやすみなちゃい。<br><strong>虽然还没有睡，是今天最后的邮件了。</strong><br><strong>晚安。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月5日 22:11:48 JST<br>件名: あ！<br>だからって、お父さんのこと嫌ってるとか<br>反抗期とかじゃないから！笑<br><strong>虽然这么说，并没有讨厌父亲</strong><br><strong>或是反抗期什么的！笑</strong><br><br>これだけ言っときたかったの！<br><strong>只有这一点想说清楚！</strong><br>いびきが、たまに、うるさいとこは嫌いだけどね( ；´Д｀)<br><strong>打呼，偶尔，会觉的吵闹有点讨厌呢( ；´Д｀)</strong><br>おやすみなちゃい<br>ぷひゅーはー<br><strong>晚安</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+
