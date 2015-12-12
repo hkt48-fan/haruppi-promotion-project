@@ -14,8 +14,8 @@ var request = requestBase.defaults({
     }
 });
 
-var fromPostId ='79725947719';
-var fromPageNum = 202;
+var fromPostId ='80096757886';
+var fromPageNum = 203;
 
 
 var buildPageUrl = (pageIndex)=>{
@@ -74,13 +74,15 @@ var parsePostData =(post)=>{
         // console.log(filePath);
         fs.writeFileSync(filePath,JSON.stringify(result.body,null,4))
 
-
+        console.log(published);
+        console.log(filePath)
     }
     else{
-        console.log("!!!!!!!!nomatch!!!!!!!!");
+        console.log("!!!!!!!!!!!!!!!!!!!!!!!nomatch!!!!!!!!!!!!!!!!!!!!!!!!");
     }
 
 
+    console.log('----------------')
 
     return result;
 }

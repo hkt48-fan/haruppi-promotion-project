@@ -1,15 +1,21 @@
 import google from 'googleapis';
 import tokens from './.token';
+import Agent from 'socks5-https-client/lib/Agent';
 import credential from './.credential';
 import moment from 'moment';
 import fs from 'fs';
 import config from './config';
 
+// google.options({
+//     proxy: 'http://127.0.0.1:8119/'
+// });
+
 var OAuth2 = google.auth.OAuth2;
 var oauth2Client = new OAuth2(
     credential.client_id,
     credential.client_sectret,
-    'urn:ietf:wg:oauth:2.0:oob'
+    'urn:ietf:wg:oauth:2.0:oob',
+
 )
 oauth2Client.setCredentials(tokens);
 

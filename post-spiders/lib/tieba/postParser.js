@@ -115,16 +115,21 @@ postParser.registerParser('google-plus', function(post){
     var lines = post.html.split('<br>');
 
     console.log("try gp: " + lines[0]);
-    if (lines[0].indexOf('兒玉遥公开分享')===-1) {
+    if (lines[0].indexOf('兒玉遥公开分享')===-1 && lines[0].indexOf('儿玉遥公开分享')===-1) {
         console.log("gp fail");
         return result;
     }
-    console.log("success google plus");
+
 
     // console.log(this);
     // console.log(googlePosts.length);
     var matched = similarity.findBestMatch(post.html,googlePosts.map(p=>p.content));
-    // console.log(matched.bestMatch);
+    console.log("rating: " + matched.bestMatch.rating);
+    if (matched.bestMatch.rating < 0.45 ) {
+        return result;
+    };
+
+    console.log("success google plus");
 
     var target = _.find(googlePosts,{content: matched.bestMatch.target})
 
