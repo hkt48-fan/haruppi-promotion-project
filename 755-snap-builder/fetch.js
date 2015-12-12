@@ -23,7 +23,10 @@ var talkId ='XDXHrpvEVMS9GtN76wEuUm==';
 // talkId = 'AkENC_TJ_aS9GtN76wEuUm%3D%3D';
 
 // chihiro
-// talkId ='UQgkwvL3xAu9GtN76wEuUm%3D%3D';
+// talkId ='JIZULUYtvau9GtN76wEuUm==';
+
+// kisaki yuria
+// talkId = 'hUvCGhJWnA89GtN76wEuUm==';
 
 //t8
 // talkId = 'i27bnW405mi9GtN76wEuUm==';
