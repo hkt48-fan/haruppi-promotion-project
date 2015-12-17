@@ -143,13 +143,13 @@ var userMsgCommands = [
         }
       };
       var content = '兒玉派 指令说明\n';
-      content += '▪️?/help/帮助: 本信息\n';
-      content += '▪️ev/live/直播: 48系番组直播间节目表\n';
+      content += '▪️?: 本信息\n';
+      content += '▪️ev: 48系番组直播间节目表\n';
       // content += '▪️ (http://www.zhanqi.tv/akb49)\n';
-      content += '▪️perf/公演: 当日HKT48公演信息\n';
-      content += '▪️hkt/开踢: HKT48冷知识\n';
-      content += '▪️haruppi/儿玉遥: 兒玉遥迷你档案\n';
-      content += '▪️红包: 当天红包密令(双11限定)\n';
+      content += '▪️perf: 当日HKT48公演信息\n';
+      content += '▪️hkt: HKT48冷知识\n';
+      content += '▪️harupp: 兒玉遥迷你档案\n';
+      // content += '▪️红包: 当天红包密令(双11限定)\n';
       content += '▪️有任何建议请在这里留言';
 
       respd.xml.Content = content;
@@ -187,7 +187,7 @@ var userMsgCommands = [
   },
   {
     key: 'luckyMoney',
-    keywords: ['红包'],
+    keywords: ['红包unavailable'],
     description: 'lucky money token',
     respondBuilder: function(userMsg){
       var respd= {
@@ -235,13 +235,12 @@ module.exports = function(req,res,next){
   if (!cmd) {
     console.log("not match any keyword");
     if(req.body.xml.content){
-
       console.log(req.body.xml.content.toString());
     }
     else{
       console.log('cant parse content');
     }
-      // TODO export unrecognized text to log file
+    // TODO export unrecognized text to log file
     return res.end();
   }
 
