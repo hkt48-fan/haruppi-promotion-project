@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月16日 10:36:29 JST<br>件名: おはの！<br><br>朝、ググタスみよったら、、、<br>また打ち間違えてたのね（；＿；）<br><strong>早上，看了G+后、、、</strong><br><strong>又打错字了呢（；＿；）</strong><br><br>もう、自分に呆れちゃう。<br><strong>已经，自己都惊呆了。</strong><br><br>前まで自己嫌悪に浸ってたけど、今はもう<br>それすらなくなって、自分をせめなくなったよ！笑<br><strong>之前自己都厌恶自己了，今天已经</strong><br><strong>连这个都不想了，不想去责备自己了！笑</strong><br><br>毎回そんなことしてたら、心が忙しすぎて<br>大変だもん！<br><strong>每次都这样做的话，心里都忙不过来了</strong><br><strong>很辛苦嘛！</strong><br><br>いつものこと( ´ ▽ ` )ノってね。<br><strong>一直都这样的( ´ ▽ ` )ノ呢。</strong><br>いや。でも、強がってるだけかも<br>やっぱり凹む。<br><strong>不是。也许，只是在逞强吧</strong><br><strong>果然会消沉。</strong><br><br>昨日は眠たくて確認してなかったの！<br><strong>昨天因为很困就没有确认！</strong><br><br>ぁー、言い訳始めだした。自分。<br><strong>啊~~，开始找借口了。自己。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月16日 18:16:28 JST<br>件名: 公演<br><br>よっしゃ！<br>劇場公演。<br><strong>哟夏！</strong><br><strong>剧场公演。</strong><br><br>公演前のわくわく感は初日の頃から変わってないなー。<br><strong>公演前的跃跃欲试感觉与初日的时候并没有改变。</strong><br><br>どんな人がくるかな？<br>誰が来てくれるかな？<br>盛り上がるかな？<br>うちわとかタオルあるかな？って<br><strong>会有什么样的人来呢？</strong><br><strong>哪些人会来呢？</strong><br><strong>会很热闹吗？</strong><br><strong>会有团扇和毛巾吗？</strong><br><br>わくわくするの( ´ ▽ ` )ノ<br><strong>很兴奋的( ´ ▽ ` )ノ</strong><br><br>初期のころは、でも、<br>300人の劇場が埋まらないドキドキする気持ちもあったなー。<br><strong>初期的时候，不过，</strong><br><strong>300人的剧场坐不满有很担心的心情啊。</strong><br><br>今もないわけではないよ。<br>あの時支えてくださった方がいるから<br>今こうやってステージに立てているんだよね。<br><strong>现在也并不是没有哦。</strong><br><strong>因为那个时候有支持我们的人</strong><br><strong>现在才能像这样站在舞台上呢。</strong><br><br>よっしゃ、楽しんできまっす！<br><strong>哟夏，要去尽兴啦！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  下午8:14 <br>『その日は突然』<br><strong>『这天突然到来』</strong><br><br>こんばんは^o^兒玉遥です。<br><strong>晚上好^o^是兒玉遥。</strong><br><br>今日の公演で、梅が卒業発表がありました。<br>初めて後輩の卒業発表の場を経験。<br><strong>今天是公演上，梅发表了毕业。</strong><br><strong>第一次目睹了后辈的毕业发表。</strong><br><br>実際に立ち会ってみると、卒業といきても<br>今、その時に、梅がいないHKT48をそうぞできなくて<br>不思議な感覚でした。<br><strong>实际现场看到后，就算毕业了</strong><br><strong>现在，此时，无法想象没有梅的HKT48</strong><br><strong>不可思议的感觉。</strong><br><br>梅が抜けた穴はすごく大きいし、代わりはいないから<br>本当はいてほしいきもちですが<br>「シンガーソングライターになる。」と<br>強い覚悟をもって話している梅をみて<br>笑顔で背中を押さなきゃ！って思いました。<br><strong>梅走掉后的空白很大，没有人能代替</strong><br><strong>心中其实希望她能留下</strong><br><strong>「要成为创作歌手。」</strong><br><strong>看着怀有坚强觉悟说着的梅</strong><br><strong>必须以笑容在背后助推一把！这样想的。</strong><br>残りの期間で沢山笑いあえたらいいな( ´ ▽ ` )ﾉ<br><strong>剩下的期间能有许多的笑容就好啦( ´ ▽ ` )ﾉ</strong><br>みんなで、梅の夢を応援しましょう！<br><strong>大家一起，为梅的梦想应援吧！</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月16日 21:21:34 JST<br>件名: 突然<br>今日の公演で、うめが卒業発表がありました。<br>突然過ぎて驚いています。<br><strong>今天的公演里，乌梅发表了毕业。</strong><br><strong>太突然了吓了一跳。</strong><br><br>チームH公演で、初めて私は卒業発表の場を経験したので不思議な感覚でした。<br><strong>在TeamH公演上，我第一次目睹了毕业发表的场面很不可思议的感觉。</strong><br><br>ふわふわしていて現実みがないというか、<br>まだ目の前にいるうめがいなくなるっていうのが想像できなくて…<br><strong>昏昏沉沉的感觉很不现实，</strong><br><strong>无法想象在眼前的乌梅要不在了…</strong><br><br>絶対、寂しいだろうな、悲しいだろうな…<br><strong>绝对，会寂寞的吧，会伤心的吧…</strong><br><br>残りどれくらい過ごせるか分からないけど<br>私は梅のシンガーソングライターの夢を全力で応援するし<br>悲しい涙の顔じゃなくて、覚悟の笑顔で送れたらなと思っています。<br><strong>虽然不知道还能有多少时间一起度过</strong><br><strong>我会全力为乌梅的创作歌手的梦想应援的</strong><br><strong>不是伤心流泪的表情，要以觉悟的笑容欢送她。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月16日 21:21:44 JST<br>件名: さいご<br><br>ごめんね！<br>今日は、さいごのメール。<br><strong>对不起呢！</strong><br><strong>今天是，最后的邮件了。</strong><br>おやすみなさい★<br>ぷひゅーはー<br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

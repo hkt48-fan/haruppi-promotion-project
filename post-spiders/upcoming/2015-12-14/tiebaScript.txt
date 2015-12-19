@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月14日 13:51:27 JST<br>件名: おはの！<br>今日は、有線大賞に出演するっちゃん^o^<br>HKT48は初出演！！<br><strong>今天，出演了有线大赏哦^o^</strong><br><strong>HKT48是初次出演！！</strong><br><br>年末こうやって歌番組に出演できるの嬉しいっちゃんねー<br><strong>年末能像这样出演歌曲节目很开心呢</strong><br><br>あと、出たことある番組が増えるのも嬉しい！<br><strong>还有，能够出演的节目有所增加也很开心！</strong><br><br>今年は、１つ減っちゃったけど一回一回を楽しんで、次も歌えるようにがんばるけん！<br><strong>今年，虽然少了1个不过每一个都要去尽兴，为了下次也能演唱而努力！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月14日 21:02:23 JST<br>件名: 有線大賞<br><br>見ていただけたかな？<br><strong>有收看了吗？</strong><br><br>テレビの前で、観てくれてる人のことをステージに立つ前に思い浮かべたんだ( ´ ▽ ` )ノ<br><strong>在电视机前，在站上舞台前头脑中浮现出在看电视的人( ´ ▽ ` )ノ</strong><br><br>そしたら、自然と笑顔になるしね。<br><strong>然后，自然的露出了笑容呢。</strong><br>それにしても、12秒も365日の紙飛行機もあったかいんだからも<br>ほんと、いい曲！！！<br><strong>就算这样，12秒和365天的纸飞机和因为很温暖</strong><br><strong>真的，都是好曲子！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月14日 21:02:48 JST<br>件名: きづいたかな？<br>実は、今日めちゃ早替えやったっちゃん！<br><strong>其实，今天有非常快的换装！</strong><br>このお仕事してから着替え特技になった。笑<br>脱ぐのめちゃ早いし、着るのも早いよん(￣▽￣)<br><strong>做了这个工作后变成换装特技了。笑</strong><br><strong>脱衣服非常快的，穿也是很快的哦(￣▽￣)</strong><br>競ってみる？<br>なーんちゃって<br><strong>要比比看吗？</strong><br><strong>说笑的</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  下午8:30 <br>『有線大賞』<br>こんばんは^o^兒玉遥です！<br><strong>『有線大賞』</strong><br><strong>晚上好^o^是兒玉遥！</strong><br><br>今日は、TBS放送の有線大賞に出演させていただきました。<br><strong>今天，出演了TBS放送的有线大赏。</strong><br><br>「12秒」<br>「365日の紙飛行機」<br>を歌わせていただきました。<br><strong>「12秒」<br>「365天的纸飞机」</strong><br><strong>演唱了这两首歌曲。</strong><br><br>クマムシさんの「あったかいんだからぁ」<br>にも参加しましたよー！<br><strong>kumamusi桑的「あったかいんだからぁ」</strong><br><strong>也参加了哦！</strong><br><br>HKT48は有線大賞初出演！！<br>皆さんのリクエストのおかげで歌うことができました。<br><strong>HKT48是有线大赏初次出演！！</strong><br><strong>多亏了大家的点播要求才能上场演唱的。</strong><br><br>応援してくださって皆さん、ありがとうございます。<br><strong>为我们应援的朋友们，十分感谢。</strong><br><br>クマムシさんのあったかいんだからぁ<br>いい曲ですね〜<br><strong>kumamusi桑的あったかいんだからぁ</strong><br><strong>很不错的曲子呢〜</strong><br><br>今日ですごく好きになりました！！<br><strong>今天变的非常喜欢了！！</strong><br><br>歌うより、<br>後ろであの振り付けやりたいだけやけど…笑<br><strong>比起演唱，</strong><br><strong>只是更想在后面做那个舞蹈动作…笑</strong><br>こうやって、年末に出演できる番組が増えていくのが嬉しいです。<br><strong>像这样，年末能够出演的节目有所增加很开心。</strong><br>今年は、１つ減っちゃったけどけど<br>一回一回を大切に、皆さんに笑顔も届け続けられるようにがんばるけん！！<br><strong>不过，今年已经减少1个了</strong><br><strong>每一次都要重视，为了能继续将笑容传达给大家而努力！！</strong><br><br>明日は毎年恒例、AKB紅白です。<br>今年はどっちが勝つかなぁ？？<br>楽しみー！<br><strong>明天是每年惯例的，AKB红白。</strong><br><strong>今年哪边会胜利呢？？</strong><br><strong>好期待！</strong><br>ひな壇アイドルがんばるよん(￣▽￣)笑<br><strong>雏坛偶像会加油哦(￣▽￣)笑</strong><br>おやすみなさい。<br><strong>晚安。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月14日 22:18:33 JST<br>件名: へへへ<br>明日は毎年恒例AKB紅白(￣▽￣)<br><strong>明天是每年惯例AKB红白(￣▽￣)</strong><br><br>今年はどっちが勝つかなぁ？？<br><strong>今年会是哪边胜利呢？？</strong><br>勝ちたい！！<br><strong>想赢！！</strong><br><br>よし、がんばるけん！！<br><strong>哟西，要加油了！！</strong><br>おやすみなさい★<br>ぷひゅーはー<br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

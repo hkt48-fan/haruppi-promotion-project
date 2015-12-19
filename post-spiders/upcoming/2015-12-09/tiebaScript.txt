@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天上午5:18 <br>おはようございます( ´ ▽ ` )ﾉ<br><strong>早上好( ´ ▽ ` )ﾉ</strong><br><br>昨日は、10周年記念公演に出演させていただきました！！<br><strong>昨天是，出演了10周年纪念公演！！</strong><br><br>私が憧れていたAKB48のメンバーを舞台裏からみて、私は、憧れていたメンバーにはなれなかったんだと思いました。<br><strong>在后台看着我憧憬的AKB48的成员，我，觉得我无法成为那些憧憬的成员。</strong><br><br>キラキラしていて眩しかったです。<br><strong>闪闪光亮很耀眼。</strong><br><br>そして、本当の夢を再確認できました。<br><strong>然后，再次确认了自己真正的梦想。</strong><br><br>誰かの代わりなんかじゃなくて<br>1人のアイドルとしてHKT48として、<br>AKB48の輝きの一部になれるように…<br><strong>并不是去代替谁</strong><br><strong>作为1个偶像作为HKT48，</strong><br><strong>为了能成为AKB48的闪光点的一部分…</strong><br>それでは、いってきます！<br><strong>那么，我出发了！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月9日 17:31:28 JST<br>件名: ふふふーん<br><br>部屋に飾ってるよーん^o^<br><strong>装饰在家里了哦^o^</strong><br><br>きれいー、うっとりー。<br><strong>漂亮，陶醉。</strong><br><br>照明の具合も良くて、素敵。<br>ありがとうございます。<br><strong>照明的强弱正好，好美。</strong><br><strong>十分感谢。</strong><br><br>げんきでました。<br><strong>有元气了。</strong><br>隣の特茶、気にせんでー( ；´Д｀)笑<br>最近よく飲んでるやつ。<br><strong>旁边的特茶，别在意( ；´Д｀)笑</strong><br><strong>最近经常会喝的。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月9日 17:36:27 JST<br>件名: こんにちは<br>今日は、ずっと撮影しとーよー( ´ ▽ ` )ノ<br><strong>今天，一直都在摄影哦( ´ ▽ ` )ノ</strong><br><br>グラビアBOMBさんに撮影していただきました！<br><strong>去了BOMB桑的写真摄影！</strong><br><br>いつもより、大人っぽい雰囲気かもね。<br><strong>比平时，更有成熟的氛围吧。</strong><br><br>1月9日発売やってー！<br>お楽しみにー！<br><strong>1月9日发售的！</strong><br><strong>敬请期待！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月9日 21:01:28 JST<br>件名: いまむらまりやちゃん<br>今日、福岡に帰って生写真の撮影しとったんやけど、<br>撮影ブースにいくと<br>メイク机の下にお人形さんが！！！<br><strong>今天，回到福岡进行生写真摄影，</strong><br><strong>到了摄影区域</strong><br><strong>化妆台的下面有洋娃娃！！！</strong><br><br>そう、ドラフト二期生のいまむらまりやちゃん( ´ ▽ ` )ノ<br><strong>没错，选秀二期生的今村麻莉爱酱( ´ ▽ ` )ノ</strong><br>この世の生き物って思えない可愛さ。<br><strong>可爱到感觉不是这个世界的生物了。</strong><br>前まで、さっしーが小さい子にベタベタ張り付いてイチャイチャするの、何が楽しいのかな？って思ってたこともあったけど…<br><strong>之前，撒西叫是缠着小孩子亲亲什么的，有什么好玩的？虽然会去这样想…</strong><br>ごめんなさい。<br>私もイチャイチャさせてください( ；´Д｀)笑<br><strong>对不起。</strong><br><strong>也让我来亲亲抱抱吧( ；´Д｀)笑</strong><br>ぎゅーってしちゃう<br>衝動的に。<br><strong>想要去抱紧</strong><br><strong>冲动的。</strong><br>抑えられない、まりやちゃーん<br><strong>抑制不住，麻莉爱酱</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午8:15 <br>《朗報》<br><br><strong>《好消息》</strong><br>今日から私、はるっぴ、ロリコンになります。<br><strong>今天开始我，哈鲁P，要变成萝莉控了。</strong><br><br>今まで、さっしーが小さい子にベタベタ、イチャイチャしながら溺愛していて<br>何が楽しいんだろう？って思っていたけど…<br><br><strong>至今为止，撒西对小孩子抱抱，亲亲的溺爱着</strong><br><strong>有什么好玩的呢？虽然会去这样想…</strong><br>すいませんでした。<br><br><strong>对不起。</strong><br><br>19歳になって分かってきました。<br>幸福感。寂しい心を癒してくれるんです。<br><br><strong>到了19岁才知道了。</strong><br><strong>幸福感。能治癒我寂寞的心灵。</strong><br>ドラフト二期生のいまむらまりあちゃん。<br><br><strong>选秀二期生的今村麻莉爱酱。</strong><br>私にとって、顔、声、サイズといい、この世の生き物と思えない可愛さです。<br><br><strong>对我来说，不管是表情，声音，身高，感觉是不存在于这个世界的可爱。</strong><br>HKT48には、とびきり<br>いや、そんなこと言うとハードルが上がってしまうので<br>そこそこ可愛いメンバーが沢山いるので皆さん発掘していってくださいねーo(^▽^)o<br><br><strong>HKT48里是，鹤立鸡群</strong><br><strong>不对，说这种话感觉会吹过头了</strong><br><strong>挺可爱的成员还是有很多的大家都去发掘吧o(^▽^)o</strong><br><br>推し変🙅○<br>推し増し🙆×<br><br><strong>变推🙅○</strong><br><strong>加推🙆×</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月9日 21:16:28 JST<br>件名: フラワースタンド<br><br>HKT48の方もすごかったけど<br>こっちも好きだなーo(^▽^)o<br><strong>HKT48那边的虽然也很厉害</strong><br><strong>这边也很喜欢啊o(^▽^)o</strong><br><br>青が凛としてて綺麗。<br>落ち着いた大人の女性って感じする。<br><strong>蓝色的很帅很漂亮。</strong><br><strong>像是安静的成年女性的感觉。</strong><br>青が似合う女性になりたいですね。<br><strong>想要成为适合蓝色的女性呢。</strong><br>サーフボードも私の大好きな<br>真夏のサーフボードからイメージしてつくってくださったみたい。<br><strong>冲浪板也是我很喜欢的</strong><br><strong>好像是从真夏的冲浪板里面得到的灵感。</strong><br>嬉しい^o^<br>可愛いし、オシャレやけん、家にかざっとこっと。<br><strong>很开心^o^</strong><br><strong>好可爱，很新潮的，要装饰在家里。</strong><br><br>ありがとうございます！！<br>大切にするけん！！<br><strong>十分感谢！！</strong><br><strong>会好好保存的！！</strong><br>');
+
+
+

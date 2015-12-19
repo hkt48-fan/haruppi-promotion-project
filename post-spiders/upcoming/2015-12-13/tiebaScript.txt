@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月13日 11:41:28 JST<br>件名: やっほー！<br><br>ねー！！！みてみて<br><strong>呐！！！快看快看</strong><br><br>この前、ふらーっと博多駅にいったら…<br><strong>之前，突然跑到博多站…</strong><br>すごーく綺麗やった^o^<br>うっとり〜<br><strong>非常漂亮的^o^</strong><br><strong>着迷〜</strong><br>でも、周りをみるとカップルばかりで人が多いし<br>1人やったしレッスン終わりのお洋服やったけん、場違いかなーって恥ずかしくなっちゃって急いで歩いたよ（；＿；）<br><strong>不过，看了周围都是秀恩爱的人好多</strong><br><strong>我只有1个人还穿着练习结束后的衣服，感觉是跑错片场一样变的很害羞就加快了脚步哦（；＿；）</strong><br>ぁあーあ、誰か一緒にいってくれないかなぁ…<br><strong>啊啊~~啊，谁能和我一起逛啊…</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月13日 11:46:27 JST<br>件名: 私の頭の中<br><br>19歳3ヶ月くらいの私の頭の中。<br><strong>19岁零3个月左右的我的头脑中。</strong><br>やっぱり、芸能の世界で夢を叶えたーいが1番やね！<br><strong>果然，在艺能的世界想要实现梦想是最重要的呢！</strong><br><br>何のために生きてる？って気がれたら<br>即答で、今は本当に夢一直線。<br><strong>为了什么而活着？被这样问的话</strong><br><strong>立即回答，现在真是朝着梦想一直线。</strong><br><br>みんなの喜ぶ顔見たいし、<br>みんながいたからここまでこれたし<br>お返ししたい。<br><strong>想要看到大家喜悦的表情，</strong><br><strong>因为有大家在才能有今天的我</strong><br><strong>想要回报大家。</strong><br><br>できとーか分からんけどね。<br><strong>不过不知道是不是能成功呢。</strong><br><br>伝えなきゃいけないこたあのに、言ってなかったり言えなかったり<br>ここキメ！ってところで上手くできないし、<br>まだまだ、半人前だなーって感じこと自分で分かってるから、頑張らなきゃ！って思うんだ。<br><strong>明明有必须传达的事情，忘了说或是说不好</strong><br><strong>重点环节！的地方却没能很好的传达，</strong><br><strong>我也明白，自己还是非常的不成熟，必须要努力！这样去掉的。</strong><br>やること沢山あって嬉しい。<br>攻略しがいがあるもん。<br><strong>有许多事情可以做很开心。</strong><br><strong>很值得去攻略嘛。</strong><br><br>最初から100レベルの主人公なんて楽しくない！<br><strong>一开始就是100级的主人公就没意思了！</strong><br><br>0からでも沢山経験して頑張れば追付けるんだしね！<br><strong>就算从0开始能够积累许多经验只要去努力就能追赶上呢！</strong><br><br>人生ゲームだと思ったら楽しいよん( ´ ▽ ` )ノ<br><strong>想着是人生游戏就会很尽兴了( ´ ▽ ` )ノ</strong><br><br>あー、なんか語っちゃってるー<br>恥ずかし、、、<br><strong>啊~~，说的我自己</strong><br><strong>也害羞了、、、</strong><br>あなたにしか、こんなこと語れないんだから！<br><strong>因为只有对你，才会说这些话的啦！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月13日 11:51:28 JST<br>件名: レベル0<br><br>はるかは、HKT48という世界に入った。<br>博多で活動した。<br>周りにはライバルが20人くらいいた。<br>最初のノルマはレッスン。<br>経験者が多い中、歌もダンスも未経験、レベル0からのスタートだった。<br><strong>haruka，进入HKT48这个世界。</strong><br><strong>在博多进行活动。</strong><br><strong>周围有20个人左右的对手。</strong><br><strong>最初的日常就是练习。</strong><br><strong>在许多有经验的人之中，演唱和舞蹈都没有经验，是从等级0开始的。</strong><br><br>といった感じかな？<br><strong>就是这样的感觉吧？</strong><br><br>でもまー、レベルなんて自分の中だけで分かっていればよくて<br>人の魅力となると、レベルなんて関係ないよね。<br><strong>不过呢，等级什么的只要在自己心中明白就好了</strong><br><strong>说到个人的魅力，与等级就没关系了呢。</strong><br><br>アイドルは最低限の歌とかダンススキルはもっていなきゃいけなから。<br><strong>偶像必须要有最低限度的演唱与舞蹈的技能才行。</strong><br><br>みんな上手だし、ステージでキラキラしてるし。先輩方とかみていると、もっと頑張らなきゃ！って思うんだ！<br><strong>大家都很拿手，在舞台上都闪闪发亮的。看到前辈们后，必须要更加努力才行了！这样想的！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月13日 19:32:01 JST<br>件名: orange<br><br>お仕事の空き時間に映画観てきたよー！！<br><strong>在工作的空闲时间里去看了电影哦！！</strong><br><br>漫画が原作になっている映画で<br>漫画を先に読んでから映画をみたのは初めてやったっちゃん^o^<br><strong>由原作漫画改编的电影</strong><br><strong>之前先读过漫画了再去看电影还是第一次^o^</strong><br>なるほどね！<br>展開が分かっちゃうのね！笑<br><strong>原来如此呢！</strong><br><strong>剧情全知道了呢！笑</strong><br><br>慣れてないから、先が分かってながらの<br>感情移入の仕方が分からなくて戸惑っちゃった( ；´Д｀)<br><strong>对已经知道剧情的，还不习惯嘛</strong><br><strong>不知道要如何去投稿感情有点困惑( ；´Д｀)</strong><br>みんな、どうやってるんだろう？<br>気になるぅ〜<br><strong>大家，是什么样的感觉呢？</strong><br><strong>好在意〜</strong><br>');
+
+
+

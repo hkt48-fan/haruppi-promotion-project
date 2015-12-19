@@ -1,0 +1,8 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月11日 10:11:27 JST<br>件名: おはの！<br><br>よっしゃ！<br><strong>哟夏！</strong><br><br>今日も1日ノルマがたぁーくさん！<br><strong>今天1天也有许多工作！</strong><br><br>いまのうちにやっておけば、休める時間が増えるので今日は集中してがんばるよん！<br><strong>早点做完的的话，就有更多时间休息了今天要集中精神加油了！</strong><br>できるできるー！！<br><strong>能行能行！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月11日 22:26:43 JST<br>件名: そういえば！<br>今日劇場でまりあちゃんにあったんやけど、<br>珍しくまりあちゃんから近づいてきてくれたなーと思ったら、<br>『まりあじゃなくてまりやです！』だって（；＿；）<br><strong>今天在剧场见到麻莉爱酱了，</strong><br><strong>还以为难得的麻莉爱酱来接近我了，</strong><br><strong>『不是maria是mariya！』这么说（；＿；）</strong><br><br>可愛い！！<br><strong>好可爱！！</strong><br>その前にごめんなさい。<br>この前名前間違えちゃっていました（；＿；）<br><strong>之前对不起了。</strong><br><strong>之前把名字搞错了（；＿；）</strong><br>まりあちゃーん！！<br><strong>麻莉爱酱！！</strong><br>');
+
+
+
