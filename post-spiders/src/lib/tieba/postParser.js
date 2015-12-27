@@ -3,7 +3,7 @@ import moment from 'moment';
 import _ from 'lodash';
 import similarity from 'string-similarity'
 
-var googlePosts=loadGooglePlusPosts('./posts/google-plus',10)
+var googlePosts=loadGooglePlusPosts('../../../posts/google-plus',60)
 console.log("------------");
 console.log(googlePosts.length);
 console.log();
@@ -51,7 +51,8 @@ class PostParser{
 
         // failed match any parser
         //
-        // console.log("not match any")
+        console.log("not match any parser")
+        console.log(post.plain || '');
         // console.log(post.html);
         // throw new Error("post.html error")
         return {
@@ -72,12 +73,12 @@ postParser.registerParser('mobile-mail',function(post){
     }
     var lines = post.html.split('<br>');
 
-    console.log("try mm: " + lines[0]);
+    // console.log("try mm: " + lines[0]);
     if (lines[0].indexOf('hakata_haruppi@sp.hkt48.jp')===-1) {
-        console.log("fail");
+        // console.log("mobile mail fail");
         return result;
     }
-    console.log("success mobile-mail");
+    // console.log("success mobile-mail");
     var secondLine = lines[1];
     var matchs = secondLine.match(/(\d+年\d+月\d+日 \d+:\d+:\d+)/);
     if (!matchs) {
@@ -114,22 +115,23 @@ postParser.registerParser('google-plus', function(post){
     }
     var lines = post.html.split('<br>');
 
-    console.log("try gp: " + lines[0]);
+    // console.log("try gp: " + lines[0]);
     if (lines[0].indexOf('兒玉遥公开分享')===-1 && lines[0].indexOf('儿玉遥公开分享')===-1) {
-        console.log("gp fail");
+        // console.log("google+ fail");
         return result;
     }
 
 
     // console.log(this);
     // console.log(googlePosts.length);
-    var matched = similarity.findBestMatch(post.html,googlePosts.map(p=>p.content));
-    console.log("rating: " + matched.bestMatch.rating);
+    var plainHtml = post.html.replace(/<strong>(.*?)<\/strong>/g, '')
+    var matched = similarity.findBestMatch(plainHtml, googlePosts.map(p=>p.content));
+    console.log("google+ rating: " + matched.bestMatch.rating);
     if (matched.bestMatch.rating < 0.45 ) {
         return result;
     };
 
-    console.log("success google plus");
+    // console.log("google+ success");
 
     var target = _.find(googlePosts,{content: matched.bestMatch.target})
 
@@ -140,7 +142,7 @@ postParser.registerParser('google-plus', function(post){
     // throw new Error("errrrrrrrrrr")
 
     // post.content = post.html;
-    post.published = target.published;
+    post.published = target.published.replace(/\.\d+$/, '');
     post.images= target.images;
     post.videos= target.videos;
     post.sourceUrl =target.url;

@@ -22,9 +22,10 @@ var tiebaRequest = requestBase.defaults({});
 var m = moment(process.argv[2],'YYYY-MM-DD');
 
 var dateString = m.format('YYYY-MM-DD');
+var yearMonthString = m.format('YYYY-MM');
 
-const postsPath = path.join(__dirname,'posts','tieba-macross');
-var dest = path.join(__dirname,'upcoming',dateString);
+const postsPath = path.join(__dirname,'..' ,'posts','tieba',yearMonthString);
+var dest = path.join(__dirname,'..','upcoming',dateString);
 fs.access(dest,(err)=>{
     if (true ||err) {
         try{

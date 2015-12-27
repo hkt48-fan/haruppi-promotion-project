@@ -10,6 +10,7 @@ class ConfigManager{
 
     save(){
         var configPath = path.join(__dirname, './configs.json')
+        // console.log(this.configs);
         fs.writeFileSync(configPath, JSON.stringify(this.configs, null, 4));
     }
 }
