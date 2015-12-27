@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月23日 14:21:28 JST<br>件名: おひる<br>おひるでよーん(・o・)<br><strong>中午了哦(・o・)</strong><br><br>今日は、握手会だし、クリスマスイブイブだし<br>みんなに会うから可愛くしとこーっておもって<br>爪整えたの！！<br><strong>今天是，有握手会，也是圣诞夜</strong><br><strong>因为要见大家所以想打扮的可爱一点</strong><br><strong>整了指甲！！</strong><br><br>年末ここにきて謎の女子力発揮。笑<br><strong>年末到了现在迷之女子力发挥。笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月23日 18:41:27 JST<br>件名: 今ねー！<br><br>博多駅のイルミネーション綺麗なんだよー！！！<br><strong>博多站的霓虹灯很漂亮哦！！！</strong><br><br>もし、福岡にいるなら<br>是非みてかえってほしいなぁ\(^^)／<br><strong>如果，在福岡的话</strong><br><strong>一定要看了再回去啊\(^^)／</strong><br>来てない人も、写真で気分楽しんでもらえたら嬉しい！！<br><strong>没来的人也，看了照片感受一下气氛吧！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月23日 18:41:47 JST<br>件名: これは天神<br><br>天神にもクリスマスマーケットがあるんだ！！<br><strong>天神也有圣诞市场啊！！</strong><br><br>ソーセージとか、ステーキとか、<br>ドーナツとか、<br>あと、ライブもしててすごーく賑わってるの！<br><strong>香肠，牛排，</strong><br><strong>甜甜圈等等，</strong><br><strong>还有，在进行Live非常热闹的！</strong><br>人多すぎるけどね(´・ ・`)<br><strong>不过人太多了呢(´・ ・`)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月23日 19:16:28 JST<br>件名: 警固公園<br>これは、天神の警固公園のイルミネーションだよ！<br><strong>这是，天神的警固公园的霓虹灯哦！</strong><br>さっきの2つの場所よりは、人が少なくて静かに楽しめるかも(゜▽゜)<br><strong>比刚才那2个地方，人比较少能够安静的享受节日吧(゜▽゜)</strong><br>あんま人が多いとこいけんけん、<br>一緒に行くならこっちだねー。<br><strong>很少会去人多的地方，</strong><br><strong>要一起去的话就是这里了吧。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享 - 昨天下午8:25 <br>こんばんは＼(^^)／兒玉遥です。<br><strong>晚上好＼(^^)／是兒玉遥。</strong><br><br>今日は、今年最後の個別握手会でした！！<br><strong>今天是，今年最后的个别握手会了！！</strong><br><br>雨が振り寒い中来てくださった皆さんありがとうございました。<br><strong>下着雨在寒冷中前来的朋友们十分感谢。</strong><br><br>１年を振り返ってお話をしましたが<br>ツアーに、総選挙、<br>明治座に博多座、横浜アリーナコンサート、マジすか学園5、アドレナリンの夜、初の映画主演…<br><strong>聊着回首1年的话题<br>巡演，总选举，<br>明治座和博多座，横浜竞技场演唱会，马路须加学园5，肾上腺素之夜，初次的电影主演…</strong><br><br>いろんな話題が飛び交っている１年を過ごすことができ<br>また、ファンの皆さんと一喜一憂し<br>共に感情を分かち合える人がいるということが<br>本当に本当に幸せだなと感じました。<br><strong>度过了各种话题交织的1年<br>又和，饭们一起有喜有忧<br>能有一起交流感情的人在<br>真的真的感觉很幸福。</strong><br>私は、皆さんの応援なしではここまで来られなかったし<br>こんなにも楽しんでこの活動ができるのも<br>皆さんがいてくださるからです。<br><strong>我是，如果没有大家的应援就没法走到今天的<br>能这么尽兴进行活动也是<br>因为有大家在的关系。</strong><br><br>今年は、そのおかげで<br>人生で一番充実した1年でした。<br><strong>今年是，托了大家的福<br>度过了人生最充实的1年。</strong><br><br>ありがとうございました！！<br><strong>十分感谢！！</strong><br><br>まだ終わっていませんが…笑<br><strong>虽然还没有结束…笑</strong><br>ことあとの年末ラストスパートも頑張ります（*｀・ω・*）ゞ<br><strong>之后的年末最后冲刺也要加油了（*｀・ω・*）ゞ</strong><br><br>おやすみなさい☆<br><strong>晚安☆</strong><br>');
+
+
+

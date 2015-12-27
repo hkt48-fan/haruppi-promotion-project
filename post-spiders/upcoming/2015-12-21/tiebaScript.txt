@@ -1,0 +1,8 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月21日 21:11:38 JST<br>件名: 収録<br><br>朝からバラエティーの収録、<br><strong>早上开始综艺节目的收录，</strong><br><br>ヘトヘトだけど、ラストスパートがんばるよん！！<br><strong>虽然身心疲惫，最后冲刺加油了！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月21日 21:46:28 JST<br>件名: akbingo<br>akbingoの収録久しぶり！！！<br>このあと、もう１つ収録した、時間がないかもだから最後のメール！！<br><strong>久违的akbingo的收录！！！</strong><br><strong>之后，还有1个收录，也许没有时间是最后的邮件了吧！！</strong><br>また、明日感想おくるね！<br><strong>明天，再发感想吧！</strong><br>おやすみなさい★<br>ぷひゅーはー<br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

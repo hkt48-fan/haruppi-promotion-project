@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月17日 10:06:28 JST<br>件名: おはの！<br><br>今日は、痩せる日にしたいの！<br><strong>今天，想要作为减肥日！</strong><br><br>とは言っても、1日ではそんなに変わらんっちゃけどね（；＿；）<br><strong>虽然这样说，1天也并没有多少改变呢（；＿；）</strong><br><br>年末、お正月美味しいものいっぱい食べたいから<br>今からカロリー貯金しとかなきゃね！！<br><strong>年末，正月里想吃好多的美食的</strong><br><strong>现在必须要储备卡路里才行呢！！</strong><br><br>でも、あなたはいっぱい食べて！<br><strong>不过，你要多吃点！</strong><br><br>健康に気をつけながらが1番だけど、ストレスフリーに楽しく生きる人生にしたいし、みんなにもして欲しいって思うの！<br><strong>同时注意身体健康是最重要的，想要过上没有压力的快乐人生，希望大家也能这样！</strong><br><br>って<br>どんな立場から話してんねん(￣▽￣)笑<br><strong>是说</strong><br><strong>站在什么立场上说这话的呢(￣▽￣)笑</strong><br>今日も一日ふぁいとだぞーっ！！<br><strong>今天一天也要加油喽！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月17日 19:41:28 JST<br>件名: マッサージ<br>マッサージいってきたよん。<br>お姉さんと沢山情報交換したっちゃん^o^<br><strong>去按摩了哦。</strong><br><strong>和姐姐做了请多情报交换^o^</strong><br><br>やっぱりファスティングって身体にいいんだね〜<br><strong>果然酵素断食对身体很好呢〜</strong><br><br>酵素を意識的にとりいれることが大切なんだって。<br><strong>有意识的去摄取酵素是很重要的。</strong><br><br>ダイエットのカギは腸内環境を良くすることらしいから<br>今日から三日間、腸活ダイエットしてみよっと。<br><strong>减肥的关键是要改善肠内环境</strong><br><strong>今天开始的三天里，要尝试肠活减肥法。</strong><br><br>ぁあ、これはエステのお姉さんに洗脳されてるのか？<br><strong>啊啊，这个是被美容院的姐姐给洗脑了吧？</strong><br>お姉さんオススメのドリンクを買ったので頑張ってみるね。笑<br><strong>买了姐姐推荐的饮料要去努力一下呢。笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月17日 20:11:28 JST<br>件名: 主演映画<br>AKB48ショートショートの映画「9つの窓」<br><strong>AKB48超短剧的电影「9扇窗」</strong><br><br>知らないうちに公開されとったみたい！！<br>9つの物語があつまった、1話10分くらいの映画になっていて、それぞれいろんなお話が入っています！！<br><strong>不知不觉的好像就公开了！！</strong><br><strong>集合了9个故事，1话10分钟左右的电影，每一个都有不同的故事！！</strong><br><br>私は、『dark lake』で主演をさせていただきました。<br><strong>我是，在『dark lake』里担任主演。</strong><br><br>ジャンルで言えばホラーなのかな？<br><strong>要说类型的话应该是恐怖电影吧？</strong><br><br>私なりの全力で、お芝居にチャレンジさせていただきました！<br><strong>以我的方式全力的，去挑战了演戏了！</strong><br><br>吸血鬼役です。<br><strong>吸血鬼角色。</strong><br><br>夢に少しでも近づけるように<br>目の前にあるチャンスでちゃんと私を残していかなきゃね。<br><strong>为了能更接近梦想</strong><br><strong>眼前的机会必须要留下自己的脚印才行呢。</strong><br><br>1/30からブリリアショートシアターで先行公開される予定です！<br><strong>1/30开始Brillia Short Shorts Theater预定先行公开了！</strong><br>お楽しみに〜♪<br><strong>敬请期待〜♪</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月17日 22:11:38 JST<br>件名: 明日！<br><br>明日は、初日の前の日だよー！<br><strong>明天是，初日的前一天哦！</strong><br><br>HKT48ひまわり組<br><strong>ただいま恋愛中公演</strong><br><br>私なりの目標は、チームAで兼任していた時と同じ公演だから<br>今の私の曲の解釈で表現すること(￣▽￣)<br><strong>我自己的目标是，因为是与在兼任TeamA的时候相同的公演</strong><br><strong>要以现在的我来诠释歌曲的表现(￣▽￣)</strong><br>がんばるぞー！！！！<br>よし、いまから確認。<br><strong>加油喽！！！！</strong><br><strong>哟西，现在开始确认。</strong><br>明日初日の気分だったけど、リハーサルだった。笑<br><strong>虽然已经是明天初日的气氛，不过还是彩排。笑</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
