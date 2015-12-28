@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月25日 9:26:38 JST<br>件名: おはの！<br><br>おはの〜ん！<br><strong>早上好~~！</strong><br><br>昨日ぐったりやった〜(。-_-。)<br><strong>昨天筋疲力尽了〜(。-_-。)</strong><br><br>握手会やってパワーもらっておわってすぐの移動でしょー<br>そして、年末までの大量の荷物をホテルに広げて<br>次の日朝からスケジュールみっちり！！<br><strong>握手会上得到了能量后马上就是移动了</strong><br><strong>然后，到年末为止的大量的行礼摆在旅馆里</strong><br><strong>第二天早上开始就行程满满！！</strong><br>達成感ある毎日( ´ ▽ ` )ノ<br><strong>每天都有达成感( ´ ▽ ` )ノ</strong><br><br>毎年思うけど、HKT48に入った初期の頃<br>紅白やカウントダウンTVとか、年末歌番組にたくさんでている先輩方をみて<br>すごく忙しそうだし、大変そうって思ったけど<br>ステージでは、イキイキ、キラキラしているなーって…<br><strong>每年都会想，刚加入HKT48初期的时候</strong><br><strong>红白和countdown TV等等，看着前辈们出演许多年末的歌曲节目</strong><br><strong>感觉非常忙碌，应该没辛苦吧</strong><br><strong>在舞台上，充满活力，闪闪发光啊…</strong><br>そのメンバーへの道のりは長いなぁ。。。<br>そん感じながらも4年間進んできたんだ。<br><strong>要追上这些成员的道路很长啊。。。</strong><br><strong>怀着这样的感觉已经过了4年了。</strong><br>今年はどんな年末になるでしょうか？<br>あなたと一緒に楽しめる年末にしたいな。<br>思い出作り^o^<br><strong>今年会是怎么样的年末呢？</strong><br><strong>想要与你一起享受年末啊。</strong><br><strong>制造回忆^o^</strong><br>今日も1日、えいえいおーっ！！、<br><strong>今年1天也，嗨嗨吼~~！！、</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月25日 15:56:33 JST<br>件名: おやつ<br><br>おやつが食べたくなってくる時間だね〜<br><strong>到了想要吃零食的时间了呢〜</strong><br>と言ってもさっき食べたっちゃけどね（−＿−；）笑<br><strong>虽然这么说刚才吃过了呢（−＿−；）笑</strong><br><br>甘いものっていつでも食べたい。<br>携帯の絵文字の食べ物欄みてるだけでお腹すく。<br><strong>甜食一直都想吃。</strong><br><strong>看了手机的绘文字的食物栏里就饿了。</strong><br><br>末期。笑<br>サツマイモって入力してみて…<br><strong>末期。笑</strong><br><strong>输入的萨摩番薯后…</strong><br>ほらね？<br>あれ、そうでもなかったり？<br><strong>看吧？</strong><br><strong>啊来，也并不是这样？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月25日 19:01:28 JST<br>件名: mステ<br><br>ぜひぜひ、みてくださいねー！<br><strong>请一定一定，要看哦！</strong><br><br>そして、見つけてください！<br>私もテレビの向こうの皆さんに向けて<br>笑顔を届けーって気持で歌ってきます！<br><strong>然后，要找到我！</strong><br><strong>我也会对着电视机对面的朋友们</strong><br><strong>以将笑容传达过去的心情去演唱的！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月25日 22:37:23 JST<br>件名: みたー？<br>みていただけましたかー？<br><strong>有看了吗？</strong><br>前田敦子さんのサプライズムービーびっくりしたぁ！！！<br><strong>前田敦子桑的惊喜影像吓了一跳啊！！！</strong><br><br>リハーサルのときなかったけん、メンバーみんなも予想外。<br><strong>彩排的时候没有的，成员们大家也是预想外。</strong><br><br>今回選抜として出演できて良かったです(*゜▽゜)ノ<br><strong>这次能作为选拔出演太好了(*゜▽゜)ノ</strong><br><br>このあとも、すこーしでるけん…<br>みとってねーん<br><strong>之后也，会有一点点出场…</strong><br><strong>要看哦</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月25日 22:46:28 JST<br>件名: おやすみ<br><br>年末、、、<br><br>充実した日々を過ごせている。。。<br>うん、きっと<br><strong>过着充实的第天。。。</strong><br><strong>恩，一定</strong><br><br>おやすみなさい☆<br>ぷひゅーはー<br><strong>晚安☆</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

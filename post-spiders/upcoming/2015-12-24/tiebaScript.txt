@@ -10,3 +10,7 @@ UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下�
 
 
 
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月24日 22:39:24 JST<br>件名: happymerryChristmas！<br>珠理奈さんの壮行会公演おわったー！<br><strong>珠理奈桑的壮行会公演结束了！</strong><br><br>素敵な公演だったなぁ、、、<br>珠理奈さんの熱いハートと<br>客席の温かい声援で<br>とってもホットな公演やった！！<br><strong>美妙的公演啊、、、</strong><br><strong>珠理奈桑的热情的内心</strong><br><strong>有观众们的温暖声援</strong><br><strong>是一场非常温馨的公演！！</strong><br><br>あ！このお菓子珠理奈さんがチーム全員分作ってくださったの！<br><strong>啊！这个零食是珠理奈桑为Team全员作的！</strong><br><br>アップルパイ！<br><strong>菠萝派！</strong><br><br>もったいなくて、食べられないー（；＿；）<br><strong>太可惜了，不舍得吃（；＿；）</strong><br><br>1日バタバタしていましたが、<br>たくさん想い出ができて幸せなクリスマスイブでした！<br><strong>1天忙忙碌碌的，</strong><br><strong>有了许多的回忆幸福的圣诞夜！</strong><br><br>あなたはどんな1日やったー？<br><strong>大家过了怎么样的1天呢？</strong><br><br>おやすみなさい★<br>ぶひゅーはー<br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+
