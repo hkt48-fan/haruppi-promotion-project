@@ -19,8 +19,15 @@ var LiveManager = function(){
         return;
       }
       else{
-        var room = JSON.parse(data);
-        self.bag.room = _.filter(room,{show_status:1});
+        try{
+          var room = JSON.parse(data);
+          self.bag.room = _.filter(room,{show_status:1});
+        }
+        catch(e){
+          console.log('parse live info failed.');
+          console.log(e);
+        }
+
       }
 
       setTimeout(self.refreshRoom,5*60*1000);
