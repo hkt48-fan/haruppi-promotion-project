@@ -148,7 +148,7 @@ var userMsgCommands = [
       // content += '▪️ (http://www.zhanqi.tv/akb49)\n';
       content += '▪️perf: 当日HKT48公演信息\n';
       content += '▪️hkt: HKT48冷知识\n';
-      content += '▪️harupp: 兒玉遥迷你档案\n';
+      content += '▪️haruppi: 兒玉遥迷你档案\n';
       // content += '▪️红包: 当天红包密令(双11限定)\n';
       content += '▪️有任何建议请在这里留言';
 
