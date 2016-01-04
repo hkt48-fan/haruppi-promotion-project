@@ -1,0 +1,4 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2015年12月31日 11:56:31 JST<br>件名: おはの！<br><br>いよいよ大晦日！！<br><strong>马上就到除夕了！！</strong><br>わー！<br>でも、いつも通り集合して移動してメイクしてステージに立って…<br><strong>哇~~！</strong><br><strong>不过，和平时一样去集合移动化妆站在舞台上…</strong><br>年末感は感じてないなー<br>いつものお仕事の延長線って感じで楽しんでる！<br><strong>感受不到年末的感觉啊</strong><br><strong>感觉是像平时的工作的延长线一样很享受！</strong><br><br>ステールは違うから見の引き締まりはやっぱ違うけど。<br><strong>体积的不同所看到的紧张就果然不同。</strong><br><br>紅白歌合戦にカウントダウンTV<br>今日は、やる気に満ちあるれてる1日。<br><strong>红白歌合战和Countdown TV</strong><br><strong>今天是，充满了干劲的1天。</strong><br>');
+
+
+
