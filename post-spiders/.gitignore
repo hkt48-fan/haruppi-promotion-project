@@ -3,4 +3,5 @@ node_modules/
 .credential.json
 .token.json
 fullScript.txt
+fullGooglePlus.html
 build/

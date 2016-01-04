@@ -19,7 +19,7 @@ else{
     m.add(1, 'day');
   }
 
-  var output='<p><strong><span style="font-size: 14px;">今日动态</span></strong></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><span style="font-size: 14px;">item1</span></p></li><li><p><span style="font-size: 14px;">item2<br/></span></p></li></ul><p><br></p><p><strong><span style="font-size: 14px;">近期出演/活动(北京时间)</span></strong></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><span style="font-size: 14px;">item1</span></p></li><li> <p><span style="font-size: 14px;">item2</span></p></li></ul><p><span style="font-size: 14px;"><br/></span></p><p><strong><span style="font-size: 14px;">SNS更新</span></strong></p>';
+  var output='<p><strong><span style="font-size: 14px;">近期动态</span></strong></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><span style="font-size: 14px;">item1</span></p></li><li><p><span style="font-size: 14px;">item2<br/></span></p></li></ul><p><br></p><p><strong><span style="font-size: 14px;">近期出演/活动(北京时间)</span></strong></p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li><p><span style="font-size: 14px;">item1</span></p></li><li> <p><span style="font-size: 14px;">item2</span></p></li></ul><p><span style="font-size: 14px;"><br/></span></p><p><strong><span style="font-size: 14px;">SNS更新</span></strong></p>';
   dateList.forEach(p=>{
     // console.log(path.join(p,'plain.txt'));
     var fileData = fs.readFileSync(path.join(p,'plain.txt'));
