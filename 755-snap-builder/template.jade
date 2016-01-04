@@ -88,6 +88,12 @@ mixin body-retalk(body)
             +body(body.sourceBody,true)
             +body(body.sourceBody,true,true)
 
+          when 4
+            //- quotation
+            +body(body.sourceBody,true)
+            +body(body.sourceBody,true,true)
+
+
 mixin body-video(body)
   p.tp.tp-r
     img.tp_g(src=body.thumbnailUrl)
@@ -182,16 +188,16 @@ html
                     +body(post.body)
                     +body(post.body,false,true)
 
-            li.box.ltp.bottom
+            //- li.box.ltp.bottom
 
-              //- p.tp.tp-s
-              //-   | 翻译: @根基挡炎爆
+            //-   //- p.tp.tp-s
+            //-   //-   | 翻译: @根基挡炎爆
 
-              p.tp.tp-s
-                span.tp-ts
-                  | #{(new Date()).toLocaleString()}
-              p.tp.tp-s
-                span.tp-ts Powered by hkt48-fan/haruppi-promotion-project@github
+            //-   p.tp.tp-s
+            //-     span.tp-ts
+            //-       | #{(new Date()).toLocaleString()}
+            //-   p.tp.tp-s
+            //-     span.tp-ts Powered by hkt48-fan/haruppi-promotion-project@github
 
 
 
