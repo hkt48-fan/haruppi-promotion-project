@@ -29,24 +29,27 @@ module.exports = function(req,res,next){
   var userId = xml.fromusername[0];
   var createTime = xml.createtime[0];
   var user = db('users').find({userId: userId});
-  console.log(user);
 
+  var addNew = false;
   if (!user) {
     // create user object
     user = {
       userId: userId,
       subscribe: false,
-      lastUpdate: createTime,
       subscribeLog: []
     }
+    addNew = true;
   }
   user.subscribeLog.push({
     event: event,
     date: createTime
   });
+  user.lastUpdate = createTime;
   user.subscribe = (event === 'subscribe')?true:false;
 
-  db('users').push(user);
+  if(addNew){
+    db('users').push(user);
+  }
   db.write();
 
   return next();
