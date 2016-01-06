@@ -22,19 +22,21 @@ module.exports = function(req,res,next){
   var msgtype = xml.msgtype[0];
   var event = xml.event[0];
   if(msgtype !== 'event' ||
-    !permitEvent.includes(event)){
+    permitEvent.indexOf(event)===-1){
     return next();
   }
 
   var userId = xml.fromusername[0];
   var createTime = xml.createtime[0];
   var user = db('users').find({userId: userId});
+  console.log(user);
 
   if (!user) {
     // create user object
     user = {
       userId: userId,
       subscribe: false,
+      lastUpdate: createtime,
       subscribeLog: []
     }
   }
