@@ -24,7 +24,10 @@ var TokenManager = function(){
     req.end();
 
     req.on('error',function(e){
-      throw e;
+      //throw e;
+      console.log('exception on refresh token of wechat server, retry later...')
+      console.log(e);
+      setTimeout(self._startRefresh, token.expires_in * 1000);
     });
   };
 

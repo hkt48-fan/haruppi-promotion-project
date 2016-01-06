@@ -16,7 +16,7 @@ var LiveManager = function(){
 
       if (err) {
         console.log(err);
-        return;
+        //return;
       }
       else{
         try{
@@ -40,11 +40,19 @@ var LiveManager = function(){
 
       if (err) {
         console.log(err);
-        return;
+        //return;
       }
       else{
-        var schedule = JSON.parse(data);
-        self.bag.schedule = schedule;
+
+        try{
+          
+            var schedule = JSON.parse(data);
+            self.bag.schedule = schedule;
+        }
+        catch(e){
+            console.log(e);
+            //return;
+        }
       }
 
       setTimeout(self.refreshSchedule,15*60*1000);
