@@ -36,7 +36,7 @@ module.exports = function(req,res,next){
     user = {
       userId: userId,
       subscribe: false,
-      lastUpdate: createtime,
+      lastUpdate: createTime,
       subscribeLog: []
     }
   }
