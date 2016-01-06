@@ -6,6 +6,7 @@ var performanceManager = require('./performanceManager');
 var config = require('./config');
 
 // middlewares
+var userTracker = require('./middleware/userTracker');
 var verify = require('./middleware/verify');
 var replier = require('./middleware/replier');
 var moderator = require('./middleware/moderator');
@@ -28,6 +29,7 @@ app.use(xmlparser());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/',verify);
+app.post('/',userTracker);
 app.post('/',replier);
 app.post('/',moderator);
 

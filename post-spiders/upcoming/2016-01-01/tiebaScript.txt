@@ -1,0 +1,8 @@
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2015年12月31日 <br>あけましておめでとうございます！<br><strong>新年快乐！</strong><br>今年もよろしくお願いしますo(^▽^)o<br><strong>今年也请多多关照o(^▽^)o</strong><br><br>ありきたりな言葉ですいません…<br><strong>都是些客套话对不起…</strong><br><br>このあともカウントダウンＴＶに生出演します！<br>頑張るけん！<br><strong>之后要现场出演CountdownTV！</strong><br><strong>加油了！</strong><br><br>年末年始の内容濃すぎて今日中にはまとめられなそうなので<br>また、後日更新します(´･ ･`)<br><strong>年末年初的内容太多了今天一天应该不太能整理清楚</strong><br><strong>等到，后几天再更新(´･ ･`)</strong><br>今年も、楽しい1年になりますように…<br><strong>今年也，希望能度过快乐的1年…</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月1日 13:36:38 JST<br>件名: あけましておめでとうございます<br><br>あけおめー！！！！！<br><strong>新年好！！！！！</strong><br>遅くなっちゃった！<br>今回の年末は人生で1番バタバタしてた！<br><strong>有点晚了！</strong><br><strong>这次的年末是人生最忙忙碌碌的时候！</strong><br>いろいろと考えさせられたこともあったけど<br>楽しく１年の追われたよ！<br><strong>虽然各种各样考虑了很多</strong><br><strong>快乐的追赶了1年哦！</strong><br><br>今は始発でおうちに帰ってきて、やっとゆっくりできてかしこまりたい気分じゃないから、またあとでメールするね。<br><strong>现在能乘着头班车回家，终于能放松下来不想要正襟危坐的，等会儿再发邮件吧。</strong><br><br>家族とゆっくりすごします。<br><strong>和家人悠闲度过。</strong><br>ひとまず、昼寝。笑<br><strong>首先，午睡。笑</strong><br>');
+
+
+
