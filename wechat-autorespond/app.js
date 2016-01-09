@@ -6,7 +6,7 @@ var performanceManager = require('./performanceManager');
 var config = require('./config');
 
 // middlewares
-var meroppiTest = require('./middleware/meroppiLevelAssesment');
+var meroppiTest = require('./middleware/meroppiLevelAssessment');
 var userTracker = require('./middleware/userTracker');
 var verify = require('./middleware/verify');
 var replier = require('./middleware/replier');
