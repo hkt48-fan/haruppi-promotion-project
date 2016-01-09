@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月5日 17:41:27 JST<br>件名: はぁ…<br>新年…<br>大吉やったけど…<br><strong>新年…</strong><br><strong>虽然抽到大吉…</strong><br>今日は、体調が悪くてぐったり（；＿；）<br><strong>今天，身体不舒服瘫软无力（；＿；）</strong><br><br>ずぅーっと布団の中。<br>こんな正月もいいか。<br><strong>一直窝在被窝里。</strong><br><strong>这样的正月也不错啊。</strong><br>今年は正月休みながめなのです。<br><strong>今年正月休假比较长的。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月5日 22:11:43 JST<br>件名: 明日から<br>明日から仕事はじめっちゃん！！<br>いよいよだな。今年が始まる。<br><strong>明天开始要工作了！！</strong><br><strong>终于啊。今天要开始了。</strong><br>こんなにあっという間に正月が過ぎたって考えると、おそろしー！！！<br><strong>想着正月转瞬即逝后，好可怕！！！</strong><br><br>リクアワにツアーに、総選挙もすぐきちゃうんだろうなぁ…<br><strong>RH和巡演，总选举也很快就会到了啊…</strong><br><br>悔いのない毎日過ごさなきゃだね。<br><strong>要度过没有悔恨的每天才行呢。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月5日 22:11:53 JST<br>件名: かくど<br>下からのショット。<br>ヘアメイクさんに飾りつけてもらってるとき、勝手に取撮ってた( ；´Д｀)<br><strong>从下往上的照片。</strong><br><strong>发型师为我戴上头饰的时候，自说自划拍的( ；´Д｀)</strong><br>このアングル、ぶちゃいくだからメールだけ！<br><strong>这个角度，很丑的所以只发邮件！</strong><br><br>あなた以外の人に見られたくないけん、すぐ消してー<br><strong>不想让你以外的人看到，快点删掉</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午10:02 <br>『愛』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です。<br><strong>『愛』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥。</strong><br><br>昨日のググタス投稿の皆さんのコメントを読んで<br>涙目です、、、<br><strong>读了大家对昨天G+投稿的回复后</strong><br><strong>快哭了、、、</strong><br><br>皆さんは、いつも優しく<br>丸い心で私を受け止めてくださって<br>元気にさせてくれる。<br><strong>大家，一直都很温柔</strong><br><strong>用宽容的心接受了我</strong><br><strong>让我有了元气。</strong><br><br>もう、どっちがアイドルか分かりませんね。笑<br><strong>已经，不知道哪边是偶像了呢。笑</strong><br><br>お正月、ゆっくりできて良い息抜きになりました。<br><strong>正月，能悠闲度过好好休息了一下。</strong><br><br>どうして、あんなに張り詰めていたんだろう？って思いました。<br><strong>为什么，会那样紧张的呢？这样去想。</strong><br><br>人生は長いですから、焦らず、目の前も大切だけど、もっと長いスパンで物事を考えて<br>楽しく毎日を過ごしていこうって思えるようになりました。<br><strong>因为人生还很长，不焦不燥，虽然眼前很重要，变的要以更长远的眼光去看事物度过快乐的每一天。</strong><br>明日から仕事初め！！<br>気合いを入れて！！と言いたいところですが<br>あえて、いつも通り気負わずに始めようと思います！！<br><strong>明天开始要工作了！！</strong><br><strong>打起干劲！！虽然想这样说</strong><br><strong>更加要，像平时一样不带压力的开始工作！！</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+

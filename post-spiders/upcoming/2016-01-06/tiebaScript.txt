@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月6日 13:51:33 JST<br>件名: おはの！<br>もう、お昼だよー！<br>あっという間！！<br><strong>已经，是中午了哦！</strong><br><strong>转瞬即逝！！</strong><br><br>正月けっこたべたけん、朝起きてから、体重測ったんやけど<br>変わってなかった！！<br><strong>正月里吃了挺多了，早上起来，称了下体重</strong><br><strong>没有改变！！</strong><br><br>よかった〜<br>でもでも、気を抜くのはだめだし<br>あともう少しがんばりたい部分があるから頑張るよん\(^^)／<br><strong>太好了〜</strong><br><strong>不过不过，不能放松了</strong><br><strong>还有些部分想要去努力一下会加油的\(^^)／</strong><br><br>あなたも応援してね〜<br><strong>你也要为我应援呢〜</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月6日 16:46:38 JST<br>件名: おはの！<br>仕事始め、気合い入れずに気楽に行こうと思ったけど、やっぱりなんなかんだ気合い入る！！！笑<br><strong>开始工作，虽然想不要太生硬轻松的去做的，果然还是会不自觉的打起干劲！！！笑</strong><br><br>スタート肝心って言うし、、、<br><strong>都说起步很重要、、、</strong><br><br>ぁあ、なんだか年初めってだけでわくわくするねぇ<br><strong>啊啊，总觉的开年就开始兴奋了呢</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月6日 22:42:28 JST<br>件名: 仕事始め<br><br>仕事始め！<br>ＮＨＫ九州ダイスキランキング！sp<br><strong>开始工作！</strong><br><strong>NHK九州大爱排行榜！sp</strong><br><br>前回は福岡だけだったけど、今回は九州ぜんぶで放送だって！！<br><strong>上次是只有福岡的，这次是九州全部都会播放！！</strong><br><br>ありがたいです！<br>スペシャル！<br><strong>感恩啊！</strong><br><strong>特别篇！</strong><br><br>年始にふさわしいお仕事になった！<br>出来はいかほどかー？？？<br><strong>非常适合开年的工作！</strong><br><strong>表现的怎么样呢？？？</strong><br><br>1月8日(金)19:30〜19:55放送です！<br><strong>1月8日(五)19:30〜19:55播放！</strong><br><br>すぐ！笑<br><strong>很快！笑</strong><br><br>お楽しみに〜<br><strong>敬请期待〜</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月6日 22:43:22 JST<br>件名: のほほん<br><br>年初め(。・_・。)ノ<br><strong>开年(。・_・。)ノ</strong><br>無事お仕事わー迎えることができたことに感謝です。<br><strong>要感谢能顺利的迎来工作。</strong><br>おやすみなさい。<br>ぷひゅーはー<br><strong>晚安。</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+
