@@ -23,7 +23,7 @@ var testStatus = {
   prepare: 1,
   testing: 2,
   finished: 3,
-  frozen: 3
+  frozen: 4
 }
 
 function getRandomQuestions(){
@@ -63,7 +63,7 @@ var respond = function(res, xml, respdContent){
 }
 
 var paperMarking = function(paper){
-  var correctAnswers = _.chain(paper.questions).map(function(qid){var q = _.find(questions,{id: qid}); console.log(qid); return q.answer}).value();
+  var correctAnswers = _.chain(paper.questions).map(function(qid){return _.find(questions,{id: qid}).answer}).value();
   var score = 0;
   for(var i=0; i<paper.answer.length; i++){
     if (paper.answer[i] == correctAnswers[i]) {
@@ -87,18 +87,19 @@ var paperMarking = function(paper){
     }
   }
   paper.score = score;
+  // set to testStatus.frozen if test can not be redo
   paper.status = testStatus.finished;
 };
 
 var paperResult = function(paper){
-  console.log('in paperResult');
-  console.log(paper)
+  //console.log('in paperResult');
+  //console.log(paper)
   var result = '你的答卷是:\n';
   _.chain(paper.answer).forEach(function(ansId,index){
     var question = _.find(questions, {id: paper.questions[index]});
-    result += question.question + '\n';
+    result += question.question ;
     var answer = question.options[ansId];
-    result += answer + '\n';
+    result += ' (' + answer + ')' + '\n\n';
   }).value();
   result += 'score:' + paper.score;
   return result;
@@ -114,7 +115,7 @@ var getNextQuestion = function(paper){
   //console.log(question);
   var result = question.question + '\n';
   result += _.map(question.options,function(ans, index){return (index+1) + '.' + ans; }).join('\n')
-  result += '\n\n剩余: ' + parseInt(Date.now()/1000 - paper.startTime) +' 秒';
+  result += '\n\n剩余: ' + (testTime - parseInt(Date.now()/1000 - paper.startTime)) +' 秒';
   //console.log(paper.startTime)
   //console.log(Date.now())
   return result;
@@ -157,8 +158,8 @@ module.exports = function(req,res,next){
     db('paper').push(paper);
   }
 
-  console.log('current paper.status' + paper.status);
-  if ([testStatus.init, testStatus.frozen].indexOf(paper.status) !== -1) {
+  //console.log('current paper.status' + paper.status);
+  if ([testStatus.init, testStatus.finished].indexOf(paper.status) !== -1) {
     if (content !== trigger) {
       // skip while test frozen and not start
       return next();
@@ -174,7 +175,7 @@ module.exports = function(req,res,next){
       db.write();
       // respond(xml, 'instruction:\n');
       var nextQuestion = getNextQuestion(paper);
-      respond(res, xml, nextQuestion);
+      return respond(res, xml, nextQuestion);
     }
   }
 
@@ -194,20 +195,26 @@ module.exports = function(req,res,next){
         paperMarking(paper);
         db.write();
         var result = paperResult(paper);
-        respond(res, xml, result);
+        return respond(res, xml, result);
       }
       else{
         // respond next question
         db.write();
         var nextQuestion = getNextQuestion(paper);
-        respond(res, xml, nextQuestion);
+        return respond(res, xml, nextQuestion);
       }
 
     }
     else{
       // skip
-      respond(res, xml, 'incorrect answer please input 1, 2, 3 or 4\n');
+      return respond(res, xml, 'incorrect answer please input 1, 2, 3 or 4\n');
     }
   }
+
+  if(paper.status === testStatus.frozen){
+    return respond(res, xml, 'you have already finished your test\nyour score is: ' + paper.score);
+  }
+
+  next();
 
 };
