@@ -6,6 +6,7 @@ var performanceManager = require('./performanceManager');
 var config = require('./config');
 
 // middlewares
+var meroppiTest = require('./middleware/meroppiLevelAssesment');
 var userTracker = require('./middleware/userTracker');
 var verify = require('./middleware/verify');
 var replier = require('./middleware/replier');
@@ -30,6 +31,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/',verify);
 app.post('/',userTracker);
+app.post('/',meroppiTest);
 app.post('/',replier);
 app.post('/',moderator);
 
