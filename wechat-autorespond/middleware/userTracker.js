@@ -20,9 +20,12 @@ module.exports = function(req,res,next){
   }
 
   var msgtype = xml.msgtype[0];
+  if(msgtype !== 'event'){
+    return next();
+  }
+
   var event = xml.event[0];
-  if(msgtype !== 'event' ||
-    permitEvent.indexOf(event)===-1){
+  if ( permitEvent.indexOf(event)===-1){
     return next();
   }
 
