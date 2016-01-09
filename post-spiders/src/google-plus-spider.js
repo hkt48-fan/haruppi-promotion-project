@@ -12,8 +12,8 @@ import moment from 'moment';
     var outdir = configManager.configs.googlePlus.outputPath;
 
     posts.forEach(post =>{
-        var dirname = moment(post.published).utcOffset('+0900').format('YYYY-MM');
-        var filename = moment(post.published).utcOffset('+0900').format('YYYY-MM-DD HH:mm:ss') + '.json';
+        var dirname = moment(post.published).utcOffset('+0800').format('YYYY-MM');
+        var filename = moment(post.published).utcOffset('+0800').format('YYYY-MM-DD HH:mm:ss') + '.json';
 
         var outPath = path.join(__dirname, outdir, dirname);
 

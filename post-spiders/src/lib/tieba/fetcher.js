@@ -40,7 +40,10 @@ var  fetchTiebaPosts = (config)=>{
             video.remove();
 
             var html = post.html();
-            var id  = post.attr('id').replace('post_content_', '');
+
+            var id =  post.attr('id').replace('post_content_', '');
+
+
 
             var raw = {
                 tiebaId: id,
@@ -86,7 +89,7 @@ var  fetchTiebaPosts = (config)=>{
                         skipPost = true;
                     }
 
-                    var posts = $('.d_post_content');
+                    var posts = $('.d_post_content.j_d_post_content');
                     posts.each((i, ele)=>{
                         var post = $(ele);
                         var postObj = parsePostData(post);
