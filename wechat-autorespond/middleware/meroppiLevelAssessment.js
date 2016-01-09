@@ -16,7 +16,7 @@ var db = low('assessmentDb.json', {storage: storage});
 
 var permitEvent = ['subscribe', 'unsubscribe'];
 var trigger = 'meroppi';
-var testTime = 30;
+var testTime = 60;
 
 var testStatus = {
   init: 0,
@@ -67,24 +67,23 @@ var paperMarking = function(paper){
   var score = 0;
   for(var i=0; i<paper.answer.length; i++){
     if (paper.answer[i] == correctAnswers[i]) {
-      console.log('correct')
       switch(i) {
-        case 0,1:
-         console.log(15)
+        case 0:
           score += 15;
           break;
-        case 2,3:
-          console.log(20)
+        case 1:
+          score += 15;
+          break;
+        case 2:
+          score += 20;
+          break;
+        case 3:
           score += 20;
           break;
         case 4:
-          console.log(30)
           score += 30;
           break;
       }
-    }
-    else{
-      console.log('wrong')
     }
   }
   paper.score = score;
@@ -92,8 +91,8 @@ var paperMarking = function(paper){
 };
 
 var paperResult = function(paper){
-    console.log('in paperResult');
-    console.log(paper)
+  console.log('in paperResult');
+  console.log(paper)
   var result = '你的答卷是:\n';
   _.chain(paper.answer).forEach(function(ansId,index){
     var question = _.find(questions, {id: paper.questions[index]});
@@ -115,7 +114,7 @@ var getNextQuestion = function(paper){
   //console.log(question);
   var result = question.question + '\n';
   result += _.map(question.options,function(ans, index){return (index+1) + '.' + ans; }).join('\n')
-  result += '\nremains: ' + (Date.now()/1000 - paper.startTime) + '\n';
+  result += '\n\n剩余: ' + parseInt(Date.now()/1000 - paper.startTime) +' 秒';
   //console.log(paper.startTime)
   //console.log(Date.now())
   return result;
@@ -160,7 +159,6 @@ module.exports = function(req,res,next){
 
   console.log('current paper.status' + paper.status);
   if ([testStatus.init, testStatus.frozen].indexOf(paper.status) !== -1) {
-    console.log('`111');
     if (content !== trigger) {
       // skip while test frozen and not start
       return next();
@@ -176,7 +174,6 @@ module.exports = function(req,res,next){
       db.write();
       // respond(xml, 'instruction:\n');
       var nextQuestion = getNextQuestion(paper);
-      console.log(nextQuestion)
       respond(res, xml, nextQuestion);
     }
   }
@@ -186,10 +183,7 @@ module.exports = function(req,res,next){
     if (['1', '2', '3', '4'].indexOf(content) !== -1) {
       // save status and go to next question
 
-      console.log('createTime:' + createTime);
-      console.log('startTime:'+ paper.startTime);
       var isTimeout = createTime - paper.startTime > testTime;
-      console.log('isTimeout:' + isTimeout);
       if (!isTimeout) {
         paper.answer.push(--content);
         paper.progress++;
