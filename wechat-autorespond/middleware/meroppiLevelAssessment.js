@@ -57,7 +57,6 @@ var respond = function(res, xml, respdContent){
       Content: respdContent
     }
   };
-  // console.log('new follower.');
   var xml = builder.buildObject(respd);
   res.end(xml);
 }
@@ -92,8 +91,6 @@ var paperMarking = function(paper){
 };
 
 var paperResult = function(paper){
-  //console.log('in paperResult');
-  //console.log(paper)
   var result = '你的答卷是:\n';
   _.chain(paper.answer).forEach(function(ansId,index){
     var question = _.find(questions, {id: paper.questions[index]});
@@ -101,23 +98,17 @@ var paperResult = function(paper){
     var answer = question.options[ansId];
     result += ' (' + answer + ')' + '\n\n';
   }).value();
-  result += 'score:' + paper.score;
+  result += '成绩:' + paper.score;
   return result;
 }
 
 var getNextQuestion = function(paper){
   var qId = paper.questions[paper.progress];
-  //console.log('paper;');
-  //console.log(paper);
-  //console.log(qId);
 
   var question = _.find(questions, {id: qId});
-  //console.log(question);
-  var result = question.question + '\n';
-  result += _.map(question.options,function(ans, index){return (index+1) + '.' + ans; }).join('\n')
+  var result = (paper.progress + 1) + ') ' question.question + '\n';
+  result += _.map(question.options,function(ans, index){return (index+1) + '. ' + ans; }).join('\n')
   result += '\n\n剩余: ' + (testTime - parseInt(Date.now()/1000 - paper.startTime)) +' 秒';
-  //console.log(paper.startTime)
-  //console.log(Date.now())
   return result;
 }
 
@@ -212,7 +203,7 @@ module.exports = function(req,res,next){
   }
 
   if(paper.status === testStatus.frozen){
-    return respond(res, xml, 'you have already finished your test\nyour score is: ' + paper.score);
+    return respond(res, xml, '测试已经做过啦\n你的成绩是: ' + paper.score);
   }
 
   next();
