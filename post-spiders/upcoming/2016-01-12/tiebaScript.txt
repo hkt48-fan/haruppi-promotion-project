@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月12日 14:26:27 JST<br>件名: 今日！<br>今日！本日！<br>酵素断食を初めました！<br><strong>今天！本日！</strong><br><strong>开始酵素断食！</strong><br><br>やっぱりねー、がんばらなきゃ、ならんのです。<br><strong>果然呢，必须要加油，才行了。</strong><br>他人より、特別何かが優れているわけではないから<br>食事制限くらい頑張って、きれいにならなきゃ。<br><strong>比起别人，并没有那么特别的优秀</strong><br><strong>控制饮食这些努力一下，要变更漂亮才行。</strong><br><br>やって、きれいになるかと言われたらそうではないけど<br>自分の中に理想があるから近づけるようにがんばる。<br><strong>做这些，并不是想让别人对我说变漂亮了</strong><br><strong>在自己的心中有理想才能为了去接近而努力。</strong><br><br>がんばるがんばる言ってると苦しくなるから<br>楽しむって言うね\(^^)／<br><strong>一直说努力努力的会变的很辛苦的</strong><br><strong>要快乐的去说呢\(^^)／</strong><br><br>酵素断食楽しむ！<br><strong>酵素断食也要尽兴！</strong><br><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月12日 15:26:27 JST<br>件名: センター分け<br><br>今年は、センター分けな気分で年明けから結構やってるんやけど<br>周りメンバーとか、スタッフさんとかみんなから<br>初期のころのはるっぴだ！とか<br>幼くみえる！とか<br>昔を連想させるって言われる！<br><strong>今年，以中分的心情从开年开始就经常弄这个发型了</strong><br><strong>周围的成员们，士大夫们大家都说</strong><br><strong>是初期时候的哈鲁P啊！</strong><br><strong>看上去很年轻！什么的</strong><br><strong>被说会想到从前了！</strong><br>この髪型したくなる気分になったのもなんかの縁だし、しばらくつづけよっかな。笑<br><strong>会想到要弄这个发型也是某种缘分，暂时会继续的吧。笑</strong><br><br>縁ってなに(；´∀｀)笑<br><strong>缘分是啥(；´∀｀)笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月12日 21:46:38 JST<br>件名: まるちゃん<br><br>さくちゃんが飼ってる猫がすこぶる可愛い(；▽；)<br>あんなに顔まんまるな猫ちゃんみたことない！！<br><strong>樱花养的猫非常可爱(；▽；)</strong><br><strong>脸这么圆的猫还从没看到过！！</strong><br><br>会いに行く約束したけど、まだ会えとらんっちゃんねー...<br><strong>虽然约好了要去看的，不过还没去看呢...</strong><br><br>いつ会えるかな(・∀・)楽しみー！<br><strong>哪天能见到呢(・∀・)好期待！</strong><br><br>早く抱っこしたい！<br><strong>想要早点去抱抱！</strong><br><br>因みに、私はペット買う予定はありません<br>自分のお世話で精いっぱい。笑<br><strong>顺便一说，我没有养宠物的预定</strong><br><strong>照顾自己也很费劲了。笑</strong><br><br>手がかかるのよ、、、はるっぴちゃん(；´∀｀)<br><strong>很费事的哦、、、哈鲁P酱(；´∀｀)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月12日 22:27:28 JST<br>件名: 今から<br><br>深田恭子さんが出てるドラマ観よっと！<br><strong>要看深田恭子桑出演的电视剧！</strong><br><br>これ楽しみにしてたんです。<br>好きなんですよ。深田恭子さん(。・_・。)ノ<br><strong>很期待这个的。</strong><br><strong>很喜欢哦。深田恭子桑(。・_・。)ノ</strong><br>綺麗！！<br>憧れの女性！！<br><strong>漂亮！！</strong><br><strong>憧憬的女性！！</strong><br><br>勉強勉強。いろいろ。<br><strong>学习学习。各种各样。</strong><br><br>そして、755で公表した酵素断食<br>皆さん応援ありがとうございます！！<br><strong>然后，755公布的酵素断食</strong><br><strong>大家的应援十分感谢！！</strong><br><br>あと2日頑張ります！<br><strong>还要努力2天！</strong><br><br>今月、人生初の蒙古タンメン食べるって目標立てたから、そのためにも！笑<br><strong>这个月，确立了要去吃人生初次的蒙古旦面，为此也要！笑</strong><br>おやすみなさい☆<br>ぷひゅーはー<br><strong>晚安☆</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

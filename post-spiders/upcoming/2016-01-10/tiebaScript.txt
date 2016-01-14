@@ -1,0 +1,28 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 9:31:28 JST<br>件名: おはようございます！<br><br>今日は、まどかと同じ部屋だったのー！<br><strong>今天是，和小圆同房的！</strong><br><br>まどかは1つ年下やけど、大人っぽいなぁっていつも思う。<br><strong>小圆虽然比我小一岁，感觉她很成熟啊。</strong><br><br>身長高くて美しくて知的で、、、<br>綺麗だなぁー<br>寝顔みてうっとりしちゃったもん。<br><strong>身高很高又美又有知性、、、</strong><br><strong>很漂亮啊</strong><br><strong>看着她的睡颜会出神嘛。</strong><br><br>へへ<br>相部屋の特権でっせ。<br><strong>嘿嘿</strong><br><strong>这是同室的特权啦。</strong><br><br>さーて、個別握手会よろしくおねがいします！<br><strong>那么，个别握手会请多多关照！</strong><br><br>ねぼすけさんいーるかな(￣∀￣)？<br><strong>会有人谁过头吗(￣∀￣)？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 14:41:29 JST<br>件名: みかん<br><br>お昼みかん食べたよーん\(^^)／<br>美味ちー<br>元気いっぱいー<br>フルーツ愛<br><strong>中午吃了桔子哦\(^^)／</strong><br><strong>很好吃</strong><br><strong>元气满满</strong><br><strong>水果爱</strong><br>みかんだけじゃないから、ご心配なくー！！<br><strong>并不是只有桔子的，不用担心！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 18:21:53 JST<br>件名: はぁーあ<br>次の部で最後か...<br>あっという間だなー<br><strong>下一部是最后了...</strong><br><strong>转瞬即逝啊</strong><br><br>楽しい時間って本当にあっという間。<br><strong>快乐的时间真的转瞬即逝。</strong><br><br>すーぐ過ぎちゃうんだから。<br><strong>马上就过去了。</strong><br><br>しっかり味わおっと。<br>ラストの部もよろしくねんｖ(・ε・ｖ)<br><strong>要好好回味一下。</strong><br><strong>最后的部也请多关照呢ｖ(・ε・ｖ)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 20:27:23 JST<br>件名: ありがとうございます(((o(*゜▽゜*)o)))<br><br>握手会来てくださったひとー<br>ありがとうございました！<br><strong>能来握手会的人</strong><br><strong>十分感谢！</strong><br><br>みんなの気持ちが、愛がたくさん伝わってきた握手会でした。<br><strong>传达了许多大家的心情，和爱给我的握手会。</strong><br><br>そうだね。今年は頑張らなきゃいけないことたくさんあるもんね。<br><strong>说的是呢。今年有许多必须要去努力的事情呢。</strong><br><br>その思いに応えて行きたいな。<br><strong>想要去回应这份思念啊。</strong><br><br>絶対ってこればっかりは言えないけど<br>ずーっとメロっぴと一緒に笑っていたい。<br><strong>虽然不会说什么绝对</strong><br><strong>想要一直和迷恋P们欢笑。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 20:31:38 JST<br>件名: もちろん<br>握手会に来られないけど応援してるって人もいるよね。<br><strong>也有没法来握手会却还在为我应援的人在的呢。</strong><br><br>分かってます(。・_・。)ノ<br><strong>我知道的(。・_・。)ノ</strong><br>毎回会えることが当たり前ではないんですもん。<br><strong>也并不是每次都能见面的嘛。</strong><br><br>いろいろあらますから！！<br><strong>会有各种各样事情的！！</strong><br><br>その思いだけで幸せです。<br>ありがとうございます。<br><strong>光是有这个想法就很幸福了。</strong><br><strong>十分感谢。</strong><br><br>遠くにいても近くにいても、変わらずに<br>私の笑顔が、パワーが届いていたらいいなぁ...<br><strong>不管是在远方还是在身边，都不会改变</strong><br><strong>我的笑容，能量能传达到就好啦...</strong><br>今年はそのためにも、雑誌とかテレビとか<br>かおだせるように頑張るけん！<br><strong>今年为此也要，能在杂志和电视上</strong><br><strong>露脸而努力！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午8:13 <br>『来年、今頃...』<br>こんばんは＼(^^)／兒玉遥です、<br><strong>『明年，现在...』</strong><br><strong>晚上好＼(^^)／是兒玉遥、</strong><br><br>2日間にわたっての個別握手会<br>ありがとうございました。<br><strong>连续2天的个别握手会</strong><br><strong>十分感谢。</strong><br><br>新年、沢山の笑顔に見守られながら<br>いいスタートがいれた気がします！！<br><strong>新年，被许多的笑容守护着</strong><br><strong>感觉有了一个好的开始！！</strong><br><br>もちろん、なかなか来られない方がいるのも知っています！！<br>ありがとうございます。<br><strong>当然，也知道有许多人没有办法过来！！</strong><br><strong>十分感谢。</strong><br><br>応援のしかたは、人それぞれですから(￣^￣)ゞ<br><strong>应援的方法，每个人都不同的(￣^￣)ゞ</strong><br><br>今日の会話の話題では、<br>年末の歌番組、特にＮＨＫ紅白のアニメパートのセーラーマーキュリーについてが多かったように感じました！<br><strong>今天的谈话的话题是，</strong><br><strong>年末的歌曲节目，特别是感觉关于NHK红白的动漫段落的水兵水星的话题有很多！</strong><br><br>私にとっても、水野亜美ちゃんを担当させて頂いたことは<br>すごく嬉しい出来事でしたし、<br>あの約1分にも満たないような時間が夢のように幸せでもありました！<br><strong>对我来说也是，能担任水野亚美酱的角色</strong><br><strong>是非常开心的事情，</strong><br><strong>那个还不到1分钟的时间就像做梦一样幸福！</strong><br><br>そして、やっぱり<br>来年こそHKT48として...<br><strong>然后，果然</strong><br><strong>明年一定要作为HKT48...</strong><br><br>この決意を固められた1日になりました。<br><strong>下了这个坚定决心的1天。</strong><br>全員のレーンで来年の今頃<br>『おめでとう！』がいっぱいになるように！！<br><strong>为了全员的队列在明年的这个时候</strong><br><strong>能有许多的『恭喜！』！！</strong><br>よっしゃー！えいえいおーっ！！<br><strong>哟夏！嗨嗨吼~~！！</strong><br>おやすみなさい☆<br><strong>晚安☆</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月10日 22:06:38 JST<br>件名: また明日<br>おやすみなさい☆<br>ぷひゅーはー<br><strong>晚安☆</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

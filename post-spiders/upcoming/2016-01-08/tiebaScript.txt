@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月8日 12:22:43 JST<br>件名: おはの！<br>お昼だけど！(´・ ・`)<br><strong>虽然是中午了！(´・ ・`)</strong><br><br>昨日太宰府天満宮行ったら、猿に会えた！<br><strong>昨天去了太宰府天満宮后，见到了猴子！</strong><br>申どしやしなんか、縁がありそう。←望んでる時点で欲の塊。笑<br><strong>因为是猴年了，感觉很有缘分。←在有愿望的时点已经是全是欲望了。笑</strong><br><br>お賽銭しちゃった(￣^￣)ゞ<br><strong>捐了香火钱(￣^￣)ゞ</strong><br>欲の塊なのかしら？<br>でも、しないよりいいでしょう？<br><strong>这算充满欲望吗？</strong><br><strong>不过，比没有要好吧？</strong><br><br>縁とか運とか、考えるだけ無駄な気がする(・∀・)<br><strong>缘分和运气什么的，光是想着这个就觉得是无用功(・∀・)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月8日 15:11:28 JST<br>件名: さむ！<br><br>今日、寒いねー(；▽；)<br><strong>今天，好冷呢(；▽；)</strong><br><br>まだまだ冬続くのかなぁー？<br>早く春来ないかなぁ？<br><strong>冬天还在继续吗？</strong><br><strong>春天能不能早点来呢？</strong><br><br>春楽しみなのはーお花見！！<br>今年はmyカメラもって桜の写真を撮りに行きたい！！<br><strong>春天令人期待的是赏花！！</strong><br><strong>今年想要带上自备相机去拍樱花的照片！！</strong><br><br>花より団子なんて言いませんから(￣^￣)ゞキリッ<br><strong>不会说什么比起花还是团子好的(￣^￣)ゞ正经</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月8日 21:11:48 JST<br>件名: 公演<br>年初めの公演終わりましたー！！！<br>楽しかったぁ！<br><strong>开年初次公演结束了！！！</strong><br><strong>很开心啊！</strong><br><br>コールにうちわにタオル、見つけられましたよー\(^^)／<br>ありがとうございます！！<br><strong>Call和团扇和毛巾，都找到了哦\(^^)／</strong><br><strong>十分感谢！！</strong><br><br>そして、<br>今日は、いつにもまして滑舌が回らなかったの(；▽；)<br><strong>还有，</strong><br><strong>今天是，比平时大舌头的更加厉害了(；▽；)</strong><br><br>これなんなんだろう？はじめての感覚なの。<br>泣きたいー！！なおれー！！<br><strong>这是怎么了？第一次有这样的感觉。</strong><br><strong>好想哭！！快治好！！</strong><br><br>明日には治るものなの？どうなの？<br>握手会ちゃんと喋れるかな？<br><strong>明天会治好吗？怎么样呢？</strong><br><strong>握手会能好好说话吗？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年1月8日 <br>『年初めの公演』<br>こんばんは＼(^^)／兒玉遥です。<br><strong>『开年初次的公演』</strong><br><strong>晚上好＼(^^)／是兒玉遥。</strong><br><br>今日は、年初めの劇場公演でした！！<br>気合いを充分で臨んだのですが...<br><strong>今天是，开年初次的剧场公演！！</strong><br><strong>虽然充满了干劲去演出的...</strong><br><br>ろれつが回らない非常事態発生！！<br><strong>口齿不清发生了非常事态！！</strong><br><br>今日は、いつにもまして回らなくて<br>自分でもびっくりしています。<br><strong>今天，比平时还要说不清楚</strong><br><strong>自己也吓了一跳。</strong><br><br>内容が聞き取りづらかったらごめんなさい。<br>本当に申し訳ないです(；▽；)<br><strong>内容听不清楚的话对不起。</strong><br><strong>真的非常抱歉(；▽；)</strong><br><br>でもでも！<br>ファンの皆さんの声援が聞こえて<br>劇場ならではの熱を、愛を感じることができましたし<br>沢山のメンバーとお話できて、楽しい公演でした！<br><strong>不过不过！</strong><br><strong>听到了饭们的声援</strong><br><strong>感受到了只有在剧场才有的热情，爱</strong><br><strong>和许多的成员聊了天，很开心的公演！</strong><br>来てくださった皆さん、みてくださった皆さん<br>ありがとうございましたo(^▽^)o<br><strong>能来的朋友们，有收看的朋友们</strong><br><strong>十分感谢o(^▽^)o</strong><br><br>明日は、個別握手会。<br>明日までに治るといいなー...<br><strong>明天是，个别握手会。</strong><br><strong>到明天能治好就好啦...</strong><br><br>いっぱいお喋りしたいもん！<br>皆さんも、願っていてください！笑<br><strong>因为想聊很多嘛！</strong><br><strong>大家也，请向神拜托吧！笑</strong><br>おやすみなさい☆<br><strong>晚安☆</strong><br>');
+
+
+

@@ -1,0 +1,32 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 10:11:38 JST<br>件名: おはの！<br>おはの！<br><strong>早上好！</strong><br><br>東京到着o(^▽^)o<br>寒かっけんふとんが恋しかったぁ<br><strong>到达东京o(^▽^)o</strong><br><strong>天还很冷舍不得被窝啊</strong><br><br>ファンの皆さん皆さんという<br>あたたいお布団に心あっためてもらおっと。<br><strong>要让饭的朋友们</strong><br><strong>就像温暖的被窝一样温暖着我的心。</strong><br>握手会よろしくお願いします！<br><strong>握手会请多多关照！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 10:51:27 JST<br>件名: あと！<br><br>今日、書き初めもってきたの！<br><strong>今天，也写了新年提字！</strong><br><br>みんな年初めの公演でやってたみたいで、私できなかったけん！<br><strong>大家好像在开年初次公演上做的，我没能去！</strong><br><br>文字、一つに絞れなかったから2つかいた(￣^￣)ゞ<br><strong>文字，没法汇集成一个字就写了2个字(￣^￣)ゞ</strong><br><br>だから、今日は、その一文字目をレーンに置いておきます(・∀・)<br><strong>所以，今天是，把那个第一个文字放在队列上了(・∀・)</strong><br><br>さーて、今年は何でしょう？<br>去年なんて書いたか覚えてる人いるー？<br><strong>那么，今年是什么呢？</strong><br><strong>去年写了什么还有谁记得？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 14:31:43 JST<br>件名: 私服<br>ジャンプの写真撮りたかったのにぶれぶれ<br>躍動感ありすぎて、カメラがとらえられなかったみたい。<br><strong>想拍跳跃的照片的却拍糊了</strong><br><strong>太有跃动感，照相机好像没法拍下来了。</strong><br>新年、元気に握手会の幕開け！！<br>朝、声の調子悪かったけどだんだん良くなってきた！<br><strong>新年，以元气的握手会来开幕！！</strong><br><strong>早上，声音的状态虽然不太好不过已经慢慢好起来了！</strong><br>このあとどうか分かんないけど<br>とりあえずみんなと会話できて良かったo(^▽^)o<br><strong>之后会怎么样还不知道</strong><br><strong>总之能和大家聊天很开心o(^▽^)o</strong><br>このあともよろしくお願いします！<br><strong>之后也请多多关照！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 14:52:07 JST<br>件名: もーｖ(・ε・ｖ)<br>新年早々張り切ったら<br>問題ばかり起こるんだけど！！<br><strong>新年早早精神百倍</strong><br><strong>却引起了许多问题！！</strong><br><br>自分が悪いんだけどねー<br>書き初めー<br><strong>虽然是自己不好呢</strong><br><strong>新年题字</strong><br><br>おうちに忘れちゃったし、<br>なんなん(´・ ・`)<br><strong>忘在家里了，</strong><br><strong>搞啥(´・ ・`)</strong><br><br>自分にあきあきしたちゃうー<br><strong>对自己都没想法了</strong><br><br>慌てて休憩のあいだに、紙とペンで書いたけど...<br>ごめんなさい(ToT)ほんとに<br><strong>匆匆忙忙在休息间隙，用纸和笔写的...</strong><br><strong>对不起(ToT)真的</strong><br><br>だめだなー自分<br>今年は20歳になるんだぞー<br><strong>我真是不行啊</strong><br><strong>今年就要到20岁啦</strong><br><br>頑張らなきゃ<br><strong>必须要努力了</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 18:31:38 JST<br>件名: やっぱり！<br><br>お母さんが部屋の写真送ってきてくれた！<br><strong>妈妈把房间里的照片发给我了！</strong><br><br>一文字目は『新』は<br>新年！<br>新鮮な毎日送りたい！<br>新しいことする！っていう思い！<br><strong>第一个文字是『新』是</strong><br><strong>新年！</strong><br><strong>想要度过新鲜的每一天！</strong><br><strong>做新的事情！的意思！</strong><br><br>二文字目は『愛』でした〜<br>愛は、沢山の愛の交換ができる1年にしたいって思いを込めて選んだよー！<br><strong>第二个文字『愛』〜</strong><br><strong>爱是，想要成为能交换许多爱的1年的想法才选的哦！</strong><br><br>握手会で、二文字でつながるの？って<br>質問ちらほら聞いてそうすれば良かったぁ〜って思った。笑<br><strong>在握手会上，两个文字会有联系吗？</strong><br><strong>想着会有人不时的问到这个就好了啊。笑</strong><br><br>純愛！みたいな！<br>2日間で見えてくる文字みたいな！<br><strong>纯爱！像这样的啊！</strong><br><strong>像是2天里能看上去像这个文字一样啊！</strong><br><br>そっちの方が企画性あるし！<br><strong>那边比较有企划的样子！</strong><br><br>メロっぴが相続力豊かだからねぇ<br>私の単純な考えをお許し下さいませ(；▽；)<br><strong>迷恋P们比较有持久力呢</strong><br><strong>请原谅我单纯的想法吧(；▽；)</strong><br><br>最後の部もよろしく！<br><strong>最后的部也请多关照！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 20:56:27 JST<br>件名: 握手会<br><br>終わりました！<br>来てくださった皆さんありがとうございます！<br><strong>结束了！</strong><br><strong>能来的朋友们十分感谢！</strong><br>年初めの握手会、皆さんの笑顔がみれて元気出ました。<br><strong>开年初次的握手会，看到了大家的笑容有了元气了。</strong><br><br>声のことなど、ご心配かけちゃあいました？<br><strong>声音的事情等等，让你担心了吗？</strong><br><br>喉痛くないし！鼻もスースー通るし元気いっぱいなんですよ！<br><strong>没有喉咙痛！鼻子也很通畅充满元气哦！</strong><br><br>ただただ、ろれつが回らなかった一日でしたが<br>メロっぴが広い心で受け入れてくださったので<br>最後まで会話を楽しむことができました。<br><strong>只是只是，就是口齿不清的一天</strong><br><strong>迷恋P们用宽容的心接受了我</strong><br><strong>到最后也聊的很尽兴。</strong><br><br>もー、本当にもう、優しいんだからぁ〜<br>惚れちゃうんだからぁ〜<br><strong>真是，真的是，太温柔啦〜</strong><br><strong>要迷上你了啦〜</strong><br>ホテルまでの移動...少し仮眠...おやすみ<br><strong>去旅馆的路上...小睡一下...晚安</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年1月9日 <br>『年初めの握手会』<br>こんばんは(･∀･)兒玉遥です！<br><strong>『开年初次的握手会』</strong><br><strong>晚上好(･∀･)是兒玉遥！</strong><br><br>今日は、年初めの個別握手会でした。<br>たくさんの方と新年の挨拶をしたので<br>やっと年が明けた実感が湧いてきました！笑<br><strong>今天是，开年初次的个别握手会。</strong><br><strong>有许多人问了新年好</strong><br><strong>终于实际感受到了新年的气氛！笑</strong><br><br>改めまして、あけましておめでとうございます！！<br>今年もよろしくお願いします。<br><strong>再一次，新年快乐！！</strong><br><strong>今年也请多多关照。</strong><br>やっぱり皆さんの顔を見ると元気をもらえるなぁと感じた一日でした。<br><strong>感受到果然看到大家的表情就得到了元气的一天。</strong><br><br>会いに来てくださった<br>一人一人の笑顔が本当に嬉しくて<br>幸せな気持ちになりました。<br><strong>能来见我</strong><br><strong>每一个人的笑容真的很开心</strong><br><strong>变的很幸福的心情了。</strong><br><br>１人でも多くの誰を笑顔みるのが<br>アイドルとして、はるっぴとして、私の生きがいなんです。<br><strong>为了能看到更多人的笑容</strong><br><strong>作为偶像，作为哈鲁P，是我的生存意义。</strong><br><br>とりえがなくなって、誰かを笑顔にすることはできるでしょう？<br><strong>没有了优点，还能让大家拥有笑容吗？</strong><br><br>それなら、私は誰かを笑顔にすることを特技にできるように頑張ろうって思いました。<br><strong>这样的话，我为了能有让大家拥有笑容这个特技而努力。</strong><br>今日も、一日<br>ありがとうございました＼(^^)／<br><strong>今天，一天也</strong><br><strong>十分感谢＼(^^)／</strong><br><br>声が出づらくご心配かけてしまってすいません！！<br><strong>声音发不出让大家担心了对不起！！</strong><br><br>のども潤っていますし、鼻もスースー<br>心も体も元気いっぱいです！！<br><strong>也润了嗓子了，片子也通畅</strong><br><strong>身心都充满了元气！！</strong><br><br>ご心配なく(；▽；)<br><strong>请不用担心(；▽；)</strong><br>明日の握手会もよろしくお願いします！<br><strong>明天的握手会也请多多关照！</strong><br><br>今日は、早めに眠ろっと...<br>おやすみなさい☆<br><br><strong>今天要，早点睡觉...</strong><br><strong>晚安☆</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月9日 22:12:39 JST<br>件名: とうちゃーく<br>ホテル到着なり(￣^￣)ゞ<br><strong>到达旅馆了(￣^￣)ゞ</strong><br><br>今日は、まどかと同室。<br>いつもキャップやけん新鮮かも！！<br><strong>今天是，和小圆同房。</strong><br><strong>平时都是和队长也许很新鲜！！</strong><br><br>ガールズトークはほどほどにして<br>今日は、早めに寝よっと。。。<br><strong>girls talk要适可而止</strong><br><strong>今天要，早点睡觉。。。</strong><br>ぁあ、でも、やっぱりー<br>お喋り大好き！笑<br><strong>啊啊，不过，果然</strong><br><strong>最喜欢聊天了！笑</strong><br>おやすみなさい☆<br>ぷひゅーはー<br><strong>晚安☆</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

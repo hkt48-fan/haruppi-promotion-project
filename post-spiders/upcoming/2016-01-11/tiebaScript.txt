@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月11日 12:42:33 JST<br>件名: おはの！<br><br>今日は、福岡でロケ！<br><strong>今天是，在福岡的外景！</strong><br><br>こちらのロケも年初めのですよん\(^^)／<br>たのしんで、今日もいってきまする！<br><strong>这边的外景也是开年初次的哦\(^^)／</strong><br><strong>要尽兴的，今天也出发啦！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月11日 18:56:28 JST<br>件名: ロケ<br><br>寒いよー(；一_一) <br><strong>好冷啊(；一_一) </strong><br><br>外は寒い。今日寒いという気持ちが<br>人生で一番溢れ出した日だった。<br><strong>外面很冷。今天是感觉</strong><br><strong>人生中最冷的日子。</strong><br>でも、寒い中のあつあつ料理は美味しいねー<br><strong>不过，在寒冷中热呼呼的料理很好吃呢</strong><br><br>HKT48のごぼてん！<br>1月24日放送予定！！<br><strong>HKT48的牛蒡天！</strong><br><strong>1月24日播放预定！！</strong><br>お楽しみにーｖ(・ε・ｖ)<br><strong>敬请期待ｖ(・ε・ｖ)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月11日 19:16:29 JST<br>件名: ロケ終わりー<br>久しぶりのロケ楽しかったなー\(^^)／<br>福岡にも、まだまだ知らない場所が沢山あるんだなって思った！<br><strong>久违的外景很开心啊\(^^)／</strong><br><strong>福岡也是，还有许多不了解的地方！</strong><br><br>開拓していきたい！！<br><strong>想要去开拓！！</strong><br><br>自分から！<br><strong>由我自己！</strong><br><strong><br></strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午7:40 <br>『成人の日』<br>こんばんは＼(^^)／兒玉遥です。<br><strong>『成人之日』</strong><br><strong>晚上好＼(^^)／是兒玉遥。</strong><br><br>今日は<br>成人された皆さんおめでとうございます！！<br><strong>今天</strong><br><strong>成人了的朋友们恭喜了！！</strong><br><br>20歳ってどんね気分なんだろう？<br>やっぱり大人！って実感湧いてくるのかなぁ？<br><strong>20岁是什么样的心情呢？</strong><br><strong>果然是大人！会涌出这样的实感吗？</strong><br><br>皆さんは、どうでしたかぁー？<br><strong>大家，怎么样呢？</strong><br><br>私は来年の今頃、成人式を迎えるのですが...<br>理想の女性になるために<br>今年から準備をしていかなきゃ！と思っております。<br><strong>我在明年的现在，就要迎来成人式了...</strong><br><strong>为了成为理想的女性</strong><br><strong>今年必须要开始准备才行了！这样想的。</strong><br><br>でも、実際に考えてみると分からないものです。<br><strong>不过，实际思考一下还是不明白。</strong><br><br>何が大人で何が子供なんだろう？<br>気付けばいつの間にか大人になるってよく聞くし...<br><strong>什么是大人什么是孩子呢？</strong><br><strong>经常听说不知不觉间就会变成大人了...</strong><br><br>早く大人になりたい！なんて思っている私は<br>大人になりきれていない証拠(；一_一) ？？<br><strong>想快点变成大人！这样想着的我</strong><br><strong>就是还没有成为大人的证据(；一_一) ？？</strong><br><br>うーん。。。<br><strong>嗯。。。</strong><br><br>それならー<br>今できること思う存分楽しんどこっとo(^▽^)o<br><strong>这样的话</strong><br><strong>要把现在能做的事做个尽兴o(^▽^)o</strong><br>今日のロケ楽しかった！筑紫野市に行ってきました！<br><strong>今天的外景很开心！去了筑紫野市！</strong><br><br>『HKT48のごぼてん！』1月24日放送予定やけん！<br><strong>『HKT48的牛蒡天！』预定1月24日播放！</strong><br><br>また、明日。<br>おやすみなさい☆<br><strong>明天，再见。</strong><br><strong>晚安☆</strong><br>');
+
+
+
