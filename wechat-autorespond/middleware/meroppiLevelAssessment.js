@@ -16,7 +16,7 @@ var db = low('assessmentDb.json', {storage: storage});
 
 var permitEvent = ['subscribe', 'unsubscribe'];
 var trigger = 'meroppi';
-var testTime = 60;
+var testTime = 120;
 
 var testStatus = {
   init: 0,
@@ -87,7 +87,7 @@ var paperMarking = function(paper){
   }
   paper.score = score;
   // set to testStatus.frozen if test can not be redo
-  paper.status = testStatus.finished;
+  paper.status = testStatus.frozen;
 };
 
 var paperResult = function(paper){
@@ -106,7 +106,7 @@ var getNextQuestion = function(paper){
   var qId = paper.questions[paper.progress];
 
   var question = _.find(questions, {id: qId});
-  var result = (paper.progress + 1) + ') ' question.question + '\n';
+  var result = (paper.progress + 1) + ') ' + question.question + '\n';
   result += _.map(question.options,function(ans, index){return (index+1) + '. ' + ans; }).join('\n')
   result += '\n\n剩余: ' + (testTime - parseInt(Date.now()/1000 - paper.startTime)) +' 秒';
   return result;
@@ -202,7 +202,7 @@ module.exports = function(req,res,next){
     }
   }
 
-  if(paper.status === testStatus.frozen){
+  if(content === trigger && paper.status === testStatus.frozen){
     return respond(res, xml, '测试已经做过啦\n你的成绩是: ' + paper.score);
   }
 
