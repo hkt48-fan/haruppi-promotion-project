@@ -63,6 +63,7 @@ mixin body(bodyList,isRetalk,isTranslate,isStamp)
           if isTranslate != true
             <img class="#{imageClass}" src=#{body.image}><br>
 
+
 mixin retalk-banner(body)
   p.rt-ttl
     i.icon.icon-rt
@@ -93,11 +94,27 @@ mixin body-retalk(body)
             +body(body.sourceBody,true)
             +body(body.sourceBody,true,true)
 
+          when 9
+            +body-news(body.sourceBody)
 
-mixin body-video(body)
-  p.tp.tp-r
-    img.tp_g(src=body.thumbnailUrl)
 
+//- mixin body-video(body)
+//-   p.tp.tp-r
+//-     img.tp_g(src=body.thumbnailUrl)
+
+mixin body-news(body)
+  //- bodytype = 9
+  - var body = body[0]
+  p.rtp.rtp-r
+    img.rtp_g(src="#{body.image}")
+    br
+  p.rtp.rtp-r.rtp__newsTitle
+    | #{body.title}
+  p.rtp.rtp-r.rtp__newsDetail
+    | #{body.detail}
+  p.rtp.rtp-r
+    a.rtp__newsLink
+      | 続きを読む
 
 
 //- ----------------------------
