@@ -1,11 +1,13 @@
 var posts = require('./posts');
 var tranScript = require('./transcript');
+var emoji = require('emojione');
 var fs = require('fs');
 
 
 assetTranslate = function(target){
   if (target.tid !== void 0) {
-    target.translate = tranScript[target.tid].trans;
+    target.translate = emoji.unicodeToImage(tranScript[target.tid].trans).replace(/\/\/cdn.jsdelivr.net\/emojione\//g,'');
+    target.text = emoji.unicodeToImage(target.text).replace(/\/\/cdn.jsdelivr.net\/emojione\//g,'');
     delete target.tid;
   }
   else if (target.comment){

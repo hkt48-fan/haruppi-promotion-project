@@ -25,8 +25,8 @@ mixin quot(comment)
       div.tq-th(style='background-image: url(#{comment.sendUserThumbnail})')
       span.tq-pstr #{comment.sendUserName}
       span.tq-ts #{comment.timeOrDay}
-    p.tq.tq-r #{comment.text}
-    p.tq.tq-r.translate #{comment.translate}
+    p.tq.tq-r !{comment.text}
+    p.tq.tq-r.translate !{comment.translate}
 
 
 mixin body(bodyList,isRetalk,isTranslate,isStamp)
@@ -50,9 +50,9 @@ mixin body(bodyList,isRetalk,isTranslate,isStamp)
         when 1
           //- text
           if isTranslate == true
-            | #{body.translate}
+            | !{body.translate}
           else
-            | #{body.text}
+            | !{body.text}
 
         when 2
           //- stamp
