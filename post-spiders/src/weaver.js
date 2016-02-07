@@ -1,13 +1,12 @@
 import requestBase from 'request';
 import fs from 'fs';
-import Agent from 'socks5-https-client/lib/Agent';
+import sslAgent from 'socks5-https-client/lib/Agent';
+import defaultAgent from 'socks5-http-client/lib/Agent';
 import moment from 'moment';
 import path from 'path';
 import _ from 'lodash';
 
 var plusRequest = requestBase.defaults({
-    agentClass: Agent,
-    strictSSL: true,
     agentOptions:{
         socksHost: '127.0.0.1',
         socksPort: 8484
@@ -65,7 +64,12 @@ fs.access(dest,(err)=>{
                     console.log(post.images)
                     post.images.forEach((imgurl,idx)=>{
                         var imgPath = path.join(dest, `${m.format('HH:mm:ss')}-${(idx+1)}.jpg`);
-                        plusRequest.get(imgurl).pipe(fs.createWriteStream(imgPath));
+                        var isSSL = imgurl.indexOf('https')===0;
+                        plusRequest.get({
+                            agentClass: isSSL?sslAgent:defaultAgent,
+                            strictSSL: isSSL,
+                            url: imgurl
+                        }).pipe(fs.createWriteStream(imgPath));
                     })
                 }
                 else if(post.img){

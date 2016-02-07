@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月4日 9:51:28 JST<br>件名: おはの！<br>今日も、学校なお仕事に家事とか<br>お部屋の掃除を、する人もいるのかなー？<br><strong>今天也是，学校工作家事等等</strong><br><strong>也有人在，进行房间的打扫吧？</strong><br><br>あたしは、今日は、何かを頑張ったあとに<br>好きなホットドリンクを、飲んで頑張る1日にするよーん( ´ ▽ ` )ノ<br><strong>我是，今天，在努力过后</strong><br><strong>喝着喜欢的热饮，度过努力的1天哦( ´ ▽ ` )ノ</strong><br>この時期は、どうしても、<br>甘〜いホットドリンクが飲みたくなりますからねー<br><strong>这个时期是，不管怎样，</strong><br><strong>都会想喝甜甜的热饮料呢</strong><br><br>やるこのノルマたくさんあるけど楽しみながら１つずつクリアしていこうと思いまーす！！<br><strong>要做的事情清单上虽然有许多一边尽兴一边一个个的去解决掉！！</strong><br><br>一緒にがんばりましょー！<br><strong>一起来加油吧！</strong><br><br>行ってきます！<br><strong>我出发了！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月4日 19:31:57 JST<br>件名: おわったー<br>集中力つかったら眠たくなっちゃった！<br>あと、気力もつかった！<br><strong>使用了集中力后变的想睡觉了！</strong><br><strong>另外，气力也用完了！</strong><br>大切なものを、守るために…<br>何かは、あとから伝えます。<br><strong>为了，保护重要的东西…</strong><br><strong>不管什么，等会儿再说。</strong><br>すこし時間はかかるかもだけど、待っててください( ´ ▽ ` )ノ<br><strong>也许会多花点时间吧，请等一会儿( ´ ▽ ` )ノ</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午7:46 <br>『いよいよ！』<br><strong>『终于！』</strong><br><br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です。<br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥。</strong><br><br>いよいよ明後日は、サシコドソレイユ<br>ライブツアー初日in名古屋でーす！！！<br><strong>终于后天是，指子剧团</strong><br><strong>Live巡演初日in名古屋！！！</strong><br>発表された時は、結構先だなぁって思っていたけど<br>あっという間にやってきました(^ー゜)<br><strong>发表的时候，还是挺早的吧</strong><br><strong>一转眼就到来了(^ー゜)</strong><br>実は、今回のタイミング<br>公式サイトにて発表されて、ファンの皆さんと同じタイミングで知ったんです！！笑<br><strong>其实，这次的时机</strong><br><strong>在官方网站上发表的，是和饭们相同的时间知道的！！笑</strong><br><br>４８グループあるある。<br><strong>48团体有的没的。</strong><br><br>シルクドソレイユを、浅はかではあるけど知っていたから<br>どんなコンサートになるんだろう？と<br>始まる前からわくわく…<br><strong>太陽劇團，虽然有了解一点</strong><br><strong>会是什么样的演唱会呢？</strong><br><strong>开始之前就很兴奋了…</strong><br>そして、明後日に控えた今…<br><strong>然后，接近后天的现在…</strong><br>わくわくわくわくわくわくーっ！！！！<br>わくわく倍増しております！！<br><strong>兴奋兴奋兴奋兴奋兴奋兴奋！！！！</strong><br><strong>兴奋兴奋倍增了！！</strong><br>名古屋に来てくださる皆さんに<br>楽しんでいただけるよう、精一杯がんばります！<br><strong>能来名古屋的朋友们</strong><br><strong>为了能让大家尽兴而归，而要拼命努力！</strong><br>はーやく、明後日になーあれ！<br><strong>快一点，到后天吧！</strong><br>おやすみなさい★<br>写真は、SKE48の北川綾巴ちゃんとo(^▽^)o<br><strong>晚安★</strong><br><strong>照片是，和SKE48的北川绫巴酱o(^▽^)o</strong><br>');
+
+
+

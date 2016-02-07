@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月21日 12:56:28 JST<br>件名: おはの！<br><br>むにっ<br><strong>呜尼</strong><br><br>むにむにっ<br><strong>呜尼呜尼</strong><br><br>今日も寒いねー(；▽；)<br><strong>今天也很冷呢(；▽；)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月21日 17:06:28 JST<br>件名: 目の前で<br><br>今目の前でなっちゃんがコンビニのパンケーキ食べてる<br>美味しそー(；´∀｀)<br><strong>现在纳酱在我面前吃着便利店的煎簿饼</strong><br><strong>很好吃吧(；´∀｀)</strong><br><br>誰かが食べてるものってより美味しそうに見える。<br><strong>看着别人吃东西会感觉看上去更加好吃呢。</strong><br>はぁ、、、<br>可愛いなっちゃんご馳走様でした。<br><strong>哈、、、</strong><br><strong>可爱的纳酱多谢款待。</strong><br><strong><br></strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年1月21日 <br>『初めての･･･』<br><strong>『第一次的･･･』</strong><br><br>こんばんはヽ(´ー｀)ノ兒玉遥です！<br><strong>晚上好ヽ(´ー｀)ノ是兒玉遥！</strong><br><br>昨日、写真が載っていませんでしたー( ´∵｀)謝<br>URLをいれると、こうなっちゃうんですね！<br><strong>昨天，没有发照片( ´∵｀)抱歉</strong><br><strong>输入了网址后，就变成这样了呢！</strong><br><br>勉強勉強。<br><strong>学习学习。</strong><br>今日は、初めての･･･<br>姉妹グループ誕生したことについて<br>昨日に引き続きNGT48について話したいと思いまーす！！<br><strong>今天，第一次的･･･</strong><br><strong>关于姐妹组合的诞生</strong><br><strong>继续昨天想要聊一下关于NGT48的话题！！</strong><br><br>48グループの中では末っ子私たちHKT48にとって、この感覚を味わうのは初めてでして<br>チームは違えど、とても嬉しい気持ち。<br><strong>对于原本在48团体之中是老幺的HKT48来说，还是第一次体验到这种感觉</strong><br><strong>因为是不同的Team，感觉很开心。</strong><br><br>家族が増えたみたいな！<br><strong>好像是家人增加了一样啊！</strong><br><br>私自身、そんな積極的な方ではないのですが<br>NGT48メンバーとお話してみたくて<br>いきなり楽屋におしかけちゃいました(；´∀｀)<br><strong>我自己，也并不是那么积极的类型</strong><br><strong>和NGT48的成员聊了之后</strong><br><strong>突然都涌到休息室来了(；´∀｀)</strong><br><br>楽屋綺麗だったなぁ<br>片付けちゃんとしなきゃなー<br>初心忘れちゃだめだなー。笑<br><strong>休息室很漂亮啊</strong><br><strong>必须要打理好才行啊</strong><br><strong>不能忘了初心了。笑</strong><br><br>昨日の番組収録中も、NGT48のメンバーをみていろんな発見があり、とてもいい刺激を受けられました(；▽；)<br><strong>昨天的节目收录中也是，看着NGT48成员有了各种各样的发现，受到了许多好的激励(；▽；)</strong><br><br>感謝です。<br><strong>感谢。</strong><br><br>いつか一緒コンサートをしてみたいんです！！<br><strong>哪天想要一起出演演唱会啊！！</strong><br><br>ふふふ。<br>夢がいっぱい。<br><strong>呼呼呼。</strong><br><strong>好多梦想。</strong><br><br>これからが楽しみですヽ(´ー｀)ノ<br>夢もみて、現実もみて頑張るぞー！！笑<br><strong>很期待今后了ヽ(´ー｀)ノ</strong><br><strong>怀着梦想，也要看情现实的去努力了！！笑</strong><br>おやすみなさい☆<br><strong>晚安☆</strong><br>');
+
+
+

@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月14日 11:41:28 JST<br>件名: おはの！<br>今日は、朝起きて、部屋の片付けをしたよーん！！<br><strong>今天是，早上起来，整理了房间了哦！！</strong><br><br>スッキリ〜<br>大掃除とまではいなかいけど！<br><strong>好清爽〜</strong><br><strong>虽然还没有到大扫除！</strong><br><br>物よ位置を整えるだけ、違うもんだねぇ...<br>心も整えられた感じ！<br><strong>只是把东西摆好位置，就很不同了呢...</strong><br><strong>心里也整理好的感觉！</strong><br><br>やっ部屋の状態と心の状態ってシンクロする気がする。<br><strong>感觉房间的状态与心中的状态达成一致了。</strong><br><br>たにー<br>大丈夫かー？<br><strong>塔尼</strong><br><strong>没事吧？</strong><br>今日も楽しみましょー\(^^)／<br>断食ラスト日頑張ります！！<br><strong>今天也来尽兴吧\(^^)／</strong><br><strong>断食最终日加油了！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月14日 14:01:27 JST<br>件名: みかん<br><br>断食3日目、とてもいい状態( ´ ▽ ` )ノ<br><strong>断食第3天，状态非常好( ´ ▽ ` )ノ</strong><br><br>最後まで、頑張ります。<br>写真見てたら、これが目にとまったの。<br><strong>要加油，直到最后。</strong><br><strong>看了照片后，这个给我印象很深。</strong><br><br>ふふ、お腹空いてるんだろうな。<br>ここまでくると、つい食べ物のこと考えちゃう自分が愛おしくなってくる。笑<br><strong>呼呼，肚子饿了吧。</strong><br><strong>到了这里，对于不知不觉想到食物的自己都觉的可爱了。笑</strong><br><br>ここまできたら、成功する！！<br>引き続き応援よろしくお願いします。<br><strong>到了这里的话，就要成功！！</strong><br><strong>拜托请继续为我应援。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年1月14日 <br>『秘密基地』<br>こんばんは＼(^^)／こだまはるかです！<br><strong>『秘密基地』</strong><br><strong>晚上好＼(^^)／是儿玉遥！</strong><br><br>最高！！<br>劇場公演やっぱり好きだなー。<br><strong>太棒了！！</strong><br><strong>果然很喜欢剧场公演啊。</strong><br><br>お客さんとの距離が近くて、伝わるーって感じするし<br>アイコンタクトもできるし、<br>客席とメンバーが一体になって熱くなってくるかんじ！！<br><strong>与客人的距离非常近，感觉能传达到的</strong><br><strong>也有了眼神交流，</strong><br><strong>观众与成员们融为一体感觉变的很热烈！！</strong><br><br>一体感もあるけど、目があっただけ<br>2人だけの世界！みたいな(；´∀｀)<br><strong>虽然也有一体感，只是目光接触了</strong><br><strong>好像是2人世界一样！(；´∀｀)</strong><br><br>これは、いつも思うのですが<br>劇場にしかない、あの独特の雰囲気が大好きなんです。<br><strong>这是，一直会这样想</strong><br><strong>很喜欢那种，只有在剧场才会有氛围。</strong><br><br>最近は、前に比べると<br>出演できる回数が減ってきましたが<br>公演に対する想いはずっと変わりません。<br><strong>最近，与以前相比</strong><br><strong>减少许多出演公演的机会</strong><br><strong>对于公演的想法一直都没有改变。</strong><br>あなたへの目線、私とあなたの秘密基地。<br><strong>投给你的视线，我与你的秘密基地。</strong><br><br>こんなこと言ってみる...<br>きゃー、恥ずかちー🙈💕<br><strong>想说说看这样话...</strong><br><strong>呀~~，好害羞🙈💕</strong><br>写真は、なっちゃんと(・o・)<br>おやすみなさい☆<br><strong>照片是，和纳酱(・o・)</strong><br><strong>晚安☆</strong><br>');
+
+
+

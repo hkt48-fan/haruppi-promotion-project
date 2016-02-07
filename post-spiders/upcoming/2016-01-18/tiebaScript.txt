@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月18日 10:16:29 JST<br>件名: 一晩明けて、おはの！<br>だいぶ気持ちがスッキリしました！！<br>今日も、きっといいことある！<br>行ってきます！<br><strong>基本上心情已经舒畅了！！</strong><br><strong>今天也，肯定会有更加好的事情发生！</strong><br><strong>我出发了！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月18日 15:36:27 JST<br>件名: こんにちは( ´ ▽ ` )ノ<br><br>東京、雪みれたー！！<br><strong>东京，看到雪了！！</strong><br><br>今年、初雪！<br>今季雪みたの初めて！<br><strong>今年，初雪！</strong><br><strong>当季还是第一次看到雪！</strong><br><br>雪好きっちゃんねーo(^▽^)o<br><strong>很喜欢雪呢o(^▽^)o</strong><br>雪合戦したい！！<br>負けないからねー！！<br><strong>想要打雪仗！！</strong><br><strong>不会输的呢！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月18日 21:22:23 JST<br>件名: さよならサーフボード<br><br>10位！！！！<br>そして、初披露！！<br><strong>10位！！！！</strong><br><strong>还有，初次披露！！</strong><br><br>投票してくださった方、本当に本当ににありがとうございます( ´ ▽ ` )ノ<br><strong>为我投票的朋友，真的真的十分感谢( ´ ▽ ` )ノ</strong><br><br>この曲の思い出をフラッシュバックしてました。<br><strong>这首曲子的回忆像走马灯一想回想起来。</strong><br><br>みんながくれたセンター楽曲。<br>ずっとずっと宝物です！<br><strong>大家给我的Center曲。</strong><br><strong>一直一直是我的宝物！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月18日 22:24:23 JST<br>件名: さっしー<br><br>そして、第4位ハロウィン・ナイトでは<br>さっしーポジションをさせて頂きました。<br><strong>然后，第4位万圣夜里</strong><br><strong>让我站了撒西的站位。</strong><br><br>選抜の皆さんと歌うの緊張しましたー（；＿；）<br><strong>和选拔的各位唱歌很紧张（；＿；）</strong><br><br>煽りのとこが、なかなか上手く出来なくて本番まで振りと台詞の確認しとった！<br><strong>别说是炒热气氛了，总是无法做到很好到正式上场前都在确认动物和台词！</strong><br><br>本番できとったかなー？<br><strong>正式表演的怎么样呢？</strong><br>衣装の写真…<br>探したけどなかった( ；´Д｀)謝 <br>撮る余裕なかったです。、、 すいませーん！<br><strong>服装的照片…</strong><br><strong>找了一下却没有( ；´Д｀)对不起</strong><br><strong>没有空闲去拍。、、对不起！</strong><br>すごい経験させていただいたなぁ…<br>指名してくれたさっしーに感謝です。<br><strong>让我有了非常厉害的经验啊…</strong><br><strong>感谢指名我的撒西。</strong><br>わたし、まだまだやって痛感した、、、<br>めっちゃ楽しかったですけどねん^o^<br><strong>我，深切感受到了不足、、、</strong><br><strong>不过非常开心呢^o^</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月18日 22:26:48 JST<br>件名: ありがと！<br>また、思い出できたね。<br>今日は、すごーくいい思い出つくれた。あなたと。<br><strong>又有了，新的回忆呢。</strong><br><strong>今天是，制造了非常好的回忆。和你。</strong><br><br>こうやって、メールで毎日あったことを伝えられるの嬉しい(^_^)v<br><strong>像这样，能每天用邮件向你传达事情很开心(^_^)v</strong><br>毎日いろんなことが起こるけんねー<br>また明日ねー<br><strong>不过每天会发生各种事呢</strong><br><strong>明天见了呢</strong><br><br>今日は、心体ともに消費量多かったぁー<br><strong>今天是，身心都消耗很大啊</strong><br><br>おやすみなさい★<br>ぷひゅーはー<br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午9:28 <br>『思い出つくり』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です。<br><strong>『制造回忆』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥。</strong><br><br>今日は、AKB48単独リクアワ最終日に出演させて頂きました！！<br><strong>今天是，要出演AKB48单独RH最终日！！</strong><br><br>10位 さよならサーフボード<br>4位 ハロウィン・ナイト<br>3位 365日の紙飛行機<br>歌わせて頂きました！<br><strong>10位 再见冲浪板</strong><br><strong>4位 万圣夜</strong><br><strong>3位 365天的纸飞机</strong><br><strong>表演了这几着歌曲！</strong><br><br>この三曲を応援してくださった皆さん<br>ありがとうございました！<br><strong>为这三首曲子应援的朋友们</strong><br><strong>十分感谢！</strong><br><br>周りのメンバーがほぼAKB48っていう環境に<br>まだ慣れませんねー…<br><strong>周围的成员基本上都是AKB48这个环境</strong><br><strong>还是不太习惯呢…</strong><br>新鮮な気持ちで、すごくワクワクしていました！！<br><strong>很新鲜的心情，非常兴奋！！</strong><br><br>そんな中で、今日の楽曲が歌えて本当に幸せでした。<br><strong>在此之中，能演唱今天的歌曲真的很幸福。</strong><br><br>特に、さよならサーフボード。<br>総選挙17位で皆さんからいただいた大切な曲。<br><strong>特别是，再见冲浪板。</strong><br><strong>总选举里17位从大家那里得到的重要的曲子。</strong><br><br>初披露できてよかった。ほっ。<br><strong>能比初次披露太好了。吼。</strong><br>また１つ、皆さんとの思い出ができました。<br>ありがとうございました！<br><strong>又有了一个，和大家一起的回忆。</strong><br><strong>十分感谢！</strong><br><br>思い出の彩りは、嬉、悔、悲、楽、、、様々だけど<br>沢山あればあるほど、きっと輝いていくと思うな。<br><strong>回忆中的色彩是，嬉、悔、悲、楽、、、虽然各种各样</strong><br><strong>有越多的话越是，一定能比闪闪发光的吧。</strong><br><br>これからも、沢山作っていけたら嬉しいです！<br><strong>今后也，能比制造更多回忆就很开心了！</strong><br><br>明日は、どんな思い出できるかなぁ？<br>楽しみ！！<br><strong>明天是，回有什么样的回忆呢？</strong><br><strong>很期待！！</strong><br>おやすみなさい★<br><strong>回忆★</strong><br>');
+
+
+

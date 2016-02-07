@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月27日 19:19:23 JST<br>件名: わわわ！<br><br>もうこんな時間なのね！！<br><strong>已经是这个时间了呢！！</strong><br><br>集中していたらあっという間...<br><strong>集中注意力后时间过的好快...</strong><br>スポーツ観戦好きだなぁ。<br>サッカーに野球に、最近はプロレスもみたし！<br><strong>很喜欢观看比赛啊。</strong><br><strong>足球和棒球，最近也看了职业摔跤！</strong><br>燃える！男同士のたたかい！<br>アイドルも女同士のたたかいみたいなものだけど！笑<br><strong>好燃！男人之间的战斗！</strong><br><strong>偶像也像是女人之间的战斗一样！笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月27日 20:36:48 JST<br>件名: あおいちゃん<br><br>あおいちゃんって本当にダンス上手だなぁ！！<br>初期の頃から思ってた。<br><strong>Aoi酱真的跳舞很拿手啊！！</strong><br><strong>初期的时候就这样想了。</strong><br><br>ドラムも出来るし！<br>あと、火起こしとかアウトドアと得意だし！！<br><strong>还会打鼓！</strong><br><strong>另外，还会生火野外活动很拿手！！</strong><br>あの童顔な顔で、ハイスペックなのが所。<br>好き〜<br><strong>那个童颜的面容，能力很强这一点。</strong><br><strong>喜欢〜</strong><br>いつも「はるちゃん」って呼んでくれるのも嬉しいのよねーん( ´ ▽ ` )ノ<br><strong>一直都会叫我「哈鲁酱」很开心呢( ´ ▽ ` )ノ</strong><br>あおちゃん会いたくなってきた！<br>はるちゃんって呼ばれるが為に！笑<br><strong>想要见Aoi酱了！</strong><br><strong>为了被叫哈鲁酱！笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月27日 20:42:28 JST<br>件名: んん？呼ばれるが為に？<br><br>呼ばれたいが為に！！<br><strong>为了被叫！！</strong><br>だね！<br>日本語勉強しなきゃー( ；∀；)<br><strong>是啊！</strong><br><strong>必须要学一下日语才行了( ；∀；)</strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月27日 20:56:29 JST<br>件名: 大人列車<br><br>今さらになってしまってごめんなさい！！<br>リクエストアワー大人列車<br>6位！！<br><strong>虽然到了现在才聊对不起！！</strong><br><strong>Request Hour 大人列车</strong><br><strong>6位！！</strong><br><br>そして、HKT48としては過去最高順位！！<br>すごいですよ〜( ；∀；)嬉<br><strong>还是，作为HKT48的过去最高排名！！</strong><br><strong>很厉害哦〜( ；∀；)开心</strong><br><br>私自身好きな曲。でも、まさかこんな順位だとは思っとらんやったの！<br><strong>我自己喜欢的曲子。不过，没想到会有这么高的排名！</strong><br><br>MVがHKT48の中だと珍しくドラマ風になっていたり<br>振り付けが、わりと激しめな所がこの曲の好きなところです！！<br><strong>MV在HKT48之中是很少见的电视剧风格</strong><br><strong>还挺喜欢这首曲子的舞蹈动作，和相对比较激励的地方！！</strong><br><br>これからも<br>いろんな人に博多の曲いいね！って思って頂けるように<br>がんばっていかなきゃ！！<br><strong>今后也</strong><br><strong>为了能让各种各样的人觉得博多的曲子很好啊！</strong><br><strong>而必须努力了！！</strong><br><br>本当に本当にありがとうございました！！<br><strong>真的真的十分感谢！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月27日 21:51:29 JST<br>件名: AKBINGO<br><br>気にしないとか言ってみたいけど<br>気にする！笑<br>すこし！！<br><strong>虽然想说说看不要在意</strong><br><strong>还是在意！笑</strong><br><strong>稍微有点！！</strong><br>48グループでワースト３位って(T ^ T)<br>運には頼れないってことですね。<br>でも、このきっかけがあって良かったかも。<br><strong>48团体是倒数第3位(T ^ T)</strong><br><strong>不能依靠运气了吧。</strong><br><strong>不过，以此为契机也不错吧。</strong><br>今までも、運じゃないって信じたいし...<br><strong>至今为止也是，相信并不是运气...</strong><br><br>運に頼らないで、ちゃんと進めるように毎日過ごす！！<br><strong>不依靠运气，脚踏实地的向前进度过每天！！</strong><br>あなたと、できればずっと。<br><strong>和你，可以的话一直。</strong><br>今年は、本当にいろんな事に対してプレッシャー感じるからなぁ...<br><strong>今年，真的对于各种事情都感受到了压力啊...</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午9:38 <br>こんばんわー！！！<br><strong>晚上好！！！</strong><br><br>皆さん、昨日放送されたAKBINGO見ていただけましたかー？<br><strong>大家，昨天播放的AKBINGO看了吗？</strong><br><br>毎年恒例のラッキーガールランキングに今年も出演させていただきました！<br><strong>每年惯例的幸运女孩排行榜今年也有我出演！<br></strong><br>島田秀平さんが手相といろんなデータをもとに占ってくださいましたよー(・o・)<br><strong>岛田秀平桑以手相为主题进行点卡的哦(・o・)</strong><br><br>48グループメンバー286人分！！<br>本当にお疲れ様でした！！<br><strong>48团队成员286人！！</strong><br><strong>真的辛苦了！！</strong><br>気になる順位はー？？？<br><strong>令人在意的排名是？？？</strong><br>知っている方もいるかも知れませんが...<br>↓(ネタバレ注意)<br><strong>也许已经有人知道了吧</strong><br><strong>↓(剧透注意)</strong><br>284位！<br>下から３番目でした( ；∀；)えーん<br><strong>284位！</strong><br><strong>倒数第3位( ；∀；)唉~~</strong><br>今年はおみくじ大吉だったし<br>いいことあるって思ってたのになぁ...<br><strong>今年抽签也是大吉的</strong><br><strong>明明觉得会有好事的啊...</strong><br>気にしないようにしよう！って思ったけど、気にしないって考えれば考えるほど気にしちゃってるし！<br><strong>我不会去在意的！虽然这样想，越是不去在意却越是会在意！</strong><br>今日まで気にさせてください。<br>どうやら、私気にしいだったみたいです(´・ω・｀)笑<br><strong>就让我在意到今天吧。</strong><br><strong>不管怎么说，我好像是很在意的(´・ω・｀)笑</strong><br>おやすみなさい☆<br><strong>晚安☆</strong><br>');
+
+
+

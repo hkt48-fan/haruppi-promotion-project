@@ -1,0 +1,8 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月22日 10:41:27 JST<br>件名: おはの！<br>おはのーん！<br>ほぺぷにっ<br>んもぅ<br>丸顔なんだからぁ〜<br><strong>早上好！</strong><br><strong>捏捏脸颊</strong><br><strong>真是的</strong><br><strong>脸太圆了啦〜</strong><br>ぷにぷにぷにぷに〜って毎日してるのに<br>ぜーんぜん無くならんっちゃん( ；∀；)<br><strong>捏捏捏捏〜明明每天都在捏的</strong><br><strong>完全都消不下去( ；∀；)</strong><br>今日も、ぷにぷに<br>行ってきます！！<br><strong>今天也要，捏捏</strong><br><strong>我出发了！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月22日 14:26:29 JST<br>件名: こんにちはーん<br><br>第一睡魔。<br><strong>第一睡魔。</strong><br>お昼の第一睡魔発生！！<br><strong>中午的第一睡魔发生了！！</strong><br><br>おひるね一緒にしてくれるかたー？<br>募集中ー！！<br><strong>想要一起来午睡吗？</strong><br><strong>募集中！！</strong><br>なーんちゃって。<br><strong>说笑的。</strong><br>');
+
+
+

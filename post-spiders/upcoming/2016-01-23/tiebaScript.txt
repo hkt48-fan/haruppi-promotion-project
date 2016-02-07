@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月23日 11:11:27 JST<br>件名: おはの！<br><br>マイカメラの写真ヽ(*´∀｀)ノ<br><strong>自备相机的照片ヽ(*´∀｀)ノ</strong><br><br>ミラーレスの一眼レフカメラ。<br>名前つけたいなぁ...<br><strong>mirror lens的单反相机。</strong><br><strong>想取个名字啊...</strong><br>より一層愛着湧くように！カメラに！笑<br><strong>为了涌现更多一层的爱！对照像机！笑</strong><br>755で募集しよっかな！<br>上手くいくか分からんけどやってみよっと。<br><strong>要在755上募集一下吗！</strong><br><strong>不知道能不能做好还是试一下吧。</strong><br><br>カメラ絵文字を付けて横に書いてくれたら分かるから！<br><strong>在旁边加上照相机颜文字的话我就知道了！</strong><br>暇な時に、よかったらお願いしますヽ(´ー｀)ノ<br>私も考えとく！！<br><strong>闲暇的时候，可以的话拜托了ヽ(´ー｀)ノ</strong><br><strong>我也会考虑一下！！</strong><br>9つの窓のdark rakeを演じた時の！わたし！<br><strong>表演9扇窗的dark rake的时候！我！</strong><br>↓<br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月23日 14:06:28 JST<br>件名: 755<br><br>みてまーす(。・_・。)ノ<br><strong>正在看(。・_・。)ノ</strong><br>ふむふむ、どれもいいね！<br>おもしろいね！<br><strong>嗯嗯，哪个都不错呢！</strong><br><strong>很有趣呢！</strong><br><br>たくさん<br>迷うなー...(；´∀｀)<br><strong>好多</strong><br><strong>犹豫不定...(；´∀｀)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月23日 21:11:28 JST<br>件名: おつかれちゃん、<br><br>リクアワおわりましたー！！！<br><strong>RH结束了！！！</strong><br>2日目夜は、<br>希望的リフレイン<br>僕たちは戦わない<br>に参加させて頂きました！！<br><strong>第2天晚上是，</strong><br><strong>希望的李夫人</strong><br><strong>我们不战斗</strong><br><strong>让参加表演了！！</strong><br><br>投票してくださった方、ありがとうございます（；＿；）<br><strong>为我们投票的朋友，十分感谢（；＿；）</strong><br>楽しかったー！<br><strong>很开心！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午9:05 <br>『ロックだぜ、ベイべ！』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です。<br><strong>『摇滚起来，baby！』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥。</strong><br><br>今日は、リクアワ2日目夜公演に出演しましたー！<br><strong>今天是，RH第2天夜公演要出演！</strong><br><br>希望的リフレイン<br>僕たちは戦わない<br><strong>希望的李夫人</strong><br><strong>我们不战斗</strong><br><br>投票してくださった皆さん、ありがとうございました！！<br><strong>为我们投票的朋友们，十分感谢！！</strong><br><br>そして、今日はこちらについて話したいと思います！！<br><strong>然后，今天要聊一下关于这个的话题！！</strong><br>1月25日<br>GUM ROCK FES. in 日本武道館が行われますヽ(´ー｀)ノ<br><strong>1月25日</strong><br><strong>在GUM ROCK FES. in日本武道馆举行ヽ(´ー｀)ノ</strong><br> <br> <br>このフェスではアーティスト対決として<br>・Thinking Dogsさんvs.Silent Sirenさん<br>・HKT48vs.乃木坂46さん<br><strong>这个狂欢节是作为歌手对决</strong><br><strong>・Thinking Dogs vs.Silent Siren</strong><br><strong>・HKT48vs.乃木坂46</strong><br> <br>プロレス対決では<br> ・長州力さんvs.藤波辰爾さん<br>・スーパーササダンゴマシンさんvs.しずちゃんさん<br><strong>职业摔跤对决里是</strong><br><strong>・長州力桑vs.藤波辰爾桑</strong><br><strong>・スーパーササダンゴマシン桑vs.しずちゃん桑</strong><br><br>対決をテーマに様々なステージが繰り広げられます！！<br><strong>以对决为主题在各种各样的舞台上扩展开来！！</strong><br>皆さん、楽しみにしていてくださーいo(^▽^)o<br><strong>大家，敬请期待o(^▽^)o</strong><br><br>--------------------------------------<br>果たし状<br><strong>挑战状</strong><br><br>拝啓、乃木坂46様。<br><strong>敬启，乃木坂46SAMA。</strong><br>GUM ROCK FES. in 日本武道館にて待つ。<br>博多から参戦して参る！！<br><strong>在GUM ROCK FES. in 日本武道館等着大家。</strong><br><strong>从博多前来参战了！！</strong><br>白熱としたパフォーマンスをステージから届けられるよう<br>精一杯の博多魂を出し切ることを誓います！！<br><strong>为了将白热化的演出展现出来</strong><br><strong>发誓要拼命将博多魂燃烧殆尽！！</strong><br>HKT48<br>--------------------------------------<br>おやすみなさい★<br><strong>晚安★</strong><br><strong><br></strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月23日 22:16:43 JST<br>件名: こんばんは( ´ ▽ ` )ノ<br><br>明日はいよいよ、リクアワ最終日やね！<br><strong>明天终于是，RH最终日了呢！</strong><br><br>なにが入っとるんかなー？<br><strong>会有哪些歌入选呢？</strong><br><br>リクアワやってる全グループの中からいろんな曲が出てくるけん<br>知らん曲とかもあったりするけど<br>名曲発掘してみたいで楽しい^o^<br><strong>RH的表演里会出现全团体的各种曲子</strong><br><strong>虽然也有不知道的曲子</strong><br><strong>好像在发掘名曲很开心^o^</strong><br><br>いい曲沢山あるんだよなー<br><strong>有好多好曲子啊</strong><br><br>というか、ベスト200<br>対象曲はさらにあるなかで<br>こんなに沢山の詞をかける秋元先生が本当にすごい！<br><strong>应该说，Best200</strong><br><strong>在更加多的对象曲之中</strong><br><strong>能写出这么多词的秋元老师真的好厉害！</strong><br><br>感謝！！<br><br>めっちゃ、恋心多め！笑<br>想像するだけでキュンキュンするし…<br><strong>好强大的，少女心！笑</strong><br><strong>光是相像就让人心动了…</strong><br>はぁ、なんだかホテルに着いた瞬間<br>どっときた…<br><strong>哈，总觉得到达旅馆的睡意</strong><br><strong>就累了…</strong><br><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+

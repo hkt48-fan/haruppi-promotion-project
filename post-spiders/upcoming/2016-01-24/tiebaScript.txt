@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月24日 15:51:48 JST<br>件名: リクアワ！<br><br>昼公演おわったよん！<br><strong>日公演结束了哦！</strong><br><br>buddy<br>さよならサーフボード<br>しぇからしか！<br><strong>buddy</strong><br><strong>再见冲浪板</strong><br><strong>吵死了！</strong><br><br>投票してくださった方ありがとうございました（；＿；）<br><strong>为我投票的朋友们十分感谢（；＿；）</strong><br><br>たぁーのしかった！<br><strong>很开心！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月24日 16:01:27 JST<br>件名: さよならサーフボード<br><br>この曲は、リクアワが初披露やったっちゃん！<br><strong>这首曲子，在RH是第一次披露的！</strong><br>去年の選挙から半年越しだねー<br>みんなに、早く披露したかったし<br>17位の私でこうやってセンターにさせていただいている曲を残すせて嬉しいです！！<br><strong>去年的选举开始过了半年了呢</strong><br><strong>想要，快点披露给大家看</strong><br><strong>17位的我能像这样有担任Center的曲子留下来很开心！！<br></strong><br>リクアワってつくづく感じる。<br>その曲の中にあるドラマ。<br><strong>RH里不断感受到。</strong><br><strong>在这首曲子中的剧情。</strong><br>歌詞、メロディーを注目するのはもちろんだけど<br>歌は、それ以外の見たり聴いたりできない部分に注目するとより、楽しくなる気がするなぁ(。-_-。)<br><strong>歌词，曲调这些当然要关注</strong><br><strong>歌曲，能去关注听到看到以外部分，感觉能有更多乐趣啊(。-_-。)</strong><br><strong><br></strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月24日 21:31:33 JST<br>件名: リクアワ<br><br>終わりましたー！！！<br><strong>结束了！！！</strong><br><br>今日は、盛りだくさんな1日だったなぁ( ´ ▽ ` )ノ<br><strong>今天，有许多节目的1天啊( ´ ▽ ` )ノ</strong><br><br>何から話そう？？<br><strong>从哪开始说呢？？</strong><br><br>まず、ランクイン曲<br>カメレオン女子高生<br>12秒<br>メロンジュース<br>365日の紙飛行機<br>大人列車<br>の5曲投票してくださった方ありがとうございました！！<br><strong>首先，入围曲</strong><br><strong>变色龙女子高生<br>12秒<br>蜜瓜果汁<br>365日的紙飛機<br>大人列車</strong><br><strong>为这5曲投票的朋友十分感谢！！</strong><br><br>いやー、本当に沢山の曲がランクイン。<br>しかも、最終日にこんなに忙しいリクアワは初めてだったので<br>幸せでいっぱいです、ありがとうございます。<br><strong>啊呀，真的能有许多曲子入围。</strong><br><strong>而且，最终日里能有这么忙碌的RH还是第一次</strong><br><strong>充满了幸福，十分感谢。</strong><br>');
+
+
+

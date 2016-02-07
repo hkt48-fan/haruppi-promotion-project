@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月30日 10:12:34 JST<br>件名: おはの！<br><br>昨日は、じーなと同じ部屋やったー^o^<br><strong>昨天，和吉娜是同房的^o^</strong><br>はるちゃん、Mステ見ましたよー！<br>って言ってくれたのo(^▽^)o<br>嬉しいなぁ！！<br><strong>哈鲁酱，看了MS哦！</strong><br><strong>这样对我说o(^▽^)o</strong><br><strong>很开心啊！！</strong><br><br>あっ、秘密の合図<br>今回はOK!<br>親指と人指し指で丸作るの！<br>分かるかそれくらい！笑<br><strong>啊，秘密的暗号</strong><br><strong>这次是OK!</strong><br><strong>用拇指和食指比出圆形！</strong><br><strong>说这些明白吗！笑</strong><br>でも、写真はピースだよん(￣▽￣)笑<br>めちゃくちゃ<br><strong>不过，照片是胜利哦(￣▽￣)笑</strong><br><strong>太乱来了</strong><br>それでは、CDイベントで待ってるねーん<br><strong>那么，在CD活动等着大家哦</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月30日 14:21:47 JST<br>件名: イベント<br><br>はじまっとーよー！！！<br><strong>开始了哦！！！</strong><br><br>カレーの匂いに包まれながら<br>みんなでおしゃべりして<br>秘密のサインで特別時間を楽しんでおります(・∀・)<br><strong>被咖喱的味道包围着</strong><br><strong>大家聊着天</strong><br><strong>很期待秘密暗号的特别时间(・∀・)</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午8:26 <br>こんばんわヽ(´ー｀)ノ<br><strong>晚上好ヽ(´ー｀)ノ</strong><br><br>今日は、東京で<br>シングル『しぇからしか！』の<br>抽選新年会イベントでしたー！！<br><strong>今天，在东京</strong><br><strong>举行单曲『吵死了！』的</strong><br><strong>抽选新年会活动！！</strong><br><br>メンバーのそれぞれの家庭の味のカレーを<br>皆さんにプレゼントしました。<br><strong>成员将各自家庭味道的咖喱</strong><br><strong>送给大家当礼物。</strong><br>カレー大好きだから、<br>匂いに包まれながら皆さんとおしゃべりできて幸せ〜<br><strong>因为很喜欢咖喱，</strong><br><strong>被香味包围着大家聊着天很幸福〜</strong><br>終わったあと、我慢できなくてこっそりいただいちゃった(゜▽゜)笑<br><strong>结束之后，忍不住偷偷吃了一点(゜▽゜)笑</strong><br>その他にも、かるたやすごろくをして<br>みんなでわいわい<br>たくさんの笑顔をみれた一日でした。<br><strong>其他也有，玩了花牌和双六</strong><br><strong>大家热热闹闹</strong><br><strong>能看到大家笑容的一天。</strong><br>素敵な思い出を、ありがとうございました！！<br><strong>有了美好的回忆，十分感谢！！</strong><br><br>次の、シングルイベントもきっとあると思うから<br>楽しみにしとってねー<br><strong>下次，也肯定会有单曲活动的</strong><br><strong>敬请期待呢</strong><br><br>今日は、早めに寝よっと！<br>おやすみなさい☆<br><strong>今天，要早点睡觉了！</strong><br><strong>晚安☆</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月30日 21:31:28 JST<br>件名: はー！<br><br>今日も楽しい一日だったなー(*´∀｀)<br><strong>今天也是快乐的一天啊(*´∀｀)</strong><br><br>CDイベントに、755とかググタスでドキュメンタリー映画の感想、9つの窓の感想聞けたし<br>あと、ZIPの目覚ましじゃんけんも！！<br><strong>CD活动，755和G+上能听到纪实电影的感觉，9扇窗的感想</strong><br><strong>还有，ZIP的闹钟猜拳也是！！</strong><br><br>「福岡タワー」<br>思った以上に恥ずかしかった( ；∀；)笑<br><strong>「福岡塔」</strong><br><strong>比相像的还要害羞( ；∀；)笑</strong><br><br>イベントおわりに、ちょいとひと仕事して<br>ゆっくりしております。<br><strong>活动结束后，做了一点工作</strong><br><strong>很悠闲。</strong><br>今日は、早めに寝ようかな。<br><strong>今天，要早点睡吧。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年1月30日 22:01:54 JST<br>件名: ねむねむ<br><br>ねむねむねむこちゃん<br><strong>好困好困好困啊</strong><br><br>寝る前にすること。<br><strong>睡觉之前要做的事。</strong><br><br>明日の起きる時間を把握。<br>まずスケジュール思い出して、おしごと大丈夫かなー？って考えて<br>朝ごはんどうしよっかなー？って考えるの！<br><strong>掌握好明天起床的时间。</strong><br><strong>首先回忆起行程，工作没问题吗？这样想着</strong><br><strong>早饭要吃什么呢？这样想的！</strong><br><br>最後のやつがながくなって楽しくなって<br>寝れなくなることよくある！笑<br><strong>最后一个很长很开心</strong><br><strong>经常会睡不着！笑</strong><br>今日は、最後のヤツは考えないようにしよっと。<br><strong>今天，最后一个要不去想它了。</strong><br>ねむねむーん<br>おやすみなさーい☆<br>ぷひゅーはー<br><strong>好困好困</strong><br><strong>晚安☆</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+
