@@ -28,6 +28,15 @@ mixin quot(comment)
     p.tq.tq-r !{comment.text}
     p.tq.tq-r.translate !{comment.translate}
 
+mixin quot-in-retalk(comment,isTranslate)
+  div.rtq-cts
+    div.rtq-hdr
+      div.rtq-th(style='background-image: url(#{comment.sendUserThumbnail})')
+      span.rtq-pstr #{comment.sendUserName}
+      span.rtq-ts #{comment.timeOrDay}
+    p.rtq.rtq-r !{comment.text}
+    p.rtq.rtq-r.translate !{comment.translate}
+
 
 mixin body(bodyList,isRetalk,isTranslate,isStamp)
   - var classPrefix = isRetalk?'rtp':'tp'
@@ -63,6 +72,9 @@ mixin body(bodyList,isRetalk,isTranslate,isStamp)
           if isTranslate != true
             <img class="#{imageClass}" src=#{body.image}><br>
 
+        when 8
+          p.tp.tp-r
+            img.tp_g(src=body.thumbnailUrl)
 
 mixin retalk-banner(body)
   p.rt-ttl
@@ -93,6 +105,10 @@ mixin body-retalk(body)
             //- quotation
             +body(body.sourceBody,true)
             +body(body.sourceBody,true,true)
+            +quot-in-retalk(body.sourceBody[0].comment)
+
+          when 8
+            +body(body.sourceBody,true)
 
           when 9
             +body-news(body.sourceBody)
@@ -125,6 +141,7 @@ html
   head
     meta(charset='UTF-8')
     link(href='app.css',rel='stylesheet')
+    link(href='emojione.min.css',rel='stylesheet')
     style.
       .ltp .tp_g, .ltp .tp_m{
         max-width: 420px;
