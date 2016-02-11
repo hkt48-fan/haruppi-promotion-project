@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月6日 21:36:28 JST<br>件名: おわったー！<br>サシコドソレイユ！名古屋初日！<br><strong>指子成团！名古屋初日！</strong><br><br>ほーんと、楽しかったー！！<br>やっぱライブだなー。<br><strong>真的，很开心！！</strong><br><strong>果然要Live啊。</strong><br>今年のスタート、いい感じに走り出せた気がする。<br>これがまず一歩だもん。<br><strong>今年的开始，感觉会有个好的起步。</strong><br><strong>这个首先是第一步嘛。</strong><br>年末のあの、さっしーに見せたい景色への道…<br><strong>年末的那个，去到想让撒西看到的景色的路程…</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月6日 21:37:33 JST<br>件名: あー、！それと！<br><br>うちわにタオル、グッズとか<br>はるかコールも！<br><strong>团扇和毛巾，周边等等</strong><br><strong>还有哈鲁卡Call！</strong><br>ありがとうございます( ´ ▽ ` )ノ<br>嬉しかった！！<br><strong>十分感谢( ´ ▽ ` )ノ</strong><br><strong>很开心！！</strong><br>できるけ、目に入ったものにぜーんぶ<br>こたえたつもり！！<br><strong>尽量的，将进入眼中的东西全部</strong><br><strong>都想去回应！！</strong><br><br>できんやった、人ごめんよー（；＿；）<br><strong>没有回应到的人，对不起哦（；＿；）</strong><br>今回のライブは、特に演出でいろんなとこ行くけん<br>みんなに会いに行きやすいっちゃんねー<br><strong>这次的Live是，特别是因为演出要去到各种地方</strong><br><strong>比较容易见到大家的了呢</strong><br>いいねー^o^<br>できるだけ、近くで一緒に楽しみたいけん。<br><strong>不错呢^o^</strong><br><strong>尽量的，想要近距离的去尽兴。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年2月6日 <br>『サシコドソレイユ』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です！<br><strong>『指子剧团』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥！</strong><br>初日、、、<br>不安と緊張でいっぱいだったのですが<br>名古屋の皆さんが、昼公演、夜公演とともに<br>温かく迎えてくださったので<br>無事終えることができました！<br><strong>初日、、、</strong><br><strong>心跳充满了不安和紧张</strong><br><strong>名古屋的朋友们，日夜演，夜公演都是</strong><br><strong>温柔的迎接我们</strong><br><strong>能够顺利终演！</strong><br><br>ありがとうございましたー！！！<br><strong>十分感谢！！！</strong><br><br>めちゃ、楽しかったです^o^<br><strong>非常，开心啊^o^</strong><br>年明け1番にやるライブ。<br>ここで新年のスタート。<br><strong>开年最初的Live。</strong><br><strong>这里是新年的开始。</strong><br><br>そして今年の年末、さっしーに見せたいあの景色への<br>第一歩を踏み出せた気がします。<br><strong>然后今年的年末，朝着想让撒西看到的那个景色</strong><br><strong>感觉踏出了第一步。</strong><br>これからも、楽しみながら<br>皆さんと一緒に時を過ごしていきたいです！！<br><strong>今后也，想要一边尽兴着</strong><br><strong>一边和大家一起度过时光！！</strong><br><br>本当にあっという間だったな。<br>名古屋、さよならするのさびしいな。<br>また、会いに行くけん。<br><strong>真的转瞬即逝啊。</strong><br><strong>名古屋，说再见会很寂寞啊。</strong><br><strong>还会，再去见大家的。</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
