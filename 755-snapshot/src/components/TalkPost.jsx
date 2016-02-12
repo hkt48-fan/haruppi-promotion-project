@@ -47,13 +47,23 @@ class TalkPost extends React.Component {
             response = post.body.slice(1);
         }
 
-        var result = response.map((r,i)=>{
+        var result = response.map((r)=>{
             if (r.bodyType === 1) {
-                return(
-                    <span className="Linkify">
-                        <span>{r.text}</span>
-                    </span>
-                )
+                var textArray = r.text.split('\n');
+                var bodyComponents = [];
+
+                textArray.forEach((text, i)=>{
+                    if (i !== 0) {
+                        bodyComponents.push(<br/>);
+                    }
+                    bodyComponents.push(
+                        <span className="Linkify">
+                            <span>{text}</span>
+                        </span>
+                    )
+                });
+
+                return bodyComponents;
             }
             else if(r.bodyType === 2){
                 return(
@@ -61,12 +71,10 @@ class TalkPost extends React.Component {
                 )
             }
             else if(r.bodyType === 3){
-                console.log(r);
                 return(
-                    {i!==0&&(<br />)}
-                    <div className="TalkPost__media">
+                    (<div className="TalkPost__media">
                         <img src={r.image} />
-                    </div>
+                    </div>)
                 )
             }
         })
@@ -86,7 +94,10 @@ class TalkPost extends React.Component {
             }
         });
 
-        return result.concat(<br/>).concat(translate);
+
+        result = result.concat(<br/>).concat(translate);
+        // console.log(result);
+        return result;
     }
 
     // renderPost(){

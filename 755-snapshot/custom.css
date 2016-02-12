@@ -1,0 +1,22 @@
+body, html{
+    overflow-y: visible;
+
+}
+
+.RetalkPost--dayStart, .TalkPost--dayStart{
+    margin-top: 54px;
+}
+
+.TalkPage__TalkList{
+    padding-bottom: 30px;
+    width: 670px;
+    /*margin-bottom: 30px;*/
+}
+
+.TalkPost, .TalkPost--dayStart, .TalkPost--start{
+    width: 540px;
+}
+
+.TalkPost__media{
+    height: 351px
+}

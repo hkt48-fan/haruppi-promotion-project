@@ -17,7 +17,8 @@ class FullPage extends React.Component {
             <html>
                 <head>
                     <meta charSet="UTF-8" />
-                    <link href="app.min.css" rel="stylesheet"/>
+                    <link href={`file://${__dirname}/../../app.min.css`} rel="stylesheet"/>
+                    <link href={`file://${__dirname}/../../custom.css`} rel="stylesheet"/>
                 </head>
 
                 <body>
@@ -25,8 +26,9 @@ class FullPage extends React.Component {
                     <div className="TalkPage__TalkList" style={{
                         // paddingLeft: '80px',
                         // display:'block',
-                        paddingBottom: '50px',
-                        width: '600px'}}>
+                        // paddingBottom: '50px',
+                        // width: '600px'
+                    }}>
                         {body}
                     </div>
 
