@@ -1,3 +1,9 @@
+body {
+    -webkit-transform: 'scale(2)';
+    -webkit-transform-origin: '0% 0%';
+    width: '100%';
+}
+
 body, html{
     overflow-y: visible;
 }
@@ -16,13 +22,13 @@ body, html{
 
 .TalkPage__TalkList{
     padding-bottom: 30px;
-    width: 670px;
+    width: 440px;
 }
 
 .TalkPost, .TalkPost--dayStart, .TalkPost--start{
-    width: 610px;
+    width: 420px;
 }
 
 .TalkPost__media{
-    height: 715px
+    height: 462px
 }

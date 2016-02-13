@@ -113,20 +113,50 @@ class TalkPost extends React.Component {
     // renderRetalkPost(){
 
     // }
+    getImageComponent(){
+        var {post} = this.props;
+        var {postType} = post;
+        // return post;
+
+        console.log(post.body[0].image);
+        var imgUrl = `http:${post.body[0].image}`;
+        return (<img className="TalkPost__stamp" src={imgUrl}></img>)
+    }
+
+    renderPostContent(){
+        var {postType} = this.props.post;
+        var postContent = [];
+
+        var postContentClass = '';
+        if (postType === 2){
+            postContentClass = 'TalkPost__content--stamp';
+            postContent = [].concat(this.getImageComponent());
+        }
+        else if (postType === 3) {
+            postContentClass = 'TalkPost__content--media';
+            postContent = [].concat(this.getQuoteComponent()).concat(this.getResponseComponent());
+        }
+        else{
+            postContentClass = 'TalkPost__content';
+            postContent = [].concat(this.getQuoteComponent()).concat(this.getResponseComponent());
+        }
+        return (
+            <div className={postContentClass}>
+                {postContent}
+            </div>
+        );
+    }
 
     render(){
         var {isFirst, post, user} = this.props;
-        var {postType} = post;
+
         var containerClass = isFirst?'TalkPost--dayStart':'TalkPost--start'
-        var postContentClass = 'TalkPost__content';
-        if (postType === 3) {
-            postContentClass = 'TalkPost__content--media'
-        }
-        var postTimeString = moment.unix(post.time).format('hh:mm:ss');
+
+        var postTimeString = moment.unix(post.time).format('HH:mm:ss');
         var dateString = moment.unix(post.time).format('YYYY/MM/DD');
 
-        var quoteComponent = this.getQuoteComponent();
-        var responseComponent = this.getResponseComponent();
+        // var quoteComponent = this.getQuoteComponent();
+        // var responseComponent = this.getResponseComponent();
 
         return (
             <div className={containerClass} data-date={dateString}>
@@ -139,10 +169,7 @@ class TalkPost extends React.Component {
                         <div className="TalkPost__username">{user.name}</div>
                         <div className="TalkPost__time">{postTimeString}</div>
                     </div>
-                    <div className={postContentClass}>
-                        {quoteComponent}
-                        {responseComponent}
-                    </div>
+                    {this.renderPostContent()}
                 </div>
             </div>
         )
