@@ -7,11 +7,12 @@ import FullPage from './components/FullPage';
 import posts from '../posts.json';
 import transcript from '../transcript.json';
 
+// console.log(transcript);
+
 var entryIndex = 0;
-posts.forEach(p=>{
-    p.post.body.forEach(b=>{
+let mergeTranslateText = (bodies)=>{
+    bodies.forEach(b=>{
         if (b.bodyType === 1) {
-            // text
             b.trans = transcript[entryIndex].trans;
             entryIndex++;
         }
@@ -19,17 +20,49 @@ posts.forEach(p=>{
             b.comment.comment.trans = transcript[entryIndex].trans;
             entryIndex++;
         }
+        else if(b.bodyType === 7){
+            mergeTranslateText(b.post.body);
+        }
     });
-});
+}
+
+posts.forEach(p=>{
+    mergeTranslateText(p.post.body);
+})
+
+// posts.forEach(p=>{
+//     p.post.body.forEach(b=>{
+//         if (b.bodyType === 1) {
+//             // text
+//             // if (!transcript[entryIndex]) {
+//             //     console.log(b);
+//             // }
+//             b.trans = transcript[entryIndex].trans;
+//             entryIndex++;
+//         }
+//         else if(b.bodyType === 4){
+//             b.comment.comment.trans = transcript[entryIndex].trans;
+//             entryIndex++;
+//         }
+//         else if(b.bodyType === 7){
+//             b.post.body.forEach(bb=>{
+
+//             })
+//         }
+//     });
+// });
+
+// fs.writeFileSync('./out.json', JSON.stringify(posts, null, 2));
+// process.exit();
 
 var post = (<FullPage posts={posts}/>)
 var result = ReactDOMServer.renderToStaticMarkup(post);
 var resultRetina = result.replace('custom.css', 'custom.retina.css');
 
-// fs.writeFileSync('./out.html', result);
+// fs.writeFileSync('./out.html', resultRetina);
 // process.exit();
 
-
+// console.log(result);
 // export to png via phantomjs
 // page.viewportSize in phantomjs 2.0 was broken,
 // build two version of html for render normal size and retina size
@@ -49,9 +82,10 @@ phantom.create(ph=>{
         page.setContent(result);
         setTimeout(()=>{
             console.log('try output normal size.');
+            console.log(savePath);
             page.render(savePath, {format: 'png'});
             ph.exit();
-        }, 50);
+        }, 5000);
     })
 })
 
@@ -62,6 +96,6 @@ phantom.create(ph=>{
             console.log('try output retina size.');
             page.render(savePath_retina, {format: 'png'});
             ph.exit();
-        }, 50);
+        }, 5000);
     })
 })

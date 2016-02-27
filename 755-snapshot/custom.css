@@ -10,10 +10,6 @@ body, html{
     top: -30px;
 }
 
-.TalkPost, .TalkPost--dayStart, .TalkPost--start {
-    margin-left: 0px;
-}
-
 .TalkPage__TalkList{
     padding-bottom: 30px;
     width: 670px;
@@ -21,6 +17,12 @@ body, html{
 
 .TalkPost, .TalkPost--dayStart, .TalkPost--start{
     width: 610px;
+    margin-left: 0px;
+}
+
+.RetalkPost, .RetalkPost--dayStart, .RetalkPost--start{
+    width: 570px;
+    margin-left: 40px;
 }
 
 .TalkPost__media{

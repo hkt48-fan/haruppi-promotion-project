@@ -29,17 +29,14 @@ const request = (url)=>{
     try{
         var responseBody = await request(apiUrlBase);
         var result = JSON.parse(responseBody);
-        // console.log(result.data.length);
         var matched = result.data.filter(d=>{
             return moment.unix(d.post.time).startOf('day').isSame(fetchDate.startOf('day'));
         });
-        // console.log(matched.length);
 
-        // extract text for translate
         var transcript = [];
-        matched.forEach(m=>{
-            // console.log(m);
-            m.post.body.forEach(b=>{
+
+        var extractTranslateText = (body)=>{
+            body.forEach(b=>{
                 var ts = {
                     text: '',
                     trans: ''
@@ -47,6 +44,7 @@ const request = (url)=>{
                 if (b.bodyType === 1) {
                     // text
                     ts.text = b.text;
+                    // ts.trans = b.text;
                 }
                 else if(b.bodyType === 2){
                     // stame
@@ -59,9 +57,30 @@ const request = (url)=>{
                 else if(b.bodyType === 4){
                     // quotation
                     ts.text = b.comment.comment.body;
+                    // ts.trans = b.comment.comment.body;
+                }
+                else if(b.bodyType === 7){
+                    // retalk
+                    extractTranslateText(b.post.body);
+                    return;
+                    // console.log(b.post);
+                    // ts.text = b.post.body[0].text;
+                }
+                else if(b.bodyType === 9){
+                    // news
+                    return;
+                }
+
+                if (ts.text === '' && ts.trans === '') {
+                    console.log(b.bodyType);
                 }
                 transcript.push(ts);
             })
+        }
+
+        // extract text for translate
+        matched.forEach(m=>{
+            extractTranslateText(m.post.body);
         });
 
         fs.writeFileSync('./posts.json', JSON.stringify(matched, null, 4));

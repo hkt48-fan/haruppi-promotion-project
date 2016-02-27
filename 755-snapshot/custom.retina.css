@@ -1,11 +1,13 @@
 body {
-    -webkit-transform: 'scale(2)';
-    -webkit-transform-origin: '0% 0%';
-    width: '100%';
+    zoom: 200%;
 }
 
 body, html{
     overflow-y: visible;
+}
+
+.TalkPost__content--media>img, .TalkPost__content>img{
+    width: 3.6rem;
 }
 
 .RetalkPost--dayStart, .TalkPost--dayStart{
@@ -16,17 +18,21 @@ body, html{
     top: -30px;
 }
 
-.TalkPost, .TalkPost--dayStart, .TalkPost--start {
-    margin-left: 0px;
-}
-
 .TalkPage__TalkList{
     padding-bottom: 30px;
     width: 440px;
 }
 
-.TalkPost, .TalkPost--dayStart, .TalkPost--start{
+.TalkPost, .TalkPost--dayStart, .TalkPost--start
+{
     width: 420px;
+    margin-left: 0px;
+}
+
+.RetalkPost, .RetalkPost--dayStart, .RetalkPost--start{
+
+    width: 380px;
+    margin-left: 40px;
 }
 
 .TalkPost__media{
