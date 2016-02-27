@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月19日 9:11:38 GMT+8<br>件名: おはよ！<br>寒〜くて、羽毛ぶとんがあったかーくて出たくなかったけど<br>がんばって起きたー( ´ ▽ ` )ノ<br><strong>太冷了，羽绒被好温暖出不来了</strong><br><strong>努力起床啦( ´ ▽ ` )ノ</strong><br>ねー？<br>あなたは起きれたー？<br><strong>呐？</strong><br><strong>你起床了吗？</strong><br>おはの！<br><strong>早啊！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月19日 17:46:47 JST<br>件名: じいー<br><br>いま、なにしてるのー？？？<br><strong>现在，在做什么呢？？？</strong><br><br>私はねー…<br>考えごとしてる。。。<br><strong>我呢…</strong><br><strong>在思考事情。。。</strong><br><strong><br></strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月19日 18:32:10 JST<br>件名: よっす！<br><br>飯はちゃんと食べてるかい？<br><strong>有好好吃饭吗？</strong><br><br>腹が減っては戦はできぬ！<br><strong>肚子饿了没法战斗！</strong><br><br>栄養ちゃんととって頑張らなきゃねー( ´ ▽ ` )ﾉ<br><strong>好好摄取营养必须要加油了呢( ´ ▽ ` )ﾉ</strong><br>最近は、しっかり三食たべとるよー！！！<br>ふへへ、<br>やっぱり食ってパワーでるー！！<br><strong>最近，有好好的吃三餐哦！！！</strong><br><strong>呼嘿嘿，</strong><br><strong>果然吃了就有力量！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午7:55 <br>『ローソン』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です！<br><strong>『罗森』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥！</strong><br><br>ただいまローソンのキャンペーンCMをやらせていただいています！<br><strong>现在正在出演罗森宣传活动的CM！</strong><br>見ていただけましたかー？<br><strong>有看过了吗？</strong><br>合計250人の方に当たるイベントや<br>プレゼントがあります！！<br><strong>合计250人能够</strong><br><strong>抽中奖品！！</strong><br><br>前回の大根ひっこ抜き隊きゃんに引き続き<br>どんな、イベントが待っているんだろう？<br><strong>继续上次的拔萝卜队活动</strong><br><strong>会有，怎么样的活动等着大家呢？</strong><br>楽しみです💓✨<br><strong>好期待💓✨</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月19日 21:07:03 JST<br>件名: こんばんは( ´ ▽ ` )ﾉ<br><br>今日は、撮影しとった！！<br><strong>今天，去了摄影！！</strong><br>テイクめっちゃ撮り直しちゃったの<br>もちろん、理由は…笑<br><strong>重复拍了好多镜头</strong><br><strong>当然，理由是…笑</strong><br>わらえなーい（；＿；）<br><strong>笑不出来（；＿；）</strong><br>がんばる！<br>トレーニングすればなおるってこの前てれびでみたし！<br><strong>加油！</strong><br><strong>之前在电视上看到练习一下就能改好！</strong><br>さしすせそーっ！！！！！<br><strong>sa shi su se so！！！！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月19日 22:04:22 JST<br>件名: 代々木<br><br>代々木コンサートまであと4日。<br><strong>距离代代木演唱会还有4天。</strong><br><br>サシコドソレイユは、代々木と神戸も福岡。<br>ライブの楽しさしってるから、あっと言う間まってわかってるからこそ<br>一回一回を、大切にしたいって思っとるっちゃん。<br><strong>指子剧团，代代木和神户和福岡</strong><br><strong>享受着Live的乐趣，正转为转眼就结束了</strong><br><strong>每一次，都想要更加重视。</strong><br><br>できるだけ、沢山の人とアイコンタクトしたいし<br>めろっぴを見つけ出したい！！<br><strong>尽量的，想要和更多的人进行眼神交流</strong><br><strong>想要找出迷恋P们！！</strong><br><br>代々木2デイズ楽しみだなぁー( ´ ▽ ` )ﾉ<br>それでは、まったりふわふわしてきたところで<br>おやすみなさい★<br><strong>好期待代代木2days啊( ´ ▽ ` )ﾉ</strong><br><strong>那么，懒散休闲的时候</strong><br><strong>晚安★</strong><br>ぷひゅーはー<br><strong>噗咻~~哈~~</strong><br>');
+
+
+

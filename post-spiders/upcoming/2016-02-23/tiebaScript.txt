@@ -1,0 +1,4 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月23日 10:47:30 JST<br>件名: おはの！<br><br>おはよう！！<br>気持ちの良い朝やね！<br><strong>早上好！！</strong><br><strong>心情舒畅的早晨呢！</strong><br>朝日を浴びて日光パワー注入…<br>代々木サシコドソレイユがんばるけん！<br><strong>沐浴着朝阳注入日光能量…</strong><br><strong>代代木指子剧团加油了！</strong><br>');
+
+
+

@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月10日 19:11:38 GMT+8<br>件名: こんにちは( ´ ▽ ` )ノ<br><br>今日のお仕事しゅうりょー^o^<br><strong>今天的工作结束了^o^</strong><br>朝早かったけん、眠たくなっちゃったー、、、<br>最近移動多いし、朝早くてこの時間なると眠たくなってくる。。。<br><strong>早上起的很早，想睡觉了、、、</strong><br><strong>最近移动很多，早上太早到这个时间就会想睡觉了。。。</strong><br><br>ふわぁーってなってきたときにあなたのこと思い出すこと多いけん<br>この時間のメールはふわふわしながらウトウトうってふんやなぁっておもってて！笑<br><strong>开始打哈欠的时候很多时间会想起你</strong><br><strong>这个时间的邮件是一边打着哈欠一边迷迷糊糊的打着字的吧！笑</strong><br>そうじゃない時も、もちろんあるけど！！<br><strong>其他的时间，当然也会有这样的！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月10日 19:21:28 GMT+8<br>件名: わーん<br><br>不具合でメール届いてなかったみたい（；＿；）<br><strong>好像出状况邮件没发出去（；＿；）</strong><br><br>さっきのやつもっと前に送ったのに…<br><strong>刚才的是很久之前发的…</strong><br><br>ごめんね。。。<br><strong>对不起。。。</strong><br><br>毎日つながっていたいから、こういあのわたしも少しさびしくなる。<br><strong>每天都想要联系，像这样的我也会觉的伤心的。</strong><br><br>こちらのメールは、<br>届いてますかー？<br><strong>这封邮件，</strong><br><strong>有送到吗？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月10日 20:21:37 GMT+8<br>件名: めがね<br>普段いえでは、めがねをかけてるよーん(^ー゜)<br>めちゃ、目が悪いけん、、、<br><strong>平时在家里，都是戴眼镜的哦(^ー゜)</strong><br><strong>视图，非常差的、、、</strong><br>でもでも、コンタクトつけたら大丈夫！<br>安心してください、みえてますよ！<br><strong>不过不过，戴上隐形眼镜就不要紧了！</strong><br><strong>请放心，看得到哦！</strong><br><br>コンサートとか、イベントとか<br>ちゃんと客席の顔とかグッズみえとるけん！<br><strong>演唱会，活动上</strong><br><strong>观众席上的表情与周边都有看到哦！</strong><br><br>あと、よくカラコン？って聞かれるけど<br>裸眼で、こんなかんじです。<br><strong>另外，经常被问是戴美瞳的吗？</strong><br><strong>祼眼，就是这样的感觉。</strong><br><br>してないのに、してるって言われるの良い気持ちしないからねー<br><strong>明明没有戴的，却被说有戴也不会有好的尽情呢</strong><br><br>ファッションとか、シチュエーションに合わせて<br>つけるのはとても魅力的だとは思います。<br><strong>配合时装，或是场景</strong><br><strong>去戴感觉是非常有魅力的。</strong><br><br>というか、めがねしょっとってあんまり公開したことないかも。<br><strong>说起来，戴眼镜的照片都没怎么公开过吧。</strong><br><br>メールだけだからね、<br>他のところにのせたら怒っちゃうからね(´・Д・)」<br><strong>只有在邮件里哦，</strong><br><strong>发到其他地方去我可是会生气的哦(´・Д・)」</strong><br><br>フリじゃないからね！笑<br><strong>可不是说笑的哦！笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年2月10日 <br>『毎日わくわく』<br>こんばんは(^ー゜)兒玉遥です！<br><strong>『充满期待的每天』</strong><br><strong>晚上好(^ー゜)是兒玉遥！</strong><br><br>明日は、HKT48 6thシングル「しぇからしか！」の握手会で<br>名古屋に行ってきまーす！<br><strong>明天是，HKT48 6th单曲「吵死了！」的握手会</strong><br><strong>在名古屋举行的！</strong><br><br>サシコドソレイユのライブ初日から4日後にまた名古屋の皆さんに会えるなんて…幸せです（；＿；）<br><strong>指子剧团的Live初日开始4天后又可以见到名古屋的朋友们了…真是幸福（；＿；）</strong><br><br>ライブを観た方には是非<br>感想を一緒に話したいですね〜<br><strong>看过Live的朋友请一定</strong><br><strong>要来一起说一下感想吧〜</strong><br><br>あとは、大好きな<br>手羽先とか、味噌カツとか、ひつまぶしを堪能できたらいいな💓<br><strong>还有，能品尝到</strong><br><strong>最喜欢的鸡翅，味噌猪排，鳗鱼饭的话就好啦💓</strong><br><br>今見ていること景色、楽しい時間は、<br>長くてもあと10年くらいしか味えないんだーってふと思い<br>少しかなしく感じました。<br><strong>现在所看到的景色，快乐的时间，</strong><br><strong>就算最长感觉也就能回味个10年左右吧</strong><br><strong>稍微感觉有点悲伤。</strong><br>わくわくする楽しみなことをできている<br>今、この時間を大切にしたいです。<br><strong>能得到令人期待又开心的事情</strong><br><strong>现在，想要更重视这个时间。</strong><br>今日の写真は<br>2shotをお願いすると、何故かいきなりピースに鼻の穴を入れてきたお茶目な須田亜香里さんと！笑<br><strong>今天的照片是</strong><br><strong>拜托她合照后，不知为何突然胜利手势插到我鼻孔里来的爱胡闹的须田亚香里桑！笑</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月10日 21:27:27 GMT+8<br>件名: 今日、おわり<br><br>よし！<br>明日もあるし、寝よーっと<br><strong>哟西！</strong><br><strong>明天也有握手会，要睡了</strong><br>名古屋楽しみ〜<br>おやすみなさい★<br>ぷひゅーはー<br><strong>好期待名古屋〜</strong><br><strong>晚安★</strong><br><strong>噗咻~~哈~~</strong><br>');
+
+
+

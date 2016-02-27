@@ -1,0 +1,12 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月21日 12:37:04 JST<br>件名: おはの！<br><br>幕張メッセで握手会はじまっとるよーん！！<br><strong>幕张messe的握手会开始了哦！！</strong><br><br>朝から、たくさんの笑顔みて元気でました！<br>このあともよろしくお願いしまーす( ´ ▽ ` )ﾉ<br><strong>早上开始，看到了许多笑容有了元气！</strong><br><strong>之后也请多多关照( ´ ▽ ` )ﾉ</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月21日 20:02:08 JST<br>件名: 握手会<br>きてくれた方ありがとう。<br>写真会より、たくさんお話できて嬉しかったな。<br><strong>能来的朋友谢谢了。</strong><br><strong>比起合照会，能聊更多话很开心啊。</strong><br><br>ただ、少し<br>今は明るくなれない気分。<br><strong>只是，有些</strong><br><strong>现在有些阴暗的心情。</strong><br><br>時間が必要みたい。<br><strong>好像需要点时间。</strong><br>このあとも、もうメール送れなそうだから<br>今日は最後になっちゃう、ごめんね。<br><strong>之后也，应该没空发邮件吧</strong><br><strong>这是今天最后的了，对不起。</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午10:34 <br>『初ダンスナンバー』<br>こんばんは( ´ ▽ ` )ﾉ兒玉遥です。<br><strong>『初次舞曲』</strong><br><strong>晚上好( ´ ▽ ` )ﾉ是兒玉遥。</strong><br><br>今日は幕張メッセで握手会でした！<br>来てくださった皆さんありがとうございます！！<br><strong>今天是在幕张messe的握手会！</strong><br><strong>能来的朋友十分感谢！！</strong><br><br>サシコドソレイユや、ドキュメンタリー映画、９つの窓の主演映画、総選挙など<br>沢山の話題について皆さんとおしゃべりできて<br>幸せでしたー^o^<br><strong>指子剧团，纪录电影，9扇窗的主演电影，总选举等等</strong><br><strong>和大家聊了许多关于这些的话题</strong><br><strong>很幸福^o^</strong><br><br>また、感想聞かせてくださいね〜<br><strong>请再，告诉我你的感想吧〜</strong><br><br>そして、話題といえば<br>今日、握手会にて初解禁された『make noise』<br><strong>然后，说到话题</strong><br><strong>今天，握手会上初次解禁的『make noise』</strong><br><br>akb48新曲『君はメロディー』に収録されているカップリング曲です。<br><strong>akb48新曲『君はメロディー』里收录的C/W曲。</strong><br><br>ダンスの上手な<br>熊沢世莉奈ちゃん、宇井真白を選抜に加え<br>実は、HKT48としては初のダンスナンバーになっているんです！<br><strong>擅长跳舞的</strong><br><strong>熊沢世莉奈酱，宇井真白也加入选拔</strong><br><strong>其实，作为HKT48还是初次的舞曲！</strong><br><br>今までにはない、カッコイイ一面が<br>伝わったらいいな<br><strong>至今为止所没有的，帅气的一面</strong><br><strong>能传达给大家就好啦</strong><br><br>short ver.がAKB48公式You Tubeにて見ることができます！<br><strong>short ver.在AKB48官方油管上可以看了！</strong><br><br>よかったら、是非…<br><strong>可以的话，请一定…</strong><br><br>早く、ライブで披露してみたいな、、、<br>めっちゃ緊張すると思うけど、、、<br><strong>想要，快点在Live披露啊、、、</strong><br><strong>应该会非常紧张吧、、、</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+

@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月12日 9:42:18 JST<br>件名: おはのー！<br><br>今日は、ずっと食べたかった<br>小倉フレンチトーストを、朝食べましたよ( ´ ▽ ` )ﾉ<br><strong>今天，一直想要吃的</strong><br><strong>小仓法式吐司，早上吃了哦( ´ ▽ ` )ﾉ</strong><br>美味しかった！パン食べたの久しぶり！<br>名古屋のなごりを今日の朝まで感じながら…<br><strong>很好吃！好久没吃过面包了！</strong><br><strong>今天早上还留恋着名古屋…</strong><br>今日は、1日中収録！！<br>行ってきまーす！！！<br><strong>今天，1天里都要收录！！</strong><br><strong>我出发了！！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月12日 19:38:17 JST<br>件名: 楽しかったー！<br><br>収録が楽しすぎてあっという間だった！！<br><strong>收录太开心了转眼就结束了！！</strong><br><br>いいなー、<br>メンバーとやるバラエティー番組楽しいなぁ( ´ ▽ ` )ﾉ<br><strong>真好啊，</strong><br><strong>能和成员一起出演的综艺节目很开心啊( ´ ▽ ` )ﾉ</strong><br>やっぱり、ガチで勝負する！ってのが<br>1番いいね！<br><strong>果然，认真比试！这样是</strong><br><strong>最棒的呢！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月12日 22:03:21 JST<br>件名: こんばんは<br><br>明日は写メ会！！<br>バレンタイン前だね〜<br><strong>明天是写真会！！</strong><br><strong>情人节之前呢〜</strong><br><br>だから、ちょっとデートを意識した服にしちゃおっと( ´ ▽ ` )ﾉ<br><strong>所以，稍微想象着约会时的服装( ´ ▽ ` )ﾉ</strong><br>ガーリーな感じより<br>普段はカジュアルが多いからね…、<br><strong>比起少女风格</strong><br><strong>平时比较多穿休闲风格的呢…、</strong><br>楽しみーっ！！<br><strong>好期待！！</strong><br>おやすみなさい。<br>ぷひゅーはー★<br><strong>晚安。</strong><br><strong>噗咻~~哈~~★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  下午10:17 <br>明日は、写メ会です( ´ ▽ ` )ﾉ<br><strong>明天是，写真会( ´ ▽ ` )ﾉ</strong><br><br>バレンタイン前日、みんなに会えるなんて嬉しい！！<br><strong>情人节前日，能见到大家太开心了！！</strong><br>よろしくお願いします！！<br><strong>请多多关照！！</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+

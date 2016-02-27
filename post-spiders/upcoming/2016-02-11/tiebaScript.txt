@@ -1,0 +1,24 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月11日 11:07:07 JST<br>件名: おはの！<br><br>名古屋ですよーん(^ー゜)<br><strong>名古屋哦(^ー゜)</strong><br><br>名古屋らしいもの食べられるかなー？？<br><strong>能吃到有名古屋风格的东西吗？？</strong><br><br>それより、早くみんなからライブの感想聞くのが楽しみ！！<br><strong>说起来，很期待快点听到大家对Live的感想！！</strong><br><br>一部おわったけど、すでに気分るんるんだけどねーん★<br><strong>虽然一部结束了，尽情已经是非常高涨了★</strong><br><br>このあとも、よろしくお願いしまーす！<br><strong>之后也是，请多多关照！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月11日 13:07:05 JST<br>件名: 今日は<br><br>今日のお洋服は、誰かさんのおさがり。<br><strong>今天的时装是，某人送给我的。</strong><br><br>トップスとジャケット(^ー゜)お気に入り。<br>ジャケット好きなんですよねー<br><strong>上衣和夹克(^ー゜)很中意。</strong><br><strong>很喜欢夹克的呢</strong><br><br>ボーイッシュなスタイルかな。<br><strong>男孩子气的风格吧。</strong><br><br>さぁー、だれからでしょ？<br><strong>那么，是谁给的呢？</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月11日 16:58:49 JST<br>件名: えー！！！<br><br>荒巻ちゃんが、<br><strong>荒巻酱，</strong><br>そーっと近づいてきてくれて<br>「あと、去年渡そうと思ったんですけど、わたせなくて…」って<br><strong>悄悄的接近我</strong><br><strong>「那个，去年想送给你的，没拿出来…」这么说</strong><br><br>誕生日プレゼントを今日持ってきてくれたっちゃん（；＿；）<br><strong>今天带来了生日礼物（；＿；）</strong><br>かわいすぎるー！！！<br>9月ーっっ！！！<br><strong>太可爱了！！！</strong><br><strong>9月！！！</strong><br>中身もナイスチョイスだった( ´ ▽ ` )ﾉ<br>ちょうど欲してたやつ！<br><strong>里面的礼物也是选的很好( ´ ▽ ` )ﾉ</strong><br><strong>正好是想要的东西！</strong><br><br>はぁ、可愛い後輩が沢山いて幸せ。<br>ありがと荒巻ちゃん<br><strong>哈，有好多可爱的后辈很幸福。</strong><br><strong>谢谢荒卷酱</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月11日 19:11:54 JST<br>件名: 握手会<br><br>ありがとう( ´ ▽ ` )ﾉ<br><strong>谢谢( ´ ▽ ` )ﾉ</strong><br>会えるの幸せ、、<br>嬉しいのに、なのに、、、<br><strong>能见面很幸福、、</strong><br><strong>明明很开心，但是、、、</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月11日 19:31:46 JST<br>件名: ドキュメンタリー<br>すでに、沢山のコメントや感想を聞けて<br>沢山の人に見ていただけてすごく嬉しいです。<br><strong>已经，听到了许多回复和感想了</strong><br><strong>有许多人去看过了很开心。</strong><br>私に起こったいろんな出来事から上手に厳選してくださって<br>指原監督のおかけで、今まで見せていなかった私の、伝えきれなかった部分を<br>皆さんに知ってもらう機会ができてよかったです。<br><strong>精选了在我身上发生的各种事情</strong><br><strong>依靠指原导演，至今为止所没有见过的我，无法传达清楚的部分</strong><br><strong>能有这个让大家了解我的机真是太好了。</strong><br><br>でも、そのことを改めて握手会で話されると<br>混乱してしまうんです。<br><strong>不过，这些事情再一次在握手会上谈起</strong><br><strong>会变的混乱的。</strong><br><br>今日、ドキュメンタリーについて話をしてくださった方。<br>上手く返答できていなかったら、ごめんなさい。<br><strong>今天，聊了关于纪录片的朋友。</strong><br><strong>如果没有很好的回答你的话，对不起了。</strong><br><br>受け取り方は人それぞれだし<br>時が経過するごとに考え方も変わっていってるからさ。<br><strong>每个人的接受方式都不同</strong><br><strong>经过一段时间思考方式也会有所改变的。</strong><br><br>『自信もっていいんだよ。』<br>みんなはそう言うけど、そう簡単には言えない自分。<br><strong>『可以保持自信的哦。』</strong><br><strong>虽然大家这么说，但却无法这么简单的对自己说。</strong><br><br>私には特別なにか取り柄があるわけじゃないし<br>何かで1番なわけでもない。<br><strong>我并没有什么特别的特色</strong><br><strong>并没有什么能排上第一。</strong><br><br>さっしーやさくらが引っ張ってくれているなって感覚もあるし<br>だから、、、<br><strong>也有被撒西和樱花带领着的感觉</strong><br><strong>所以、、、</strong><br><br>どうやったら、胸をはって<br>その言葉が言えるようになるか今真剣に考えているところ<br><strong>要怎么样才能，挺起胸膛</strong><br><strong>说出那样的话现在认真的思考着</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天下午8:25 <br>「なごや」<br>こんばんは(^ー゜)兒玉遥です。<br><strong>「名古屋」</strong><br><strong>晚上好(^ー゜)是兒玉遥。</strong><br><br>今日は、なごやで握手会でしたー！<br><strong>今天是，在名古屋的握手会！</strong><br>サシコドソレイユ初日のお話ができて、嬉しかったです。<br>他にも、ドキュメンタリー映画にショートショートの主演の映画の話も多かったですね〜<br><strong>能聊指子剧团初日的话题，很开心。</strong><br><strong>其他也有，纪录片电影和微型电影的主演的话题也很多呢〜</strong><br><br>お喋りするの好きやけん<br>すごーくテンション上がっちゃって<br>あっという間に1日が過ぎちゃいました(°_°)<br><strong>很喜欢聊天的</strong><br><strong>情绪非常高涨了</strong><br><strong>时间飞快的1天就过去了(°_°)</strong><br><br>高まり過ぎて呂律ちゃんと回っていたか心配…笑<br><strong>情绪太高了担心口齿还说的清楚吗…笑</strong><br><br>来てくださった皆さん、ありがとうございました！<br><strong>能来的朋友们，十分感谢！</strong><br>人生初の味噌カツも食べられたし💓<br>美味しかったぁ！矢場トン！<br><strong>吃到了人生初次的味噌猪排💓</strong><br><strong>很好吃啊！矢场don！</strong><br><br>あの味噌だれの、見た目よりあっさりしていることに驚き！<br>食欲そそりましたー😭ごちそうさま！<br><strong>那个味噌汤底，比看上去要清爽吓了一跳！</strong><br><strong>很能提起食欲😭多谢款待！</strong><br><br>なごや最高！<br>ありがとう！<br>おやすみ！<br><strong>名古屋最棒了！</strong><br><strong>谢谢！</strong><br><strong>晚安！</strong><br>');
+
+
+

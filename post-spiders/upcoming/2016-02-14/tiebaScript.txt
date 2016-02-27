@@ -1,0 +1,28 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 12:36:38 GMT+8<br>件名: みくりん、まどか、める<br><br>4人でおひるごはんたべたよーん( ´ ▽ ` )ノ<br><strong>4个人一起去吃了午饭哦( ´ ▽ ` )ノ</strong><br>今日は、私の大好きなグリーンカレーやった！！！<br><strong>今天是，我最喜欢的绿咖喱！！！</strong><br><br>隣の、写真とってたらみくりんが来てくれた^o^<br>可愛いっ。<br><strong>旁边，想要拍照片后米库灵来了^o^</strong><br><strong>好可爱。</strong><br><br>みんなでトークしてたら<br>「みくもー！！！」って共感してくるのが<br>個人的にすごく好き。<br><strong>大家聊着天</strong><br><strong>「美久也是！！！」会表示同意</strong><br><strong>个人来说非常喜欢。</strong><br><br>自分の名前を自分でいう女の子可愛い。<br>特に二文字(￣▽￣)<br><strong>自己说自己名字的女孩子很可爱。</strong><br><strong>特别是两个字的(￣▽￣)</strong><br><span class="edit_font_color">だから、私は言いません！</span><br><strong>所以，我不会说！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 12:41:48 GMT+8<br>件名: それと、<br><br>ゆうなちゃんが、バレンタインチョコくれたーo(^▽^)o<br><strong>祐奈酱，送了我情人节巧克力o(^▽^)o</strong><br><br>わーい！！！<br>嬉しい！！！<br><strong>哇~~~！！！</strong><br><strong>好开心！！！</strong><br><br>手作りトリュフだって！<br>早速食べたけど、うまうまでした。<br><strong>说是亲手做的松露巧克力！</strong><br><strong>马上就吃了，好吃好吃。</strong><br>写メ会あさから、足元の悪いなか来てくださって<br>ありがとうございますー！<br><strong>合照会早上就，冒雨前来的朋友</strong><br><strong>十分感谢！</strong><br>よーし、午後の部の握手会も<br>よろしくお願いします！<br><strong>哟西，午后的部的握手会也</strong><br><strong>请多多关照！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 20:31:43 GMT+8<br>件名: とうちゃーく<br><br>ホテルついたよ( ´ ▽ ` )ノ<br><strong>到达旅馆了哦( ´ ▽ ` )ノ</strong><br><br>ウインク上手になりたい。。。<br>正確性なすぎてうまくできない。<br><strong>想要更擅长Wink。。。</strong><br><strong>太没有正确性了做不好。</strong><br><br>人間だもの。<br>毎回は成功しないよー<br><strong>因为是凡人。</strong><br><strong>并不能每次都成功哦</strong><br>ロボットだったら毎回同じことできるんだろうけど！笑<br><strong>如果是机器人每次都能做到同样的事了！笑</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 20:36:38 GMT+8<br>件名: 写メ会<br><br>写メ会ってさ、年に何回しかないし<br>握手会はいったことなくて、写メ会デビューです！ってひと結構いるのよね。<br><strong>说到合照会，每年只有几次</strong><br><strong>没有去过握手会，在合照会出道了！有挺多这样的人呢。</strong><br><br>だから、毎回楽しみなんだ( ´ ▽ ` )ノ<br><strong>所以，每次都很期待啊( ´ ▽ ` )ノ</strong><br><br>数年前の一緒に撮った写真とかぶら下げてる人見ると<br>あ！あの時！って思い出すし<br>あんな昔に会ったことあるんだ！<br>って懐かしく感じる。<br><strong>数几年前一起拍的照片什么的排在一起看的时候</strong><br><strong>啊！那个时候！会回忆起来</strong><br><strong>在那么久之前有见过面啊！</strong><br><strong>感觉很怀念。</strong><br><br>再開ってやっぱり嬉しいものだね。<br><strong>能再会果然很开心的呢。</strong><br>思い出を残すって、いいもんだね。<br><strong>能留下回忆，真是不错呢。</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 21:11:34 GMT+8<br>件名: うーん<br>写メ会すっごく楽しかった！<br>でも〜<br><strong>合照会非常开心！</strong><br><strong>不过〜</strong><br><br>もっと、おしゃべりしたかった（；＿；）<br>滑舌自信ないけど、話おもしろいわけでもなんでもないけど、おしゃべり好きだからさ！<br><strong>想要，更多聊聊天的（；＿；）</strong><br><strong>虽然对口齿没有自信，聊天内容也并没有什么特别有趣的，很喜欢聊天的！</strong><br><br>握手会行ったことあるひとだと<br>同じこと思ったんやないかな？<br><strong>有去过握手会的人</strong><br><strong>会不会有相同的感觉呢？</strong><br><br>どちらにもそれぞれ、メリットがあるけども…<br>仕方ないね´д` ;<br><strong>不管哪个都有各自的，好处吧…</strong><br><strong>没办法呢´д` ;</strong><br><br>今、何してるの？<br>撮った写真みかえして、脳内再生してたり？<br><strong>现在，在做什么？</strong><br><strong>回看拍的照片，在脑内再生吗？</strong><br>ふふふ<br>キラキラ〜<br><strong>呼呼呼</strong><br><strong>闪闪发光〜</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月14日 21:21:28 GMT+8<br>件名: 選挙<br><br>あと、ドキュメンタリー映画みたよ！って<br>少ない時間のなか伝えてくださったり<br>今年は選抜頑張ろうね！<br>って言葉が胸に柔らかく刺さりました。<br><strong>另外，看了纪录片电影哦！</strong><br><strong>在不多的时间里传达给我</strong><br><strong>今年的选拔要加油呢！</strong><br><strong>这样的话语温柔的刺中我的心。</strong><br><br>ありがとうございます。<br><strong>十分感谢。</strong><br><br>嬉しい反面。<br>やっぱりプレッシャーも感じていて…<br><strong>开心的反面。</strong><br><strong>果然也会感受到压力…</strong><br><br>あの日からずっと、考えない日はないってくらい私の中にはあるんだけども<br>どう伝えたらいいか頭の中でグルグル…<br><strong>那天以来在我心中，有一直没有一天不去思考的事情</strong><br><strong>要怎么去传达才好一直在我脑中回转…</strong><br><br>いつもこんな私で申し訳ないです。<br>ごめんね、<br><strong>一直是不成气的我很抱歉。</strong><br><strong>对不起呢、</strong>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年2月14日 <br>「チョコレート依存性」<br>こんばんは(^ー゜)兒玉遥です！<br><strong>「巧克力依存症」</strong><br><strong>晚上好(^ー゜)是兒玉遥！</strong><br><br>2日間にわたり、写メ会ありがとうございました！<br><strong>经过2天时间的，合照会十分感谢！</strong><br><br>たくさん思い出を、残せて幸せでした〜<br>しかも、バレンタインに💓<br><strong>能留下许多的回忆，很幸福〜</strong><br><strong>而且，是在情人节💓</strong><br><br>皆さんにとっても、楽しいバレンタインになっていたら嬉しいです。<br><strong>对大家来说，能有个快乐的情人节就很开心啦。</strong><br>そして、そして<br>やっぱりバレンタインといえばチョコレート。<br><strong>然后，然后</strong><br><strong>果然说到情人节就是巧克力。</strong><br>昨日から、頭の中がチョコレートでいっぱい😭😭<br><strong>昨天开始，头脑中全是巧克力😭😭</strong><br><br>普段なら、欲がでで排除するように脳がなっているからあまり食べないけど、<br>バレンタインシーズンだけは<br>今しかない！！って思って迷わず手がのびてしまいます。<br><strong>平时的话，脑中为了能排除欲望基本很少会吃，</strong><br><strong>只有在情人节季中</strong><br><strong>只有现在！想着这个毫不犹豫的就出手了。</strong><br><br>そして、とまらない。。。<br>甘〜くて、口の中でとろけて、ふわ〜とカカオの香り<br>ホットコーヒーと一緒に食べるのが私流。<br><strong>然后，停不下来。。。</strong><br><strong>好〜甜，在口中溶化，可可亚的香味〜溢满口中</strong><br><strong>与热咖啡一起吃是我的流派。</strong><br>チョコレート依存性でしょうか？<br>今日だけ許してください。<br><strong>是巧克力依存症吗？</strong><br><strong>就只有今天请原谅我吧。</strong><br><br>皆さんは、なんの依存性ですか(￣▽￣)💓？？<br><strong>大家，有什么依存症吗(￣▽￣)💓？？</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+

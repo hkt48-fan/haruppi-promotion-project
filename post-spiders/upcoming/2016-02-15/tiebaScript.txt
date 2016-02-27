@@ -1,0 +1,20 @@
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  昨天上午7:23 <br>おはようございます( ´ ▽ ` )ﾉ✨💓<br><strong>早上好( ´ ▽ ` )ﾉ✨💓</strong><br>よーし！！<br>たくさんチョコレート食べたし<br>みんなとたくさん思い出写真に残せて楽しかったし、元気でました！！<br><strong>哟西！！</strong><br><strong>吃了好多巧克力了</strong><br><strong>与大家留下了许多回忆的照片很开心，有元气了！！</strong><br>今日も1日、がんばりましょー！！！<br>いってきます！<br><strong>今天1天也，加油吧！！！</strong><br><strong>我出发了！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月15日 13:11:29 GMT+8<br>件名: こんにちは<br><br>月曜日！！<br>どんな感じー？？<br><strong>周一！！</strong><br><strong>什么样的感觉？？</strong><br><br>いきいきしてるぅ〜^o^？<br><strong>有升龙活虎吗〜^o^？</strong><br><br>学校のときは、週末休みっがあって曜日感覚あったんやけど<br>今は、気にしなくなったねー<br><strong>上学的时候，会有周末休息很有星期的感觉</strong><br><strong>现在，不会去在意了呢</strong><br>握手会とか写メ会とかがくると<br>あ、週末か！とか<br>祝日か！って感じる。<br><strong>到了握手会和合照会的时候</strong><br><strong>啊，周末啦！或是</strong><br><strong>假日啦！的感觉。</strong><br>月曜日は、なんだかいつも新しい気分だったなー<br>今日から新しい1週間！ってね( ´ ▽ ` )ノ<br><strong>周一，总觉的一直都是新的心情啊</strong><br><strong>今天开始新的1周开始了！这样呢( ´ ▽ ` )ノ</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月15日 16:01:27 GMT+8<br>件名: ねぇ…<br><br>1日おくれでも、<br><strong>虽然晚了1天，</strong><br><br>うけとってもらえますか？<br><strong>能收下吗？</strong><br><br>好きっちゃん！！<br><strong>喜欢你！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月15日 18:32:34 JST<br>件名: バレンタイン<br><br>バレンタインに女の子が男の子にチョレートを渡すっていうイベントは、日本ならではなんやって！！<br><strong>情人节里女孩将巧克力送给男孩的活动，是只有日本才这样的！！</strong><br>世界共通じゃないみたい（;￣O￣）<br><strong>好像不是世界共通的（;￣O￣）</strong><br><br>ニュースでしってびっくり！<br><strong>新闻里这么说吓了一跳！</strong><br><br>中国は、男の人が女の人に告白する日みたい。<br>そして、義理はないんだって！<br><strong>中国是，男人向女人告白的日子。</strong><br><strong>然后没有人情巧克力什么的！</strong><br>素敵ねーん^o^<br><strong>很不错呢^o^</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月15日 20:51:28 GMT+8<br>件名: あったかーい<br><br>最近、もう、あったかくなってきたね(・・;)<br><strong>最近，已经，变的暖和起来了呢(・・;)</strong><br><br>アウター選びのうきうきが、あと少ししか味わえないなんてさびしー、、、<br><strong>选择外套的兴奋心情，只能再回味少许的时间了很寂寞、、、</strong><br><br>あの、外に出るとひんやりつめたくい感じ好きなのになー<br><strong>很喜欢，那种去外面时的凉到有点痛的感觉啊</strong><br><br>特に夜。<br><strong>特别是晚上。</strong><br><br>寒いなか、寒いねーとか<br>たわいもない会話しながら星とかみてダラダラ歩くのいいなーって思う。<br><strong>寒冷之中，说着很冷呢</strong><br><strong>聊着没营养的话题看着星星散着步感觉很不错啊。</strong><br>まんがの読み過ぎ？<br>ぜんぜん読まないけど。笑<br><strong>看太多漫画了？</strong><br><strong>完全没有读多少。笑</strong><br>夢の見過ぎか…<br>夢をみるのは自由だもんね。<br><strong>做太多梦了吗…</strong><br><strong>做梦是自由的嘛。</strong><br>はぁー、お風呂上りに<br>もこもこのパジャマ好きなのに<br>これに羽毛布団かぶると、もうあつい。<br><strong>哈~~，洗完澡后</strong><br><strong>明明喜欢毛绒绒的睡衣的</strong><br><strong>这样盖上羽绒被后，真的太热了。</strong><br><br>さむーっていいながら<br>入る布団が気持ちいいのにー<br><strong>虽然说着好冷</strong><br><strong>明明被窝里很舒服的</strong><br><br>もうー、、、<br><strong>真是的、、、</strong><br>');
+
+
+

@@ -1,0 +1,16 @@
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月20日 10:01:28 GMT+8<br>件名: おはの！<br>朝日が気持ちいいね〜！！！<br><strong>朝阳很舒服呢！！！</strong><br><br>って思ってたけど、あれ、曇ってきた？<br>元気な太陽どこにいっちゃった？<br><strong>虽然这样想，啊来，阴天吗？</strong><br><strong>元气的太阳跑到哪里去啦？</strong><br><br>太陽は、どこにも行ってないし<br>同じパワーで照り続けているのに<br>雲が邪魔してるんだ。<br><strong>太阳，哪里都没有去</strong><br><strong>明明用同样的能量照射着</strong><br><strong>却被云给挡住了。</strong><br><br>どいてー( ´ ▽ ` )ノ<br><strong>让开( ´ ▽ ` )ノ</strong><br><br>よっしゃー！！今日も1日えいえいおーっ<br><strong>哟夏！！今天1天也嗨嗨吼~~~</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月20日 19:42:27 JST<br>件名: ビリから3位<br>284…<br>284…<br><br>４８グループで下から3番目の運気。<br><strong>48团体倒数第3位的运气。</strong><br><br>akbingoから結構時間たったし、占いとか信じないタイプやけど、こればっかりは気にしちゃう（；＿；）<br><strong>akbingo已经过了很多时间了，虽然是不想念占卜的类型，只有这个会在意（；＿；）</strong><br>今年がんばろうって、意気込んでただけにね。<br><strong>今年要加油了，只有打起干劲了呢。</strong><br>自分次第！！<br>もっと頑張りなさいってことかな！！<br>やるしかないもんね！！<br><strong>自己的情况！！</strong><br><strong>就是说要更加努力了吧！！</strong><br><strong>只有云做了呢！！</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('差出人: &lt;hakata_haruppi@sp.hkt48.jp&gt;<br>日時: 2016年2月20日 21:31:48 GMT+8<br>件名: 明日<br><br>あしたは握手会！！<br><strong>明天是握手会！！</strong><br><br>今月は、めろっぴの顔たくさんみれるけんか、<br>すっごく元気！！<br><strong>这个月，看到了许多迷恋P的面容，</strong><br><strong>非常元气了！！</strong><br>やっぱり、みんなからパワーもらってるんだろうなぁ。<br><strong>果然，从大家那里得到了能量啊。</strong><br><br>誰かと一緒に過ごす毎日は、幸せだよね。1人よりだんぜん。<br><strong>能与谁一起度过的每天，很幸福呢。比起1个人要好多了。</strong><br><br>とくに私は、最近自分でも気づいたけど<br>結構ガラスのハートだから（だいぶ鍛えられてきている）つくづく、あなたの大切さに気付かされているよ。<br><strong>特别是我，最近就算是自己也注意到了</strong><br><strong>非常玻璃心的（已经锻炼的强很多了）慢慢的，注意到了你的重要性。</strong><br><br>こんなこと言うの恥ずかしいけど、本当の気持ちだから伝えるね。<br><strong>说这样的话虽然很害羞，因为是真实是心情想要传达给你。</strong><br>…<br>だいすき。<br><strong>最喜欢了。</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
+UE.getEditor("ueditor_replace").setContent('兒玉遥公开分享  -  2016年2月20日 <br>こんばんは( ´ ▽ ` )ﾉ<br><strong>晚上好( ´ ▽ ` )ﾉ</strong><br><br>明日は握手会！！<br><strong>明天是握手会！！</strong><br><br>みんなに会えるのも<br>おしゃべりするのも楽しみ<br><strong>能见到大家</strong><br><strong>和大家聊天好期待</strong><br>幕張メッセで待っとうけん！<br><strong>在幕张messe等着大家！</strong><br>おやすみなさい★<br><strong>晚安★</strong><br>');
+
+
+
