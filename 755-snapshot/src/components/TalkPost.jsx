@@ -130,25 +130,8 @@ class TalkPost extends React.Component {
         return result;
     }
 
-    // renderPost(){
-    //             var {post} = this.props;
-    //     var {postType} = post;
-    //     return (
-    //         <div className="TalkPost__content">
-
-    //         </div>
-    //     )
-    // }
-
-    // renderRetalkPost(){
-
-    // }
     getImageComponent(){
         var {post} = this.props;
-        var {postType} = post;
-        // return post;
-
-        console.log(post.body[0].image);
         var imgUrl = `http:${post.body[0].image}`;
         return (<img className="TalkPost__stamp" src={imgUrl}></img>)
     }
@@ -180,7 +163,7 @@ class TalkPost extends React.Component {
     renderRetalkPostContent(){
         let body = this.props.post.body[0];
         let postContent = [];
-        let translate = [];
+        let translateContent = [];
 
         postContent = body.post.body.map(b=>{
             switch(b.bodyType) {
@@ -188,17 +171,6 @@ class TalkPost extends React.Component {
                     return (
                         <span className="Linkify">
                             <span>{b.text}</span>
-                        </span>
-                    )
-            }
-        })
-
-        translate = body.post.body.map(b=>{
-            switch(b.bodyType) {
-                case BodyType.TEXT:
-                    return (
-                        <span className="Linkify" style={{color: 'red'}}>
-                            <span>{b.trans}</span>
                         </span>
                     )
                 case BodyType.NEWS:
@@ -213,12 +185,22 @@ class TalkPost extends React.Component {
                             </div>
                         </div>
                     )
+            }
+        })
+
+        translateContent = body.post.body.map(b=>{
+            switch(b.bodyType) {
+                case BodyType.TEXT:
+                    return (
+                        <span className="Linkify" style={{color: 'red'}}>
+                            <span>{b.trans}</span>
+                        </span>
+                    )
                 }
             }
         )
 
-        postContent = postContent.concat(<br/>).concat(translate);
-
+        postContent = postContent.concat(<br/>).concat(translateContent);
         return postContent;
     }
 
