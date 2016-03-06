@@ -19,7 +19,13 @@ const Document = React.createClass({
   },
 
   render() {
-    const { styles, scripts, content, title, initialState } = this.props
+    // console.log('only on/ server');
+    // console.log(this.props);
+    // console.log(this.props);
+    const { styles, scripts, content, title, initialState } = this.props;
+    // console.log(photoData);
+
+    // let state = Object.assign(initialState, photoData);
 
     return (
       <html>

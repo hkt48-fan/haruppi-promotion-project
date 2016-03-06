@@ -1,9 +1,17 @@
-const isAuthenticated = (uid, tid)=>{
-  if (uid === 'aaa' && tid === 'bbb') {
-    return true;
+import userdef from '../../sdat/userdef';
+
+const authenticate = (uid, tid)=>{
+  let user = userdef.find(user=>user.uid === uid);
+  if (!user) {
+    return null;
   }
 
-  return false;
+  console.log(user.tids);
+  if (user.tids.indexOf(tid) === -1) {
+    return null;
+  }
+
+  return user;
 };
 
 const getProfileByUid = ()=>{
@@ -21,14 +29,27 @@ export default (req, res)=>{
   let result = {
     result: null,
     token: null,
-    profile: null
+    // setCookie: null,
+    profile: null,
+    user: null
   };
 
-  if (isAuthenticated(uid, tid)) {
-    result.result = 'ok',
-    result.token = 'tokentoken';
-    result.profile = getProfileByUid(uid);
+  let user = authenticate(uid, tid);
+  if (user) {
+    req.session.regenerate(()=>{
+      req.session.user = user,
+      console.log('auth!');
+      console.log(user);
+      result.user = user;
+      result.result = 'ok';
+      result.profile = getProfileByUid(uid);
+      res.send(result);
+    });
+
   }
-  res.send(result);
+  else {
+    res.send(result);
+  }
+
 };
 

@@ -9,7 +9,8 @@
     "react/wrap-multilines": 2,
     "semi": [1, "always"],
     "no-console": 1,
-    "comma-dangle": 1
+    "comma-dangle": 1,
+    "no-unused-vars": 1
   },
   "plugins": [
     "react"

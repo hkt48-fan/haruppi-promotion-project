@@ -7,15 +7,15 @@ files.forEach(function(file){
         return;
     }
 
-    var filename = file.replace(/.jpg$/, '');
-    filename = './thumbnail/' + filename;
+    var fileId = file.replace(/.jpg$/, '');
+    var filename = './thumbnail/' + fileId;
 
     if (fs.existsSync(filename)) {
         return;
     }
 
     var fileContent = {
-        id: filename,
+        id: fileId,
         tags: ['']
     };
 
