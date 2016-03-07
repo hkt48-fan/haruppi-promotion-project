@@ -47,7 +47,7 @@ export default class PhotoList extends React.Component {
     let photoData = this.props.photoData || [];
     let bidButton = (
       <RaisedButton
-      label="PP: 5"
+      label="PP: 1"
       // linkButton={true}
       // href="https://github.com/callemall/material-ui"
       secondary={true}

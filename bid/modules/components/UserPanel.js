@@ -8,6 +8,10 @@ const styles={
   container:{
     flex: '4 0 0'
   },
+  user:{
+    flex: '4 0 0',
+    margin: 12
+  },
   button:{
     margin: 5
   }
@@ -27,7 +31,6 @@ export default class UserPanel extends React.Component {
   }
 
   login() {
-    console.log('test');
 
     let uid = this.refs.uid.getValue();
     let tid = this.refs.tid.getValue();
@@ -42,13 +45,11 @@ export default class UserPanel extends React.Component {
         }
         else if(res.body.result === 'ok') {
           console.log('success');
-          console.log(res.body);
-          console.log(res.body.setCookie);
           // document.cookie = res.body.setCookie;
           // document.cookie = 'connect.uid=aabbcc; expires=Sun Mar 06 2016 22:56:04 GMT+0800 (CST); path=/; max-age=60000; httpOnly: true'
           let user = res.body.user;
-          this.setState({ user });
-
+          // this.setState({ user });
+          this.props.userLogin(user);
         }
         else {
           console.log('auth fail');
@@ -56,11 +57,15 @@ export default class UserPanel extends React.Component {
       });
   }
 
+  keyPressed(kbEvent) {
+    console.log(kbEvent.keyCode);
+  }
+
   renderLoginFields() {
     return (
       <div style={styles.container}>
       <TextField ref="uid" hintText="您的淘宝登录id" />
-      <TextField ref="tid" hintText="任意77订单号" />
+      <TextField ref="tid" hintText="任意77订单号" onEnterKeyDown={this.login.bind(this)}/>
       <FlatButton label="登录" style={styles.button} onClick={this.login.bind(this)}/>
 
       </div>
@@ -69,7 +74,7 @@ export default class UserPanel extends React.Component {
 
   renderUserInfo(user) {
     return (
-      <div style={styles.container}>{user.uid}</div>
+      <div style={styles.user}>昵称:{user.uid} PP:{user.pp}</div>
     );
   }
 

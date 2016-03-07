@@ -1,11 +1,13 @@
 export default [
   {
     "uid": "larvata",
-    "tids": ["aaa", "bbb", "ccc"]
+    "tids": ["aaa", "bbb", "ccc"],
+    "pp": 10
   },
 
   {
     "uid": "aaa",
-    "tids": ["bbb"]
+    "tids": ["bbb"],
+    "pp": 3
   }
 ]

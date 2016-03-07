@@ -1,4 +1,6 @@
 import React from 'react';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 // import { IndexLink, Link } from 'react-router'
 // import Title from 'react-title-component'
