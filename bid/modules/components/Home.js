@@ -24,7 +24,8 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props)
     let state = {}
-    if (window && window.__INITIAL_STATE__) {
+    console.log('init in client?');
+    if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
       let { photoData, user } = window.__INITIAL_STATE__;
       state = {
         photoData,
