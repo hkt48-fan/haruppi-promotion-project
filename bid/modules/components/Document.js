@@ -1,15 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const { arrayOf, string, node, object } = React.PropTypes
+const { arrayOf, string, node, object } = React.PropTypes;
 
 const shims = `
   (String.prototype.trim && Function.prototype.bind) || document.write('<script src="/es5-shim.js"><\\/script>');
   window.Promise || document.write('<script src="/Promise.js"><\\/script>');
   window.fetch || document.write('<script src="/fetch.js"><\\/script>');
-`
+`;
 
 const Document = React.createClass({
-
   propTypes: {
     styles: arrayOf(node),
     scripts: arrayOf(node),
@@ -19,13 +18,7 @@ const Document = React.createClass({
   },
 
   render() {
-    // console.log('only on/ server');
-    // console.log(this.props);
-    // console.log(this.props);
     const { styles, scripts, content, title, initialState } = this.props;
-    // console.log(photoData);
-
-    // let state = Object.assign(initialState, photoData);
 
     return (
       <html>
@@ -45,9 +38,9 @@ const Document = React.createClass({
           {scripts}
         </body>
       </html>
-    )
+    );
   }
 
-})
+});
 
-export default Document
+export default Document;

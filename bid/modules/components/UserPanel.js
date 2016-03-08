@@ -1,7 +1,6 @@
 import React from 'react';
 import request from 'superagent';
 import TextField from 'material-ui/lib/text-field';
-import RaisedButton from 'material-ui/lib/raised-button';
 import FlatButton from 'material-ui/lib/flat-button';
 
 const styles={

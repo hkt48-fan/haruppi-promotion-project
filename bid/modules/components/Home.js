@@ -1,12 +1,9 @@
 import React from 'react';
-import UserPanel from './UserPanel';
-import SearchBar from './SearchBar';
 import PhotoList from './PhotoList';
 import CompleteUserDetails from './CompleteUserDetails';
 import Term from './Term';
 import TopBar from './TopBar';
 import About from './About';
-
 
 const styles = {
   container:{
@@ -15,15 +12,14 @@ const styles = {
   },
   inner:{
     display: 'flex',
-    width: 1280
-  },
-
-}
+    width: 1200
+  }
+};
 
 export default class Home extends React.Component {
   constructor(props) {
-    super(props)
-    let state = {}
+    super(props);
+    let state = {};
     console.log('init in client?');
     if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
       let { photoData, user } = window.__INITIAL_STATE__;
@@ -31,14 +27,23 @@ export default class Home extends React.Component {
         photoData,
         user
       };
-      // state.photoData = photoData;
-      // this.user = user;
     }
 
     state.openCompleteUserDetailsDialog = false;
     state.openAboutDialog = true;
     this.state = state;
 
+  }
+
+  componentDidMount() {
+    // console.log('componentDidMount');
+    // window.addEventListener('resize', ()=>{
+    //   console.log('onresise');
+    // });
+  }
+
+  componentWillUpdate() {
+    console.log('componentWillUpdate');
   }
 
   toggleCompleteUserDetailsDialog({ open }) {
@@ -55,43 +60,28 @@ export default class Home extends React.Component {
   }
 
   toggleAboutDialog({ open }) {
-    // let { aboutOpen } = this.state;
-    console.log('toggle open');
-    console.log(open);
     this.setState({ openAboutDialog: open });
   }
 
   render() {
-    // console.log('render home');
-    // console.log(this.state);
-    let { photoData, user, openCompleteUserDetailsDialog, openAboutDialog } = this.state;
-
-    console.log('render....');
-    console.log(openAboutDialog);
+    let { photoData, openCompleteUserDetailsDialog, openAboutDialog } = this.state;
     return (
 
       <div>
-
         <TopBar toggleAboutDialog={this.toggleAboutDialog.bind(this)}/>
-
         <div style={styles.container}>
-
           <div style={styles.inner}>
           </div>
         </div>
-
         <div style={styles.container} >
           <div style={styles.inner}>
               <PhotoList photoData={photoData}/>
           </div>
         </div>
 
-
         <CompleteUserDetails toggleDialog={this.toggleCompleteUserDetailsDialog.bind(this)} open={openCompleteUserDetailsDialog}/>
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
       </div>
-
-
     );
   }
 }

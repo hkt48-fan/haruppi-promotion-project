@@ -12,33 +12,13 @@ import login from '../modules/api/login';
 import photoData from '../libs/photoData';
 
 function renderDocument(props, cb) {
-  // console.log('renderDocument');
-  // console.log(cb.toString());
-  // console.log('---------------');
-  // console.log(props);
-
   cb(null, <Document photoData={photoData}  {...props}/>);
 }
 
-// function renderApp(props, cb) {
-//   // console.log('renderApp');
-//   // console.log(cb.toString());
-//   console.log('');
-//   console.log('');
-//   console.log(props);
-//   let user = null;
-//   if (req.session.user) {
-//     user = req.session.user;
-//   }
-//   cb(null, <RouterContext {...props}/>, { photoData, user });
-// }
-
 function getApp(req, res, cb) {
-
   console.log(cb.toString());
   let renderApp = (props, cb)=>{
     console.log('in render app');
-    console.log(req.session.user);
     let user = null;
     if (req.session.user) {
       user = req.session.user;
@@ -50,7 +30,7 @@ function getApp(req, res, cb) {
 }
 
 const server = createServer(getApp);
-server.use(cookieParser())
+server.use(cookieParser());
 server.use(session({
   secret: 'harurun',
   resave: false,
@@ -60,13 +40,8 @@ server.use(session({
 server.use(express.static('data'));
 
 server.use((req, res, next)=>{
-  console.log('try auth 00000000000000');
-  console.log(req.session);
-  console.log(req.sessionID);
-  console.log(req.cookies);
   next();
-})
-
+});
 
 server.post('/api/login', login);
 

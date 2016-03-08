@@ -1,29 +1,25 @@
 import React from 'react';
 import Dialog from 'material-ui/lib/dialog';
 import FlatButton from 'material-ui/lib/flat-button';
-import RaisedButton from 'material-ui/lib/raised-button';
 import DatePicker from 'material-ui/lib/date-picker/date-picker';
 
 export default class CompleteUserDetails extends React.Component {
   static propTypes = {
-    name: React.PropTypes.string,
+    name: React.PropTypes.string
   };
 
   constructor(props) {
     super(props);
 
     let { open } = props;
-    this.state = { open }
+    this.state = { open };
   }
-
 
   handleOpen() {
     this.props.toggleDialog({ open: true });
-    // this.setState({ open: true });
   }
 
   handleClose() {
-    // this.setState({ open: false });
     this.props.toggleDialog({ open: false });
   }
 
@@ -37,7 +33,7 @@ export default class CompleteUserDetails extends React.Component {
         primary={true}
         keyboardFocused={true}
         onClick={this.handleClose.bind(this)}
-      />,
+      />
     ];
 
     return (

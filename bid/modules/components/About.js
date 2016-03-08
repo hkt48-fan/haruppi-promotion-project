@@ -1,16 +1,13 @@
 import React from 'react';
 import Dialog from 'material-ui/lib/dialog';
 import FlatButton from 'material-ui/lib/flat-button';
-import RaisedButton from 'material-ui/lib/raised-button';
 
 export default class About extends React.Component {
   constructor(props) {
     super(props);
-
     let open = !!props.open;
     this.state = { open };
   }
-
 
   componentWillReceiveProps(nextProps) {
     let { open } = nextProps;
@@ -18,20 +15,14 @@ export default class About extends React.Component {
   }
 
   handleOpen = () => {
-    console.log('about open');
     this.props.toggleDialog({ open: true });
-    // this.setState({open: true});
   };
 
   handleClose = () => {
-    console.log('about close');
     this.props.toggleDialog({ open: false });
-    // this.setState({open: false});
   };
 
   render() {
-    console.log('render about.........');
-    console.log(this.state.open);
     const actions = [
       <FlatButton
         label="关闭"

@@ -1,15 +1,15 @@
 import React from 'react';
 import TextField from 'material-ui/lib/text-field';
 
-
 const styles ={
   container:{
     flex: '1 0 0'
   }
-}
+};
+
 export default class SearchBar extends React.Component {
   static propTypes = {
-    name: React.PropTypes.string,
+    name: React.PropTypes.string
   };
 
   constructor(props) {
