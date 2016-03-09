@@ -67,13 +67,18 @@ export default class PhotoList extends React.Component {
 
   render() {
     let { cols, width, searchTerm, photoData } = this.props;
+    if (!photoData) {
+      return null;
+    }
 
+    console.log(photoData);
 
     let filtered = photoData;
     if (searchTerm) {
       filtered = photoData.filter(photo=>photo.members.includes(searchTerm));
     }
     if (!filtered && searchTerm) {
+      searchTerm = searchTerm || '';
       return <div style={styles.noResult}>{`未找到与 "${searchTerm}" 相关的生写`}</div>;
     }
     styles.gridList.width = width;

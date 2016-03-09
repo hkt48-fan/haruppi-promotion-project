@@ -12,6 +12,7 @@ import compression from 'compression';
 import login from '../modules/api/login';
 import photoData from '../libs/photoData';
 
+
 function renderDocument(props, cb) {
   cb(null, <Document photoData={photoData}  {...props}/>);
 }
