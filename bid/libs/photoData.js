@@ -11,7 +11,7 @@ const BASE_PATH = __dirname + '/../data/';
 //   return meta;
 // })
 
-let inputString = fs.readFileSync(BASE_PATH+'photos.csv');
+let inputString = fs.readFileSync(BASE_PATH+'photos.csv', 'utf-8');
 inputString = 'pid,members\n' + inputString.replace(/^\uFEFF/, '');
 // console.log(inputString);
 let photoData = parse(inputString, { columns: true });
