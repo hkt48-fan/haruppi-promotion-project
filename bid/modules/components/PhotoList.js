@@ -71,7 +71,7 @@ export default class PhotoList extends React.Component {
       return null;
     }
 
-    console.log(photoData);
+    // console.log(photoData);
 
     let filtered = photoData;
     if (searchTerm) {

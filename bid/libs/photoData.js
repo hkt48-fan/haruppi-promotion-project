@@ -12,7 +12,7 @@ const BASE_PATH = __dirname + '/../data/';
 // })
 
 let inputString = fs.readFileSync(BASE_PATH+'photos.csv');
-inputString = '"pid","members"\n' + inputString;
+inputString = 'pid,members\n' + inputString.replace(/^\uFEFF/, '');
 // console.log(inputString);
 let photoData = parse(inputString, { columns: true });
 
