@@ -1,7 +1,7 @@
 import '../modules/styles.css';
 import React from 'react';
-import { Route, IndexRoute, Redirect } from 'react-router';
-import { ServerRoute, lazy } from 'react-project';
+import { Route, IndexRoute } from 'react-router';
+import { ServerRoute } from 'react-project';
 
 import App from './components/App';
 import Home from './components/Home';

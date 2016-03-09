@@ -6,7 +6,6 @@ const authenticate = (uid, tid)=>{
     return null;
   }
 
-  console.log(user.tids);
   if (user.tids.indexOf(tid) === -1) {
     return null;
   }
@@ -38,8 +37,8 @@ export default (req, res)=>{
   if (user) {
     req.session.regenerate(()=>{
       req.session.user = user,
-      console.log('auth!');
-      console.log(user);
+      // console.log('auth!');
+      // console.log(user);
       result.user = user;
       result.result = 'ok';
       result.profile = getProfileByUid(uid);

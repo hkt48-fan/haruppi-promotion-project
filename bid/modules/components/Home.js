@@ -1,9 +1,9 @@
 import React from 'react';
 import PhotoList from './PhotoList';
 import CompleteUserDetails from './CompleteUserDetails';
-import Term from './Term';
 import TopBar from './TopBar';
 import About from './About';
+import _ from 'lodash';
 
 const styles = {
   container:{
@@ -11,8 +11,8 @@ const styles = {
     'justifyContent': 'center'
   },
   inner:{
-    display: 'flex',
-    width: 1200
+    display: 'flex'
+    // width: 1200
   }
 };
 
@@ -20,7 +20,6 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props);
     let state = {};
-    console.log('init in client?');
     if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
       let { photoData, user } = window.__INITIAL_STATE__;
       state = {
@@ -36,14 +35,17 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    // console.log('componentDidMount');
-    // window.addEventListener('resize', ()=>{
-    //   console.log('onresise');
-    // });
+    window.addEventListener('resize', _.bind(_.debounce(this.resizePhotoListGrid, 300),this));
+    this.resizePhotoListGrid();
   }
 
   componentWillUpdate() {
-    console.log('componentWillUpdate');
+  }
+
+  resizePhotoListGrid() {
+    let column = Math.floor((window.innerWidth - 100)/250);
+    let width = column * 250;
+    this.setState({ cols: column , photoListWidth: width });
   }
 
   toggleCompleteUserDetailsDialog({ open }) {
@@ -63,19 +65,32 @@ export default class Home extends React.Component {
     this.setState({ openAboutDialog: open });
   }
 
+  searchTermChanged(text) {
+    this.setState({ searchTerm: text });
+  }
+
   render() {
-    let { photoData, openCompleteUserDetailsDialog, openAboutDialog } = this.state;
+    let {
+      photoData,
+      cols,
+      photoListWidth,
+      openCompleteUserDetailsDialog,
+      openAboutDialog,
+      searchTerm
+    } = this.state;
+
+    let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
     return (
 
       <div>
-        <TopBar toggleAboutDialog={this.toggleAboutDialog.bind(this)}/>
+        <TopBar toggleAboutDialog={this.toggleAboutDialog.bind(this)} searchTermChanged={this.searchTermChanged.bind(this)}/>
         <div style={styles.container}>
           <div style={styles.inner}>
           </div>
         </div>
         <div style={styles.container} >
-          <div style={styles.inner}>
-              <PhotoList photoData={photoData}/>
+          <div style={innerStyle}>
+              <PhotoList photoData={photoData} cols={cols} width={photoListWidth} searchTerm={searchTerm}/>
           </div>
         </div>
 

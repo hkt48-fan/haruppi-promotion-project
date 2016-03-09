@@ -14,20 +14,24 @@ const styles = {
     margin: 12
   },
   gridList: {
-    width: 1200,
     height: '100%',
     overflowY: 'auto',
     marginBottom: 24
   },
   gridTile: {
-    // margin: 0
+  },
+  noResult: {
+    margin: 'auto',
+    paddingTop: 100,
+    fontSize: 24
   }
 };
 
 export default class PhotoList extends React.Component {
   static propTypes = {
     name: React.PropTypes.string,
-    cols: React.PropTypes.number
+    cols: React.PropTypes.number,
+    width: React.PropTypes.number
   };
 
   constructor(props) {
@@ -35,48 +39,52 @@ export default class PhotoList extends React.Component {
 
   }
 
-  renderPhotos() {
-    let photoData = this.props.photoData || [];
+  renderPhotos(photoData) {
     let bidButton = (
       <RaisedButton
       label="PP: 1"
-      // linkButton={true}
-      // href="https://github.com/callemall/material-ui"
       secondary={true}
       style={styles.button}
-      // icon={<FontIcon className="muidocs-icon-custom-github"/>}
       />
     );
 
     return photoData.map(photo =>{
-      // console.log(photo);
-      let imageUrl = '/thumbnail/' + photo.id + '.jpg';
+      let imageUrl = '/thumbnail/' + photo.pid + '.jpg';
       return (
         <GridTile
-          key={photo.id}
-          title={'兒玉遥'}
+          key={photo.pid}
+          title={'生写真'}
           cols={1}
           style={styles.gridTile}
           alt={'sfesfse'}
-          subtitle={'生写真生写真生写真生写真生写真生写真'}
+          subtitle={photo.members || ' '}
           actionIcon={bidButton}>
-
           <img src={imageUrl} />
-
         </GridTile>
-
       );
     });
   }
 
   render() {
+    let { cols, width, searchTerm, photoData } = this.props;
+
+
+    let filtered = photoData;
+    if (searchTerm) {
+      filtered = photoData.filter(photo=>photo.members.includes(searchTerm));
+    }
+    if (filtered.length === 0) {
+      return <div style={styles.noResult}>{`未找到与 "${searchTerm}" 相关的生写`}</div>;
+    }
+    styles.gridList.width = width;
+
     return (
       <div style={styles.root}>
         <GridList
           cellHeight={320}
-          cols={5}
+          cols={cols}
           style={styles.gridList}>
-          {this.renderPhotos()}
+          {this.renderPhotos(filtered)}
         </GridList>
       </div>
     );

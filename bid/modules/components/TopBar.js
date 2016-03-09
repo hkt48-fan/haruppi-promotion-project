@@ -18,19 +18,23 @@ export default class TopBar extends React.Component {
     this.props.toggleAboutDialog({ open: true });
   }
 
+  onSearchTermChange(event) {
+    this.props.searchTermChanged(event.target.value);
+  }
+
   render() {
     return (
       <Toolbar>
-        <ToolbarGroup firstChild={true} float="left">
+        <ToolbarGroup float="right" lastChild={true}>
           <RaisedButton label="登录" primary={true} />
         </ToolbarGroup>
 
-        <ToolbarGroup float="right" lastChild={true}>
+        <ToolbarGroup float="right" >
           <RaisedButton label="关于" secondary={true} onClick={this.onClickAbout.bind(this)}/>
         </ToolbarGroup>
 
-        <ToolbarGroup float="right"  >
-          <TextField ref="uid" hintText="按成员姓名搜索" style={{ padding: 2 }}/>
+        <ToolbarGroup float="right" firstChild={true} >
+          <TextField ref="uid" hintText="按成员姓名搜索" style={{ padding: 2 }} onChange={this.onSearchTermChange.bind(this)}/>
         </ToolbarGroup>
       </Toolbar>
     );

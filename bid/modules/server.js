@@ -6,7 +6,8 @@ import Document from '../modules/components/Document';
 import routes from '../modules/routes';
 import session from 'express-session';
 import express from 'express';
-import cookieParser from 'cookie-parser'
+import cookieParser from 'cookie-parser';
+import compression from 'compression';
 
 import login from '../modules/api/login';
 import photoData from '../libs/photoData';
@@ -30,6 +31,7 @@ function getApp(req, res, cb) {
 }
 
 const server = createServer(getApp);
+server.use(compression());
 server.use(cookieParser());
 server.use(session({
   secret: 'harurun',

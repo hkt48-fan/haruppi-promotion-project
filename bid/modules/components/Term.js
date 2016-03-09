@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class Term extends React.Component {
   static propTypes = {
-    name: React.PropTypes.string,
+    name: React.PropTypes.string
   };
 
   constructor(props) {
