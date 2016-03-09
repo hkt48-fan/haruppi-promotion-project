@@ -17,9 +17,7 @@ function renderDocument(props, cb) {
 }
 
 function getApp(req, res, cb) {
-  console.log(cb.toString());
   let renderApp = (props, cb)=>{
-    console.log('in render app');
     let user = null;
     if (req.session.user) {
       user = req.session.user;
