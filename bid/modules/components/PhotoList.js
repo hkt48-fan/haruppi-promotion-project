@@ -73,7 +73,7 @@ export default class PhotoList extends React.Component {
     if (searchTerm) {
       filtered = photoData.filter(photo=>photo.members.includes(searchTerm));
     }
-    if (!filtered) {
+    if (!filtered && searchTerm) {
       return <div style={styles.noResult}>{`未找到与 "${searchTerm}" 相关的生写`}</div>;
     }
     styles.gridList.width = width;
