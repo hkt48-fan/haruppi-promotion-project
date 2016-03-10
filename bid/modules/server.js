@@ -14,7 +14,7 @@ import photoData from '../libs/photoData';
 
 
 function renderDocument(props, cb) {
-  cb(null, <Document photoData={photoData}  {...props}/>);
+  cb(null, <Document photoData={photoData} title="每日Happy哈鲁P♪" {...props}/>);
 }
 
 function getApp(req, res, cb) {
