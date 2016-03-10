@@ -26,7 +26,7 @@ export default class TopBar extends React.Component {
     return (
       <Toolbar>
         <ToolbarGroup float="right" lastChild={true}>
-          <RaisedButton label="登录" primary={true} />
+          <RaisedButton label="登录" primary={true} disabled={true}/>
         </ToolbarGroup>
 
         <ToolbarGroup float="right" >

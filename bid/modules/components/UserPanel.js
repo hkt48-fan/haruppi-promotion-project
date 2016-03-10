@@ -1,5 +1,5 @@
 import React from 'react';
-import request from 'superagent';
+// import request from 'superagent';
 import TextField from 'material-ui/lib/text-field';
 import FlatButton from 'material-ui/lib/flat-button';
 
@@ -34,7 +34,7 @@ export default class UserPanel extends React.Component {
     let uid = this.refs.uid.getValue();
     let tid = this.refs.tid.getValue();
 
-    request
+    fetch
       .post('/api/login')
       .send({ uid, tid, hello: 'hhh' })
       .end((err, res)=>{

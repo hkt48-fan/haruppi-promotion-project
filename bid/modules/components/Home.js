@@ -3,7 +3,6 @@ import PhotoList from './PhotoList';
 import CompleteUserDetails from './CompleteUserDetails';
 import TopBar from './TopBar';
 import About from './About';
-import _ from 'lodash';
 
 const styles = {
   container:{
@@ -35,15 +34,30 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('resize', _.bind(_.debounce(this.resizePhotoListGrid, 300),this));
+    window.addEventListener('resize', this.debounce(this.resizePhotoListGrid, 300));
     this.resizePhotoListGrid();
   }
 
   componentWillUpdate() {
   }
 
+  debounce(func, wait, immediate) {
+    let timeout;
+    return ()=>{
+      let context = this, args = arguments;
+      let later = ()=>{
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      };
+      let callNow = immediate && !timeout;
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
+    };
+  }
+
   resizePhotoListGrid() {
-    let column = Math.floor((window.innerWidth - 100)/250);
+    let column = Math.floor((window.innerWidth - 60)/250);
     let width = column * 250;
     this.setState({ cols: column , photoListWidth: width });
   }
