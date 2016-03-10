@@ -38,7 +38,7 @@ server.use(session({
   saveUninitialized: false,
   cookie: { maxAge: 60000 }
 }));
-server.use(express.static('data'));
+// server.use(express.static('static'));
 
 server.use((req, res, next)=>{
   next();

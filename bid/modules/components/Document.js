@@ -6,6 +6,7 @@ const shims = `
   (String.prototype.trim && Function.prototype.bind) || document.write('<script src="/es5-shim.js"><\\/script>');
   window.Promise || document.write('<script src="/Promise.js"><\\/script>');
   window.fetch || document.write('<script src="/fetch.js"><\\/script>');
+  Object.assign || document.write('<script src="/object-assign.js"><\\/script>');
 `;
 
 const Document = React.createClass({
@@ -19,6 +20,9 @@ const Document = React.createClass({
 
   render() {
     const { styles, scripts, content, title, initialState } = this.props;
+
+    console.log('render document');
+    console.log(content);
 
     return (
       <html>
