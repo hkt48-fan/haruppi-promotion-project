@@ -1,8 +1,8 @@
 import React from 'react';
 import RaisedButton from 'material-ui/lib/raised-button';
-
 import GridList from 'material-ui/lib/grid-list/grid-list';
-import GridTile from 'material-ui/lib/grid-list/grid-tile';
+import PhotoTile from './PhotoTile';
+
 
 const styles = {
   root: {
@@ -11,14 +11,13 @@ const styles = {
     justifyContent: 'space-around'
   },
   button: {
-    margin: 12
+    margin: '6px 12px 6px 0',
+    minWidth: 67
   },
   gridList: {
     height: '100%',
     overflowY: 'auto',
     marginBottom: 24
-  },
-  gridTile: {
   },
   noResult: {
     margin: 'auto',
@@ -49,33 +48,22 @@ export default class PhotoList extends React.Component {
     );
 
     return photoData.map(photo =>{
-      let imageUrl = '/thumbnail/' + photo.pid + '.jpg';
       return (
-        <GridTile
-          key={photo.pid}
-          title={'生写真'}
-          cols={1}
-          style={styles.gridTile}
-          alt={'sfesfse'}
-          subtitle={photo.members || ' '}
-          actionIcon={bidButton}>
-          <img src={imageUrl} />
-        </GridTile>
+        <PhotoTile key={photo.pid} bidButton={bidButton} photo={photo} onClick={this.props.onClick}/>
       );
     });
   }
 
   render() {
-    let { cols, width, searchTerm, photoData } = this.props;
-    if (!photoData) {
+    let { cols, width, searchTerm, photoData, category } = this.props;
+    if (!photoData || !category) {
       return null;
     }
+    let photoPack = photoData.photoPack.find(pp=>pp.category===category);
 
-    // console.log(photoData);
-
-    let filtered = photoData;
+    let filtered = photoPack.photos;
     if (searchTerm) {
-      filtered = photoData.filter(photo=>photo.members.includes(searchTerm));
+      filtered = photoPack.filter(photo=>photo.members.includes(searchTerm));
     }
     if (!filtered && searchTerm) {
       searchTerm = searchTerm || '';

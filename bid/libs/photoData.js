@@ -2,28 +2,39 @@ import parse from 'csv-parse/lib/sync';
 import fs from 'fs';
 const BASE_PATH = __dirname + '/../data/';
 
-// const photoMetadata = fs.readdirSync(BASE_PATH)
-//     .filter(filename=>/.json$/.test(filename));
-
-// const photoData = photoMetadata.map(metaPath=>{
-//   const json = fs.readFileSync(BASE_PATH + metaPath, 'utf-8');
-//   const meta = JSON.parse( json);
-//   return meta;
-// })
-
 let inputString = fs.readFileSync(BASE_PATH+'photos.csv', 'utf-8');
-inputString = 'pid,members\n' + inputString.replace(/^\uFEFF/, '');
-// console.log(inputString);
-let photoData = parse(inputString, { columns: true });
+inputString = 'pid,members,category,details\n' + inputString.replace(/^\uFEFF/, '');
+let photoDataRaw = parse(inputString, { columns: true });
 
-photoData = photoData.map(pd=>{
+const uniq = (array) => {
+  return array.filter((elem, pos, arr) => {
+    return arr.indexOf(elem) == pos;
+  });
+};
+
+let categoryList = uniq(photoDataRaw.map(photo=>photo.category.trim()));
+categoryList = categoryList.filter(category=>!(category === ''));
+
+let photoPack = categoryList.map(category=>{
+  let photos = photoDataRaw.filter(photo=>photo.category.trim()===category);
+  photos = photos.map(pd=>{
+    return {
+      pid: pd.pid.replace(/.jpg$/, ''),
+      members: pd.members.replace(/\r/g, ''),
+      category: pd.category.trim(),
+      details: pd.details.trim()
+    };
+  });
   return {
-    pid: pd.pid.replace(/.jpg$/, ''),
-    members: pd.members.replace(/\r/g, '')
+    category,
+    photos
   };
 });
 
-// console.log(photoData);
+let photoData = {
+  categories: categoryList,
+  photoPack
+};
 
-
+console.log(photoData.photoPack.slice(1,2));
 export default photoData;

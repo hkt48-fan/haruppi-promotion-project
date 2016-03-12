@@ -1,4 +1,4 @@
-import userdef from '../../sdat/userdef';
+import userdef from '../../data/userdef';
 
 const authenticate = (uid, tid)=>{
   let user = userdef.find(user=>user.uid === uid);
