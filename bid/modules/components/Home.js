@@ -133,6 +133,7 @@ export default class Home extends React.Component {
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
+    let categories = ((photoData || {}).categories)||[];
     return (
 
       <div>
@@ -142,7 +143,7 @@ export default class Home extends React.Component {
           onLeftIconButtonTouchTap={this.toggleLeftNav.bind(this)}
         />
         <LeftPanel
-          items={photoData.categories}
+          items={categories}
           selectedCategory={category}
           open={openLeftNav}
           onRequestChange={this.toggleLeftNav.bind(this)}
