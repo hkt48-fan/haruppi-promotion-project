@@ -38,6 +38,12 @@ export default class PhotoList extends React.Component {
 
   }
 
+  _buildToggleFullImageViewEvent(pid) {
+    return ()=>{
+      this.props.toggleFullImageViewHandler(pid);
+    };
+  }
+
   renderPhotos(photoData) {
     let bidButton = (
       <RaisedButton
@@ -49,7 +55,7 @@ export default class PhotoList extends React.Component {
 
     return photoData.map(photo =>{
       return (
-        <PhotoTile key={photo.pid} bidButton={bidButton} photo={photo} onClick={this.props.onClick}/>
+        <PhotoTile key={photo.pid} bidButton={bidButton} photo={photo} onClick={this._buildToggleFullImageViewEvent(photo.pid)}/>
       );
     });
   }

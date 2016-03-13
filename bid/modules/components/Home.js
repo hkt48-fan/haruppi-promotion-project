@@ -31,12 +31,11 @@ export default class Home extends React.Component {
       };
 
       state.category = photoData.categories[0];
-      console.log(photoData);
     }
 
 
     state.openCompleteUserDetailsDialog = false;
-    state.openAboutDialog = true;
+    state.openAboutDialog = false;
     state.openLeftNav = false;
     state.openFullImageView = false;
     this.state = state;
@@ -89,10 +88,11 @@ export default class Home extends React.Component {
     this.setState({ openAboutDialog: open });
   }
 
-  toggleFullImageView({ open, pid }) {
-    console.log('test');
+  toggleFullImageView(pid) {
+    let { openFullImageView } = this.state;
+
     this.setState({
-      openFullImageView: open,
+      openFullImageView: !openFullImageView,
       fullImageViewPID: pid
     });
   }
@@ -129,7 +129,8 @@ export default class Home extends React.Component {
       openAboutDialog,
       openLeftNav,
       openFullImageView,
-      searchTerm
+      searchTerm,
+      fullImageViewPID
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
@@ -163,14 +164,14 @@ export default class Home extends React.Component {
                             cols={cols}
                             width={photoListWidth}
                             searchTerm={searchTerm}
-                            onClick={this.toggleFullImageView.bind(this)}
+                            toggleFullImageViewHandler={this.toggleFullImageView.bind(this)}
                             />}
           </div>
         </div>
 
         <CompleteUserDetails toggleDialog={this.toggleCompleteUserDetailsDialog.bind(this)} open={openCompleteUserDetailsDialog}/>
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
-        <FullImageView pid={''} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />
+        <FullImageView pid={fullImageViewPID} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />
       </div>
     );
   }

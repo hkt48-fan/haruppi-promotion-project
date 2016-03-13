@@ -3,6 +3,9 @@ import GridTile from 'material-ui/lib/grid-list/grid-tile';
 
 const styles = {
   gridTile: {
+  },
+  image:{
+    cursor: 'pointer'
   }
 };
 
@@ -24,7 +27,7 @@ export default class PhotoTile extends React.Component {
   }
 
   render() {
-    let { photo, bidButton } = this.props;
+    let { photo, bidButton, onClick } = this.props;
     let imageUrl = '/thumbnail/' + photo.pid + '.jpg';
 
     return (
@@ -34,8 +37,10 @@ export default class PhotoTile extends React.Component {
         style={styles.gridTile}
         alt={'sfesfse'}
         subtitle={photo.details || ' '}
-        actionIcon={bidButton}>
-        <img src={imageUrl} />
+        actionIcon={bidButton}
+        onClick={onClick}
+      >
+        <img style={styles.image} src={imageUrl} />
       </GridTile>
     );
   }

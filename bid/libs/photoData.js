@@ -36,5 +36,4 @@ let photoData = {
   photoPack
 };
 
-console.log(photoData.photoPack.slice(1,2));
 export default photoData;

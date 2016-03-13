@@ -2,6 +2,17 @@ import React from 'react';
 import Dialog from 'material-ui/lib/dialog';
 import FlatButton from 'material-ui/lib/flat-button';
 
+const styles={
+  dialog:{
+    // paddingTop: 0,
+    height: 960
+  },
+  image:{
+    height: 960
+
+  }
+};
+
 export default class FullImageView extends React.Component {
   constructor(props) {
     super(props);
@@ -24,26 +35,20 @@ export default class FullImageView extends React.Component {
 
   render() {
     const actions = [
-      <FlatButton
-        label="关闭"
-        secondary={true}
-        onTouchTap={this.handleClose}
-      />
+
     ];
 
     let { pid, open } = this.props;
 
     return (
-      <div>
-        <Dialog
-          title="庆祝儿玉7单C位！投票送生写活动！"
-          actions={actions}
-          open={open}
-          onRequestClose={this.handleClose.bind(this)}
-        >
-          <img src={`/thumbnail/${pid}.jpg`} />
-        </Dialog>
-      </div>
+      <Dialog
+        style={styles.dialog}
+        actions={actions}
+        open={open}
+        // autoDetectWindowHeight={false}
+        onRequestClose={this.handleClose.bind(this)}>
+        <div style={styles.image}><img src={`/resized/${pid}.jpg`} /></div>
+      </Dialog>
     );
   }
 }
