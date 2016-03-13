@@ -38,9 +38,9 @@ export default class PhotoTile extends React.Component {
         alt={'sfesfse'}
         subtitle={photo.details || ' '}
         actionIcon={bidButton}
-        onClick={onClick}
+
       >
-        <img style={styles.image} src={imageUrl} />
+        <img style={styles.image} src={imageUrl} onClick={onClick}/>
       </GridTile>
     );
   }
