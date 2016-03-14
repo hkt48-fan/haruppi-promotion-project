@@ -2,7 +2,10 @@ import requestLegacy from 'request';
 import moment from 'moment';
 import fs from 'fs';
 
-const apiUrlBase = 'https://api.7gogo.jp/web/v2/talks/kodama-haruka/posts?limit=200';
+let fetchId = 'kodama-haruka';
+// fetchId = 'kodamaharuka-anaichihiro';
+
+const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=200`;
 
 const request = (url)=>{
     return new Promise((resolve, reject)=>{
