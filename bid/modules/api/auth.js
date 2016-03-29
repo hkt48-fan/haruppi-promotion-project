@@ -25,7 +25,7 @@ const getProfileByUid = ()=>{
   };
 };
 
-export default (req, res)=>{
+export function login(req, res) {
   console.log(req.body);
   let { uid, tid } = req.body;
 
@@ -46,7 +46,7 @@ export default (req, res)=>{
       result.user = user;
       result.result = 'ok';
       result.profile = getProfileByUid(uid);
-      console.log(req.session);
+      // console.log(req.session);
       res.send(result);
     });
 
@@ -55,5 +55,15 @@ export default (req, res)=>{
     res.send(result);
   }
 
-};
+}
 
+export function logout(req, res) {
+  req.session.destroy(err=>{
+    console.log('log out!');
+    let result ={
+      err: err,
+      result: err? 'fail':'ok'
+    };
+    res.send(result);
+  });
+}

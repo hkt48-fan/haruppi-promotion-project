@@ -34,44 +34,9 @@ export default class LoginModal extends React.Component {
   handleLogin = () =>{
     let uid = this.refs.uid.getValue();
     let tid = this.refs.tid.getValue();
-    let self = this;
 
-    const parseJSON =(response)=>{
-      console.log('parse response json');
-      return response.json();
-    };
-
-    fetch(
-      '/api/login',
-      {
-        method: 'post',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          uid,
-          tid,
-          hello: 'hhh'
-        })
-      }
-    )
-    .then(parseJSON)
-    .then((data)=>{
-      console.log(data);
-      if (data.result === 'ok') {
-        let user = data.user;
-        console.log('login success;', user);
-        self.props.userLogin(user);
-      }
-      else {
-        console.log('login failed');
-        self.setState({ loginFailed: true });
-      }
-    }).catch(error=>{
-      console.log('request fail');
-      console.log(error);
-    })
-  }
+    this.props.userLogin({ uid, tid });
+  };
 
   render() {
     let { loginFailed } = this.state;

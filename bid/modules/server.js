@@ -10,7 +10,7 @@ import cookieParser from 'cookie-parser';
 // import bodyParser from 'body-parser';
 import compression from 'compression';
 
-import login from '../modules/api/login';
+import { login, logout } from '../modules/api/auth';
 import photoData from '../libs/photoData';
 
 
@@ -21,8 +21,8 @@ function renderDocument(props, cb) {
 function getApp(req, res, cb) {
   let renderApp = (props, cb)=>{
     let user = null;
-    console.log(req.sessionID);
-    console.log(req.session);
+    // console.log(req.sessionID);
+    // console.log(req.session);
     if (req.session.user) {
       user = req.session.user;
     }
@@ -41,7 +41,6 @@ server.use(session({
   saveUninitialized: false,
   cookie: {
     maxAge: 60000 * 60 * 20,
-    domain: '.larvata.me'
   },
 
 }));
@@ -52,6 +51,7 @@ server.use((req, res, next)=>{
 });
 
 server.post('/api/login', login);
+server.get('/api/logout', logout);
 
 server.start();
 

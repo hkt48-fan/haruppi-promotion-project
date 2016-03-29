@@ -3,6 +3,7 @@ import Toolbar from 'material-ui/lib/toolbar/toolbar';
 import RaisedButton from 'material-ui/lib/raised-button';
 import ToolbarGroup from 'material-ui/lib/toolbar/toolbar-group';
 import TextField from 'material-ui/lib/text-field';
+import request from 'superagent';
 
 
 export default class TopBar extends React.Component {
@@ -23,8 +24,7 @@ export default class TopBar extends React.Component {
   }
 
   onClickLogout() {
-    console.log('click logout');
-    // this.props.toggleLoginModal({ open: true });
+    this.props.userLogout();
   }
 
   onSearchTermChange(event) {
@@ -38,7 +38,7 @@ export default class TopBar extends React.Component {
     // render login / loginout
 
     let authButton = user?
-      (<RaisedButton label="登出" primary={true} onClick={this.onClickLogout.bind(this)}/>)
+      (<RaisedButton label="登出" secondary={true} onClick={this.onClickLogout.bind(this)}/>)
       :(<RaisedButton label="登录" primary={true} onClick={this.onClickLogin.bind(this)}/>);
 
     return (
@@ -48,7 +48,7 @@ export default class TopBar extends React.Component {
         </ToolbarGroup>
 
         <ToolbarGroup float="right" lastChild={true}>
-          <RaisedButton label="关于" secondary={true} onClick={this.onClickAbout.bind(this)}/>
+          <RaisedButton label="关于" onClick={this.onClickAbout.bind(this)}/>
           {authButton}
         </ToolbarGroup>
 

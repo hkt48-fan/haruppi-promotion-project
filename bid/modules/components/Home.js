@@ -9,6 +9,7 @@ import Title from 'react-title-component';
 import About from './Dialogs/About';
 import LoginModal from './Dialogs/LoginModal';
 import FullImageView from './Dialogs/FullImageView';
+import request from 'superagent';
 
 
 const styles = {
@@ -80,12 +81,49 @@ export default class Home extends React.Component {
     });
   }
 
-  userLogin(user) {
-    console.log('home user login', user);
-    this.setState({
-      user,
-      openLoginModal: false
-    });
+  userLogin({ uid, tid }) {
+    request
+      .post('/api/login')
+      .send({ uid, tid, hello: 'hhh' })
+      .end((err, res)=>{
+        if (err) {
+          console.log('request fail');
+          console.log(err);
+        }
+        else if(res.body.result === 'ok') {
+          let user = res.body.user;
+          console.log('login success;', user);
+
+          this.setState({
+            user,
+            openLoginModal: false
+          });
+
+        }
+        else {
+          console.log('login failed');
+          self.setState({ loginFailed: true });
+        }
+      });
+
+
+  }
+
+  userLogout() {
+    console.log('click logout');
+    request
+      .get('/api/logout')
+      .end((err, res)=>{
+        if (err) {
+          console.log('logout fail');
+          console.log(err);
+        }
+        else if(res.body.result === 'ok') {
+          this.setState({ user: null });
+          console.log('logout succeed');
+
+        }
+      });
   }
 
   toggleAboutDialog({ open }) {
@@ -134,7 +172,7 @@ export default class Home extends React.Component {
       openFullImageView,
       searchTerm,
       fullImageViewPID,
-      user
+      user,
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
@@ -161,6 +199,7 @@ export default class Home extends React.Component {
           toggleLoginModal={this.toggleLoginModal.bind(this)}
           toggleAboutDialog={this.toggleAboutDialog.bind(this)}
           searchTermChanged={this.searchTermChanged.bind(this)}
+          userLogout={this.userLogout.bind(this)}
           user={user}
           />
         <div style={styles.container}>
