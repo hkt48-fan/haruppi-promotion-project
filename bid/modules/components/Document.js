@@ -2,11 +2,13 @@ import React from 'react';
 
 const { arrayOf, string, node, object } = React.PropTypes;
 
-const shims = `
+let shims = `
   (String.prototype.trim && Function.prototype.bind) || document.write('<script src="/es5-shim.js"><\\/script>');
   window.Promise || document.write('<script src="/Promise.min.js"><\\/script>');
   Object.assign || document.write('<script src="/polyfills.js"><\\/script>');
 `;
+
+shims = '';
 
 //   window.fetch || document.write('<script src="/fetch.min.js"><\\/script>');
 
