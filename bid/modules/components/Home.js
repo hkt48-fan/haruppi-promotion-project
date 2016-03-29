@@ -2,10 +2,14 @@ import React from 'react';
 import PhotoList from './PhotoList';
 import CompleteUserDetails from './CompleteUserDetails';
 import TopBar from './TopBar';
-import About from './About';
 import AppBar from 'material-ui/lib/app-bar';
 import LeftPanel from './LeftPanel';
-import FullImageView from './FullImageView';
+import Title from 'react-title-component';
+
+import About from './Dialogs/About';
+import LoginModal from './Dialogs/LoginModal';
+import FullImageView from './Dialogs/FullImageView';
+
 
 const styles = {
   container:{
@@ -29,15 +33,14 @@ export default class Home extends React.Component {
         photoData,
         user
       };
-
       state.category = photoData.categories[0];
     }
-
 
     state.openCompleteUserDetailsDialog = false;
     state.openAboutDialog = false;
     state.openLeftNav = false;
     state.openFullImageView = false;
+    state.openLoginModal = false;
     this.state = state;
 
   }
@@ -78,14 +81,20 @@ export default class Home extends React.Component {
   }
 
   userLogin(user) {
+    console.log('home user login', user);
     this.setState({
       user,
-      completeUserDetailsOpen: true
+      openLoginModal: false
     });
   }
 
   toggleAboutDialog({ open }) {
     this.setState({ openAboutDialog: open });
+  }
+
+  toggleLoginModal({ open }) {
+    console.log('toggle login');
+    this.setState({ openLoginModal: open });
   }
 
   toggleFullImageView(pid) {
@@ -97,16 +106,9 @@ export default class Home extends React.Component {
     });
   }
 
-  toggleLeftNav(open) {
-    // console.log('toggleLeftNav');
+  toggleLeftNav() {
     let { openLeftNav } = this.state;
     openLeftNav = !openLeftNav;
-    // if (open === undefined) {
-    //   openLeftNav = !openLeftNav;
-    // }
-    // else {
-    //   openLeftNav = open;
-    // }
     this.setState({ openLeftNav });
   }
 
@@ -127,10 +129,12 @@ export default class Home extends React.Component {
       photoListWidth,
       openCompleteUserDetailsDialog,
       openAboutDialog,
+      openLoginModal,
       openLeftNav,
       openFullImageView,
       searchTerm,
-      fullImageViewPID
+      fullImageViewPID,
+      user
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
@@ -138,6 +142,8 @@ export default class Home extends React.Component {
     return (
 
       <div>
+        <Title render={prev => `${prev} | Home`}/>
+
         <AppBar
           title={category}
           iconClassNameRight="muidocs-icon-navigation-expand-more"
@@ -151,7 +157,12 @@ export default class Home extends React.Component {
           onTouchTap={this.toggleCategory.bind(this)}
         />
 
-        <TopBar toggleAboutDialog={this.toggleAboutDialog.bind(this)} searchTermChanged={this.searchTermChanged.bind(this)}/>
+        <TopBar
+          toggleLoginModal={this.toggleLoginModal.bind(this)}
+          toggleAboutDialog={this.toggleAboutDialog.bind(this)}
+          searchTermChanged={this.searchTermChanged.bind(this)}
+          user={user}
+          />
         <div style={styles.container}>
           <div style={styles.inner}>
           </div>
@@ -171,6 +182,7 @@ export default class Home extends React.Component {
 
         <CompleteUserDetails toggleDialog={this.toggleCompleteUserDetailsDialog.bind(this)} open={openCompleteUserDetailsDialog}/>
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
+        <LoginModal toggleDialog={this.toggleLoginModal.bind(this)} open={openLoginModal} userLogin={this.userLogin.bind(this)}/>
         <FullImageView pid={fullImageViewPID} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />
       </div>
     );

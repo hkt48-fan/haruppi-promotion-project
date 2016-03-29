@@ -18,19 +18,38 @@ export default class TopBar extends React.Component {
     this.props.toggleAboutDialog({ open: true });
   }
 
+  onClickLogin() {
+    this.props.toggleLoginModal({ open: true });
+  }
+
+  onClickLogout() {
+    console.log('click logout');
+    // this.props.toggleLoginModal({ open: true });
+  }
+
   onSearchTermChange(event) {
     this.props.searchTermChanged(event.target.value);
   }
 
   render() {
+    let user = this.props.user;
+    let uid = (user || {} ).uid || '';
+
+    // render login / loginout
+
+    let authButton = user?
+      (<RaisedButton label="登出" primary={true} onClick={this.onClickLogout.bind(this)}/>)
+      :(<RaisedButton label="登录" primary={true} onClick={this.onClickLogin.bind(this)}/>);
+
     return (
       <Toolbar>
-        <ToolbarGroup float="right" lastChild={true}>
-          <RaisedButton label="登录" primary={true} disabled={true}/>
+        <ToolbarGroup float="left">
+          {uid}
         </ToolbarGroup>
 
-        <ToolbarGroup float="right" >
+        <ToolbarGroup float="right" lastChild={true}>
           <RaisedButton label="关于" secondary={true} onClick={this.onClickAbout.bind(this)}/>
+          {authButton}
         </ToolbarGroup>
 
         <ToolbarGroup float="right" firstChild={true} >

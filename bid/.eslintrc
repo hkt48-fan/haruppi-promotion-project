@@ -10,7 +10,8 @@
     "semi": [1, "always"],
     "no-console": 1,
     "comma-dangle": 1,
-    "no-unused-vars": 1
+    "no-unused-vars": 1,
+    "no-debugger": 1
   },
   "plugins": [
     "react"

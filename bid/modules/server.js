@@ -5,8 +5,9 @@ import { RouterContext } from 'react-router';
 import Document from '../modules/components/Document';
 import routes from '../modules/routes';
 import session from 'express-session';
-import express from 'express';
+// import express from 'express';
 import cookieParser from 'cookie-parser';
+// import bodyParser from 'body-parser';
 import compression from 'compression';
 
 import login from '../modules/api/login';
@@ -20,6 +21,8 @@ function renderDocument(props, cb) {
 function getApp(req, res, cb) {
   let renderApp = (props, cb)=>{
     let user = null;
+    console.log(req.sessionID);
+    console.log(req.session);
     if (req.session.user) {
       user = req.session.user;
     }
@@ -36,7 +39,11 @@ server.use(session({
   secret: 'harurun',
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 60000 }
+  cookie: {
+    maxAge: 60000 * 60 * 20,
+    domain: '.larvata.me'
+  },
+
 }));
 // server.use(express.static('static'));
 

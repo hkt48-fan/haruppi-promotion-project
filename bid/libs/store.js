@@ -1,16 +1,16 @@
 class Store {
   constructor() {
-    this.store = {};
+    this.data = {};
 
     if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
       // on client site rehydrate
       let state = window.__INITIAL_STATE__;
-      Object.assign(this.store, { ...state });
+      Object.assign(this.data, { ...state });
     }
   }
 
   set(data) {
-    Object.assign(this.store, data);
+    Object.assign(this.data, data);
   }
 
   rehydrate() {
