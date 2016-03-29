@@ -20,12 +20,12 @@ body, html{
 
 .TalkPage__TalkList{
     padding-bottom: 30px;
-    width: 440px;
+    width: 500px;
 }
 
 .TalkPost, .TalkPost--dayStart, .TalkPost--start
 {
-    width: 420px;
+    width: 480px;
     margin-left: 0px;
 }
 

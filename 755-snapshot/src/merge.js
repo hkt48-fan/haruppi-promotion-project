@@ -59,7 +59,7 @@ var post = (<FullPage posts={posts}/>)
 var result = ReactDOMServer.renderToStaticMarkup(post);
 var resultRetina = result.replace('custom.css', 'custom.retina.css');
 
-// fs.writeFileSync('./out.html', resultRetina);
+fs.writeFileSync('./out.html', resultRetina);
 // process.exit();
 
 // console.log(result);
@@ -85,7 +85,7 @@ phantom.create(ph=>{
             console.log(savePath);
             page.render(savePath, {format: 'png'});
             ph.exit();
-        }, 5000);
+        }, 10000);
     })
 })
 
@@ -96,6 +96,6 @@ phantom.create(ph=>{
             console.log('try output retina size.');
             page.render(savePath_retina, {format: 'png'});
             ph.exit();
-        }, 5000);
+        }, 10000);
     })
 })
