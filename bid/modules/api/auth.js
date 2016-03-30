@@ -1,9 +1,6 @@
 import userdef from '../../data/userdef';
 
 const authenticate = (uid, tid)=>{
-  console.log('in liogin authenticate');
-  console.log(uid);
-  console.log(tid);
   let user = userdef.find(user=>user.uid === uid);
   if (!user) {
     return null;
@@ -26,7 +23,6 @@ const getProfileByUid = ()=>{
 };
 
 export function login(req, res) {
-  console.log(req.body);
   let { uid, tid } = req.body;
 
   let result = {
@@ -59,7 +55,6 @@ export function login(req, res) {
 
 export function logout(req, res) {
   req.session.destroy(err=>{
-    console.log('log out!');
     let result ={
       err: err,
       result: err? 'fail':'ok'

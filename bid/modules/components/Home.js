@@ -50,8 +50,6 @@ export default class Home extends React.Component {
     state.openLeftNav = false;
     state.openFullImageView = false;
     state.openLoginModal = false;
-    console.log('init');
-    console.log(state.user);
     this.state = state;
 
   }
