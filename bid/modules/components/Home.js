@@ -11,6 +11,11 @@ import LoginModal from './Dialogs/LoginModal';
 import FullImageView from './Dialogs/FullImageView';
 import request from 'superagent';
 
+import IconButton from 'material-ui/lib/icon-button';
+import NavigationClose from 'material-ui/lib/svg-icons/navigation/close';
+import IconMenu from 'material-ui/lib/menus/icon-menu';
+import MoreVertIcon from 'material-ui/lib/svg-icons/navigation/more-vert';
+import MenuItem from 'material-ui/lib/menus/menu-item';
 
 const styles = {
   container:{
@@ -36,12 +41,17 @@ export default class Home extends React.Component {
       };
       state.category = photoData.categories[0];
     }
+    else {
+      state.user = {};
+    }
 
     state.openCompleteUserDetailsDialog = false;
     state.openAboutDialog = false;
     state.openLeftNav = false;
     state.openFullImageView = false;
     state.openLoginModal = false;
+    console.log('init');
+    console.log(state.user);
     this.state = state;
 
   }
@@ -102,7 +112,8 @@ export default class Home extends React.Component {
         }
         else {
           console.log('login failed');
-          self.setState({ loginFailed: true });
+          let user = { loginFailed: true };
+          this.setState({ user });
         }
       });
 
@@ -119,20 +130,30 @@ export default class Home extends React.Component {
           console.log(err);
         }
         else if(res.body.result === 'ok') {
-          this.setState({ user: null });
+          this.setState({ user: {} });
           console.log('logout succeed');
 
         }
       });
   }
 
-  toggleAboutDialog({ open }) {
+  // toggleAboutDialog({ open }) {
+  //   this.setState({ openAboutDialog: open });
+  // }
+
+  toggleAboutDialog() {
+    let open = !this.state.openAboutDialog;
     this.setState({ openAboutDialog: open });
   }
 
   toggleLoginModal({ open }) {
     console.log('toggle login');
-    this.setState({ openLoginModal: open });
+    let { user } = this.state;
+    user.loginFailed = false;
+    this.setState({
+      user,
+      openLoginModal: open
+    });
   }
 
   toggleFullImageView(pid) {
@@ -172,7 +193,7 @@ export default class Home extends React.Component {
       openFullImageView,
       searchTerm,
       fullImageViewPID,
-      user,
+      user
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
@@ -184,8 +205,19 @@ export default class Home extends React.Component {
 
         <AppBar
           title={category}
-          iconClassNameRight="muidocs-icon-navigation-expand-more"
           onLeftIconButtonTouchTap={this.toggleLeftNav.bind(this)}
+          iconElementRight={
+            <IconMenu
+              iconButtonElement={
+                <IconButton><MoreVertIcon /></IconButton>
+              }
+              targetOrigin={{ horizontal: 'right', vertical: 'top' }}
+              anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
+            >
+              <MenuItem primaryText="关于" onClick={this.toggleAboutDialog.bind(this)}/>
+              {user && <MenuItem primaryText="登出" onClick={this.userLogout.bind(this)} />}
+            </IconMenu>
+          }
         />
         <LeftPanel
           items={categories}
@@ -197,9 +229,9 @@ export default class Home extends React.Component {
 
         <TopBar
           toggleLoginModal={this.toggleLoginModal.bind(this)}
-          toggleAboutDialog={this.toggleAboutDialog.bind(this)}
+          // toggleAboutDialog={this.toggleAboutDialog.bind(this)}
           searchTermChanged={this.searchTermChanged.bind(this)}
-          userLogout={this.userLogout.bind(this)}
+          // userLogout={this.userLogout.bind(this)}
           user={user}
           />
         <div style={styles.container}>
@@ -221,7 +253,7 @@ export default class Home extends React.Component {
 
         <CompleteUserDetails toggleDialog={this.toggleCompleteUserDetailsDialog.bind(this)} open={openCompleteUserDetailsDialog}/>
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
-        <LoginModal toggleDialog={this.toggleLoginModal.bind(this)} open={openLoginModal} userLogin={this.userLogin.bind(this)}/>
+        <LoginModal user={user} toggleDialog={this.toggleLoginModal.bind(this)} open={openLoginModal} userLogin={this.userLogin.bind(this)}/>
         <FullImageView pid={fullImageViewPID} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />
       </div>
     );

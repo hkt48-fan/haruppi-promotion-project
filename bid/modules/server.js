@@ -20,7 +20,7 @@ function renderDocument(props, cb) {
 
 function getApp(req, res, cb) {
   let renderApp = (props, cb)=>{
-    let user = null;
+    let user = {};
     // console.log(req.sessionID);
     // console.log(req.session);
     if (req.session.user) {
@@ -40,7 +40,7 @@ server.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    maxAge: 60000 * 60 * 20,
+    maxAge: null,
   },
 
 }));

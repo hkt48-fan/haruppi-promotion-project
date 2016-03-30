@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Dialog from 'material-ui/lib/dialog';
 import FlatButton from 'material-ui/lib/flat-button';
 import TextField from 'material-ui/lib/text-field';
@@ -13,14 +14,20 @@ export default class LoginModal extends React.Component {
   constructor(props) {
     super(props);
     let open = !!props.open;
-    let loginFailed = false;
-    this.state = { open, loginFailed };
+    // let loginFailed = false;
+    this.state = { open };
+  }
+
+  componentDidUpdate() {
+    // console.log('~~~~~~~~~~~~~');
+    // console.log(this.refs);
+    // ReactDOM.findDOMNode(this.refs.uid).focus();
+    // this.refs.uid.getDOMNode().focus();
   }
 
   componentWillReceiveProps(nextProps) {
     let { open } = nextProps;
-    let loginFailed = false;
-    this.setState({ open, loginFailed });
+    this.setState({ open });
   }
 
   handleOpen = () => {
@@ -39,7 +46,7 @@ export default class LoginModal extends React.Component {
   };
 
   render() {
-    let { loginFailed } = this.state;
+    let { user } = this.props;
 
     const actions = [
       <FlatButton
@@ -68,7 +75,7 @@ export default class LoginModal extends React.Component {
             <TextField ref="uid"
               hintText="输入淘宝ID"
             /><br/>
-            {loginFailed&&<span style={{ color: 'red' }}>登录信息不正确</span>}
+            {user.loginFailed&&<span style={{ color: 'red' }}>登录信息不正确</span>}
             <br />
 
         </Dialog>
