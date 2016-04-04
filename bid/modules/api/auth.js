@@ -1,16 +1,19 @@
-import userdef from '../../data/userdef';
+// import userdef from '../../data/userdef';
+import udb from '../../libs/users';
 
 const authenticate = (uid, tid)=>{
-  let user = userdef.find(user=>user.uid === uid);
+  let user = udb('users').find(u=>{
+    return u.uid === uid && u.tid.indexOf(tid) !== -1;
+  });
+
   if (!user) {
     return null;
   }
 
-  if (user.tids.indexOf(tid) === -1) {
-    return null;
-  }
-
-  return user;
+  return {
+    uid: user.uid,
+    pp: user.pp
+  };
 };
 
 const getProfileByUid = ()=>{

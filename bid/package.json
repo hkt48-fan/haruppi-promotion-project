@@ -51,6 +51,7 @@
     "karma-sourcemap-loader": "0.3.7",
     "karma-webpack": "1.7.0",
     "lodash": "4.6.1",
+    "lowdb": "0.12.5",
     "material-ui": "0.15.0-alpha.1",
     "mocha": "2.4.5",
     "morgan": "1.7.0",

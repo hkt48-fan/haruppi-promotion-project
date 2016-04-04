@@ -11,8 +11,12 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 
 import { login, logout } from '../modules/api/auth';
-import photoData from '../libs/photoData';
+import { transact } from '../modules/api/transact';
+import storage from '../libs/storage';
+// import users from '../libs/users';
 
+let photoData = storage.getAll();
+// console.log(photoData);
 
 function renderDocument(props, cb) {
   cb(null, <Document photoData={photoData} title="每日Happy哈鲁P♪" {...props}/>);
@@ -24,7 +28,9 @@ function getApp(req, res, cb) {
     // console.log(req.sessionID);
     // console.log(req.session);
     if (req.session.user) {
-      user = req.session.user;
+      user = storage.getUser(req.session.user.uid);
+      console.log('in server');
+      console.log(user);
     }
     cb(null, <RouterContext {...props}/>, { photoData, user });
   };
@@ -52,6 +58,7 @@ server.use((req, res, next)=>{
 
 server.post('/api/login', login);
 server.get('/api/logout', logout);
+server.post('/api/transact', transact);
 
 server.start();
 

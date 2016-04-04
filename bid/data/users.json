@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "uid": "larvata",
+      "tid": [
+        "aaa",
+        "bbb",
+        "ccc"
+      ],
+      "pp": 19
+    },
+    {
+      "uid": "haruppi",
+      "tid": [
+        "aaa",
+        "bbb",
+        "ccc"
+      ],
+      "pp": 86
+    }
+  ]
+}

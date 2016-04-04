@@ -1,6 +1,5 @@
 import React from 'react';
 import PhotoList from './PhotoList';
-import CompleteUserDetails from './CompleteUserDetails';
 import TopBar from './TopBar';
 import AppBar from 'material-ui/lib/app-bar';
 import LeftPanel from './LeftPanel';
@@ -35,21 +34,24 @@ export default class Home extends React.Component {
     if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
       let { photoData, user } = window.__INITIAL_STATE__;
       // photoData = photoData.slice(0,1)
+      let { categories, photos } = photoData;
       state = {
-        photoData,
+        categories,
+        photos,
         user
       };
-      state.category = photoData.categories[0];
+      state.category = categories[0];
     }
     else {
       state.user = {};
     }
 
-    state.openCompleteUserDetailsDialog = false;
     state.openAboutDialog = false;
     state.openLeftNav = false;
     state.openFullImageView = false;
     state.openLoginModal = false;
+    // state.searchTerm = '兒玉遥';
+
     this.state = state;
 
   }
@@ -83,12 +85,6 @@ export default class Home extends React.Component {
     this.setState({ cols: column , photoListWidth: width });
   }
 
-  toggleCompleteUserDetailsDialog({ open }) {
-    this.setState({
-      openToggleCompleteUserDetailsDialog: open
-    });
-  }
-
   userLogin({ uid, tid }) {
     request
       .post('/api/login')
@@ -113,6 +109,8 @@ export default class Home extends React.Component {
           let user = { loginFailed: true };
           this.setState({ user });
         }
+
+        console.log(res.body);
       });
 
 
@@ -174,17 +172,49 @@ export default class Home extends React.Component {
     this.setState({ category });
   }
 
+  handleBidClick(pid) {
+    console.log('bid clicked', arguments);
+    request
+      .post('/api/transact')
+      .send({ pid })
+      .end((err, res)=>{
+        if (err) {
+          console.log(err);
+        }
+        else if(res.body.state === 0) {
+          console.log('---------------');
+          console.log(res.body);
+
+          // update photodata
+          let { stockStatus, pp } = res.body;
+          let { photos, user } = this.state;
+          photos.forEach((p, i)=>{
+            let ss = stockStatus[i];
+            if (ss == '1') {
+              p.outOfStock = true;
+            }
+          });
+
+          user.pp = pp
+          this.setState({ photos, user });
+        }
+        else {
+          console.log('state:', res.body.state);
+        }
+      })
+  }
+
   searchTermChanged(text) {
     this.setState({ searchTerm: text });
   }
 
   render() {
     let {
-      photoData,
+      photos,
+      categories,
       category,
       cols,
       photoListWidth,
-      openCompleteUserDetailsDialog,
       openAboutDialog,
       openLoginModal,
       openLeftNav,
@@ -195,7 +225,7 @@ export default class Home extends React.Component {
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
-    let categories = ((photoData || {}).categories)||[];
+    // let categories = ((photoData || {}).categories)||[];
     return (
 
       <div>
@@ -213,7 +243,7 @@ export default class Home extends React.Component {
               anchorOrigin={{ horizontal: 'right', vertical: 'top' }}
             >
               <MenuItem primaryText="关于" onClick={this.toggleAboutDialog.bind(this)}/>
-              {user && <MenuItem primaryText="登出" onClick={this.userLogout.bind(this)} />}
+              {user.uid && <MenuItem primaryText="登出" onClick={this.userLogout.bind(this)} />}
             </IconMenu>
           }
         />
@@ -227,6 +257,7 @@ export default class Home extends React.Component {
 
         <TopBar
           toggleLoginModal={this.toggleLoginModal.bind(this)}
+          searchTerm={searchTerm}
           // toggleAboutDialog={this.toggleAboutDialog.bind(this)}
           searchTermChanged={this.searchTermChanged.bind(this)}
           // userLogout={this.userLogout.bind(this)}
@@ -239,17 +270,18 @@ export default class Home extends React.Component {
         <div style={styles.container} >
           <div style={innerStyle}>
               {category && <PhotoList
-                            photoData={photoData}
+                            user={user}
+                            photos={photos}
                             category={category}
                             cols={cols}
                             width={photoListWidth}
                             searchTerm={searchTerm}
-                            toggleFullImageViewHandler={this.toggleFullImageView.bind(this)}
+                            handleImageClick={this.toggleFullImageView.bind(this)}
+                            handleBidClick={this.handleBidClick.bind(this)}
                             />}
           </div>
         </div>
 
-        <CompleteUserDetails toggleDialog={this.toggleCompleteUserDetailsDialog.bind(this)} open={openCompleteUserDetailsDialog}/>
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
         <LoginModal user={user} toggleDialog={this.toggleLoginModal.bind(this)} open={openLoginModal} userLogin={this.userLogin.bind(this)}/>
         <FullImageView pid={fullImageViewPID} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />

@@ -10,10 +10,6 @@ const styles = {
     flexWrap: 'wrap',
     justifyContent: 'space-around'
   },
-  button: {
-    margin: '6px 12px 6px 0',
-    minWidth: 67
-  },
   gridList: {
     height: '100%',
     overflowY: 'auto',
@@ -38,38 +34,71 @@ export default class PhotoList extends React.Component {
 
   }
 
-  _buildToggleFullImageViewEvent(pid) {
-    return ()=>{
-      this.props.toggleFullImageViewHandler(pid);
-    };
-  }
+  // handleBidClick(pid){
+  //   let open = false;
+  //   ()=>{
 
-  renderPhotos(photoData) {
-    let bidButton = (
-      <RaisedButton
-      label="PP: 1"
-      secondary={true}
-      style={styles.button}
-      />
-    );
+  //   }
+  // }
 
+  // _buildToggleFullImageViewEvent(pid) {
+  //   return ()=>{
+  //     this.props.toggleFullImageViewHandler(pid);
+  //   };
+  // }
+
+  // _buildBidButton(photo) {
+  //   let { pid, cost } = photo;
+
+  //   return (
+  //     <div>
+  //       <RaisedButton
+  //         label={`PP: ${cost}`}
+  //         secondary={true}
+  //         style={styles.button}
+  //       />
+  //     </div>
+  //   );
+  // }
+
+  _renderPhotos(photoData, handleBidClick, handleImageClick, logined) {
     return photoData.map(photo =>{
+      // let bidButton = logined?this._buildBidButton(photo):null;
       return (
-        <PhotoTile key={photo.pid} bidButton={bidButton} photo={photo} onClick={this._buildToggleFullImageViewEvent(photo.pid)}/>
+        <PhotoTile
+          key={photo.pid}
+          logined={logined}
+          // bidButton={bidButton}
+          photo={photo}
+          handleImageClick={handleImageClick}
+          handleBidClick={handleBidClick}
+        />
       );
     });
   }
 
   render() {
-    let { cols, width, searchTerm, photoData, category } = this.props;
-    if (!photoData || !category) {
-      return null;
-    }
-    let photoPack = photoData.photoPack.find(pp=>pp.category===category);
+    let {
+      cols,
+      width,
+      searchTerm,
+      photos,
+      category,
+      user,
+      handleBidClick,
+      handleImageClick
+    } = this.props;
 
-    let filtered = photoPack.photos;
+    let logined = !!user.uid;
+    // if (!photoData || !category) {
+    //   return null;
+    // }
+    // let photoPack = photoData.photoPack.find(pp=>pp.category===category);
+    let filtered = photos.filter(p=>p.category===category);
+
+    // let filtered = photoPack.photos;
     if (searchTerm) {
-      filtered = photoPack.filter(photo=>photo.members.includes(searchTerm));
+      filtered = filtered.filter(photo=>photo.members.includes(searchTerm));
     }
     if (!filtered && searchTerm) {
       searchTerm = searchTerm || '';
@@ -83,7 +112,7 @@ export default class PhotoList extends React.Component {
           cellHeight={320}
           cols={cols}
           style={styles.gridList}>
-          {this.renderPhotos(filtered)}
+          {this._renderPhotos(filtered, handleBidClick, handleImageClick, logined)}
         </GridList>
       </div>
     );

@@ -41,9 +41,10 @@ export default class TopBar extends React.Component {
   }
 
   render() {
-    let user = this.props.user;
-    let uid = (user || {} ).uid || '';
-
+    let { user, searchTerm } = this.props;
+    user = user || {};
+    let uid = user.uid || '';
+    let pp = user.pp || '0'
     // render login / loginout
 
     // let authButton = user?
@@ -55,7 +56,7 @@ export default class TopBar extends React.Component {
         // </ToolbarGroup>
     let userInfo = (<div>
         <RaisedButton
-          label="5"
+          label={pp}
           linkButton={true}
           primary={true}
           style={{ margin: '6px 10px' }}
@@ -71,7 +72,7 @@ export default class TopBar extends React.Component {
         </ToolbarGroup>
 
         <ToolbarGroup float="right" firstChild={true} >
-          <TextField ref="uid" hintText="按成员姓名搜索" style={{ padding: 2 }} onChange={this.onSearchTermChange.bind(this)}/>
+          <TextField ref="uid" hintText="按成员姓名搜索" style={{ padding: 2 }} value={searchTerm} onChange={this.onSearchTermChange.bind(this)}/>
 
         </ToolbarGroup>
       </Toolbar>
