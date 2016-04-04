@@ -225,6 +225,7 @@ export default class Home extends React.Component {
     } = this.state;
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
+    categories = categories || [];
     // let categories = ((photoData || {}).categories)||[];
     return (
 
