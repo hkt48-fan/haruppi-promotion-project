@@ -251,7 +251,10 @@ export default class Home extends React.Component {
       cart
     } = this.state;
 
-    let cartList = photos.filter(p=>cart.includes(p.pid));
+    let cartList = [];
+    if (photos) {
+      cartList = photos.filter(p=>cart.includes(p.pid));
+    }
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
     categories = categories || [];
