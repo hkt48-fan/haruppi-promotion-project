@@ -1,6 +1,7 @@
 import React from 'react';
 import PhotoList from './PhotoList';
 import TopBar from './TopBar';
+import CartView from './CartView';
 import AppBar from 'material-ui/lib/app-bar';
 import LeftPanel from './LeftPanel';
 import Title from 'react-title-component';
@@ -32,13 +33,14 @@ export default class Home extends React.Component {
     super(props);
     let state = {};
     if (typeof window !== 'undefined' && window.__INITIAL_STATE__) {
-      let { photoData, user } = window.__INITIAL_STATE__;
+      let { photoData, user, cart } = window.__INITIAL_STATE__;
       // photoData = photoData.slice(0,1)
       let { categories, photos } = photoData;
       state = {
         categories,
         photos,
-        user
+        user,
+        cart
       };
       state.category = categories[0];
     }
@@ -50,6 +52,8 @@ export default class Home extends React.Component {
     state.openLeftNav = false;
     state.openFullImageView = false;
     state.openLoginModal = false;
+    state.showCart = false;
+    state.showPhotoList = true;
     // state.searchTerm = '兒玉遥';
 
     this.state = state;
@@ -95,11 +99,13 @@ export default class Home extends React.Component {
           console.log(err);
         }
         else if(res.body.result === 'ok') {
-          let user = res.body.user;
-          console.log('login success;', user);
+          let { user, cart } = res.body;
+
+          // console.log('login success;', user);
 
           this.setState({
             user,
+            cart,
             openLoginModal: false
           });
 
@@ -110,14 +116,14 @@ export default class Home extends React.Component {
           this.setState({ user });
         }
 
-        console.log(res.body);
+        // console.log(res.body);
       });
 
 
   }
 
   userLogout() {
-    console.log('click logout');
+    // console.log('click logout');
     request
       .get('/api/logout')
       .end((err, res)=>{
@@ -133,17 +139,40 @@ export default class Home extends React.Component {
       });
   }
 
-  // toggleAboutDialog({ open }) {
-  //   this.setState({ openAboutDialog: open });
-  // }
+  updateUserProfile({ address }) {
+    // console.log('updateUserProfile');
+    request
+      .post('/api/profile')
+      .send({ address })
+      .end((err, res)=>{
+        if (err) {
+          console.log('updateUserProfile failed.');
+          console.log(err);
+        }
+        else if(res.body.result === 'ok') {
+          console.log('update success');
+        }
+
+      });
+  }
 
   toggleAboutDialog() {
     let open = !this.state.openAboutDialog;
     this.setState({ openAboutDialog: open });
   }
 
+  toggleCartView() {
+    // console.log('toggleCartView');
+    // console.log(this.state);
+    let { showCart } = this.state;
+    this.setState({
+      showCart: !showCart,
+      showPhotoList: showCart
+    });
+  }
+
   toggleLoginModal({ open }) {
-    console.log('toggle login');
+    // console.log('toggle login');
     let { user } = this.state;
     user.loginFailed = false;
     this.setState({
@@ -168,12 +197,10 @@ export default class Home extends React.Component {
   }
 
   toggleCategory(category) {
-    // console.log('toggleCategory: ', category);
     this.setState({ category });
   }
 
   handleBidClick(pid) {
-    console.log('bid clicked', arguments);
     request
       .post('/api/transact')
       .send({ pid })
@@ -182,26 +209,23 @@ export default class Home extends React.Component {
           console.log(err);
         }
         else if(res.body.state === 0) {
-          console.log('---------------');
-          console.log(res.body);
-
           // update photodata
-          let { stockStatus, pp } = res.body;
+          let { stockStatus, pp, cart } = res.body;
           let { photos, user } = this.state;
+
           photos.forEach((p, i)=>{
             let ss = stockStatus[i];
             if (ss == '1') {
               p.outOfStock = true;
             }
           });
-
-          user.pp = pp
-          this.setState({ photos, user });
+          user.pp = pp;
+          this.setState({ photos, user, cart });
         }
         else {
-          console.log('state:', res.body.state);
+          // console.log('state:', res.body.state);
         }
-      })
+      });
   }
 
   searchTermChanged(text) {
@@ -221,8 +245,13 @@ export default class Home extends React.Component {
       openFullImageView,
       searchTerm,
       fullImageViewPID,
-      user
+      user,
+      showCart,
+      showPhotoList,
+      cart
     } = this.state;
+
+    let cartList = photos.filter(p=>cart.includes(p.pid));
 
     let innerStyle = Object.assign({},styles.inner, { width: photoListWidth });
     categories = categories || [];
@@ -230,7 +259,7 @@ export default class Home extends React.Component {
     return (
 
       <div>
-        <Title render={prev => `${prev} | Home`}/>
+        <Title render={'兒玉遥总选应援 生写真兑换'}/>
 
         <AppBar
           title={category}
@@ -262,15 +291,25 @@ export default class Home extends React.Component {
           // toggleAboutDialog={this.toggleAboutDialog.bind(this)}
           searchTermChanged={this.searchTermChanged.bind(this)}
           // userLogout={this.userLogout.bind(this)}
+          toggleCartView={this.toggleCartView.bind(this)}
           user={user}
-          />
+          showCart={showCart}
+        />
         <div style={styles.container}>
           <div style={styles.inner}>
           </div>
         </div>
         <div style={styles.container} >
           <div style={innerStyle}>
-              {category && <PhotoList
+              {showCart && <CartView
+                    user={user}
+                    photos={cartList}
+                    cols={cols}
+                    width={photoListWidth}
+                    handleImageClick={this.toggleFullImageView.bind(this)}
+                    updateUserProfile={this.updateUserProfile.bind(this)}
+                    />}
+              {showPhotoList && category && <PhotoList
                             user={user}
                             photos={photos}
                             category={category}
@@ -289,5 +328,6 @@ export default class Home extends React.Component {
       </div>
     );
   }
+
 }
 

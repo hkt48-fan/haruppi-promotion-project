@@ -1,5 +1,6 @@
 // import userdef from '../../data/userdef';
 import udb from '../../libs/users';
+import storage from '../../libs/storage';
 
 const authenticate = (uid, tid)=>{
   let user = udb('users').find(u=>{
@@ -12,16 +13,16 @@ const authenticate = (uid, tid)=>{
 
   return {
     uid: user.uid,
-    pp: user.pp
+    pp: user.pp,
+    address: user.address
   };
 };
 
-const getProfileByUid = ()=>{
+const getProfileByUid = (uid)=>{
   return {
-    nickname: null,
-    address: null,
-    bids:[],
-    credit: 0
+    name: '',
+    address: '',
+    tel: ''
   };
 };
 
@@ -30,19 +31,21 @@ export function login(req, res) {
 
   let result = {
     result: null,
-    token: null,
-    // setCookie: null,
+    // token: null,
     profile: null,
+    cart: null,
     user: null
   };
 
   let user = authenticate(uid, tid);
   if (user) {
+    let cart = storage.getUserCart(uid);
     req.session.regenerate(()=>{
       req.session.user = user,
       // console.log('auth!');
       // console.log(user);
       result.user = user;
+      result.cart = cart;
       result.result = 'ok';
       result.profile = getProfileByUid(uid);
       // console.log(req.session);

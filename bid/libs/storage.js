@@ -7,7 +7,7 @@ class Storage {
     let { categories, photos } = photoData;
 
     let transactions = tdb('transactions').value();
-    console.log(transactions);
+    // console.log(transactions);
     this.pids = photos.map(p=>p.pid);
     this.categories = categories;
     this.tdb = tdb;
@@ -29,11 +29,36 @@ class Storage {
     if (user) {
       user = {
         uid: user.uid,
-        pp: user.pp
+        pp: user.pp,
+        address: user.address
+      };
+    }
+    return user;
+  }
+
+  getUserCart(uid) {
+    let cart = tdb('transactions').filter({ uid }).map(t=>t.pid);
+    return cart;
+  }
+
+  updateUserProfile(uid, { name, address, tel }) {
+    let user = udb('users').find({ uid });
+    let result = {
+      result: 'failed'
+    };
+    if (user) {
+      user.address = address ;
+      user.tel = tel;
+      udb.write();
+
+      result={
+        address: user.address,
+        tel: user.tel,
+        result: 'ok'
       };
     }
 
-    return user;
+    return result;
   }
 
   redeem(uid, pid) {
@@ -80,6 +105,11 @@ class Storage {
       uid,
       date: Date.now()
     });
+
+    // let cart = tdb('transactions').filter({ uid });
+    // result.cart = cart;
+    let cart = this.getUserCart(uid);
+    result.cart = cart;
     tdb.write();
     udb.write();
 

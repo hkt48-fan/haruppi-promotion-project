@@ -12,6 +12,7 @@ import compression from 'compression';
 
 import { login, logout } from '../modules/api/auth';
 import { transact } from '../modules/api/transact';
+import { profile } from '../modules/api/profile';
 import storage from '../libs/storage';
 // import users from '../libs/users';
 
@@ -25,14 +26,16 @@ function renderDocument(props, cb) {
 function getApp(req, res, cb) {
   let renderApp = (props, cb)=>{
     let user = {};
+    let cart = [];
     // console.log(req.sessionID);
     // console.log(req.session);
     if (req.session.user) {
       user = storage.getUser(req.session.user.uid);
-      console.log('in server');
-      console.log(user);
+      cart = storage.getUserCart(req.session.user.uid);
+      // console.log('in server');
+      // console.log(user);
     }
-    cb(null, <RouterContext {...props}/>, { photoData, user });
+    cb(null, <RouterContext {...props}/>, { photoData, user, cart });
   };
 
   cb(null, { renderDocument, routes, renderApp });
@@ -46,9 +49,8 @@ server.use(session({
   resave: false,
   saveUninitialized: false,
   cookie: {
-    maxAge: null,
-  },
-
+    maxAge: null
+  }
 }));
 // server.use(express.static('static'));
 
@@ -59,6 +61,7 @@ server.use((req, res, next)=>{
 server.post('/api/login', login);
 server.get('/api/logout', logout);
 server.post('/api/transact', transact);
+server.post('/api/profile', profile);
 
 server.start();
 

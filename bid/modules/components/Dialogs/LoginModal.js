@@ -69,12 +69,13 @@ export default class LoginModal extends React.Component {
           open={this.state.open}
           onRequestClose={this.handleClose.bind(this)}
         >
+            <TextField ref="uid"
+              hintText="输入淘宝ID"
+            />
             <TextField ref="tid"
               hintText="输入任意淘宝订单交易号"
             />
-            <TextField ref="uid"
-              hintText="输入淘宝ID"
-            /><br/>
+            <br/>
             {user.loginFailed&&<span style={{ color: 'red' }}>登录信息不正确</span>}
             <br />
 
