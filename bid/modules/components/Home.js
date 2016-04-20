@@ -10,7 +10,7 @@ import About from './Dialogs/About';
 import LoginModal from './Dialogs/LoginModal';
 import FullImageView from './Dialogs/FullImageView';
 import request from 'superagent';
-
+import Snackbar from 'material-ui/lib/snackbar';
 import IconButton from 'material-ui/lib/icon-button';
 import NavigationClose from 'material-ui/lib/svg-icons/navigation/close';
 import IconMenu from 'material-ui/lib/menus/icon-menu';
@@ -100,9 +100,6 @@ export default class Home extends React.Component {
         }
         else if(res.body.result === 'ok') {
           let { user, cart } = res.body;
-
-          // console.log('login success;', user);
-
           this.setState({
             user,
             cart,
@@ -208,8 +205,9 @@ export default class Home extends React.Component {
         if (err) {
           console.log(err);
         }
-        else if(res.body.state === 0) {
+        else if([ 0, 2, 3 ].includes(res.body.state)) {
           // update photodata
+          let redeemState = res.body.state;
           let { stockStatus, pp, cart } = res.body;
           let { photos, user } = this.state;
 
@@ -219,11 +217,29 @@ export default class Home extends React.Component {
               p.outOfStock = true;
             }
           });
+
+          let message = `❌ 未知错误 code: ${redeemState}`;
+          if (redeemState === 0) {
+            message = '🍭 兑换成功 请点击购物车查看';
+          }
+          else if(redeemState === 2) {
+            message = '❌ 兑换失败 该奖品缺货中';
+          }
+          else if(redeemState === 3) {
+            message = '❌ PP点数不足';
+          }
+
           user.pp = pp;
-          this.setState({ photos, user, cart });
+          this.setState({
+            photos,
+            user,
+            cart,
+            message,
+            showMessage: true
+          });
         }
         else {
-          // console.log('state:', res.body.state);
+          console.log('redeem state:', res.body.state);
         }
       });
   }
@@ -248,6 +264,8 @@ export default class Home extends React.Component {
       user,
       showCart,
       showPhotoList,
+      showMessage,
+      message,
       cart
     } = this.state;
 
@@ -328,6 +346,12 @@ export default class Home extends React.Component {
         <About toggleDialog={this.toggleAboutDialog.bind(this)} open={openAboutDialog} />
         <LoginModal user={user} toggleDialog={this.toggleLoginModal.bind(this)} open={openLoginModal} userLogin={this.userLogin.bind(this)}/>
         <FullImageView pid={fullImageViewPID} toggleDialog={this.toggleFullImageView.bind(this)} open={openFullImageView} />
+        <Snackbar
+          open={showMessage}
+          message={message}
+          autoHideDuration={4000}
+          onRequestClose={()=>{this.setState({ showMessage: false });}}
+        />
       </div>
     );
   }

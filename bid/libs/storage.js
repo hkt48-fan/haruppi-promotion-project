@@ -82,7 +82,7 @@ class Storage {
     if (lastStockState === '1') {
       // already out of stock
       result.state = 2;
-      return result;
+      // return result;
     }
 
     // find current user
@@ -90,21 +90,27 @@ class Storage {
     let user = udb('users').find({ uid });
     if (user.pp < photo.cost) {
       result.state = 3;
-      return result;
+      // return result;
     }
 
-    user.pp -= photo.cost;
-    photo.outOfStock = true;
-    this.stockStatus[pIndex] = '1';
-    result.stockStatus = this.stockStatus.join('');
-    result.pp = user.pp;
+    if (result.state === 0) {
+      // cost pp only no error
+      user.pp -= photo.cost;
 
-    // save to db
-    tdb('transactions').push({
-      pid,
-      uid,
-      date: Date.now()
-    });
+      photo.outOfStock = true;
+      this.stockStatus[pIndex] = '1';
+
+      result.pp = user.pp;
+
+      // save to db
+      tdb('transactions').push({
+        pid,
+        uid,
+        date: Date.now()
+      });
+    }
+
+    result.stockStatus = this.stockStatus.join('');
 
     // let cart = tdb('transactions').filter({ uid });
     // result.cart = cart;
