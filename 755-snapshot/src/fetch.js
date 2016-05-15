@@ -3,12 +3,12 @@ import moment from 'moment';
 import fs from 'fs';
 
 let fetchId = 'kodama-haruka';
-fetchId = 'kodamaharuka-anaichihiro';
+// fetchId = 'kodamaharuka-anaichihiro';
 // fetchId = 'anai-chihiro';
 // 枕
 // fetchId = 'q3J7NRXCT9Dz';
 
-const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=100`;
+const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=200`;
 
 const request = (url)=>{
     return new Promise((resolve, reject)=>{
@@ -47,17 +47,17 @@ const request = (url)=>{
             let inDateRange = duration.asDays()<dayCount && duration.asDays()>=0;
             return inDateRange;
 
-            // let postString = JSON.stringify(d);
+            let postString = JSON.stringify(d);
 
-            // let containsHaruppi = ['はるっぴ', '兒玉', '児玉'].some(k=>{
-            //     return postString.includes(k)
-            // });
+            let containsHaruppi = ['はるっぴ', '兒玉', '児玉'].some(k=>{
+                return postString.includes(k)
+            });
 
-            // if (!containsHaruppi) {
-            //     // console.log(postString);
-            // }
+            if (!containsHaruppi) {
+                // console.log(postString);
+            }
 
-            // return inDateRange && containsHaruppi
+            return inDateRange && containsHaruppi
         });
 
         var transcript = [];

@@ -55,6 +55,11 @@ export default class TalkList extends React.Component {
     }
     else{
       // if not translatable content manipulate by common render
+      if ([BodyType.IMAGE].includes(bodyType)) {
+        // ignore image
+        return null;
+      }
+
       return this._renderPostBody(body)
     }
   }
