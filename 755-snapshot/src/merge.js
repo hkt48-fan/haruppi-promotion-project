@@ -26,9 +26,9 @@ let mergeTranslateText = (bodies)=>{
     });
 }
 
-posts.forEach(p=>{
-    mergeTranslateText(p.post.body);
-})
+// posts.forEach(p=>{
+//     mergeTranslateText(p.post.body);
+// })
 
 // posts.forEach(p=>{
 //     p.post.body.forEach(b=>{
@@ -55,7 +55,7 @@ posts.forEach(p=>{
 // fs.writeFileSync('./out.json', JSON.stringify(posts, null, 2));
 // process.exit();
 
-var post = (<FullPage posts={posts}/>)
+var post = (<FullPage posts={posts.reverse()} trans={transcript} />)
 var result = ReactDOMServer.renderToStaticMarkup(post);
 var resultRetina = result.replace('custom.css', 'custom.retina.css');
 
@@ -75,19 +75,19 @@ var dateString = [
 ].join('-');
 
 var savePath_retina = 'snapshots/' + dateString + '_retina.png';
-var savePath = 'snapshots/' + dateString + '.png';
+// var savePath = 'snapshots/' + dateString + '.png';
 
-phantom.create(ph=>{
-    ph.createPage(page=>{
-        page.setContent(result);
-        setTimeout(()=>{
-            console.log('try output normal size.');
-            console.log(savePath);
-            page.render(savePath, {format: 'png'});
-            ph.exit();
-        }, 10000);
-    })
-})
+// phantom.create(ph=>{
+//     ph.createPage(page=>{
+//         page.setContent(result);
+//         setTimeout(()=>{
+//             console.log('try output normal size.');
+//             console.log(savePath);
+//             page.render(savePath, {format: 'png'});
+//             ph.exit();
+//         }, 10000);
+//     })
+// })
 
 phantom.create(ph=>{
     ph.createPage(page=>{
@@ -96,6 +96,6 @@ phantom.create(ph=>{
             console.log('try output retina size.');
             page.render(savePath_retina, {format: 'png'});
             ph.exit();
-        }, 10000);
+        }, 20000);
     })
 })

@@ -1,5 +1,5 @@
 import React from 'react';
-import TalkPost from './TalkPost';
+import TalkList from './TalkList';
 
 class FullPage extends React.Component {
     constructor(props) {
@@ -7,11 +7,7 @@ class FullPage extends React.Component {
     }
 
     render(){
-        var {posts} = this.props;
-
-        var body = posts.reverse().map((p, i)=>{
-                return <TalkPost key={i} isFirst={i === 0} {...p} />
-            });
+        var {posts, trans} = this.props;
 
         return (
             <html>
@@ -22,15 +18,9 @@ class FullPage extends React.Component {
                 </head>
 
                 <body>
-
-                    <div className="TalkPage__TalkList" style={{
-                        // paddingLeft: '80px',
-                        // display:'block',
-                        // paddingBottom: '50px',
-                        // width: '600px'
-                    }}>
-                        {body}
-                    </div>
+                        <div className="TalkPage__TalkList">
+                            <TalkList posts={posts} trans={trans} />
+                        </div>
 
                 </body>
 

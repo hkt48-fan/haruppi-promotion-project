@@ -3,9 +3,12 @@ import moment from 'moment';
 import fs from 'fs';
 
 let fetchId = 'kodama-haruka';
-// fetchId = 'kodamaharuka-anaichihiro';
+fetchId = 'kodamaharuka-anaichihiro';
+// fetchId = 'anai-chihiro';
+// 枕
+// fetchId = 'q3J7NRXCT9Dz';
 
-const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=200`;
+const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=100`;
 
 const request = (url)=>{
     return new Promise((resolve, reject)=>{
@@ -22,7 +25,11 @@ const request = (url)=>{
 
 
 (async ()=>{
-    var dateString = process.argv.slice(-1)[0];
+    var dateString = process.argv.slice(-2)[0];
+    var dayCount = process.argv.slice(-2)[1] || 1;
+    console.log(process.argv);
+    console.log(dateString);
+    console.log(dayCount);
     var fetchDate = moment(dateString, 'YYYY-MM-DD');
     if (!fetchDate.isValid()) {
         console.log('Wrong date format, it should be yyyy-mm-dd');
@@ -33,7 +40,24 @@ const request = (url)=>{
         var responseBody = await request(apiUrlBase);
         var result = JSON.parse(responseBody);
         var matched = result.data.filter(d=>{
-            return moment.unix(d.post.time).startOf('day').isSame(fetchDate.startOf('day'));
+            let postDate = moment.unix(d.post.time).startOf('day');
+            let duration = moment.duration(postDate.diff(fetchDate));
+            // console.log(duration.asDays());
+            console.log(moment.unix(d.post.time).format('YYYY-MM-DD'));
+            let inDateRange = duration.asDays()<dayCount && duration.asDays()>=0;
+            return inDateRange;
+
+            // let postString = JSON.stringify(d);
+
+            // let containsHaruppi = ['はるっぴ', '兒玉', '児玉'].some(k=>{
+            //     return postString.includes(k)
+            // });
+
+            // if (!containsHaruppi) {
+            //     // console.log(postString);
+            // }
+
+            // return inDateRange && containsHaruppi
         });
 
         var transcript = [];
