@@ -7,6 +7,8 @@ let fetchId = 'kodama-haruka';
 // fetchId = 'anai-chihiro';
 // 枕
 // fetchId = 'q3J7NRXCT9Dz';
+// 48cafe
+fetchId = 'slRMDMXtyEtl';
 
 const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=200`;
 
@@ -42,10 +44,8 @@ const request = (url)=>{
         var matched = result.data.filter(d=>{
             let postDate = moment.unix(d.post.time).startOf('day');
             let duration = moment.duration(postDate.diff(fetchDate));
-            // console.log(duration.asDays());
-            console.log(moment.unix(d.post.time).format('YYYY-MM-DD'));
             let inDateRange = duration.asDays()<dayCount && duration.asDays()>=0;
-            return inDateRange;
+            // return inDateRange;
 
             let postString = JSON.stringify(d);
 
