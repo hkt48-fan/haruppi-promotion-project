@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "csv-parse": "^1.1.1",
     "es6-promise-pool": "^2.4.1",
     "iconv": "^2.2.0",
     "json2csv": "^3.4.2",

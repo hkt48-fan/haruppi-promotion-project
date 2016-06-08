@@ -1,7 +1,7 @@
 import fs from 'fs';
 import parse from 'csv-parse/lib/sync';
 
-let dirs = fs.readdirSync('./');
+let dirs = fs.readdirSync('./out');
 
 
 let votes = []
@@ -10,7 +10,7 @@ dirs.forEach(dir=>{
     return;
   }
 
-  const content = fs.readFileSync(dir, 'utf8');
+  const content = fs.readFileSync('./out/' + dir, 'utf8');
   const records = parse(content, {columns: true});
   votes = votes.concat(records);
   // console.log(records);
