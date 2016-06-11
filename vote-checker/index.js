@@ -112,8 +112,8 @@ const loadSN = (filepath, filename) => {
     if (match) {
       const parts = line.split(' ');
       const sn = {
-        sna: parts[0],
-        snb: parts[1].replace('\r', ''),
+        sna: parts[0].trim(),
+        snb: parts[1].trim(),
         fn: filename,
       };
       result.push(sn);
