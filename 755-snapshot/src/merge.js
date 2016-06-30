@@ -6,96 +6,106 @@ import FullPage from './components/FullPage';
 
 import posts from '../posts.json';
 import transcript from '../transcript.json';
+import request from 'request';
+
 
 // console.log(transcript);
 
-var entryIndex = 0;
-let mergeTranslateText = (bodies)=>{
-    bodies.forEach(b=>{
-        if (b.bodyType === 1) {
-            b.trans = transcript[entryIndex].trans;
-            entryIndex++;
+// let isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(body.text);
+const goolgeFetchBaseUrl = 'https://ogcdn.7gogo.jp/api/og?url='
+const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject)=>{
+    const url = `${goolgeFetchBaseUrl}${encodeURIComponent(googlePlusUrl)}`;
+    request(url, (err, res, body)=>{
+        if (err) {
+            console.log(err);
+            reject(err);
         }
-        else if(b.bodyType === 4){
-            b.comment.comment.trans = transcript[entryIndex].trans;
-            entryIndex++;
-        }
-        else if(b.bodyType === 7){
-            mergeTranslateText(b.post.body);
+        else{
+            const result = {
+                url: googlePlusUrl,
+                content: JSON.parse(body)
+            };
+            resolve(result);
         }
     });
-}
+});
 
-// posts.forEach(p=>{
-//     mergeTranslateText(p.post.body);
-// })
 
-// posts.forEach(p=>{
-//     p.post.body.forEach(b=>{
-//         if (b.bodyType === 1) {
-//             // text
-//             // if (!transcript[entryIndex]) {
-//             //     console.log(b);
-//             // }
-//             b.trans = transcript[entryIndex].trans;
-//             entryIndex++;
-//         }
-//         else if(b.bodyType === 4){
-//             b.comment.comment.trans = transcript[entryIndex].trans;
-//             entryIndex++;
-//         }
-//         else if(b.bodyType === 7){
-//             b.post.body.forEach(bb=>{
+(async ()=>{
 
-//             })
-//         }
-//     });
-// });
+    try{
+        var entryIndex = 0;
+        let mergeTranslateText = (bodies)=>{
+            bodies.forEach(b=>{
+                if (b.bodyType === 1) {
+                    b.trans = transcript[entryIndex].trans;
+                    entryIndex++;
+                }
+                else if(b.bodyType === 4){
+                    b.comment.comment.trans = transcript[entryIndex].trans;
+                    entryIndex++;
+                }
+                else if(b.bodyType === 7){
+                    mergeTranslateText(b.post.body);
+                }
+            });
+        }
 
-// fs.writeFileSync('./out.json', JSON.stringify(posts, null, 2));
-// process.exit();
+        let extendUrls = transcript.map(ts=>{
+            const isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(ts.text);
+            if (isUrl) {
+                return ts.text;
+            }
+        }).filter(ts=>ts);
 
-var post = (<FullPage posts={posts.reverse()} trans={transcript} />)
-var result = ReactDOMServer.renderToStaticMarkup(post);
-var resultRetina = result.replace('custom.css', 'custom.retina.css');
+        let extendContents = [];
+        for(const exu of extendUrls){
+            const result =  await fetchGooglePlusInfo(exu);
+            extendContents.push(result);
+        }
 
-fs.writeFileSync('./out.html', resultRetina);
-// process.exit();
+        // console.log(JSON.stringify(extendContents, null, 2));
 
-// console.log(result);
-// export to png via phantomjs
-// page.viewportSize in phantomjs 2.0 was broken,
-// build two version of html for render normal size and retina size
-var unixTime = posts[0].post.time;
-var date = new Date(unixTime*1000);
-var dateString = [
-    date.getFullYear(),
-    (date.getMonth()+1)>9?(date.getMonth()+1):'0'+(date.getMonth()+1),
-    date.getDate()>9?date.getDate():'0'+date.getDate()
-].join('-');
+        // fetch google plus infos
 
-var savePath_retina = 'snapshots/' + dateString + '_retina.png';
-// var savePath = 'snapshots/' + dateString + '.png';
+        // process.exit();
 
-// phantom.create(ph=>{
-//     ph.createPage(page=>{
-//         page.setContent(result);
-//         setTimeout(()=>{
-//             console.log('try output normal size.');
-//             console.log(savePath);
-//             page.render(savePath, {format: 'png'});
-//             ph.exit();
-//         }, 10000);
-//     })
-// })
+        var post = (<FullPage posts={posts.reverse()} trans={transcript} extendContents={extendContents} />)
+        var result = ReactDOMServer.renderToStaticMarkup(post);
+        var resultRetina = result.replace('custom.css', 'custom.retina.css');
 
-phantom.create(ph=>{
-    ph.createPage(page=>{
-        page.setContent(resultRetina);
-        setTimeout(()=>{
-            console.log('try output retina size.');
-            page.render(savePath_retina, {format: 'png'});
-            ph.exit();
-        }, 20000);
-    })
-})
+        fs.writeFileSync('./out.html', resultRetina);
+
+        // console.log(result);
+        // export to png via phantomjs
+        // page.viewportSize in phantomjs 2.0 was broken,
+        // build two version of html for render normal size and retina size
+        var unixTime = posts[0].post.time;
+        var date = new Date(unixTime*1000);
+        var dateString = [
+            date.getFullYear(),
+            (date.getMonth()+1)>9?(date.getMonth()+1):'0'+(date.getMonth()+1),
+            date.getDate()>9?date.getDate():'0'+date.getDate()
+        ].join('-');
+
+        var savePath_retina = 'snapshots/' + dateString + '_retina.png';
+
+        phantom.create({parameters:{
+            proxy: 'socks://127.0.0.1:8484'
+        }},ph=>{
+            ph.createPage(page=>{
+                page.setContent(resultRetina);
+                setTimeout(()=>{
+                    console.log('try output retina size.');
+                    page.render(savePath_retina, {format: 'png'});
+                    ph.exit();
+                }, 20000);
+            })
+        })
+    }
+    catch(e){
+        console.log(e);
+    }
+
+
+})();

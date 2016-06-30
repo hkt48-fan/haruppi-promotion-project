@@ -38,7 +38,7 @@ body, html{
     margin-left: 0px;
 }
 
-.RetalkPost{
+.RetalkPost, .RetalkPost--dayStart, .RetalkPost--start {
     width: 440px;
     margin-left: 40px;
 }
@@ -64,3 +64,76 @@ body, html{
 /*.TalkPost__media{
     height: 462px
 }*/
+
+
+.OpenGraphCard {
+    margin-top: 16px;
+    height: 105px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    text-decoration: none!important
+}
+
+.OpenGraphCard__thumbnail {
+    margin-right: 0;
+    width: 105px;
+    height: 100%;
+    background-position: center center;
+    background-size: cover
+}
+
+.OpenGraphCard__thumbnail--link {
+    background-color: #d8d8d8
+}
+
+.OpenGraphCard__linkIcon {
+    fill: #fff
+}
+
+.OpenGraphCard__content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    color: #575757;
+    width: 300px;
+}
+
+.OpenGraphCard__title {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.OpenGraphCard__description {
+    overflow: hidden;
+    margin-bottom: 4px;
+    color: #454545;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px
+}
+
+.OpenGraphCard__shareURL {
+    color: #454545;
+    font-size: 14px
+}
+
+.OpenGraphCard__domain {
+    overflow: hidden;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px
+}
+
+.OpenGraphCard__favicon {
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle
+}

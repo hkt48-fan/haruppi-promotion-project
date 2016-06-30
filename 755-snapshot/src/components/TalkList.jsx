@@ -71,13 +71,39 @@ export default class TalkList extends React.Component {
   }
 
   _renderPostBody(body, baseClass){
+    const {extendContents} = this.props;
     let {bodyType} = body;
     let isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(body.text);
 
     if (isUrl) {
+      // find matched extend data
+      const matched = extendContents.find(ec=>ec.url === body.text);
+      let ecImg;
+      let ecTitle = '';
+      let ecDescription = '';
+
+      if (matched) {
+        ecImg = matched.content.data.image;
+        ecTitle = matched.content.data.title;
+        ecDescription = matched.content.data.description;
+      }
+
       return (
         <span className="Linkify">
           <a>{body.text}</a>
+          <a className="media OpenGraphCard">
+            <div className="media__image OpenGraphCard__thumbnail" style={{backgroundImage: `url(${ecImg})`}}/>
+            <div className="media__body OpenGraphCard__content">
+              <div>
+                <div className="OpenGraphCard__title">{ecTitle.substr(0, 25)}</div>
+                <div className="OpenGraphCard__description">{ecDescription}</div>
+              </div>
+              <div className="OpenGraphCard__domain">
+                <img className="OpenGraphCard__favicon" src="https://www.google.com/s2/favicons?domain=plus.google.com"/>
+                plus.google.com
+              </div>
+            </div>
+          </a>
         </span>
       );
     }
@@ -99,7 +125,7 @@ export default class TalkList extends React.Component {
     }
     if (bodyType === BodyType.STAMP) {
       return (
-        <img src={'https:' + body.image} className={baseClass}/>
+        <img src={body.image} className={baseClass}/>
       );
     }
     else if (bodyType === BodyType.IMAGE){
@@ -265,22 +291,24 @@ export default class TalkList extends React.Component {
 
   _renderTalkPost(postObj, {shouldShowDateTag, shouldCombindPost}){
     let {post, user} = postObj;
-    let talkPostClassName = 'TalkPost';
+    // let talkPostClassName = 'TalkPost';
+    let containerClassSuffix = '';
     if (shouldCombindPost) {
       // dummy do nothing
     }
     else if (shouldShowDateTag) {
-      talkPostClassName += '--dayStart';
+      containerClassSuffix += '--dayStart';
     }
     else{
-      talkPostClassName += '--start';
+      containerClassSuffix += '--start';
     }
     let date = moment.unix(post.time).format('YYYY/MM/DD');
     let timeString = moment.unix(post.time).format('HH:mm:ss');
 
     if (post.postType === PostType.RETALK) {
+      let postClassName = 'RetalkPost';
       return (
-        <div className="RetalkPost" data-date={date} key={post.postId}>
+        <div className={`${postClassName}${containerClassSuffix}`} data-date={date} key={post.postId}>
           <div className="RetalkPost__icon">
             <svg viewBox="0 0 128 128">
               <path d="M108.04 69.607v37.802H73.143V77.563c0-16.158 1.92-27.857 5.79-35.093 5.056-9.646 13.086-16.934 24.05-21.88l7.95 12.66c-6.622 2.774-11.5 6.9-14.652 12.395-3.13 5.483-4.876 13.474-5.234 23.962h16.994zm-56.055 0v37.802h-34.92V77.563c0-16.158 1.926-27.857 5.79-35.093 5.057-9.646 13.087-16.934 24.052-21.88l7.975 12.66c-6.643 2.774-11.525 6.9-14.656 12.395-3.153 5.483-4.898 13.474-5.257 23.962h17.015z" data-reactid="826"></path>
@@ -304,8 +332,9 @@ export default class TalkList extends React.Component {
       );
     }
     else{
+      let postClassName = 'TalkPost'
       return (
-        <div className={talkPostClassName} data-date={date} key={post.postId}>
+        <div className={`${postClassName}${containerClassSuffix}`} data-date={date} key={post.postId}>
           <a>
              <img className="thumb thumb--small TalkPost__userImage" src={user.thumbnailUrl} />
           </a>

@@ -111,6 +111,7 @@ const request = (url)=>{
         });
 
         fs.writeFileSync('./posts.json', JSON.stringify(matched, null, 4));
+        fs.writeFileSync(`./${dateString}.json`, JSON.stringify(transcript, null, 4).replace(/\n/g, '\r\n'));
         fs.writeFileSync('./transcript.json', JSON.stringify(transcript, null, 4));
 
     }
