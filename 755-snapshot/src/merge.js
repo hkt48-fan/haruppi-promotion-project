@@ -51,6 +51,7 @@ const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject)=>{
             });
         }
 
+        // refactory with Promise.all()
         let extendUrls = transcript.map(ts=>{
             const isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(ts.text);
             if (isUrl) {
@@ -91,7 +92,7 @@ const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject)=>{
         var savePath_retina = 'snapshots/' + dateString + '_retina.png';
 
         phantom.create({parameters:{
-            proxy: 'socks://127.0.0.1:8484'
+            proxy: 'http://127.0.0.1:8119'
         }},ph=>{
             ph.createPage(page=>{
                 page.setContent(resultRetina);

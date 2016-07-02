@@ -149,6 +149,12 @@ export default class TalkList extends React.Component {
         </div>
       )
     }
+    else if (bodyType === BodyType.NEWS){
+      console.log(body);
+      return (
+        null
+      )
+    }
   }
 
   _renderTalkPostTextContent(post){
@@ -228,6 +234,21 @@ export default class TalkList extends React.Component {
     ];
   }
 
+  _renderTalkPostNewsContent(post){
+    const body = post.body[0];
+    return [
+      (<div className="TalkPost__media">
+        <img src={body.image} />
+      </div>),
+      (<div className="TalkPost__news">
+        <div className="TalkPost__newsTitle">{body.title}</div>
+        <div className="TalkPost__newsDescription">{body.detail}...</div>
+      </div>)
+
+    ]
+    // return this._renderPostBody(post.body[0])
+  }
+
   _renderTalkPostContent(post, isRetalkPost){
     let {postType} = post;
     let baseClass = isRetalkPost ? 'RetalkPost' : 'TalkPost';
@@ -282,6 +303,13 @@ export default class TalkList extends React.Component {
           {this._renderTalkPostTextImageContent(post, baseClass)}
         </div>
       );
+    }
+    else if (postType === PostType.NEWS){
+      return (
+        <div className="TalkPost__newsWrapper">
+          {this._renderTalkPostNewsContent(post)}
+        </div>
+      )
     }
     else{
       console.log('imimplemented post content: ', postType);
