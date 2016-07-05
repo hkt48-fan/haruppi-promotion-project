@@ -7,7 +7,7 @@ class FullPage extends React.Component {
     }
 
     render(){
-        var {posts, trans} = this.props;
+        var {posts, trans, extendContents} = this.props;
 
         return (
             <html>
@@ -19,7 +19,7 @@ class FullPage extends React.Component {
 
                 <body>
                         <div className="TalkPage__TalkList">
-                            <TalkList posts={posts} trans={trans} />
+                            <TalkList posts={posts} trans={trans} extendContents={extendContents} />
                         </div>
 
                 </body>
