@@ -73,16 +73,21 @@ export default class TalkList extends React.Component {
   _renderPostBody(body, baseClass){
     const {extendContents} = this.props;
     let {bodyType} = body;
-    let isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(body.text);
+    let urlMatch = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(body.text);
 
-    if (isUrl) {
+
+    if (urlMatch) {
+      let matchedUrl = urlMatch[0];
       // find matched extend data
-      const matched = extendContents.find(ec=>ec.url === body.text);
+      const matched = extendContents.find(ec=>ec.url === matchedUrl);
       let ecImg;
       let ecTitle = '';
       let ecDescription = '';
 
       if (matched) {
+        if (!matched.content.data) {
+          console.log(JSON.stringify(matched));
+        }
         ecImg = matched.content.data.image;
         ecTitle = matched.content.data.title;
         ecDescription = matched.content.data.description;
