@@ -9,7 +9,11 @@ import transcript from '../transcript.json';
 import request from 'request';
 
 
-// console.log(transcript);
+const sleep = (timeout) => new Promise((resolve, reject)=>{
+    setTimeout(()=>{
+        resolve();
+    }, timeout)
+})
 
 // let isUrl = /https?:\/\/[^\s\.]+\.\S{2}\S*/.exec(body.text);
 const goolgeFetchBaseUrl = 'https://ogcdn.7gogo.jp/api/og?url='
@@ -68,15 +72,13 @@ const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject)=>{
         }
 
         // console.log(JSON.stringify(extendContents, null, 2));
-
         // fetch google plus infos
-
         // process.exit();
 
         var post = (<FullPage posts={posts.reverse()} trans={transcript} extendContents={extendContents} />)
         var result = ReactDOMServer.renderToStaticMarkup(post);
         var resultRetina = result.replace('custom.css', 'custom.retina.css');
-
+        console.log('output html');
         fs.writeFileSync('./out.html', resultRetina);
 
         // console.log(result);
@@ -93,18 +95,21 @@ const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject)=>{
 
         var savePath_retina = 'snapshots/' + dateString + '_retina.png';
 
-        phantom.create({parameters:{
-            // proxy: 'socks://127.0.0.1:8484'
-        }},ph=>{
-            ph.createPage(page=>{
-                page.setContent(resultRetina);
-                setTimeout(()=>{
-                    console.log('try output retina size.');
-                    page.render(savePath_retina, {format: 'png'});
-                    ph.exit();
-                }, 20000);
-            })
-        })
+
+        console.log('Try generate the capture.');
+
+        const instance = await phantom.create();
+        const page = await instance.createPage();
+        await page.setContent(resultRetina, '');
+
+        // phantomjs-node can't trigger callback from event fired(onLoadFinshed)
+        // wait for all resource are loaded by using setTimeout()
+        // see also: https://github.com/amir20/phantomjs-node/issues/396
+        await sleep(20000);
+        await page.render(savePath_retina, {format: 'png'})
+
+        instance.exit();
+        console.log('exit');
     }
     catch(e){
         console.log(e);
