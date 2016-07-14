@@ -3,5 +3,8 @@ module.exports = {
     "extends": "airbnb",
     "plugins": [
         "react"
-    ]
+    ],
+    "rules": {
+      "brace-style": 0
+    }
 };
