@@ -56,7 +56,8 @@ const loadTranslateScripts = (dateString, dayCount) => {
     fs.accessSync(transPath, fs.F_OK);
 
     const postsString = fs.readFileSync(postsPath, 'utf8');
-    const transString = fs.readFileSync(transPath, 'utf8');
+    // load translate script and strip BOM
+    const transString = fs.readFileSync(transPath, 'utf8').replace(/^\uFEFF/, '');
 
     const posts = JSON.parse(postsString);
     const trans = JSON.parse(transString);
