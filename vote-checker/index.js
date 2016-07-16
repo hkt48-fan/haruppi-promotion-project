@@ -7,10 +7,13 @@ import json2csv from 'json2csv';
 const candidate = 4107;
 const voteURL = 'http://akb48-sousenkyo.jp/web/akb2016/vote/thanks';
 const votePageURL = 'http://akb48-sousenkyo.jp/web/akb2016/vote/show?c=' + candidate;
+// const myJar = request.jar();
 const request = requestDefault.defaults({
   jar: true,
   // proxy: 'http://127.0.0.1:8887',
 });
+
+let myJar;
 
 const checkSingleVote = (sn, { xsrf }) => {
   return new Promise((resolve, reject) => {
@@ -18,8 +21,8 @@ const checkSingleVote = (sn, { xsrf }) => {
     const postBody = `vote_form_candidate_code=${candidate}&detect=${detect}&vote_form_sys.xsrf=${xsrf}&vote_form_serial_code_1=${sn.sna}&vote_form_serial_code_2=${sn.snb}`;
 
     // console.log(postBody);
-
     request({
+      // jar: myJar,
       method: 'POST',
       url: voteURL,
       body: postBody,
@@ -139,6 +142,8 @@ const sleep = (ts) => {
 
 async function check(sn) {
   // console.log(sn);
+  myJar = requestDefault.jar();
+  // console.log('flush cookies.');
   const auth = await getXSRF();
   const result = await checkSingleVote(sn, auth);
   // console.log(result);
