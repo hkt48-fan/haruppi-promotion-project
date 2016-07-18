@@ -1,0 +1,10 @@
+body {
+    zoom: 200%;
+    width: 480px;
+    height: 200%;
+    // background-color: #f2f2f2;
+}
+
+.translate, .translate a {
+  color: #C0392B;
+}
