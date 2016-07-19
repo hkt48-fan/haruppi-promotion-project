@@ -1,8 +1,12 @@
 body {
     zoom: 200%;
     width: 480px;
-    height: 200%;
+    // height: 250%;
     // background-color: #f2f2f2;
+}
+
+.AdaptiveMedia-photoContainer {
+  height: initial;
 }
 
 .translate, .translate a {

@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel src -d build -w"
+    "watch": "babel src -d build -w",
+    "fetch": "node build/fetch",
+    "merge": "node build/merge"
   },
   "keywords": [],
   "author": "",

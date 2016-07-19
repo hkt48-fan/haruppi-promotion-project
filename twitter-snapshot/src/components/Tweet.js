@@ -150,16 +150,25 @@ const renderAdaptiveMedia = (tweet) => {
   }
 
   return (
-    <div className="AdaptiveMedia">
+    <div className="AdaptiveMedia is-square">
       <div className="AdaptiveMedia-container">
         <div className={photoCountClassName}>
           {media.map(m => {
-            return (
-              <div className={photoContainerClassName}>
-                <div className="AdaptiveMedia-photoContainer">
-                  <img src={m.media_url} style={photoStyle} alt="" />
+            const photoContent = (
+              <div className="AdaptiveMedia-photoContainer">
+                <img src={m.media_url} style={photoStyle} alt="" />
+              </div>
+            );
+
+            if (photoContainerClassName) {
+              return (
+                <div className={photoContainerClassName}>
+                  {photoContent}
                 </div>
-              </div>);
+              );
+            }
+
+            return photoContent;
           })}
         </div>
       </div>
