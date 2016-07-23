@@ -3,11 +3,21 @@ import fs from 'fs-extra';
 import moment from 'moment-timezone';
 import path from 'path';
 import { TEMPLATE_VERSION, OUTPUT_BASE_PATH } from './common/constant';
-import twtterConfig from './authorization.js';
+import twitterConfig from './authorization.js';
+import Agent from 'socks5-https-client/lib/Agent';
 
 console.log(process.argv);
 
-const client = new Twitter(twtterConfig);
+const requestOptions = Object.assign(twitterConfig, {
+  request_options: {
+    agentClass: Agent,
+    agentOptions: {
+      socksPort: 8484,
+    },
+  },
+});
+
+const client = new Twitter(requestOptions);
 
 const options = {
   screen_name: 'haruka_kdm919',
@@ -51,15 +61,15 @@ const isInDateRange = (tweet, fetchDate) => {
   const date = new Date(created_at);
   const currentDate = moment(date);
 
-  console.log('created_at: ', starttime.format());
-  console.log('deadline:', deadline.format());
-  console.log('currentDate: ', currentDate.format());
-  console.log('');
+  // console.log('created_at: ', starttime.format());
+  // console.log('deadline:', deadline.format());
+  // console.log('currentDate: ', currentDate.format());
+  // console.log('');
 
   const result = currentDate.diff(starttime) > 0 &&
     deadline.diff(currentDate) > 0;
 
-  console.log('is in range: ', result);
+  // console.log('is in range: ', result);
   return result;
 };
 

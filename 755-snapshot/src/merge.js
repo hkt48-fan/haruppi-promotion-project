@@ -161,15 +161,15 @@ const loadTranslateScripts = (dateString, dayCount) => {
 
     console.log('Try generate the capture.');
 
-    const instance = await phantom.create();
+    const instance = await phantom.create(['--proxy=127.0.0.1:8484', '--proxy-type=socks5']);
     const page = await instance.createPage();
     await page.setContent(resultRetina, '');
 
     // phantomjs-node can't trigger callback from event fired(onLoadFinshed)
     // wait for all resource are loaded by using setTimeout()
     // see also: https://github.com/amir20/phantomjs-node/issues/396
-    await sleep(20000);
-    await page.render(savePath_retina, {format: 'png'})
+    await sleep(10000);
+    await page.render(savePath_retina, { format: 'png' });
 
     instance.exit();
     console.log('exit');

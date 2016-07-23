@@ -2,9 +2,6 @@ import React from 'react';
 import moment from 'moment-timezone';
 import twemoji from 'twemoji';
 
-const getBiggerProfileImageUrl = () => {
-
-};
 
 const getTweetTextSize = (tweet, isRetweet) => {
   // disable auto tweet text size
@@ -187,7 +184,15 @@ const renderTweetContent = (tweet, trans, isRetweet) => {
 
   const postDate = moment(new Date(created_at));
 
-  const transItem = trans.find(tr => tr.text === tweet.text) || {};
+  // incoming tweet is a retweet entity when isRetweet flag is true
+  // perfix RT @screen_name: to tweet text to get correct translate text
+  let matchTweetText = tweet.text;
+  if (isRetweet) {
+    matchTweetText = `RT @${tweet.user.screen_name}: ${matchTweetText}`;
+  }
+  const transItem = trans.find(tr => tr.text === matchTweetText) || {};
+
+
 
   return (
     <div className="content">
