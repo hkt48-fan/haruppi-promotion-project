@@ -1,0 +1,656 @@
+[
+    {
+        "created_at": "Wed Jul 20 13:27:27 +0000 2016",
+        "id": 755756003535167500,
+        "id_str": "755756003535167488",
+        "text": "モデルプレス - HKT48兒玉遥、ビキニ姿の美ボディにうっとり　色気ある大人っぽい姿も https://t.co/AHNFZrbdfV # @modelpressより",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "modelpress",
+                    "name": "モデルプレス",
+                    "id": 142921471,
+                    "id_str": "142921471",
+                    "indices": [
+                        71,
+                        82
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/AHNFZrbdfV",
+                    "expanded_url": "http://mdpr.jp/news/detail/1599637",
+                    "display_url": "mdpr.jp/news/detail/15…",
+                    "indices": [
+                        45,
+                        68
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "1st写真集「ロックオン」7月27日発売。 https://t.co/HT4pt9ques",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/HT4pt9ques",
+                            "expanded_url": "https://www.instagram.com/haruka_kodama919/",
+                            "display_url": "instagram.com/haruka_kodama9…",
+                            "indices": [
+                                22,
+                                45
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 40642,
+            "friends_count": 33,
+            "listed_count": 709,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 4,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 23,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 306,
+        "favorite_count": 1002,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Jul 20 07:58:22 +0000 2016",
+        "id": 755673189309558800,
+        "id_str": "755673189309558788",
+        "text": "ゆきりんさん、さっしーから「可愛い！」いただきました！\n\nありがたき幸せ。。。\n\n写真集の感想って嬉しいけど、なんだか、恥ずかしい😳😳💓 https://t.co/dOColVIk4Y",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 755673179599745000,
+                    "id_str": "755673179599745024",
+                    "indices": [
+                        69,
+                        92
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CnywwMxVMAAbVKr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CnywwMxVMAAbVKr.jpg",
+                    "url": "https://t.co/dOColVIk4Y",
+                    "display_url": "pic.twitter.com/dOColVIk4Y",
+                    "expanded_url": "http://twitter.com/haruka_kdm919/status/755673189309558788/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 511,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 755673179599745000,
+                    "id_str": "755673179599745024",
+                    "indices": [
+                        69,
+                        92
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CnywwMxVMAAbVKr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CnywwMxVMAAbVKr.jpg",
+                    "url": "https://t.co/dOColVIk4Y",
+                    "display_url": "pic.twitter.com/dOColVIk4Y",
+                    "expanded_url": "http://twitter.com/haruka_kdm919/status/755673189309558788/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 511,
+                            "resize": "fit"
+                        }
+                    },
+                    "ext_alt_text": null
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "1st写真集「ロックオン」7月27日発売。 https://t.co/HT4pt9ques",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/HT4pt9ques",
+                            "expanded_url": "https://www.instagram.com/haruka_kodama919/",
+                            "display_url": "instagram.com/haruka_kodama9…",
+                            "indices": [
+                                22,
+                                45
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 40642,
+            "friends_count": 33,
+            "listed_count": 709,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 4,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 23,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1146,
+        "favorite_count": 3780,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Wed Jul 20 03:18:56 +0000 2016",
+        "id": 755602866996334600,
+        "id_str": "755602866996334592",
+        "text": "RT @345__chan: 7月27日発売！一足お先にみました。\nじんわり泣きそうになるくらい可愛かったわ😭 https://t.co/awrC3VjT3l",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "345__chan",
+                    "name": "指原 莉乃",
+                    "id": 2346809580,
+                    "id_str": "2346809580",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 755562941332586500,
+                    "id_str": "755562941332586496",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                    "url": "https://t.co/awrC3VjT3l",
+                    "display_url": "pic.twitter.com/awrC3VjT3l",
+                    "expanded_url": "http://twitter.com/345__chan/status/755562953332576256/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1536,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 755562953332576300,
+                    "source_status_id_str": "755562953332576256",
+                    "source_user_id": 2346809580,
+                    "source_user_id_str": "2346809580"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 755562941332586500,
+                    "id_str": "755562941332586496",
+                    "indices": [
+                        56,
+                        79
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                    "url": "https://t.co/awrC3VjT3l",
+                    "display_url": "pic.twitter.com/awrC3VjT3l",
+                    "expanded_url": "http://twitter.com/345__chan/status/755562953332576256/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1536,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 755562953332576300,
+                    "source_status_id_str": "755562953332576256",
+                    "source_user_id": 2346809580,
+                    "source_user_id_str": "2346809580",
+                    "ext_alt_text": null
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "1st写真集「ロックオン」7月27日発売。 https://t.co/HT4pt9ques",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/HT4pt9ques",
+                            "expanded_url": "https://www.instagram.com/haruka_kodama919/",
+                            "display_url": "instagram.com/haruka_kodama9…",
+                            "indices": [
+                                22,
+                                45
+                            ]
+                        }
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 40642,
+            "friends_count": 33,
+            "listed_count": 709,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 4,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": false,
+            "verified": true,
+            "statuses_count": 23,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Wed Jul 20 00:40:20 +0000 2016",
+            "id": 755562953332576300,
+            "id_str": "755562953332576256",
+            "text": "7月27日発売！一足お先にみました。\nじんわり泣きそうになるくらい可愛かったわ😭 https://t.co/awrC3VjT3l",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 755562941332586500,
+                        "id_str": "755562941332586496",
+                        "indices": [
+                            41,
+                            64
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                        "url": "https://t.co/awrC3VjT3l",
+                        "display_url": "pic.twitter.com/awrC3VjT3l",
+                        "expanded_url": "http://twitter.com/345__chan/status/755562953332576256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 755562941332586500,
+                        "id_str": "755562941332586496",
+                        "indices": [
+                            41,
+                            64
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CnxMffOUAAA31R-.jpg",
+                        "url": "https://t.co/awrC3VjT3l",
+                        "display_url": "pic.twitter.com/awrC3VjT3l",
+                        "expanded_url": "http://twitter.com/345__chan/status/755562953332576256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            }
+                        },
+                        "ext_alt_text": null
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2346809580,
+                "id_str": "2346809580",
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "location": "",
+                "description": "HKT48の指原莉乃です。携帯が壊れてるので誤フォロー、誤いいねをよくします。ごめんなさい。",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1283144,
+                "friends_count": 303,
+                "listed_count": 7570,
+                "created_at": "Sun Feb 16 12:57:31 +0000 2014",
+                "favourites_count": 303,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 5778,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2346809580/1466265291",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1522,
+            "favorite_count": 7185,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "is_quote_status": false,
+        "retweet_count": 1522,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    }
+]
