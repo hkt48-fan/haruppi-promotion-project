@@ -41,8 +41,8 @@ app.use('/luckymoney',luckyMoney);
 app.get('/auth',oauth2authorizer.auth);
 app.get('/oauth2callback',oauth2authorizer.callback);
 
-app.get('/authweibo', oauth2weibo.auth);
-app.get('/weibocallback', oauth2weibo.callback);
+// app.get('/authweibo', oauth2weibo.auth);
+// app.get('/weibocallback', oauth2weibo.callback);
 
 console.log('init performancemanager');
 performanceManager.setGoogle(oauth2authorizer.getGoogleAPI());
