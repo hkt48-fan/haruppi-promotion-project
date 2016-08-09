@@ -12,7 +12,7 @@ var verify = require('./middleware/verify');
 var replier = require('./middleware/replier');
 var moderator = require('./middleware/moderator');
 var oauth2authorizer = require('./middleware/oauth2authorizer');
-var oauth2weibo = require('./middleware/oauth2weibo');
+// var oauth2weibo = require('./middleware/oauth2weibo');
 
 var luckyMoney = require('./middleware/luckyMoney');
 
