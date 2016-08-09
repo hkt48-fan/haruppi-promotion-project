@@ -3,6 +3,7 @@ import jfs from 'jsonfile'
 import fs from 'fs'
 import cheerio from 'cheerio'
 import path from 'path'
+import Agent from 'socks5-http-client/lib/Agent';
 
 const downloadImage = (url) => {
   return new Promise((resolve, reject) => {
@@ -10,7 +11,14 @@ const downloadImage = (url) => {
     const filepath = path.join('images', filename)
     // let dontSave = false
     // console.log(filepath)
-    request(url, {encoding: 'binary'}, (err, res, body) => {
+    request({
+      url,
+      encoding: 'binary',
+      agentClass: Agent,
+      agentOptions: {
+        socksPort: 8484
+      }
+    }, (err, res, body) => {
       if (err) {
         reject(err)
       } else if (res.statusCode !== 200) {
@@ -26,7 +34,13 @@ const downloadImage = (url) => {
 const readProductMetadata = (productId) => {
   return new Promise((resolve, reject) => {
     const url = `http://shopping.akb48-group.com/products/detail.php?product_id=${productId}`
-    request(url, (err, res, body) => {
+    request({
+      url,
+      agentClass: Agent,
+      agentOptions: {
+        socksPort: 8484
+      }
+    }, (err, res, body) => {
       if (err) {
         reject(err)
       } else {

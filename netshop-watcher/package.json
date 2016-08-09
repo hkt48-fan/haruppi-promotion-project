@@ -23,6 +23,7 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "jsonfile": "^2.3.1",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "socks5-http-client": "^1.0.2"
   }
 }
