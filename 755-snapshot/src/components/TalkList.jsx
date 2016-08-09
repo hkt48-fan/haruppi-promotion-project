@@ -59,7 +59,7 @@ export default class TalkList extends React.Component {
       )
     }
     else{
-
+      const ttt = [BodyType.IMAGE];
       if ([BodyType.IMAGE].includes(bodyType)) {
         // ignore image
         return null;

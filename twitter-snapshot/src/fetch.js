@@ -5,19 +5,20 @@ import path from 'path';
 import { TEMPLATE_VERSION, OUTPUT_BASE_PATH } from './common/constant';
 import twitterConfig from './authorization.js';
 import Agent from 'socks5-https-client/lib/Agent';
-
+import baseRequest from 'request';
 console.log(process.argv);
 
-const requestOptions = Object.assign(twitterConfig, {
-  request_options: {
-    agentClass: Agent,
-    agentOptions: {
-      socksPort: 8484,
-    },
-  },
-});
 
+const request_options = {
+  agentClass: Agent,
+  agentOptions: {
+    socksPort: 8484,
+  },
+};
+
+const requestOptions = Object.assign(twitterConfig, { request_options });
 const client = new Twitter(requestOptions);
+const request = baseRequest.defaults(request_options);
 
 const options = {
   screen_name: 'haruka_kdm919',
@@ -42,13 +43,6 @@ const getTweetsPromise = (lastTweet) => new Promise((resolve, reject) => {
 });
 
 
-// console.log('try get');
-// client.get('statuses/user_timeline.json', options, (err, tweets, res) => {
-//   console.log(tweets[0]);
-//   fs.writeFileSync('tweets.json', JSON.stringify(tweets, null, 2));
-// });
-
-
 const isInDateRange = (tweet, fetchDate) => {
   if (!tweet) {
     console.log('undefIned???');
@@ -57,21 +51,32 @@ const isInDateRange = (tweet, fetchDate) => {
   const { created_at } = tweet;
   const { starttime, deadline } = fetchDate;
 
-
   const date = new Date(created_at);
   const currentDate = moment(date);
-
-  // console.log('created_at: ', starttime.format());
-  // console.log('deadline:', deadline.format());
-  // console.log('currentDate: ', currentDate.format());
-  // console.log('');
 
   const result = currentDate.diff(starttime) > 0 &&
     deadline.diff(currentDate) > 0;
 
-  // console.log('is in range: ', result);
   return result;
 };
+
+const getRelatedTweetsPromise = (tweetId, maxPosition) => new Promise((resolve, reject) => {
+  const url = `https://twitter.com/${options.screen_name}/status/${tweetId}`;
+  console.log('try request', url);
+  request({
+    url,
+    headers: {
+      'x-overlay-request': true,
+    },
+  }, (err, res, body) => {
+    if (err) {
+      console.log(err);
+      return reject(err);
+    }
+    const obj = JSON.parse(body);
+    return resolve(obj.page);
+  });
+});
 
 
 (async () => {
@@ -101,56 +106,42 @@ const isInDateRange = (tweet, fetchDate) => {
 
         _tweets = await getTweetsPromise(lastTweet);
         lastTweet = _tweets.slice(-1)[0];
-        // console.log(lastTweet);
-        // console.log('lastTweet: ', lastTweet.text);
         const filtered = _tweets.filter(t => isInDateRange(t, fetchDate));
 
-        // console.log('filtered: ', filtered.length);
         tweets = tweets.concat(filtered);
-        // console.log('tweets count: ', tweets.length);
-        // console.log();
-        if (!lastTweet ) {
+        if (!lastTweet) {
          console.log('test############');
         }
-        else{
+        else {
           console.log('okokok');
         }
     } while (_tweets.length === 200 && isInDateRange(lastTweet, fetchDate));
-
-
   }
   catch (e) {
     console.log(e);
   }
-  console.log('test');
 
-  // extract translate parts
-  // const transcript = tweets.map(t => {
+  tweets = tweets.reverse();
 
-  //   const trans = {
-  //     trans: '',
-  //   };
-
-  //   try {
-  //     if (t.entities.user_mentions.length === 0) {
-  //       trans.text = t.retweeted_status.text;
-  //     }
-  //     else {
-  //       trans.text = t.text;
-  //     }
+  // tweets.forEach(t => {
+  //   if (t.in_reply_to_status_id_str) {
+  //     console.log(t.text);
+  //     const pageHTML = yield getRelatedTweetsPromise();
   //   }
-  //   catch(e){
-  //     console.log(t);
-  //     console.log();
-  //     console.log();
-  //     // console.log(e);
-  //   }
+  // })
+
+  for(const t of tweets){
+    if (t.in_reply_to_status_id_str) {
+      const pageHTML = await getRelatedTweetsPromise(t.in_reply_to_status_id_str);
+      console.log('jheiieiieieie');
+      fs.writeFileSync(t.in_reply_to_status_id_str, pageHTML);
+    }
+  }
 
 
-  //   return trans;
-  // });
+  return
 
-
+  // begin generate transcript template
   const transcript = tweets.reduce((a, b) => {
     try{
       if (b.is_quote_status) {

@@ -12,3 +12,14 @@ body {
 .translate, .translate a {
   color: #C0392B;
 }
+
+.AdaptiveMedia-doublePhoto {
+    font-size: 0;
+    height: 197px;
+    width: 395px;
+}
+
+.AdaptiveMedia-triplePhoto {
+  width: 416px;
+  height: 207px;
+}

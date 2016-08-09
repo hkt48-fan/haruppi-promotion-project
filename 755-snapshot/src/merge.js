@@ -169,6 +169,7 @@ const loadTranslateScripts = (dateString, dayCount) => {
     // wait for all resource are loaded by using setTimeout()
     // see also: https://github.com/amir20/phantomjs-node/issues/396
     await sleep(10000);
+    console.log(savePath_retina);
     await page.render(savePath_retina, { format: 'png' });
 
     instance.exit();

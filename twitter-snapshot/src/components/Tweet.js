@@ -126,48 +126,84 @@ const renderAdaptiveMedia = (tweet) => {
   }
 
   const { media } = extended_entities;
-  let photoCountClassName = '';
-  let photoContainerClassName = '';
-  let photoStyle = {};
+  let isSquare = '';
+  let photoContainer;
+
+  console.log('----', media.length);
   switch (media.length) {
     case 1:
-      photoCountClassName = 'AdaptiveMedia-singlePhoto';
-      photoContainerClassName = '';
-      photoStyle = { width: '100%', left: '-0px' };
-      break;
-    case 2:
-      photoCountClassName = 'AdaptiveMedia-doublePhoto';
-      photoContainerClassName = 'AdaptiveMedia-halfWidthPhoto';
-      photoStyle = { height: '100%', left: '-0px' };
-      break;
-    case 3:
-      break;
-    default:
-      photoCountClassName = '';
-  }
+      // photoCountClassName = 'AdaptiveMedia-singlePhoto';
+      isSquare = 'is-square';
 
-  return (
-    <div className="AdaptiveMedia is-square">
-      <div className="AdaptiveMedia-container">
-        <div className={photoCountClassName}>
+      photoContainer = (
+        <div className="AdaptiveMedia-singlePhoto">
           {media.map(m => {
             const photoContent = (
               <div className="AdaptiveMedia-photoContainer">
-                <img src={m.media_url} style={photoStyle} alt="" />
+                <img src={m.media_url} style={{ width: '100%', left: '-0px' }} alt="" />
               </div>
             );
-
-            if (photoContainerClassName) {
-              return (
-                <div className={photoContainerClassName}>
-                  {photoContent}
-                </div>
-              );
-            }
-
             return photoContent;
           })}
         </div>
+      );
+      break;
+    case 2:
+      photoContainer = (
+        <div className="AdaptiveMedia-doublePhoto">
+          {media.map(m => {
+            const photoContent = (
+              <div className="AdaptiveMedia-photoContainer">
+                <img src={m.media_url} style={{ width: '100%', left: '-1px' }} alt="" />
+              </div>
+            );
+            return (
+              <div className="AdaptiveMedia-halfWidthPhoto">
+                {photoContent}
+              </div>
+            );
+          })}
+        </div>
+      );
+      break;
+    case 3:
+      photoContainer = (
+        <div className="AdaptiveMedia-triplePhoto">
+          <div className="AdaptiveMedia-twoThirdsWidthPhoto">
+            {media.slice(0, 1).map(m => {
+              const photoContent = (
+                <div className="AdaptiveMedia-photoContainer">
+                  <img src={m.media_url} style={{ width: '100%', left: '-0px' }} alt="" />
+                </div>
+              );
+              return photoContent;
+            })}
+          </div>
+          <div className="AdaptiveMedia-halfHeightPhotoContainer">
+            {media.slice(1).map(m => {
+              const photoContent = (
+                <div className="AdaptiveMedia-photoContainer">
+                  <img src={m.media_url} style={{ width: '100%', left: '-26px' }} alt="" />
+                </div>
+              );
+              return (
+                <div className="AdaptiveMedia-halfHeightPhoto">
+                  {photoContent}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      );
+      break;
+    default:
+      break;
+  }
+
+  return (
+    <div className={`AdaptiveMedia ${isSquare}`}>
+      <div className="AdaptiveMedia-container">
+        {photoContainer}
       </div>
     </div>
   );
@@ -192,8 +228,6 @@ const renderTweetContent = (tweet, trans, isRetweet) => {
   }
   const transItem = trans.find(tr => tr.text === matchTweetText) || {};
 
-
-
   return (
     <div className="content">
       <div className="stream-item-header">
@@ -208,7 +242,7 @@ const renderTweetContent = (tweet, trans, isRetweet) => {
         </a>{'\n'}
         <small className="time">
           <a className="tweet-timestamp">{'\n'}
-            <span className="">{postDate.format('HH:mm:ss')}</span>
+            <span className="">{postDate.format('HH:mm:ss (MMM DD YYYY)')}</span>
           </a>
         </small>
       </div>
