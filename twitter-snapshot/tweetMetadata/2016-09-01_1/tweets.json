@@ -1,0 +1,412 @@
+[
+    {
+        "id_str": "771189585984442370",
+        "created_at": "Thu Sep 01 03:34:59 +0000 2016",
+        "text": "ハロー、セプテンバー💜💖💛\n秋だいすき。\nコンビニスイーツの新商品が魅力的過ぎ。制覇するぞ！\nわくわく＼(^o^)／\n秋の味覚、食欲の秋。。。はぁ、、、",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "771196732289933312",
+        "created_at": "Thu Sep 01 04:03:23 +0000 2016",
+        "text": "RT @nhk_radiru: 札幌・広島・松山・福岡の放送がスマホで聞けるようになったラジ♪　乃木坂46中元日芽香さん、HKT48兒玉遥さん、ラブリさん、藤岡みなみさん、秋川雅史さん、風見しんごさん、山内惠介さん、内藤大助さんの応援動画も見てラジ♪　https://t.co/…",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "nhk_radiru",
+                    "name": "らじる",
+                    "id": 366421161,
+                    "id_str": "366421161",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/efINRURaIt",
+                    "expanded_url": "http://www3.nhk.or.jp/netradio/cts/8area/",
+                    "display_url": "www3.nhk.or.jp/netradio/cts/8…",
+                    "indices": [
+                        126,
+                        140
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Wed Aug 31 22:56:30 +0000 2016",
+            "id": 771119500439597000,
+            "id_str": "771119500439597057",
+            "text": "札幌・広島・松山・福岡の放送がスマホで聞けるようになったラジ♪　乃木坂46中元日芽香さん、HKT48兒玉遥さん、ラブリさん、藤岡みなみさん、秋川雅史さん、風見しんごさん、山内惠介さん、内藤大助さんの応援動画も見てラジ♪　https://t.co/efINRURaIt",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/efINRURaIt",
+                        "expanded_url": "http://www3.nhk.or.jp/netradio/cts/8area/",
+                        "display_url": "www3.nhk.or.jp/netradio/cts/8…",
+                        "indices": [
+                            110,
+                            133
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.nhk.or.jp/\" rel=\"nofollow\">NHK</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 366421161,
+                "id_str": "366421161",
+                "name": "らじる",
+                "screen_name": "nhk_radiru",
+                "location": "東京都渋谷区",
+                "description": "NHKラジオのキャラクター らじるラジ♪ “らじる★らじる”はスマホやパソコンで　NHK のラジオ放送が聞けるラジ～♪ アプリをdlして き～てねo(^-^)o  ▼利用規約は→https://t.co/UB7NlD9HEt ▼フォローの考え方は→https://t.co/8lVsvM27YP",
+                "url": "http://t.co/yiX2f1t3SE",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/yiX2f1t3SE",
+                                "expanded_url": "http://nhk.jp/netradio",
+                                "display_url": "nhk.jp/netradio",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/UB7NlD9HEt",
+                                "expanded_url": "http://www.nhk.or.jp/toppage/rules/",
+                                "display_url": "nhk.or.jp/toppage/rules/",
+                                "indices": [
+                                    89,
+                                    112
+                                ]
+                            },
+                            {
+                                "url": "https://t.co/8lVsvM27YP",
+                                "expanded_url": "http://nhk.jp/tw_f",
+                                "display_url": "nhk.jp/tw_f",
+                                "indices": [
+                                    124,
+                                    147
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 17684,
+                "friends_count": 15,
+                "listed_count": 987,
+                "created_at": "Fri Sep 02 04:23:46 +0000 2011",
+                "favourites_count": 0,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 9744,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/770467616469225473/YFfTt10b.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/770467616469225473/YFfTt10b.jpg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/476922085952864256/ZvQXlZ8q_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/476922085952864256/ZvQXlZ8q_normal.png",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 107,
+            "favorite_count": 313,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "771197167117623297",
+        "created_at": "Thu Sep 01 04:05:07 +0000 2016",
+        "text": "NHKネットラジオ らじる★らじる \n配信地域拡大！ 9月1日より、新たに札幌・広島・松山・福岡の放送を配信開始。\n\n動画みてね(。・・)ノ\nみんな、聴いてらじ〜🎶\n\nhttps://t.co/AB1mKJTiF9",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/AB1mKJTiF9",
+                    "expanded_url": "http://www3.nhk.or.jp/netradio/cts/8area/",
+                    "display_url": "www3.nhk.or.jp/netradio/cts/8…",
+                    "indices": [
+                        84,
+                        107
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "771334527016771584",
+        "created_at": "Thu Sep 01 13:10:56 +0000 2016",
+        "text": "フォロー完了🙋 https://t.co/fmlBu4CePQ",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/fmlBu4CePQ",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/771328936118628352",
+                    "display_url": "twitter.com/39saku_chan/st…",
+                    "indices": [
+                        8,
+                        31
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "771328936118628352",
+        "quoted_status": {
+            "created_at": "Thu Sep 01 12:48:43 +0000 2016",
+            "id": 771328936118628400,
+            "id_str": "771328936118628352",
+            "text": "twitter始めました、宮脇咲良です。\n\nInstagram👉https://t.co/0xHDyOl9zq\n\nよろしくお願いします🐶 https://t.co/DBvmLIfeU1",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/0xHDyOl9zq",
+                        "expanded_url": "http://www.instagram.com/39saku_chan/",
+                        "display_url": "instagram.com/39saku_chan/",
+                        "indices": [
+                            32,
+                            55
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 771328928354930700,
+                        "id_str": "771328928354930688",
+                        "indices": [
+                            69,
+                            92
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CrRPktuUEAAqrwi.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CrRPktuUEAAqrwi.jpg",
+                        "url": "https://t.co/DBvmLIfeU1",
+                        "display_url": "pic.twitter.com/DBvmLIfeU1",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/771328936118628352/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 852,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 511,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 852,
+                                "h": 640,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 771328928354930700,
+                        "id_str": "771328928354930688",
+                        "indices": [
+                            69,
+                            92
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CrRPktuUEAAqrwi.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CrRPktuUEAAqrwi.jpg",
+                        "url": "https://t.co/DBvmLIfeU1",
+                        "display_url": "pic.twitter.com/DBvmLIfeU1",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/771328936118628352/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 852,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 511,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 852,
+                                "h": 640,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 33117,
+                "friends_count": 71,
+                "listed_count": 769,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 0,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 2,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/771323502800441344/JWboVqo2_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/771323502800441344/JWboVqo2_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1472732816",
+                "profile_link_color": "2B7BB9",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 6879,
+            "favorite_count": 9466,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]

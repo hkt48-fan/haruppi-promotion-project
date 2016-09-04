@@ -1,0 +1,622 @@
+[
+    {
+        "created_at": "Sun Aug 21 01:45:54 +0000 2016",
+        "id": 767175866258337800,
+        "id_str": "767175866258337794",
+        "text": "今日は、いよいよ甲子園決勝戦！！\n作新学院×北海🔥🔥🔥\n\n14時から...\n\nたくさんの想いがつまった最後の試合を、私もこの目に焼きつけたいとおもいます！！",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58048,
+            "friends_count": 106,
+            "listed_count": 900,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 6,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 127,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 499,
+        "favorite_count": 2363,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sun Aug 21 07:27:28 +0000 2016",
+        "id": 767261823137566700,
+        "id_str": "767261823137566720",
+        "text": "感動😭😭😭😭\n作新学院高等学校おめでとうございます！！\n甲子園にこんなに熱くなれたのはじめて。\n本当におつかれさまでした。\n感動をありがとうございます！！\n大西くんカッコよかった〜✨",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58048,
+            "friends_count": 106,
+            "listed_count": 900,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 6,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 127,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 726,
+        "favorite_count": 2842,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sun Aug 21 08:30:25 +0000 2016",
+        "id": 767277663966888000,
+        "id_str": "767277663966887937",
+        "text": "#甲子園 #夏 #感動 #青春 #大西くん #⚾️ https://t.co/RjQnTVaYl9",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "甲子園",
+                    "indices": [
+                        0,
+                        4
+                    ]
+                },
+                {
+                    "text": "夏",
+                    "indices": [
+                        5,
+                        7
+                    ]
+                },
+                {
+                    "text": "感動",
+                    "indices": [
+                        8,
+                        11
+                    ]
+                },
+                {
+                    "text": "青春",
+                    "indices": [
+                        12,
+                        15
+                    ]
+                },
+                {
+                    "text": "大西くん",
+                    "indices": [
+                        16,
+                        21
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RjQnTVaYl9",
+                    "expanded_url": "https://www.instagram.com/p/BJXTWVpA-Xc/",
+                    "display_url": "instagram.com/p/BJXTWVpA-Xc/",
+                    "indices": [
+                        26,
+                        49
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58048,
+            "friends_count": 106,
+            "listed_count": 900,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 6,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 127,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 230,
+        "favorite_count": 1202,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und"
+    },
+    {
+        "created_at": "Sun Aug 21 13:44:45 +0000 2016",
+        "id": 767356771379712000,
+        "id_str": "767356771379712001",
+        "text": "最終回はぜったい観る派🙋\nつぎの日、語り合ってる人が楽しそうで羨ましいから...(´･_･`)\n\n熱闘甲子園最終回 0時45〜\nるるる〜 https://t.co/nUH4nOguRU",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nUH4nOguRU",
+                    "expanded_url": "https://twitter.com/nettoh_koshien/status/767351865822425088",
+                    "display_url": "twitter.com/nettoh_koshien…",
+                    "indices": [
+                        69,
+                        92
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58048,
+            "friends_count": 106,
+            "listed_count": 900,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 6,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 127,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 767351865822425100,
+        "quoted_status_id_str": "767351865822425088",
+        "quoted_status": {
+            "created_at": "Sun Aug 21 13:25:16 +0000 2016",
+            "id": 767351865822425100,
+            "id_str": "767351865822425088",
+            "text": "【AKB&amp;さや姉、甲子園決勝を生観戦 高校球児熱戦に大興奮】\nhttps://t.co/kshuMoIKVU\n熱闘甲子園テーマソング「光と影の日々」を歌うAKB48の皆さんが番組のスタジオを訪問してくださいました。今年の熱闘最終回は0時45分から放送予定！ #熱闘　#AKB48",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "熱闘",
+                        "indices": [
+                            133,
+                            136
+                        ]
+                    },
+                    {
+                        "text": "AKB48",
+                        "indices": [
+                            137,
+                            143
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/kshuMoIKVU",
+                        "expanded_url": "http://www.oricon.co.jp/news/2077121/full/",
+                        "display_url": "oricon.co.jp/news/2077121/f…",
+                        "indices": [
+                            35,
+                            58
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 1497204841,
+                "id_str": "1497204841",
+                "name": "熱闘甲子園",
+                "screen_name": "nettoh_koshien",
+                "location": "兵庫県・甲子園球場",
+                "description": "熱闘甲子園の公式アカウントです。\r\n番組情報をはじめ、熱闘甲子園の取材裏話などもつぶやきます。\r\nさらに #熱闘 をつけてつぶやくと、放送であなたのつぶやきがデータ放送で紹介されるかも？番組を見ながらあなたの熱いツイートを！",
+                "url": "http://t.co/ojfvqMtnBU",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/ojfvqMtnBU",
+                                "expanded_url": "http://www.asahi.co.jp/netto/",
+                                "display_url": "asahi.co.jp/netto/",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 309263,
+                "friends_count": 1,
+                "listed_count": 986,
+                "created_at": "Mon Jun 10 02:44:49 +0000 2013",
+                "favourites_count": 6,
+                "utc_offset": 32400,
+                "time_zone": "Osaka",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 2502,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "00B3FF",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000002740182/a4a7435a40901c6fa3df0eda24f6e983.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000002740182/a4a7435a40901c6fa3df0eda24f6e983.jpeg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3785062801/67138c1014d7a5539766c419de897d61_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3785062801/67138c1014d7a5539766c419de897d61_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1497204841/1370839840",
+                "profile_link_color": "000000",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDFFCC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 812,
+            "favorite_count": 2490,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "retweet_count": 192,
+        "favorite_count": 867,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Sun Aug 21 13:45:07 +0000 2016",
+        "id": 767356862576537600,
+        "id_str": "767356862576537602",
+        "text": "ぼっちあるある",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 767356771379712000,
+        "in_reply_to_status_id_str": "767356771379712001",
+        "in_reply_to_user_id": 747611144756465700,
+        "in_reply_to_user_id_str": "747611144756465664",
+        "in_reply_to_screen_name": "haruka_kdm919",
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58048,
+            "friends_count": 106,
+            "listed_count": 900,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 6,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 127,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/747611286662316032/jIVGlZMo_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1467079940",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 159,
+        "favorite_count": 796,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    }
+]

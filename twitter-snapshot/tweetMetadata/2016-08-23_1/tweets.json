@@ -1,0 +1,586 @@
+[
+    {
+        "created_at": "Mon Aug 22 22:25:59 +0000 2016",
+        "id": 767850329559801900,
+        "id_str": "767850329559801857",
+        "text": "@crazybox10 おー😮👏",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "crazybox10",
+                    "name": "crazy box",
+                    "id": 734777700263419900,
+                    "id_str": "734777700263419905",
+                    "indices": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 767752397011562500,
+        "in_reply_to_status_id_str": "767752397011562496",
+        "in_reply_to_user_id": 734777700263419900,
+        "in_reply_to_user_id_str": "734777700263419905",
+        "in_reply_to_screen_name": "crazybox10",
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58682,
+            "friends_count": 109,
+            "listed_count": 915,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 10,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 133,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 17,
+        "favorite_count": 81,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Aug 23 03:44:02 +0000 2016",
+        "id": 767930371266768900,
+        "id_str": "767930371266768896",
+        "text": "UTB本日発売です！\n裏表紙を飾らせていただきました。\n写真集に入りきらなかったカットがたくさん...\nよかったら、ぜひ〜🙈💕 https://t.co/puG5l7Dj5y",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/puG5l7Dj5y",
+                    "expanded_url": "https://www.instagram.com/p/BJb8KnnAwfb/",
+                    "display_url": "instagram.com/p/BJb8KnnAwfb/",
+                    "indices": [
+                        64,
+                        87
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58682,
+            "friends_count": 109,
+            "listed_count": 915,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 10,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 133,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 326,
+        "favorite_count": 1510,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Aug 23 08:54:08 +0000 2016",
+        "id": 768008408788152300,
+        "id_str": "768008408788152320",
+        "text": "誰でしょう？\n\n#UTB https://t.co/0THa3ORJk1",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "UTB",
+                    "indices": [
+                        8,
+                        12
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 768008403645935600,
+                    "id_str": "768008403645935616",
+                    "indices": [
+                        13,
+                        36
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CqiDkvPUsAAyBwp.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CqiDkvPUsAAyBwp.jpg",
+                    "url": "https://t.co/0THa3ORJk1",
+                    "display_url": "pic.twitter.com/0THa3ORJk1",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/768008408788152320/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 768008403645935600,
+                    "id_str": "768008403645935616",
+                    "indices": [
+                        13,
+                        36
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CqiDkvPUsAAyBwp.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CqiDkvPUsAAyBwp.jpg",
+                    "url": "https://t.co/0THa3ORJk1",
+                    "display_url": "pic.twitter.com/0THa3ORJk1",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/768008408788152320/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 768008375825084400,
+                    "id_str": "768008375825084416",
+                    "indices": [
+                        13,
+                        36
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CqiDjHmUMAA29YH.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CqiDjHmUMAA29YH.jpg",
+                    "url": "https://t.co/0THa3ORJk1",
+                    "display_url": "pic.twitter.com/0THa3ORJk1",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/768008408788152320/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 861,
+                            "h": 1147,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 861,
+                            "h": 1147,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 768008375825117200,
+                    "id_str": "768008375825117184",
+                    "indices": [
+                        13,
+                        36
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CqiDjHmUsAA0jMt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CqiDjHmUsAA0jMt.jpg",
+                    "url": "https://t.co/0THa3ORJk1",
+                    "display_url": "pic.twitter.com/0THa3ORJk1",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/768008408788152320/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 960,
+                            "h": 1280,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 768008376420671500,
+                    "id_str": "768008376420671488",
+                    "indices": [
+                        13,
+                        36
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CqiDjJ0UIAA8lIk.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CqiDjJ0UIAA8lIk.jpg",
+                    "url": "https://t.co/0THa3ORJk1",
+                    "display_url": "pic.twitter.com/0THa3ORJk1",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/768008408788152320/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1280,
+                            "h": 960,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58682,
+            "friends_count": 109,
+            "listed_count": 915,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 10,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 133,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 874,
+        "favorite_count": 3430,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Tue Aug 23 13:10:23 +0000 2016",
+        "id": 768072896203808800,
+        "id_str": "768072896203808768",
+        "text": "@haruka_kdm919 \n皆さんからのリプ観覧中です🙋",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "haruka_kdm919",
+                    "name": "兒玉 遥 (はるっぴ)",
+                    "id": 747611144756465700,
+                    "id_str": "747611144756465664",
+                    "indices": [
+                        0,
+                        14
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 768008408788152300,
+        "in_reply_to_status_id_str": "768008408788152320",
+        "in_reply_to_user_id": 747611144756465700,
+        "in_reply_to_user_id_str": "747611144756465664",
+        "in_reply_to_screen_name": "haruka_kdm919",
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 58682,
+            "friends_count": 109,
+            "listed_count": 915,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 10,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 133,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 152,
+        "favorite_count": 798,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "ja"
+    }
+]

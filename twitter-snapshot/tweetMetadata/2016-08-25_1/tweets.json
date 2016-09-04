@@ -1,0 +1,602 @@
+[
+    {
+        "created_at": "Thu Aug 25 14:25:20 +0000 2016",
+        "id": 768816534303092700,
+        "id_str": "768816534303092736",
+        "text": "どどどどぉーっ！！！\nどけんするとですかー😳😳😳？\nこれは、本当の話？分からないけど、、、\n博多はいい街ですよ〜 https://t.co/rLGMu2zLfw",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/rLGMu2zLfw",
+                    "expanded_url": "https://twitter.com/atsushilonboo/status/768715456181960704",
+                    "display_url": "twitter.com/atsushilonboo/…",
+                    "indices": [
+                        57,
+                        80
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 59497,
+            "friends_count": 110,
+            "listed_count": 924,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 12,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 150,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 768715456181960700,
+        "quoted_status_id_str": "768715456181960704",
+        "quoted_status": {
+            "created_at": "Thu Aug 25 07:43:41 +0000 2016",
+            "id": 768715456181960700,
+            "id_str": "768715456181960704",
+            "text": "福岡の皆さんへ\n\n田村淳福岡移住計画始動…\nどうする俺？\n東京離れるか？\nどげんすると？ https://t.co/fcZPUEo43q",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 768715375575916500,
+                        "id_str": "768715375575916544",
+                        "indices": [
+                            45,
+                            68
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/768715375575916544/pu/img/sGZeU-lEHGnVRVAu.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/768715375575916544/pu/img/sGZeU-lEHGnVRVAu.jpg",
+                        "url": "https://t.co/fcZPUEo43q",
+                        "display_url": "pic.twitter.com/fcZPUEo43q",
+                        "expanded_url": "https://twitter.com/atsushilonboo/status/768715456181960704/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 640,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 255,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 450,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 768715375575916500,
+                        "id_str": "768715375575916544",
+                        "indices": [
+                            45,
+                            68
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/768715375575916544/pu/img/sGZeU-lEHGnVRVAu.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/768715375575916544/pu/img/sGZeU-lEHGnVRVAu.jpg",
+                        "url": "https://t.co/fcZPUEo43q",
+                        "display_url": "pic.twitter.com/fcZPUEo43q",
+                        "expanded_url": "https://twitter.com/atsushilonboo/status/768715456181960704/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "large": {
+                                "w": 640,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 255,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 450,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                4,
+                                3
+                            ],
+                            "duration_millis": 14967,
+                            "variants": [
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/768715375575916544/pu/pl/IwvYzxAZR19pY4-8.m3u8"
+                                },
+                                {
+                                    "bitrate": 320000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/768715375575916544/pu/vid/240x180/rt8NVcWGXLSAEh1Y.mp4"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/768715375575916544/pu/vid/480x360/4A6QdtyuOYaIxbOk.mp4"
+                                },
+                                {
+                                    "content_type": "application/dash+xml",
+                                    "url": "https://video.twimg.com/ext_tw_video/768715375575916544/pu/pl/IwvYzxAZR19pY4-8.mpd"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 137621198,
+                "id_str": "137621198",
+                "name": "田村淳",
+                "screen_name": "atsushilonboo",
+                "location": "東京都",
+                "description": "水分補給忘れずに",
+                "url": "https://t.co/UB20r144S0",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/UB20r144S0",
+                                "expanded_url": "http://defanniversary.com/weddingforward/",
+                                "display_url": "defanniversary.com/weddingforward/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2117613,
+                "friends_count": 16,
+                "listed_count": 17503,
+                "created_at": "Tue Apr 27 07:53:46 +0000 2010",
+                "favourites_count": 1383,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 19327,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/766834623405883393/2JkAGZ-m_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/766834623405883393/2JkAGZ-m_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/137621198/1472117764",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 701,
+            "favorite_count": 2539,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "retweet_count": 285,
+        "favorite_count": 1410,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    },
+    {
+        "created_at": "Thu Aug 25 14:55:09 +0000 2016",
+        "id": 768824036780412900,
+        "id_str": "768824036780412928",
+        "text": "期待はつのるばかり、、、😮💕 https://t.co/W0QtJmvM9d",
+        "truncated": false,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/W0QtJmvM9d",
+                    "expanded_url": "https://twitter.com/atsushilonboo/status/768823408758919169",
+                    "display_url": "twitter.com/atsushilonboo/…",
+                    "indices": [
+                        15,
+                        38
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 747611144756465700,
+            "id_str": "747611144756465664",
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "location": "福岡 福岡市 ",
+            "description": "AKB48選抜総選挙第9位ありがとうございます！！ 皆さんと一緒にアイドル人生を楽しめたらなとおもっています。 福岡･博多が大好きです。よろしくお願いします☺️☺️☺️",
+            "url": "https://t.co/WjZEIclF0V",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "https://t.co/WjZEIclF0V",
+                            "expanded_url": "http://www.hkt48.jp/profile/4",
+                            "display_url": "hkt48.jp/profile/4",
+                            "indices": [
+                                0,
+                                23
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 59497,
+            "friends_count": 110,
+            "listed_count": 924,
+            "created_at": "Tue Jun 28 02:02:41 +0000 2016",
+            "favourites_count": 12,
+            "utc_offset": 32400,
+            "time_zone": "Tokyo",
+            "geo_enabled": true,
+            "verified": true,
+            "statuses_count": 150,
+            "lang": "ja",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/747611144756465664/1471827725",
+            "profile_link_color": "2B7BB9",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": true,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 768823408758919200,
+        "quoted_status_id_str": "768823408758919169",
+        "quoted_status": {
+            "created_at": "Thu Aug 25 14:52:39 +0000 2016",
+            "id": 768823408758919200,
+            "id_str": "768823408758919169",
+            "text": "福岡は安くて美味い食べ物が多い\n都会なのに山や川や海が近い\n空港、国際線も街から近い\n女の子が多いし可愛い\n人が明るくて気さく\n交通の便が良い\n地元下関に近い\n温泉もあるし\n家賃安いし\n\nあとは仕事だなぁw https://t.co/t5E5f5MeSc",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 768823249647968300,
+                        "id_str": "768823249647968257",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/768823249647968257/pu/img/pLiiUIP-i0nhu90f.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/768823249647968257/pu/img/pLiiUIP-i0nhu90f.jpg",
+                        "url": "https://t.co/t5E5f5MeSc",
+                        "display_url": "pic.twitter.com/t5E5f5MeSc",
+                        "expanded_url": "https://twitter.com/atsushilonboo/status/768823408758919169/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 640,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 255,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 450,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 768823249647968300,
+                        "id_str": "768823249647968257",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/768823249647968257/pu/img/pLiiUIP-i0nhu90f.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/768823249647968257/pu/img/pLiiUIP-i0nhu90f.jpg",
+                        "url": "https://t.co/t5E5f5MeSc",
+                        "display_url": "pic.twitter.com/t5E5f5MeSc",
+                        "expanded_url": "https://twitter.com/atsushilonboo/status/768823408758919169/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "large": {
+                                "w": 640,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 255,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 450,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                4,
+                                3
+                            ],
+                            "duration_millis": 14967,
+                            "variants": [
+                                {
+                                    "bitrate": 320000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/768823249647968257/pu/vid/240x180/IHzBYG5D9AqCjhj1.mp4"
+                                },
+                                {
+                                    "content_type": "application/dash+xml",
+                                    "url": "https://video.twimg.com/ext_tw_video/768823249647968257/pu/pl/YDdlneWqkwjpZv3o.mpd"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/768823249647968257/pu/vid/480x360/iVUoa9CNu3Wc14Il.mp4"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/768823249647968257/pu/pl/YDdlneWqkwjpZv3o.m3u8"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 137621198,
+                "id_str": "137621198",
+                "name": "田村淳",
+                "screen_name": "atsushilonboo",
+                "location": "東京都",
+                "description": "水分補給忘れずに",
+                "url": "https://t.co/UB20r144S0",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/UB20r144S0",
+                                "expanded_url": "http://defanniversary.com/weddingforward/",
+                                "display_url": "defanniversary.com/weddingforward/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2117613,
+                "friends_count": 16,
+                "listed_count": 17503,
+                "created_at": "Tue Apr 27 07:53:46 +0000 2010",
+                "favourites_count": 1383,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 19327,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/766834623405883393/2JkAGZ-m_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/766834623405883393/2JkAGZ-m_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/137621198/1472117764",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1752,
+            "favorite_count": 5232,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "retweet_count": 199,
+        "favorite_count": 1105,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "ja"
+    }
+]
