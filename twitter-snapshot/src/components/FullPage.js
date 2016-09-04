@@ -1,6 +1,36 @@
 import React from 'react';
 import Tweet from './Tweet';
 
+const renderSingleTweet = (tweet, trans) => {
+  return (
+    <li className="stream-item">
+      <Tweet key={tweet.id} tweet={tweet} trans={trans} />
+    </li>
+  );
+};
+
+const renderConversation = (tweets, trans) => {
+  const result = tweets.map((t, i) => {
+    let tweetWrapperClassName = 'conversation-tweet-item';
+    if (i === 0) {
+      tweetWrapperClassName += ' conversation-root';
+    }
+    else if (i === (tweets.length - 1)) {
+      tweetWrapperClassName = 'original-tweet-item';
+    }
+    return (
+      <li className="stream-item">
+        <ol className="conversation-module stream-items">
+          <li className={tweetWrapperClassName}>
+            <Tweet key={t.id} tweet={t} trans={trans} />
+          </li>
+        </ol>
+      </li>
+    );
+  });
+  return result;
+};
+
 const FullPage = (props) => (
   <html>
     <head>
@@ -15,7 +45,14 @@ const FullPage = (props) => (
             <div className="stream-container">
               <div className="stream">
                 <ol className="stream-items">
-                  {props.tweets.map(t => <Tweet key={t.id} tweet={t} trans={props.trans} />)}
+                  {props.tweets.map((tObj, i) => {
+                    if (Array.isArray(tObj)) {
+                      return renderConversation(tObj, props.trans);
+                    }
+                    else {
+                      return renderSingleTweet(tObj, props.trans);
+                    }
+                  })}
                 </ol>
               </div>
             </div>

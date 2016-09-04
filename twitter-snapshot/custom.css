@@ -7,6 +7,7 @@ body {
 
 .AdaptiveMedia-photoContainer {
   height: initial;
+  width: 150%;
 }
 
 .translate, .translate a {
@@ -14,12 +15,26 @@ body {
 }
 
 .AdaptiveMedia-doublePhoto {
-    font-size: 0;
-    height: 197px;
-    width: 395px;
+  font-size: 0;
+  height: 178px;
+  width: 395px;
 }
 
 .AdaptiveMedia-triplePhoto {
-  width: 416px;
-  height: 207px;
+  width: 386px;
+  height: 267px;
 }
+
+.AdaptiveMedia-quadPhoto {
+  height: 260px;
+  width: 400px;
+}
+
+.QuoteMedia {
+  width: 76px;
+  height: 76px;
+}
+
+// .AdaptiveMedia-thirdHeightPhoto {
+//   width: 200%;
+// }

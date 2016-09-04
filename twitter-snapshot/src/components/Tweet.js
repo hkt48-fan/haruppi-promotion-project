@@ -51,9 +51,22 @@ const renderTweetText = (tweet) => {
     });
   }
 
+  if (entities && entities.user_mentions) {
+    entities.user_mentions.forEach(um => {
+      const mentionText = `@${um.screen_name} `;
+      const mentionRichText = `<a href="#"><s>@</s><b>${um.screen_name}</b></a>`;
+      // console.log('user mention --------------------------------------------------------');
+      // console.log(entities.user_mentions);
+      // console.log(text);
+      // console.log('replace ', mentionText);
+      // console.log('with ', mentionRichText);
+      result = result.replace(mentionText, mentionRichText);
+    });
+  }
+
   if (entities && entities.hashtags) {
     entities.hashtags.forEach(ho => {
-      const rep = `<a href="#"><s>#</s><b>${ho.text}</b>`;
+      const rep = `<a href="#"><s>#</s><b>${ho.text}</b></a>`;
       result = result.replace(`#${ho.text}`, rep);
     });
   }
@@ -77,19 +90,40 @@ const isOnlyRetweet = (tweet) => {
 };
 
 const renderQuoteTweet = (tweet, trans) => {
-  const { user, text } = tweet;
+  const { user, text, id_str, entities } = tweet;
   // const { trans } = this.props;
-  const transItem = trans.find(t => t.text === tweet.text);
+  // console.log('qouted source', id_str);
+
+  const transItem = trans.find(t => t.id_str === id_str);
+  // console.log('matched qouted status', transItem);
   // let transText = '';
   // if (transItem) {
   //   transText = transItem.trans;
   // }
+
+  let quoteMediaContent;
+  if (entities && entities.media) {
+    // implement single image content at first
+    // todo finish the implement of media content
+    quoteMediaContent = (
+      <div className="quoteMedia">
+        <div className="quoteMedia-container">
+          <div className="quoteMedia-singlePhoto">
+            <div className="quoteMedia-photoContainer">
+              <img src={entities.media[0].media_url} style={{ width: '100%', top: '-11px' }} />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="QuoteTweet u-block">
       <div className="QuoteTweet-container">
         <div className="QuoteTweet-innerContainer" data-item-type="tweet">
           <div className="tweet-content">
+            {quoteMediaContent}
             <div className="QuoteTweet-authorAndText u-alignTop">
               <span className="QuoteTweet-originalAuthor u-cf u-textTruncate">
                 <b className="QuoteTweet-fullname">
@@ -130,6 +164,7 @@ const renderAdaptiveMedia = (tweet) => {
   let photoContainer;
 
   console.log('----', media.length);
+  console.log(tweet.text);
   switch (media.length) {
     case 1:
       // photoCountClassName = 'AdaptiveMedia-singlePhoto';
@@ -140,7 +175,7 @@ const renderAdaptiveMedia = (tweet) => {
           {media.map(m => {
             const photoContent = (
               <div className="AdaptiveMedia-photoContainer">
-                <img src={m.media_url} style={{ width: '100%', left: '-0px' }} alt="" />
+                <img src={m.media_url} style={{ width: '70%', left: '-0px' }} alt="" />
               </div>
             );
             return photoContent;
@@ -154,7 +189,7 @@ const renderAdaptiveMedia = (tweet) => {
           {media.map(m => {
             const photoContent = (
               <div className="AdaptiveMedia-photoContainer">
-                <img src={m.media_url} style={{ width: '100%', left: '-1px' }} alt="" />
+                <img src={m.media_url} style={{ width: '80%', left: '-1px' }} alt="" />
               </div>
             );
             return (
@@ -173,7 +208,7 @@ const renderAdaptiveMedia = (tweet) => {
             {media.slice(0, 1).map(m => {
               const photoContent = (
                 <div className="AdaptiveMedia-photoContainer">
-                  <img src={m.media_url} style={{ width: '100%', left: '-0px' }} alt="" />
+                  <img src={m.media_url} style={{ width: '80%', left: '-0px' }} alt="" />
                 </div>
               );
               return photoContent;
@@ -196,6 +231,35 @@ const renderAdaptiveMedia = (tweet) => {
         </div>
       );
       break;
+    case 4:
+      photoContainer = (
+        <div className="AdaptiveMedia-quadPhoto">
+          <div className="AdaptiveMedia-threeQuartersWidthPhoto">
+            {media.slice(0, 1).map(m => {
+              const photoContent = (
+                <div className="AdaptiveMedia-photoContainer">
+                  <img src={m.media_url} style={{ width: '80%', left: '-0px' }} alt="" />
+                </div>
+              );
+              return photoContent;
+            })}
+          </div>
+          <div className="AdaptiveMedia-thirdHeightPhotoContainer">
+            {media.slice(1).map(m => {
+              const photoContent = (
+                <div className="AdaptiveMedia-photoContainer">
+                  <img src={m.media_url} style={{ width: '80%', left: '-26px' }} alt="" />
+                </div>
+              );
+              return (
+                <div className="AdaptiveMedia-thirdHeightPhoto">
+                  {photoContent}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )
     default:
       break;
   }
@@ -211,7 +275,7 @@ const renderAdaptiveMedia = (tweet) => {
 
 
 const renderTweetContent = (tweet, trans, isRetweet) => {
-  const { user, is_quote_status, quoted_status, created_at } = tweet;
+  const { user, is_quote_status, quoted_status, created_at, id_str } = tweet;
   const quoteTweet = (is_quote_status && quoted_status) ? renderQuoteTweet(quoted_status, trans) : null;
   const adaptiveMedia = renderAdaptiveMedia(tweet);
   const additionalParts = [quoteTweet, adaptiveMedia];
@@ -220,13 +284,16 @@ const renderTweetContent = (tweet, trans, isRetweet) => {
 
   const postDate = moment(new Date(created_at));
 
+  // will be remove...
   // incoming tweet is a retweet entity when isRetweet flag is true
   // perfix RT @screen_name: to tweet text to get correct translate text
-  let matchTweetText = tweet.text;
-  if (isRetweet) {
-    matchTweetText = `RT @${tweet.user.screen_name}: ${matchTweetText}`;
-  }
-  const transItem = trans.find(tr => tr.text === matchTweetText) || {};
+  // let matchTweetText = tweet.text;
+  // if (isRetweet) {
+  //   matchTweetText = `RT @${tweet.user.screen_name}: ${matchTweetText}`;
+  // }
+
+
+  const transItem = trans.find(tr => tr.id_str === id_str) || {};
 
   return (
     <div className="content">
@@ -295,12 +362,10 @@ export default (props) => {
   }
 
   return (
-    <li className="stream-item">
-      <div className="tweet">
-        {retweetHeaderContent}
-        {tweetContent}
-      </div>
-    </li>
+    <div className="tweet">
+      {retweetHeaderContent}
+      {tweetContent}
+    </div>
   );
 
 };

@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "babel-runtime": "^6.9.2",
+    "cheerio": "^0.20.0",
     "fs-extra": "^0.30.0",
     "moment-timezone": "^0.5.4",
     "momentjs": "^1.1.10",

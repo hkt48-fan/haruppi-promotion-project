@@ -3,5 +3,9 @@ module.exports = {
     "extends": "airbnb",
     "plugins": [
         "react"
-    ]
+    ],
+    "rules": {
+      "no-underscore-dangle": 0,
+      "camelcase": 0
+    }
 };

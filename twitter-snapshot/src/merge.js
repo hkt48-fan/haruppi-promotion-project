@@ -9,7 +9,7 @@ import moment from 'moment';
 import { TEMPLATE_VERSION, OUTPUT_BASE_PATH } from './common/constant';
 
 
-const sleep = (timeout) => new Promise((resolve, reject ) => {
+const sleep = (timeout) => new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve();
   }, timeout);
@@ -62,8 +62,6 @@ const loadTranslateScripts = (dateString, dayCount) => {
     const dateString = commandline[0] || todayString;
     const dayCount = commandline[1] || 1;
 
-    // const transcript = fs.readFileSync('transcript.json', 'utf8');
-    // const trans = JSON.parse(transcript);
     const mergeDate = moment(dateString, 'YYYY-MM-DD');
     if (!mergeDate.isValid()) {
       console.log('Wrong date format, it should be yyyy-mm-dd');
@@ -78,11 +76,6 @@ const loadTranslateScripts = (dateString, dayCount) => {
     }
 
     const { trans, tweets } = transPack;
-
-
-    // const tweetFileContent = fs.readFileSync('tweets.json');
-    // const tweetObjects = JSON.parse(tweetFileContent);
-
     const _tweets = tweets;
 
     const tweetsResult = (<FullPage tweets={_tweets} trans={trans} />);
@@ -91,7 +84,6 @@ const loadTranslateScripts = (dateString, dayCount) => {
     fs.writeFileSync('out.html', result);
 
     const savePath_retina = `snapshots/${dateString}_${dayCount}_retina.png`;
-
     console.log('Try generate the capture.');
 
     const instance = await phantom.create(['--proxy=127.0.0.1:8484', '--proxy-type=socks5']);
