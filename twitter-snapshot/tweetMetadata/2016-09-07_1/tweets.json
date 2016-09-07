@@ -1,0 +1,173 @@
+[
+    {
+        "id_str": "773289961177186304",
+        "created_at": "Tue Sep 06 22:41:08 +0000 2016",
+        "text": "ゆいさんからの「ぴっぴ」呼び\nお気に入り〜ヽ(´ー｀)ノ\n\nおはようございます☀︎ https://t.co/VG3yLHpc5u",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/VG3yLHpc5u",
+                    "expanded_url": "https://twitter.com/yui_yoko1208/status/773189597345947648",
+                    "display_url": "twitter.com/yui_yoko1208/s…",
+                    "indices": [
+                        42,
+                        65
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "773189597345947648",
+        "quoted_status": {
+            "created_at": "Tue Sep 06 16:02:19 +0000 2016",
+            "id": 773189597345947600,
+            "id_str": "773189597345947648",
+            "text": "わ！\nぴっぴ🐥うれしー https://t.co/o3FP34L8Wy",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/o3FP34L8Wy",
+                        "expanded_url": "https://twitter.com/mionnn_48/status/773150409414156289",
+                        "display_url": "twitter.com/mionnn_48/stat…",
+                        "indices": [
+                            12,
+                            35
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2292265376,
+                "id_str": "2292265376",
+                "name": "横山由依",
+                "screen_name": "Yui_yoko1208",
+                "location": "",
+                "description": "AKB48グループ総監督 チームA 横山由依です！ 京都府出身の23歳です。[関西テレビ]横山由依(AKB48)がはんなり巡る 京都いろどり日記→https://t.co/KotpF9AuDU",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/KotpF9AuDU",
+                                "expanded_url": "http://www.ktv.jp/hannari/index.html",
+                                "display_url": "ktv.jp/hannari/index.…",
+                                "indices": [
+                                    73,
+                                    96
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 747304,
+                "friends_count": 273,
+                "listed_count": 6255,
+                "created_at": "Wed Jan 15 06:36:01 +0000 2014",
+                "favourites_count": 0,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 3769,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/424380778961588225/wiQkdGLg_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/424380778961588225/wiQkdGLg_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2292265376/1452081884",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": true,
+            "quoted_status_id": 773150409414156300,
+            "quoted_status_id_str": "773150409414156289",
+            "retweet_count": 331,
+            "favorite_count": 2194,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "773321313914060804",
+        "created_at": "Wed Sep 07 00:45:43 +0000 2016",
+        "text": "HKT48 8th single「最高かよ」発売日！！\nよろしくお願いしますヽ(´ー｀)ノ\n\n#skk https://t.co/FiGvoMck8c",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "skk",
+                    "indices": [
+                        47,
+                        51
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/FiGvoMck8c",
+                    "expanded_url": "https://www.instagram.com/p/BKCPrsNgLfX/",
+                    "display_url": "instagram.com/p/BKCPrsNgLfX/",
+                    "indices": [
+                        52,
+                        75
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://scontent-cdg2-1.cdninstagram.com/t51.2885-15/e35/14294835_533979363466745_361981008_n.jpg?ig_cache_key=MTMzMzY5NzQxMjc2MTQzNDA3MQ%3D%3D.2"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
