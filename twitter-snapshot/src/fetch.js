@@ -25,7 +25,10 @@ const request = baseRequest.defaults(request_options);
 
 const options = {
   screen_name: 'haruka_kdm919',
-  count: 200
+  count: 200,
+  friends: [
+
+  ]
 };
 
 // options.screen_name = 'mikinishino4';
@@ -303,7 +306,13 @@ const _parseRelatedTweetsHTML = (html, lastId) => {
       tweet.in_reply_to_status_id_str = lastTweetIdStr;
     }
     lastTweetIdStr = tweet.id_str;
-    replySourceTweets.push(tweet);
+
+    if (options.friends.includes(screen_name)) {
+      replySourceTweets.push(tweet);
+    }
+    else {
+      console.log('unknow screen_name:', screen_name);
+    }
   }
 console.log('replySourceTweets: ', replySourceTweets.length);
 console.log('(((((((((((((())))))))))))))');
