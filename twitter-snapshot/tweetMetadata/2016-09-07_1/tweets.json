@@ -74,16 +74,16 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 747304,
+                "followers_count": 747297,
                 "friends_count": 273,
-                "listed_count": 6255,
+                "listed_count": 6262,
                 "created_at": "Wed Jan 15 06:36:01 +0000 2014",
                 "favourites_count": 0,
                 "utc_offset": null,
                 "time_zone": null,
                 "geo_enabled": false,
                 "verified": true,
-                "statuses_count": 3769,
+                "statuses_count": 3770,
                 "lang": "ja",
                 "contributors_enabled": false,
                 "is_translator": false,
@@ -114,8 +114,8 @@
             "is_quote_status": true,
             "quoted_status_id": 773150409414156300,
             "quoted_status_id_str": "773150409414156289",
-            "retweet_count": 331,
-            "favorite_count": 2194,
+            "retweet_count": 379,
+            "favorite_count": 2586,
             "favorited": false,
             "retweeted": false,
             "possibly_sensitive": false,
@@ -158,7 +158,103 @@
         "extended_entities": {
             "media": [
                 {
-                    "media_url": "https://scontent-cdg2-1.cdninstagram.com/t51.2885-15/e35/14294835_533979363466745_361981008_n.jpg?ig_cache_key=MTMzMzY5NzQxMjc2MTQzNDA3MQ%3D%3D.2"
+                    "media_url": "https://scontent.cdninstagram.com/t51.2885-15/e35/14294835_533979363466745_361981008_n.jpg?ig_cache_key=MTMzMzY5NzQxMjc2MTQzNDA3MQ%3D%3D.2"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "773494653832171520",
+        "created_at": "Wed Sep 07 12:14:30 +0000 2016",
+        "text": "久しぶりのグラビア撮影(^-^)\nB.L.Tさん、10月発売号です。\n\n年上の彼のお家の設定だって〜😂😂\nそれにしては女子なお家だったな〜\nおたのしみに〜 https://t.co/MRTPMun6v9",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 773494643270877200,
+                    "id_str": "773494643270877185",
+                    "indices": [
+                        78,
+                        101
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CrwBR6fUAAEeyNH.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CrwBR6fUAAEeyNH.jpg",
+                    "url": "https://t.co/MRTPMun6v9",
+                    "display_url": "pic.twitter.com/MRTPMun6v9",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/773494653832171520/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1108,
+                            "h": 1478,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 773494643270877200,
+                    "id_str": "773494643270877185",
+                    "indices": [
+                        78,
+                        101
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CrwBR6fUAAEeyNH.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CrwBR6fUAAEeyNH.jpg",
+                    "url": "https://t.co/MRTPMun6v9",
+                    "display_url": "pic.twitter.com/MRTPMun6v9",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/773494653832171520/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1108,
+                            "h": 1478,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
                 }
             ]
         },
