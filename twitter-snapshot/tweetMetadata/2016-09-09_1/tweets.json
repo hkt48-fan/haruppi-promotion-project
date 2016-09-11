@@ -1,0 +1,520 @@
+[
+    {
+        "id_str": "774043117494280192",
+        "created_at": "Fri Sep 09 00:33:54 +0000 2016",
+        "text": "おはようございます！\nじな男大好き〜💕私のdarling😘💓\n\nたのしかったなぁ、、、\n\n「HKT48のおでかけ！」より https://t.co/XRU2e0uLi5",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 774043106471620600,
+                    "id_str": "774043106471620608",
+                    "indices": [
+                        61,
+                        84
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr30GrIUsAAXCJ9.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr30GrIUsAAXCJ9.jpg",
+                    "url": "https://t.co/XRU2e0uLi5",
+                    "display_url": "pic.twitter.com/XRU2e0uLi5",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774043117494280192/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 774043106471620600,
+                    "id_str": "774043106471620608",
+                    "indices": [
+                        61,
+                        84
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr30GrIUsAAXCJ9.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr30GrIUsAAXCJ9.jpg",
+                    "url": "https://t.co/XRU2e0uLi5",
+                    "display_url": "pic.twitter.com/XRU2e0uLi5",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774043117494280192/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 774043106488356900,
+                    "id_str": "774043106488356868",
+                    "indices": [
+                        61,
+                        84
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr30GrMUEAQY-nn.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr30GrMUEAQY-nn.jpg",
+                    "url": "https://t.co/XRU2e0uLi5",
+                    "display_url": "pic.twitter.com/XRU2e0uLi5",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774043117494280192/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 774043106484244500,
+                    "id_str": "774043106484244480",
+                    "indices": [
+                        61,
+                        84
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr30GrLVUAAxD2Y.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr30GrLVUAAxD2Y.jpg",
+                    "url": "https://t.co/XRU2e0uLi5",
+                    "display_url": "pic.twitter.com/XRU2e0uLi5",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774043117494280192/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 774043107092369400,
+                    "id_str": "774043107092369409",
+                    "indices": [
+                        61,
+                        84
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr30GtcUkAEzFAW.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr30GtcUkAEzFAW.jpg",
+                    "url": "https://t.co/XRU2e0uLi5",
+                    "display_url": "pic.twitter.com/XRU2e0uLi5",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774043117494280192/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "774049093949595649",
+        "created_at": "Fri Sep 09 00:57:39 +0000 2016",
+        "text": "RT @modelpress: “センターを固定しない” HKT48が手に入れた武器 兒玉遥・田島芽瑠・朝長美桜、激動経て迎えた5年目 モデルプレスインタビュー #HKT48 #兒玉遥 #田島芽瑠 #朝長美桜 @haruka_kdm919 【ほか写真多数】\n\nhttps://t…",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "HKT48",
+                    "indices": [
+                        81,
+                        87
+                    ]
+                },
+                {
+                    "text": "兒玉遥",
+                    "indices": [
+                        88,
+                        92
+                    ]
+                },
+                {
+                    "text": "田島芽瑠",
+                    "indices": [
+                        93,
+                        98
+                    ]
+                },
+                {
+                    "text": "朝長美桜",
+                    "indices": [
+                        99,
+                        104
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "modelpress",
+                    "name": "モデルプレス",
+                    "id": 142921471,
+                    "id_str": "142921471",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                },
+                {
+                    "screen_name": "haruka_kdm919",
+                    "name": "兒玉 遥 (はるっぴ)",
+                    "id": 747611144756465700,
+                    "id_str": "747611144756465664",
+                    "indices": [
+                        105,
+                        119
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/WLzuWeUfBl",
+                    "expanded_url": "http://mdpr.jp/interview/1610754",
+                    "display_url": "mdpr.jp/interview/1610…",
+                    "indices": [
+                        139,
+                        140
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Thu Sep 08 22:01:11 +0000 2016",
+            "id": 774004683434143700,
+            "id_str": "774004683434143745",
+            "text": "“センターを固定しない” HKT48が手に入れた武器 兒玉遥・田島芽瑠・朝長美桜、激動経て迎えた5年目 モデルプレスインタビュー #HKT48 #兒玉遥 #田島芽瑠 #朝長美桜 @haruka_kdm919 【ほか写真多数】\n\nhttps://t.co/WLzuWeUfBl",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            65,
+                            71
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            72,
+                            76
+                        ]
+                    },
+                    {
+                        "text": "田島芽瑠",
+                        "indices": [
+                            77,
+                            82
+                        ]
+                    },
+                    {
+                        "text": "朝長美桜",
+                        "indices": [
+                            83,
+                            88
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            89,
+                            103
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/WLzuWeUfBl",
+                        "expanded_url": "http://mdpr.jp/interview/1610754",
+                        "display_url": "mdpr.jp/interview/1610…",
+                        "indices": [
+                            114,
+                            137
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://mdpr.jp\" rel=\"nofollow\">modelpress appl</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 142921471,
+                "id_str": "142921471",
+                "name": "モデルプレス",
+                "screen_name": "modelpress",
+                "location": "TOKYO,JAPAN",
+                "description": "モデルプレスは日本最大級の女性向けエンタメ＆ライフスタイルニュースサイトです。ファッション、モデル、恋愛、ヘア、コスメ、ネイル、ダイエット、ディズニー、スイーツ、カフェ、ドラマ、映画、音楽、海外セレブ、トラベルなどの最新情報をお届けします。美容ライター募集中です☆",
+                "url": "https://t.co/5eMAE7fr2T",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/5eMAE7fr2T",
+                                "expanded_url": "http://mdpr.jp/",
+                                "display_url": "mdpr.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 931436,
+                "friends_count": 170837,
+                "listed_count": 4835,
+                "created_at": "Wed May 12 03:06:36 +0000 2010",
+                "favourites_count": 9,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 125613,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FAFAFA",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/142921471/1401708884",
+                "profile_link_color": "FA0A4E",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "FFFFFF",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 526,
+            "favorite_count": 1434,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "774226144400777216",
+        "created_at": "Fri Sep 09 12:41:11 +0000 2016",
+        "text": "Mステおわり！！\nCDオリコンシングルチャート1位！\n皆さんの応援のおかげで8作連続記録を更新できました☺️💓\nありがとうございます！\n新センターのはな。\n緊張の中、よく頑張りました＼(^o^)／立派！！ https://t.co/CBJLb3Kjdw",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 774226133738934300,
+                    "id_str": "774226133738934273",
+                    "indices": [
+                        103,
+                        126
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr6akQ1VUAE0_50.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr6akQ1VUAE0_50.jpg",
+                    "url": "https://t.co/CBJLb3Kjdw",
+                    "display_url": "pic.twitter.com/CBJLb3Kjdw",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774226144400777216/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 774226133738934300,
+                    "id_str": "774226133738934273",
+                    "indices": [
+                        103,
+                        126
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cr6akQ1VUAE0_50.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cr6akQ1VUAE0_50.jpg",
+                    "url": "https://t.co/CBJLb3Kjdw",
+                    "display_url": "pic.twitter.com/CBJLb3Kjdw",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/774226144400777216/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
