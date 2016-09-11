@@ -208,7 +208,7 @@ const renderAdaptiveMedia = (tweet) => {
             {media.slice(0, 1).map(m => {
               const photoContent = (
                 <div className="AdaptiveMedia-photoContainer">
-                  <img src={m.media_url} style={{ width: '80%', left: '-0px' }} alt="" />
+                  <img src={m.media_url} style={{ width: '100%', left: '-30px' }} alt="" />
                 </div>
               );
               return photoContent;

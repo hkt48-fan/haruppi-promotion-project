@@ -94,6 +94,7 @@ var fetchGooglePlusPosts = (config)=>{
                         videos
                     };
 
+                    console.log('postId: ', postId);
                     // if (isFirstPost) {
                     //     cm.configs.googlePlus.lastPostId = postId;
                     //     isFirstPost = false;

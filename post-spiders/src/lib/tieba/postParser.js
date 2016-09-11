@@ -51,7 +51,7 @@ class PostParser{
 
         // failed match any parser
         //
-        console.log("not match any parser")
+        console.log("not match any parser", post)
         console.log(post.plain || '');
         // console.log(post.html);
         // throw new Error("post.html error")
@@ -82,6 +82,7 @@ postParser.registerParser('mobile-mail',function(post){
     var secondLine = lines[1];
     var matchs = secondLine.match(/(\d+年\d+月\d+日 \d+:\d+:\d+)/);
     if (!matchs) {
+        console.log('secondLine: ', secondLine);
         throw new Error('parse error')
     }
 
@@ -116,7 +117,10 @@ postParser.registerParser('google-plus', function(post){
     var lines = post.html.split('<br>');
 
     // console.log("try gp: " + lines[0]);
-    if (lines[0].indexOf('兒玉遥公开分享')===-1 && lines[0].indexOf('儿玉遥公开分享')===-1) {
+    if (lines[0].indexOf('兒玉遥公开分享')===-1
+        && lines[0].indexOf('儿玉遥公开分享')===-1
+        && lines[0].indexOf('兒玉遥一般公開で共有しました')===-1
+        && lines[0].indexOf('兒玉遥  一般公開')===-1) {
         // console.log("google+ fail");
         return result;
     }
