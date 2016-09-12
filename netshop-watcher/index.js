@@ -50,7 +50,7 @@ const readProductMetadata = (productId) => {
         let isHaruppi = false
         let img
         if (typeof title !== 'undefined') {
-          isHaruppi = title.includes('兒玉')
+          isHaruppi = title.includes('兒玉') || title.includes('外薗')
           img = $('meta[property="og:image"]').attr('content')
         }
 
@@ -100,6 +100,7 @@ const readProductMetadata = (productId) => {
       }
     } catch (e) {
       console.log('Break at Production: ', currentProductId)
+      console.log(e);
       break
     }
   }
