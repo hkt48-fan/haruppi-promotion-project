@@ -1,0 +1,56 @@
+[
+    {
+        "post": {
+            "postId": 5258,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "570181",
+                            "body": "こんにちは\n今日深夜に放送されるHKT48のおでかけ❗に\n出演するね✋\n今回は占い師に占ってもらうんだね",
+                            "owner": "jzLREKmVfbNy",
+                            "time": 1472101961,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "jzLREKmVfbNy",
+                            "name": "咲良",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160511/03/bb/rL/j/o10241024p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "ぜひ見てね(´∇｀)\n私もみよっと。起きていられたら...",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1472134930,
+            "localId": "B1310AD6-28A8-40C0-87A5-4C0C8062F3B2",
+            "deleted": null,
+            "rtCount": 11,
+            "likeCount": 344
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

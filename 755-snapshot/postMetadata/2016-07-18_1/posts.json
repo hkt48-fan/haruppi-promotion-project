@@ -1,0 +1,259 @@
+[
+    {
+        "post": {
+            "postId": 5118,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おやすみなさーい",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468854164,
+            "localId": "4A5FFC95-4282-436F-9C6F-29CC558FDEEC",
+            "deleted": null,
+            "rtCount": 1,
+            "likeCount": 188
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5117,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おつかれちゃんです",
+                    "bodyType": 1
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 10,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_010_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 35,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_035_01.png",
+                    "bodyType": 2
+                }
+            ],
+            "comment": null,
+            "time": 1468854157,
+            "localId": "27D1CDF2-71A0-413A-BF07-067C3A3473D1",
+            "deleted": null,
+            "rtCount": 4,
+            "likeCount": 915
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5116,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "554064",
+                            "body": "はるっぴ、これからも出るかな？楽しみにしてるね‼😊",
+                            "owner": "O2fDcPxm4y3A",
+                            "time": 1468838850,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "O2fDcPxm4y3A",
+                            "name": "みくすけ",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160718/12/4c/ys/j/o10241024p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "でますよー！チャンネルはそのまま！",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468841794,
+            "localId": "DF7D2D9A-8996-4135-8F18-514D02CC606B",
+            "deleted": null,
+            "rtCount": 13,
+            "likeCount": 200
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5115,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "554048",
+                            "body": "はるっぴ、りりぽんとお酒飲みにいく約束したの？",
+                            "owner": "bgJSAlCsyEbi",
+                            "time": 1468834080,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "bgJSAlCsyEbi",
+                            "name": "モスキート",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160605/17/b8/Bt/j/o10241024p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "はい、しました",
+                    "bodyType": 1
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 15,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_015_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 15,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_015_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 15,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_015_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "text": "\nなにがなんだか分からずノリで。",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468841763,
+            "localId": "A0CEE194-A3E1-455B-B038-5B42730CC284",
+            "deleted": null,
+            "rtCount": 9,
+            "likeCount": 172
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5114,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おはようございます^o^\nfnsうたの夏まつり\nお昼から夜までみててね〜",
+                    "bodyType": 1
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 35,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_035_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "text": "\nフジテレビ放送です！！",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468805418,
+            "localId": "5E1B25BB-0A04-4628-A050-3D04AD8E744B",
+            "deleted": null,
+            "rtCount": 31,
+            "likeCount": 703
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

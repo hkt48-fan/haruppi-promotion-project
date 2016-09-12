@@ -1,0 +1,37 @@
+[
+    {
+        "post": {
+            "postId": 5257,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "劇場公演久しぶりー＼(^o^)／\nたのしみー✨💓✨",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1472029294,
+            "localId": "4D98CCD1-935B-413A-A451-11BB0DFF7B10",
+            "deleted": null,
+            "rtCount": 14,
+            "likeCount": 372
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

@@ -1,0 +1,164 @@
+[
+    {
+        "post": {
+            "postId": 5144,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "558192",
+                            "body": "おはよう(^O^)はるっぴが最近しているリフレッシュ法はある？",
+                            "owner": "awU9LCD5_nks",
+                            "time": 1469666619,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "awU9LCD5_nks",
+                            "name": "Erwin Schrödinger",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160530/21/28/1o/j/o07400740p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "カメラ活をする。\n次にしたいデザインを考えて、セルフネイル。\n食べたいものを食べる。\n誰かとお喋りをする。\n1リットルの塩レモン水で腸内洗浄をする。\n朝走る。\nぬりえ。\nファッションを楽しむ。",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1469668839,
+            "localId": "41C42383-7153-4095-A469-AACF0C352408",
+            "deleted": null,
+            "rtCount": 18,
+            "likeCount": 347
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5143,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "557799",
+                            "body": "💓ココ最近…心を奪われた人は、いる❓👧🏻💦",
+                            "owner": "_mzg5_vjmd5f",
+                            "time": 1469588714,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "_mzg5_vjmd5f",
+                            "name": "椋さん",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160728/21/c4/7o/j/t02400240p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "山口百恵さん\n深田恭子さん",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1469631282,
+            "localId": "EC15A2B6-D48F-4BE1-A0C5-1D24CDEC242A",
+            "deleted": null,
+            "rtCount": 8,
+            "likeCount": 195
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5142,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "557946",
+                            "body": "はるっぴ❕❕\n\nロックオン買って、もっと好きになったよ",
+                            "owner": "5anyOVlPPyhh",
+                            "time": 1469625490,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "5anyOVlPPyhh",
+                            "name": "はやみお",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160712/21/73/oT/j/o07190719p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "ロックオン成功🙆",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1469630963,
+            "localId": "6D94480E-75C9-4DAA-B766-A79898F885F1",
+            "deleted": null,
+            "rtCount": 6,
+            "likeCount": 270
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

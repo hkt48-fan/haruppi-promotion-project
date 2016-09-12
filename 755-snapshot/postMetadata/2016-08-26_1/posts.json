@@ -1,0 +1,103 @@
+[
+    {
+        "post": {
+            "postId": 5260,
+            "postType": 4,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "comment": {
+                        "comment": {
+                            "talkId": "XDXHrpvEVMS9GtN76wEuUm==",
+                            "commentId": "570390",
+                            "body": "救世主様おはようございます！！",
+                            "owner": "F05R6DhGCX-V",
+                            "time": 1472169015,
+                            "deleted": false
+                        },
+                        "user": {
+                            "userId": "F05R6DhGCX-V",
+                            "name": "尚大",
+                            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160821/23/f8/IG/j/o10241024p.jpg",
+                            "userType": 0
+                        }
+                    },
+                    "bodyType": 4
+                },
+                {
+                    "text": "本当に、やめてくださいまし",
+                    "bodyType": 1
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 19,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_019_01.png",
+                    "bodyType": 2
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 19,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_019_01.png",
+                    "bodyType": 2
+                }
+            ],
+            "comment": null,
+            "time": 1472169059,
+            "localId": "03722CC0-591B-418E-AA6E-873DC5C9A40C",
+            "deleted": null,
+            "rtCount": 8,
+            "likeCount": 558
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5259,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おはようございます☀️",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1472168905,
+            "localId": "943A8923-1047-482A-B675-D6970B7E93AD",
+            "deleted": null,
+            "rtCount": 5,
+            "likeCount": 214
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

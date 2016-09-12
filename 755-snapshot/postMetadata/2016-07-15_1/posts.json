@@ -1,0 +1,118 @@
+[
+    {
+        "post": {
+            "postId": 5102,
+            "postType": 7,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "image": "https://stat.7gogo.jp/appimg_images/20160715/21/c8/Mv/j/o14431920p.jpg",
+                    "thumbnail": "https://stat.7gogo.jp/appimg_images/20160715/21/c8/Mv/j/t06010800p.jpg",
+                    "bodyType": 3
+                },
+                {
+                    "text": "私にとって、ゆきりんさんは\nとっても優しい！！\nアイドルのお手本みたいな存在...\nそして、ステージでキラキラしていて憧れます✨\n今日の歌収録で改めて、そう感じました。\nお誕生日おめでとうございます🎊",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468586973,
+            "localId": "F7014BEB-BCCF-4301-A654-E6E40E929322",
+            "deleted": null,
+            "rtCount": 113,
+            "likeCount": 733
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5101,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "優子さん表紙のfridayに\n写真集のグラビアの一部を掲載させていただいています！！\n\n今回のカットとってもお気に入り。\nいつもよりも...大胆かも！！\n\nぜひぜひチェーック",
+                    "bodyType": 1
+                },
+                {
+                    "packId": 9001,
+                    "stampId": 5,
+                    "image": "https://contents.7gogo.jp/stamp/9001/9001_005_01.png",
+                    "bodyType": 2
+                }
+            ],
+            "comment": null,
+            "time": 1468537831,
+            "localId": "0ABFA924-F68A-41C5-861B-10288A56B562",
+            "deleted": null,
+            "rtCount": 29,
+            "likeCount": 568
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5099,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おはようございます！",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1468536759,
+            "localId": "8805016D-E1D5-4477-93F9-E9DB7A4A5221",
+            "deleted": null,
+            "rtCount": 5,
+            "likeCount": 166
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]
