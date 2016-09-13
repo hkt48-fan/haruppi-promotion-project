@@ -1,0 +1,296 @@
+[
+    {
+        "id_str": "775473823047118848",
+        "created_at": "Mon Sep 12 23:19:01 +0000 2016",
+        "text": "おはようございます☀︎\n\n#coconutoilcoffee #diet #morning #早上好 #안녕하세요 https://t.co/uQ8g8vGke9",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "coconutoilcoffee",
+                    "indices": [
+                        13,
+                        30
+                    ]
+                },
+                {
+                    "text": "diet",
+                    "indices": [
+                        31,
+                        36
+                    ]
+                },
+                {
+                    "text": "morning",
+                    "indices": [
+                        37,
+                        45
+                    ]
+                },
+                {
+                    "text": "早上好",
+                    "indices": [
+                        46,
+                        50
+                    ]
+                },
+                {
+                    "text": "안녕하세요",
+                    "indices": [
+                        51,
+                        57
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/uQ8g8vGke9",
+                    "expanded_url": "https://www.instagram.com/p/BKRih9oAXd0/",
+                    "display_url": "instagram.com/p/BKRih9oAXd0/",
+                    "indices": [
+                        58,
+                        81
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://scontent.cdninstagram.com/t51.2885-15/e35/14350442_1777173045885536_203509616_n.jpg?ig_cache_key=MTMzODAwMjQzMTc5OTI5MzgxMg%3D%3D.2"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "775484624390590464",
+        "created_at": "Tue Sep 13 00:01:56 +0000 2016",
+        "text": "感謝でいっぱいです。\n本当に、いろんな方に支えられ、見守ってもらいながら進んできました。\nさっしー、あいちゃん、先輩方にも...\nあの景色をもう1度！今のHKT48で！\n下半期も突っ走るぞ〜！！\n応援よろしくお願いします☺️ https://t.co/Si40u3Dfgt",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/Si40u3Dfgt",
+                    "expanded_url": "https://twitter.com/oricon/status/775408898350026752",
+                    "display_url": "twitter.com/oricon/status/…",
+                    "indices": [
+                        113,
+                        136
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "775408898350026752",
+        "quoted_status": {
+            "created_at": "Mon Sep 12 19:01:02 +0000 2016",
+            "id": 775408898350026800,
+            "id_str": "775408898350026752",
+            "text": "【オリコン】HKT48、デビューから8作連続首位　女性歌手トップ独走（写真 全2枚）\nhttps://t.co/tRKgo9pocM\n\n #オリコン #HKT48 #松岡はな #音楽 #ニュース",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "オリコン",
+                        "indices": [
+                            69,
+                            74
+                        ]
+                    },
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            75,
+                            81
+                        ]
+                    },
+                    {
+                        "text": "松岡はな",
+                        "indices": [
+                            82,
+                            87
+                        ]
+                    },
+                    {
+                        "text": "音楽",
+                        "indices": [
+                            88,
+                            91
+                        ]
+                    },
+                    {
+                        "text": "ニュース",
+                        "indices": [
+                            92,
+                            97
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/tRKgo9pocM",
+                        "expanded_url": "http://www.oricon.co.jp/news/2078319/full/?ref_cd=tw_pic",
+                        "display_url": "oricon.co.jp/news/2078319/f…",
+                        "indices": [
+                            43,
+                            66
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.oricon.co.jp/\" rel=\"nofollow\">ORICON STYLE</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 95207674,
+                "id_str": "95207674",
+                "name": "ORICON STYLE",
+                "screen_name": "oricon",
+                "location": "東京都港区六本木",
+                "description": "ORICON STYLE（オリコンスタイル）は、話題の最新芸能ニュースや音楽ニュース、オリコンランキングなどのエンタメ情報を毎日発信するエンターテインメントサイトです。",
+                "url": "http://t.co/TBiV19SVaI",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/TBiV19SVaI",
+                                "expanded_url": "http://www.oricon.co.jp/",
+                                "display_url": "oricon.co.jp",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 174936,
+                "friends_count": 23012,
+                "listed_count": 5023,
+                "created_at": "Mon Dec 07 14:15:16 +0000 2009",
+                "favourites_count": 42,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 94911,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_link_color": "006AB7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 323,
+            "favorite_count": 413,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "775679279048773632",
+            "created_at": "Tue Sep 13 2016 20:55:26 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "ぱ( •᷄⌓•᷅ )❥る",
+                "screen_name": "ParU48salt",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/763018725125595137/wsBwCvnP_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 \nはるっぴフォロワー７万人おめでとう😍👏💖",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 39
+            }
+        },
+        {
+            "id_str": "775709711429570560",
+            "created_at": "Tue Sep 13 14:56:21 +0000 2016",
+            "text": "@ParU48salt ほんとだ☺️💓\nフォローありがとうございまーす！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "ParU48salt",
+                        "name": "ぱ( •᷄⌓•᷅ )❥る",
+                        "id": 3492191592,
+                        "id_str": "3492191592",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "775679279048773632",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ]
+]
