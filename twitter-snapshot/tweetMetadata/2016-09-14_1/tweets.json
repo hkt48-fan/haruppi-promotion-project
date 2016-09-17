@@ -1,0 +1,245 @@
+[
+    {
+        "id_str": "775873665246212097",
+        "created_at": "Wed Sep 14 01:47:51 +0000 2016",
+        "text": "おはよ〜😷\n横浜アリーナでコンサートリハ！\nりりぽんに会いたい、、、\nふと浮かんできた💫ふへへ\n行ってきます！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "776025616185294849",
+        "created_at": "Wed Sep 14 11:51:39 +0000 2016",
+        "text": "りりぽんに、会えた💓わーい！\n闇の話をした。\nうむ、なかなか...🤔🤔🤔",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "776067848279949312",
+        "created_at": "Wed Sep 14 14:39:28 +0000 2016",
+        "text": "主演ドラマ！！\nとにかくいろんな経験を積みたいです。夢に1歩近づけたらいいな。\n\n応援よろしくお願いします＼(^o^)／ https://t.co/RSVL6WF1jg",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/RSVL6WF1jg",
+                    "expanded_url": "https://twitter.com/akbdorama_ex/status/775981091496656897",
+                    "display_url": "twitter.com/akbdorama_ex/s…",
+                    "indices": [
+                        61,
+                        84
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "775981091496656897",
+        "quoted_status": {
+            "created_at": "Wed Sep 14 08:54:43 +0000 2016",
+            "id": 775981091496656900,
+            "id_str": "775981091496656897",
+            "text": "【ついに視聴者投票が今晩放送後にスタート‼】\nhttps://t.co/fJXTeorcSX\n番組公式サイトにて視聴者投票が開始！\n2017年春のテレビ朝日で放送する連続ドラマ主演の座は誰の手に？\n全40作品を観て投票しよう💖😊💖 https://t.co/FM5FbGHdGv",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/fJXTeorcSX",
+                        "expanded_url": "http://www.tv-asahi.co.jp/akb-love/sphone/",
+                        "display_url": "tv-asahi.co.jp/akb-love/sphon…",
+                        "indices": [
+                            23,
+                            46
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 775980991902986200,
+                        "id_str": "775980991902986240",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CsTWmc7VMAA3yUN.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CsTWmc7VMAA3yUN.jpg",
+                        "url": "https://t.co/FM5FbGHdGv",
+                        "display_url": "pic.twitter.com/FM5FbGHdGv",
+                        "expanded_url": "https://twitter.com/akbdorama_ex/status/775981091496656897/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 1280,
+                                "h": 600,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 563,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 319,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 775980991902986200,
+                        "id_str": "775980991902986240",
+                        "indices": [
+                            116,
+                            139
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CsTWmc7VMAA3yUN.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CsTWmc7VMAA3yUN.jpg",
+                        "url": "https://t.co/FM5FbGHdGv",
+                        "display_url": "pic.twitter.com/FM5FbGHdGv",
+                        "expanded_url": "https://twitter.com/akbdorama_ex/status/775981091496656897/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 1280,
+                                "h": 600,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 563,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 319,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 3679321399,
+                "id_str": "3679321399",
+                "name": "【公式】AKBラブナイト 恋工場",
+                "screen_name": "akbdorama_ex",
+                "location": "",
+                "description": "テレビ朝日にて毎週水曜深夜1時41分〜56分放送の地上波＆ネット配信の融合型ドラマ。AKBメンバーが繰り広げる、切なくて甘酸っぱい胸キュンラブストーリー！本ドラマは2017年春にテレビ朝日で放送する連続ドラマの主演をかけて争うオーディション。ガチバトルを勝ち抜き見事、連ドラ主演の座を手に入れるのはどのメンバーなのか？",
+                "url": "https://t.co/xP8HebcudB",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/xP8HebcudB",
+                                "expanded_url": "http://www.tv-asahi.co.jp/akb-love/",
+                                "display_url": "tv-asahi.co.jp/akb-love/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 17410,
+                "friends_count": 51,
+                "listed_count": 148,
+                "created_at": "Fri Sep 25 07:52:50 +0000 2015",
+                "favourites_count": 713,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 1650,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/713670426203914241/mHHF8QiH_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/713670426203914241/mHHF8QiH_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/3679321399/1458987242",
+                "profile_link_color": "F58EA8",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 431,
+            "favorite_count": 770,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
