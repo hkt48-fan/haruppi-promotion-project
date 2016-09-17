@@ -48,6 +48,10 @@ body, html{
     display: inline-block;
 }
 
+.TalkPostQuote__username {
+    display: inline-block;
+}
+
 .TalkPostQuote__officialIcon {
     display: inline-block;
     margin-left: 3px;
