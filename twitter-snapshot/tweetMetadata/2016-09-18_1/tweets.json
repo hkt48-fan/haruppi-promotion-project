@@ -1,0 +1,651 @@
+[
+    {
+        "id_str": "777269302038634496",
+        "created_at": "Sat Sep 17 22:13:37 +0000 2016",
+        "text": "へい！ロックだぜ！\n10代最後の日、イナズマロックで楽しむぜ！最高の思い出つくるぜ！\n琵琶湖近くでおまちしています😎😎✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "777353131994656768",
+        "created_at": "Sun Sep 18 03:46:43 +0000 2016",
+        "text": "ケータリングたくさん〜\n感謝💓💓💓\nイナズマロックカレーパン美味しい〜\nサラダパンにも出会えました😊\nこのあとのライブも一緒に楽しみましょ！！ https://t.co/kyIcQXWSTp",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 777352916826935300,
+                    "id_str": "777352916826935300",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Csm2W_iVUAQp-DY.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Csm2W_iVUAQp-DY.jpg",
+                    "url": "https://t.co/kyIcQXWSTp",
+                    "display_url": "pic.twitter.com/kyIcQXWSTp",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777353131994656768/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 777352916826935300,
+                    "id_str": "777352916826935300",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Csm2W_iVUAQp-DY.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Csm2W_iVUAQp-DY.jpg",
+                    "url": "https://t.co/kyIcQXWSTp",
+                    "display_url": "pic.twitter.com/kyIcQXWSTp",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777353131994656768/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 777352916831047700,
+                    "id_str": "777352916831047680",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Csm2W_jUEAAykl3.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Csm2W_jUEAAykl3.jpg",
+                    "url": "https://t.co/kyIcQXWSTp",
+                    "display_url": "pic.twitter.com/kyIcQXWSTp",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777353131994656768/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1536,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "777401563929202688",
+        "created_at": "Sun Sep 18 06:59:10 +0000 2016",
+        "text": "イナズマロックフェス！！\nはじめましての皆さんが多かったにもかかわらず、一緒に楽しんでくださり\nありがとうございました！！\n「lalala〜♪」の会場の一体感、感動しました😭\n最高だった〜\n来年も、出演できたらいいな、、、 https://t.co/trP67hdX1t",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 777401480001171500,
+                    "id_str": "777401480001171457",
+                    "indices": [
+                        112,
+                        135
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CsnihvdVMAEhmc3.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CsnihvdVMAEhmc3.jpg",
+                    "url": "https://t.co/trP67hdX1t",
+                    "display_url": "pic.twitter.com/trP67hdX1t",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777401563929202688/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 777401480001171500,
+                    "id_str": "777401480001171457",
+                    "indices": [
+                        112,
+                        135
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CsnihvdVMAEhmc3.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CsnihvdVMAEhmc3.jpg",
+                    "url": "https://t.co/trP67hdX1t",
+                    "display_url": "pic.twitter.com/trP67hdX1t",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777401563929202688/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "777425469578760193",
+            "created_at": "Sun Sep 18 08:34:10 +0000 2016",
+            "text": "かっこいい👧🏼✨！！\n8-5で勝利。\nこの調子でクライマックスまで🔥🔥 https://t.co/2ozh0tuSgd",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/2ozh0tuSgd",
+                        "expanded_url": "https://twitter.com/pacificleaguetv/status/777409491637669888",
+                        "display_url": "twitter.com/pacificleaguet…",
+                        "indices": [
+                            36,
+                            59
+                        ]
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": true,
+            "quoted_status_id_str": "777409491637669888",
+            "quoted_status": {
+                "created_at": "Sun Sep 18 07:30:41 +0000 2016",
+                "id": 777409491637669900,
+                "id_str": "777409491637669888",
+                "text": "福岡ソフトバンク(@HAWKS_official)・本多選手のバックハンドグラブトス、別角度から！#sbhawks https://t.co/hRtn7JlZ3A",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "sbhawks",
+                            "indices": [
+                                49,
+                                57
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "HAWKS_official",
+                            "name": "福岡ソフトバンクホークス（公式）",
+                            "id": 122284646,
+                            "id_str": "122284646",
+                            "indices": [
+                                9,
+                                24
+                            ]
+                        }
+                    ],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 777409404899504100,
+                            "id_str": "777409404899504129",
+                            "indices": [
+                                58,
+                                81
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/CsnpvCAVMAEyncY.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CsnpvCAVMAEyncY.jpg",
+                            "url": "https://t.co/hRtn7JlZ3A",
+                            "display_url": "pic.twitter.com/hRtn7JlZ3A",
+                            "expanded_url": "https://twitter.com/PacificleagueTV/status/777409491637669888/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "large": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 777409404899504100,
+                            "id_str": "777409404899504129",
+                            "indices": [
+                                58,
+                                81
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/CsnpvCAVMAEyncY.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CsnpvCAVMAEyncY.jpg",
+                            "url": "https://t.co/hRtn7JlZ3A",
+                            "display_url": "pic.twitter.com/hRtn7JlZ3A",
+                            "expanded_url": "https://twitter.com/PacificleagueTV/status/777409491637669888/photo/1",
+                            "type": "animated_gif",
+                            "sizes": {
+                                "large": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                },
+                                "medium": {
+                                    "w": 320,
+                                    "h": 180,
+                                    "resize": "fit"
+                                }
+                            },
+                            "video_info": {
+                                "aspect_ratio": [
+                                    16,
+                                    9
+                                ],
+                                "variants": [
+                                    {
+                                        "bitrate": 0,
+                                        "content_type": "video/mp4",
+                                        "url": "https://pbs.twimg.com/tweet_video/CsnpvCAVMAEyncY.mp4"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 1903573940,
+                    "id_str": "1903573940",
+                    "name": "パ・リーグTV公式",
+                    "screen_name": "PacificleagueTV",
+                    "location": "北海道・東北・埼玉・千葉・大阪・神戸・福岡",
+                    "description": "パ・リーグTV公式ツイッター。パ・リーグTVではパ・リーグ主催全試合のライブ映像を、スマホ・PC・タブレットで、いつでもどこでもお楽しみいただけます！",
+                    "url": "http://t.co/mn7U7IEtWs",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "http://t.co/mn7U7IEtWs",
+                                    "expanded_url": "http://tv.pacificleague.jp/",
+                                    "display_url": "tv.pacificleague.jp",
+                                    "indices": [
+                                        0,
+                                        22
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 124773,
+                    "friends_count": 929,
+                    "listed_count": 1070,
+                    "created_at": "Wed Sep 25 09:35:11 +0000 2013",
+                    "favourites_count": 2047,
+                    "utc_offset": 32400,
+                    "time_zone": "Tokyo",
+                    "geo_enabled": false,
+                    "verified": true,
+                    "statuses_count": 32648,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "C0DEED",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/637582710706323456/46wfb0sT.jpg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/637582710706323456/46wfb0sT.jpg",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/702734074553569280/Nnmf4o7y_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/702734074553569280/Nnmf4o7y_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1903573940/1467282993",
+                    "profile_link_color": "0084B4",
+                    "profile_sidebar_border_color": "000000",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1273,
+                "favorite_count": 2141,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        },
+        {
+            "id_str": "777426397803393026",
+            "created_at": "Sun Sep 18 2016 16:37:51 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "12月のＫ",
+                "screen_name": "mhmr_mnkh",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/696609781222510592/I4O9Mric_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 \nいや、日本シリーズまで やろ笑\nまぁ、ハムファンの僕からしたら、\nクライマックスまで のままでえぇんやけど",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 69
+            },
+            "in_reply_to_status_id_str": "777425469578760193"
+        },
+        {
+            "id_str": "777430012077015040",
+            "created_at": "Sun Sep 18 08:52:13 +0000 2016",
+            "text": "@mhmr_mnkh 😳！\nこの調子でどこまでも😊\n負けないぞ〜",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mhmr_mnkh",
+                        "name": "12月のＫ",
+                        "id": 1709403943,
+                        "id_str": "1709403943",
+                        "indices": [
+                            0,
+                            10
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "777426397803393026",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "777521390425559041",
+        "created_at": "Sun Sep 18 14:55:19 +0000 2016",
+        "text": "あと5分...🎂",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "777536501705904128",
+        "created_at": "Sun Sep 18 15:55:22 +0000 2016",
+        "text": "20歳になりました！！\nたくさんのお祝いコメントありがとうございます。\n本当に私はたくさん方に支えられ見守られ今ここにいるんだなって思います。ありがとうございます。\nそして何より、両親に感謝です。\n今、とても幸せ。 https://t.co/LjrgThj28i",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 777536416423129100,
+                    "id_str": "777536416423129089",
+                    "indices": [
+                        108,
+                        131
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CspdQEzUsAEf9nw.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CspdQEzUsAEf9nw.jpg",
+                    "url": "https://t.co/LjrgThj28i",
+                    "display_url": "pic.twitter.com/LjrgThj28i",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777536501705904128/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1334,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 382,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 777536416423129100,
+                    "id_str": "777536416423129089",
+                    "indices": [
+                        108,
+                        131
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CspdQEzUsAEf9nw.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CspdQEzUsAEf9nw.jpg",
+                    "url": "https://t.co/LjrgThj28i",
+                    "display_url": "pic.twitter.com/LjrgThj28i",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/777536501705904128/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 675,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1334,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 382,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
