@@ -1,0 +1,289 @@
+[
+    [
+        {
+            "id_str": "778449491506532352",
+            "created_at": "Wed Sep 21 04:23:16 +0000 2016",
+            "text": "今月いっぱい食べたからデブだぁ〜\n酵素断食はじめよっと。\n朝だけ、、、できれば夜も、\n私は食べないとか無理だから１日１食置き換えスタイル😊",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        },
+        {
+            "id_str": "778465005419102208",
+            "created_at": "Wed Sep 21 2016 13:24:55 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "たちうチンク",
+                "screen_name": "tachiucinqu",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/511591260855885824/VetDxXRj_bigger.jpeg"
+            },
+            "text": "@haruka_kdm919 さん…１日１食…あまりおすすめ出来ません…",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 36
+            },
+            "in_reply_to_status_id_str": "778449491506532352"
+        },
+        {
+            "id_str": "778501205689413633",
+            "created_at": "Wed Sep 21 07:48:45 +0000 2016",
+            "text": "@tachiucinqu 3食のうちどれか１食ってことね😉",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "tachiucinqu",
+                        "name": "たちうチンク",
+                        "id": 108810137,
+                        "id_str": "108810137",
+                        "indices": [
+                            0,
+                            12
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "778465005419102208",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "778583276369829888",
+        "created_at": "Wed Sep 21 13:14:53 +0000 2016",
+        "text": "さくちゃんとの動画見返してる。\n何度みても笑える。見なくても思い出し笑いしちゃってる、、、\n史上最高に面白い←（少なくとも私の中で）",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "778606917971083264",
+            "created_at": "Wed Sep 21 2016 22:48:49 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": [
+                    {
+                        "media_url": "https://pbs.twimg.com/media/Cs4q3ErVYAA1qsx.jpg"
+                    }
+                ]
+            },
+            "user": {
+                "name": "パラシュート部隊斉藤優",
+                "screen_name": "nisijinboy",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/763598521698164736/Z3Wy42E0_bigger.jpg"
+            },
+            "text": "明日はヤフオクドームでお待ちしてます！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 19
+            }
+        },
+        {
+            "id_str": "778607717434830848",
+            "created_at": "Wed Sep 21 14:52:00 +0000 2016",
+            "text": "@nisijinboy \nかわいい！これ欲しい(。・_・。)ノ",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "nisijinboy",
+                        "name": "パラシュート部隊斉藤優",
+                        "id": 155087082,
+                        "id_str": "155087082",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "778606917971083264",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "778609054771838976",
+        "created_at": "Wed Sep 21 14:57:19 +0000 2016",
+        "text": "😮😞😰😭 https://t.co/z9IQi5hgx1",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/z9IQi5hgx1",
+                    "expanded_url": "https://twitter.com/goriparatnc/status/778608481079209985",
+                    "display_url": "twitter.com/goriparatnc/st…",
+                    "indices": [
+                        5,
+                        28
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "778608481079209985",
+        "quoted_status": {
+            "created_at": "Wed Sep 21 14:55:02 +0000 2016",
+            "id": 778608481079210000,
+            "id_str": "778608481079209985",
+            "text": "@haruka_kdm919 @nisijinboy 遥さん明日のホークス戦ヤフオクドームでお待ちしております。たくさん買ってメンバーにもどうぞよろしくお願いします。",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    },
+                    {
+                        "screen_name": "nisijinboy",
+                        "name": "パラシュート部隊斉藤優",
+                        "id": 155087082,
+                        "id_str": "155087082",
+                        "indices": [
+                            15,
+                            26
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": 778607717434830800,
+            "in_reply_to_status_id_str": "778607717434830848",
+            "in_reply_to_user_id": 747611144756465700,
+            "in_reply_to_user_id_str": "747611144756465664",
+            "in_reply_to_screen_name": "haruka_kdm919",
+            "user": {
+                "id": 735485537096589300,
+                "id_str": "735485537096589313",
+                "name": "ゴリパラ見聞録情報発信bot",
+                "screen_name": "goriparaTNC",
+                "location": "福岡 博多 , 神奈川 横浜",
+                "description": "ゴリパラ見聞録のbotです。これからゴリパラの色々な情報を発信していきたいと思います！是非フォローお願いします！ゴリパラ見聞録DVD vol.5予約受付中 https://t.co/Vqb5fppYER",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/Vqb5fppYER",
+                                "expanded_url": "http://7net.omni7.jp/detail/1400659569",
+                                "display_url": "7net.omni7.jp/detail/1400659…",
+                                "indices": [
+                                    78,
+                                    101
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 152,
+                "friends_count": 31,
+                "listed_count": 0,
+                "created_at": "Wed May 25 14:59:51 +0000 2016",
+                "favourites_count": 2,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 60,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/770234827370926081/XsQhRlzl_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/770234827370926081/XsQhRlzl_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/735485537096589313/1473588836",
+                "profile_link_color": "2B7BB9",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 0,
+            "favorite_count": 1,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
