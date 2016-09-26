@@ -117,10 +117,11 @@ postParser.registerParser('google-plus', function(post){
     var lines = post.html.split('<br>');
 
     // console.log("try gp: " + lines[0]);
-    if (lines[0].indexOf('兒玉遥公开分享')===-1
-        && lines[0].indexOf('儿玉遥公开分享')===-1
-        && lines[0].indexOf('兒玉遥一般公開で共有しました')===-1
-        && lines[0].indexOf('兒玉遥  一般公開')===-1) {
+    if (lines[0].trim().indexOf('兒玉遥公开分享')===-1
+        && lines[0].trim().indexOf('儿玉遥公开分享')===-1
+        && lines[0].trim().indexOf('兒玉遥一般公開で共有しました')===-1
+        && lines[0].trim().indexOf('兒玉遥  一般公開')===-1
+        && lines[0].trim().indexOf('兒玉遥 一般公開')===-1) {
         // console.log("google+ fail");
         return result;
     }
