@@ -1,0 +1,38 @@
+[
+    {
+        "post": {
+            "postId": 5397,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "誰かがかなしくて誰かがうれしい。\n喜んでいる誰かのそばで、つらい人だっている。\n私も、胸が痛いよ...😢\nはじめて発表する立場でいて、もちろんワクワクもあったけど、くるしかったもん。\nでも、いつかみんなで笑えるように\nこれからもがんばるしかない！\nHKT48みんなで前に進んでいきたいです！",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1474899071,
+            "localId": "77B903BA-A8D5-4C54-AE4A-4595A51FA91E",
+            "deleted": null,
+            "rtCount": 172,
+            "likeCount": 1490,
+            "commentCount": 10
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]
