@@ -1,0 +1,61 @@
+[
+    [
+        {
+            "id_str": "779181558515109888",
+            "created_at": "Fri Sep 23 04:52:14 +0000 2016",
+            "text": "『最強！合いの手教則ビデオ』にオリラジの藤森慎吾さん、村上ショージさん、武井壮さんが出演！！\nすごく嬉しくて感謝でいっぱいです😭\nみんなで合いの手を打って楽しめる曲になっているので沢山の方に見て覚えてもらいたいです！！\nhttps://t.co/J6YF2QIhJY",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/J6YF2QIhJY",
+                        "expanded_url": "http://www.youtube.com/watch?v=2fKqu3PDSyQ",
+                        "display_url": "youtube.com/watch?v=2fKqu3…",
+                        "indices": [
+                            110,
+                            133
+                        ]
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        },
+        {
+            "id_str": "779183485856526336",
+            "created_at": "Fri Sep 23 04:59:54 +0000 2016",
+            "text": "@haruka_kdm919 \nHKT48「最高かよ」スピンオフMV",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "779181558515109888",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ]
+]
