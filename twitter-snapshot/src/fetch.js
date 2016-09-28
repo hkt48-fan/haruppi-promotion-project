@@ -10,6 +10,9 @@ import baseRequest from 'request';
 import cheerio from 'cheerio';
 console.log(process.argv);
 
+const friends = [
+  'Rie_Kitahara3',
+];
 
 const request_options = {
   agentClass: Agent,
@@ -20,15 +23,13 @@ const request_options = {
 };
 
 const requestOptions = Object.assign(twitterConfig, { request_options });
+console.log(requestOptions);
 const client = new Twitter(requestOptions);
 const request = baseRequest.defaults(request_options);
 
 const options = {
   screen_name: 'haruka_kdm919',
   count: 200,
-  friends: [
-
-  ]
 };
 
 // options.screen_name = 'mikinishino4';
@@ -44,6 +45,10 @@ const getTweetsPromise = (lastTweet) => new Promise((resolve, reject) => {
 
   client.get('statuses/user_timeline.json', opts, (err, tweets, res) => {
     // console.log(res);
+    if (err) {
+      console.log(err);
+      return reject(err);
+    }
     console.log('get tweets: ', tweets.length);
     resolve(tweets);
   });
@@ -307,7 +312,7 @@ const _parseRelatedTweetsHTML = (html, lastId) => {
     }
     lastTweetIdStr = tweet.id_str;
 
-    if (options.friends.includes(screen_name)) {
+    if (friends.includes(screen_name)) {
       replySourceTweets.push(tweet);
     }
     else {
@@ -439,7 +444,6 @@ const aggregateConversations = (tweets) => {
 
 console.log(2);
 (async () => {
-  console.log('$$$$');
   // parse arguments
   const commandline = process.argv.slice(2);
   const todayString = moment().format('YYYY-MM-DD');
@@ -451,15 +455,12 @@ console.log(2);
     return;
   }
 
-  console.log('???');
-
   const deadline = moment(dateString, 'YYYY-MM-DD').add(dayCount, 'day');
   const fetchDate = {
     starttime,
     dayCount,
     deadline,
   };
-  console.log('test');
 
   let tweets = [];
   let lastTweet = null;
