@@ -1,0 +1,197 @@
+[
+    [
+        {
+            "id_str": "781009063362588673",
+            "created_at": "Wed Sep 28 2016 13:54:05 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "北原里英",
+                "screen_name": "Rie_Kitahara3",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/764391940200599552/DZvENoYD_bigger.jpg"
+            },
+            "text": "いまが1番、人生でからあげが好き☺️",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 18
+            }
+        },
+        {
+            "id_str": "781055530944954368",
+            "created_at": "Wed Sep 28 08:58:44 +0000 2016",
+            "text": "@Rie_Kitahara3 \n分かります(；▽；)謎の唐揚げブーム\n定期的にくるやつ。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "Rie_Kitahara3",
+                        "name": "北原里英",
+                        "id": 2265524971,
+                        "id_str": "2265524971",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "781009063362588673",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "781110750429388800",
+        "created_at": "Wed Sep 28 12:38:09 +0000 2016",
+        "text": "パ・リーグ優勝日ハム😭😭😭😭✨\nおめでとうございます😭😭😭😭✨\n選手の皆さんおつかれさまです。\n\n福岡県出身の私はやっぱり、、、\n\nくぅ〜😭😭\nクライマックス諦めないぞ！！\nずっとずっと応援しています！！\n熱男だぁ〜🔥🔥🔥",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "781120147805188096",
+        "created_at": "Wed Sep 28 13:15:30 +0000 2016",
+        "text": "私のパワーでよければ、どれだけでも(ง🔥Д🔥)ง https://t.co/pETOX7JG0L",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/pETOX7JG0L",
+                    "expanded_url": "https://twitter.com/hawks_official/status/781113887403802625",
+                    "display_url": "twitter.com/hawks_official…",
+                    "indices": [
+                        25,
+                        48
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "781113887403802625",
+        "quoted_status": {
+            "created_at": "Wed Sep 28 12:50:37 +0000 2016",
+            "id": 781113887403802600,
+            "id_str": "781113887403802625",
+            "text": "今日のこの瞬間から、ホークスは前を向いて、クライマックスシリーズを勝ち上がり、悲願の日本シリーズに3連覇に向けて立ち上がります。\nもう少しだけ、皆さんのパワーをホークスに貸してください！\n応援、よろしくお願いいたします！ #sbhawks",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "sbhawks",
+                        "indices": [
+                            111,
+                            119
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 122284646,
+                "id_str": "122284646",
+                "name": "福岡ソフトバンクホークス（公式）",
+                "screen_name": "HAWKS_official",
+                "location": "福岡ヤフオク！ドーム",
+                "description": "選手とファンみなさんをつなぐスタッフとして・・・というより、ホークスファン代表として、時にはアツく、時には厳しく、・・・楽しくおバカにお気楽にをモットーにツイートします。 返信できないことも多々ありますので、チケット、イベントなどのお問い合わせなどは、公式サイトのフォームよりお願いいたします。 (C)SBH",
+                "url": "https://t.co/SEOVJJhFgp",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/SEOVJJhFgp",
+                                "expanded_url": "http://www.softbankhawks.co.jp/",
+                                "display_url": "softbankhawks.co.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 505323,
+                "friends_count": 60,
+                "listed_count": 4955,
+                "created_at": "Fri Mar 12 05:58:34 +0000 2010",
+                "favourites_count": 16,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 67711,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": true,
+                "profile_background_color": "FFCC4D",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/771152182200512512/pBEgMGc6_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/771152182200512512/pBEgMGc6_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/122284646/1472699276",
+                "profile_link_color": "FAB81E",
+                "profile_sidebar_border_color": "CC3366",
+                "profile_sidebar_fill_color": "E5507E",
+                "profile_text_color": "362720",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 2375,
+            "favorite_count": 4312,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
