@@ -48,6 +48,35 @@
                 "screen_name": "haruka_kdm919",
                 "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
             }
+        },
+        {
+            "id_str": "781137294841384966",
+            "created_at": "Wed Sep 28 2016 22:23:38 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "北原里英",
+                "screen_name": "Rie_Kitahara3",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/764391940200599552/DZvENoYD_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 はるっぴもいまからあげ好きって言ってたもんね☺️",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 39
+            },
+            "in_reply_to_status_id_str": "781009063362588673"
         }
     ],
     {
@@ -144,9 +173,9 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 505323,
+                "followers_count": 505356,
                 "friends_count": 60,
-                "listed_count": 4955,
+                "listed_count": 4956,
                 "created_at": "Fri Mar 12 05:58:34 +0000 2010",
                 "favourites_count": 16,
                 "utc_offset": 32400,
@@ -182,8 +211,8 @@
             "place": null,
             "contributors": null,
             "is_quote_status": false,
-            "retweet_count": 2375,
-            "favorite_count": 4312,
+            "retweet_count": 2457,
+            "favorite_count": 4509,
             "favorited": false,
             "retweeted": false,
             "lang": "ja"
