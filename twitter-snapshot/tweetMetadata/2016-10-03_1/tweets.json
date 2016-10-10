@@ -1,0 +1,248 @@
+[
+    {
+        "id_str": "782811955832639488",
+        "created_at": "Mon Oct 03 05:18:08 +0000 2016",
+        "text": "観たい映画リストに追加決定🤔🍸💕 https://t.co/4QCn06LzKw",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/4QCn06LzKw",
+                    "expanded_url": "https://twitter.com/oricon/status/782686867263066112",
+                    "display_url": "twitter.com/oricon/status/…",
+                    "indices": [
+                        17,
+                        40
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "782686867263066112",
+        "quoted_status": {
+            "created_at": "Sun Oct 02 21:01:05 +0000 2016",
+            "id": 782686867263066100,
+            "id_str": "782686867263066112",
+            "text": "高畑充希、『とと姉ちゃん』の次は“キャバ姉ちゃん”「なんてすてきなタイミング」\nhttps://t.co/ODJrW500ha\n\n #映画 #高畑充希 @mitsuki_tamago #芸能 #ニュース https://t.co/UgXr6aJLFL",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "映画",
+                        "indices": [
+                            66,
+                            69
+                        ]
+                    },
+                    {
+                        "text": "高畑充希",
+                        "indices": [
+                            70,
+                            75
+                        ]
+                    },
+                    {
+                        "text": "芸能",
+                        "indices": [
+                            92,
+                            95
+                        ]
+                    },
+                    {
+                        "text": "ニュース",
+                        "indices": [
+                            96,
+                            101
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mitsuki_tamago",
+                        "name": "高畑 充希",
+                        "id": 911934792,
+                        "id_str": "911934792",
+                        "indices": [
+                            76,
+                            91
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/ODJrW500ha",
+                        "expanded_url": "http://www.oricon.co.jp/news/2079335/full/?ref_cd=tw",
+                        "display_url": "oricon.co.jp/news/2079335/f…",
+                        "indices": [
+                            40,
+                            63
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 782686864809484300,
+                        "id_str": "782686864809484288",
+                        "indices": [
+                            102,
+                            125
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CtypjoNVYAARI_g.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CtypjoNVYAARI_g.jpg",
+                        "url": "https://t.co/UgXr6aJLFL",
+                        "display_url": "pic.twitter.com/UgXr6aJLFL",
+                        "expanded_url": "https://twitter.com/oricon/status/782686867263066112/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 782686864809484300,
+                        "id_str": "782686864809484288",
+                        "indices": [
+                            102,
+                            125
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CtypjoNVYAARI_g.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CtypjoNVYAARI_g.jpg",
+                        "url": "https://t.co/UgXr6aJLFL",
+                        "display_url": "pic.twitter.com/UgXr6aJLFL",
+                        "expanded_url": "https://twitter.com/oricon/status/782686867263066112/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 470,
+                                "h": 314,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.oricon.co.jp/\" rel=\"nofollow\">ORICON STYLE</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 95207674,
+                "id_str": "95207674",
+                "name": "ORICON STYLE",
+                "screen_name": "oricon",
+                "location": "東京都港区六本木",
+                "description": "ORICON STYLE（オリコンスタイル）は、話題の最新芸能ニュースや音楽ニュース、オリコンランキングなどのエンタメ情報を毎日発信するエンターテインメントサイトです。",
+                "url": "http://t.co/TBiV19SVaI",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/TBiV19SVaI",
+                                "expanded_url": "http://www.oricon.co.jp/",
+                                "display_url": "oricon.co.jp",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 176332,
+                "friends_count": 22975,
+                "listed_count": 5039,
+                "created_at": "Mon Dec 07 14:15:16 +0000 2009",
+                "favourites_count": 42,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 96066,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_link_color": "006AB7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 223,
+            "favorite_count": 347,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]

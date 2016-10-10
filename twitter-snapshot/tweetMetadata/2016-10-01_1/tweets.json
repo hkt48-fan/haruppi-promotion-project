@@ -1,0 +1,176 @@
+[
+    [],
+    {
+        "id_str": "781984094234091520",
+        "created_at": "Fri Sep 30 22:28:31 +0000 2016",
+        "text": "バグっていいじゃん～♪\nバグっていいじゃん〜♪\n\nおはようございます☀️\nサイン会よろしくお願いします🖐💕",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "782048265353080832",
+            "created_at": "Sat Oct 01 02:43:30 +0000 2016",
+            "text": "推し増し制度ってなに〜😮？\nそれつかって来たって人いたよ〜",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        },
+        {
+            "id_str": "782054888867926017",
+            "created_at": "Sat Oct 01 2016 11:09:50 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": [
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CtpqwP8UEAA7FBR.jpg"
+                    }
+                ]
+            },
+            "user": {
+                "name": "清橋宗之",
+                "screen_name": "muneyuki1121",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/778807193944469504/grSy4rmF_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 \n昔は各グループに推しがいたけど、握手券はるっぴだけ取ってるから、今は単推し状態。推し減(^_^;)",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 65
+            },
+            "in_reply_to_status_id_str": "782048265353080832"
+        },
+        {
+            "id_str": "782049779232538624",
+            "created_at": "Sat Oct 01 2016 11:15:50 GMT+0800 (CST)",
+            "user": {
+                "name": "Mako",
+                "screen_name": "KazuUem",
+                "profile_image_url": "https://pbs.twimg.com/profile_images/782057910356455424/zttCctMD_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 他のメンバーの握手券を当日はるっぴに変える事が可能になった(完売してないメンバーのみ)。\n逆にはるっぴの券を他のメンバーに変えて握手するのも可能。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 65
+            },
+            "in_reply_to_status_id_str": "782048265353080832"
+        },
+        {
+            "id_str": "782056968198299648",
+            "created_at": "Sat Oct 01 03:18:05 +0000 2016",
+            "text": "@KazuUem なるほど！\n嬉しいような、悲しいような...\n単推しがいちばん嬉しいけど、これだけ沢山メンバーいたら推し増ししたくなる気持ちも分かる😂😂",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "KazuUem",
+                        "name": "Mk",
+                        "id": 2795696054,
+                        "id_str": "2795696054",
+                        "indices": [
+                            0,
+                            8
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "782049779232538624",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        },
+        {
+            "id_str": "782058004770230272",
+            "created_at": "Sat Oct 01 03:22:12 +0000 2016",
+            "text": "@muneyuki1121 \n推し減...じわります。笑\n経済的ですもんね😂✨",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "muneyuki1121",
+                        "name": "清橋宗之",
+                        "id": 4334285673,
+                        "id_str": "4334285673",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": "782054888867926017",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "782200378901221376",
+        "created_at": "Sat Oct 01 12:47:57 +0000 2016",
+        "text": "😭😭😭😭😭😭😭😭",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]
