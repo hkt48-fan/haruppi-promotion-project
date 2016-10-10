@@ -8,10 +8,10 @@ import Agent from 'socks5-https-client/lib/Agent';
 import baseRequest from 'request';
 
 import cheerio from 'cheerio';
-console.log(process.argv);
 
 const friends = [
   'Rie_Kitahara3',
+  '345__chan'
 ];
 
 const request_options = {
@@ -23,7 +23,6 @@ const request_options = {
 };
 
 const requestOptions = Object.assign(twitterConfig, { request_options });
-console.log(requestOptions);
 const client = new Twitter(requestOptions);
 const request = baseRequest.defaults(request_options);
 
@@ -31,16 +30,12 @@ const options = {
   screen_name: 'haruka_kdm919',
   count: 200,
 };
-
 // options.screen_name = 'mikinishino4';
-console.log(1);
 
 const getTweetsPromise = (lastTweet) => new Promise((resolve, reject) => {
   const opts = Object.assign({}, options);
   if (lastTweet) {
     opts.max_id = lastTweet.id;
-
-    console.log('fetch tweets from: ', lastTweet.id);
   }
 
   client.get('statuses/user_timeline.json', opts, (err, tweets, res) => {
@@ -49,7 +44,6 @@ const getTweetsPromise = (lastTweet) => new Promise((resolve, reject) => {
       console.log(err);
       return reject(err);
     }
-    console.log('get tweets: ', tweets.length);
     resolve(tweets);
   });
 });
@@ -57,7 +51,7 @@ const getTweetsPromise = (lastTweet) => new Promise((resolve, reject) => {
 
 const isInDateRange = (tweet, fetchDate) => {
   if (!tweet) {
-    console.log('undefIned???');
+    return false;
   }
 
   const { created_at } = tweet;
@@ -198,13 +192,14 @@ const _parseTweetEntity = (tweetTextElement) => {
 };
 
 // start of parse related tweets
-const _parseRelatedTweetsHTML = (html, lastId) => {
+const _parseRelatedTweetsHTML = (html, tweetId, lastReplyId) => {
+  const lastId = tweetId + '_' + lastReplyId;
   fs.writeFileSync('tmp/' + lastId + '.html', html);
   console.log('extract related tweets: ', lastId);
 
   // fetch in reply to
   const $ = cheerio.load(html);
-  const repliesContainer = $('.permalink-in-reply-tos .stream-container');
+  // const repliesContainer = $('.permalink-in-reply-tos .stream-container');
   const repliesElements = $('.permalink-in-reply-tos .stream-container .stream-item');
 
   const replySourceTweets = [];
@@ -283,8 +278,8 @@ const _parseRelatedTweetsHTML = (html, lastId) => {
     const tweetTextElement = hotThreadedTweet.find('.tweet-text');
     const parsedTweetTextObject = _parseTweetEntity(tweetTextElement);
 
-    const adaptiveMedia = hotThreadedTweet.find('.AdaptiveMedia');
-    const imageElements = adaptiveMedia.find('img');
+    // const adaptiveMedia = hotThreadedTweet.find('.AdaptiveMedia');
+    // const imageElements = adaptiveMedia.find('img');
     const extended_entities = {
       media: [],
     };
@@ -299,6 +294,7 @@ const _parseRelatedTweetsHTML = (html, lastId) => {
       id_str,
       created_at,
       extended_entities,
+      in_reply_to_status_id_str: tweetId,
       user: {
         name,
         screen_name,
@@ -326,10 +322,9 @@ console.log('(((((((((((((())))))))))))))');
 };
 
 const getRelatedTweetsPromise = (tweet, lastReplyId) => new Promise((resolve, reject) => {
-  if (!tweet.in_reply_to_status_id_str) {
-    resolve(null);
-  }
-
+  // if (!tweet.in_reply_to_status_id_str) {
+  //   resolve(null);
+  // }
 
   let url = `https://twitter.com/${options.screen_name}/status/${tweet.id_str}`;
 
@@ -351,7 +346,7 @@ const getRelatedTweetsPromise = (tweet, lastReplyId) => new Promise((resolve, re
       return reject(err);
     }
     const obj = JSON.parse(body);
-    const tweets = _parseRelatedTweetsHTML(obj.page, tweet.id_str + '_' + (lastReplyId || 'first'));
+    const tweets = _parseRelatedTweetsHTML(obj.page, tweet.id_str, (lastReplyId || 'first'));
     return resolve(tweets);
   });
 });
@@ -362,7 +357,11 @@ const _findSourceTweet = (targetTweet, tweets) => {
   while (replyToId) {
     currentTweet = tweets.find(t => t.id_str === replyToId);
     if (!currentTweet) {
-      throw new Error('Can not find reply to tweet');
+      console.log('Can not find reply to tweet');
+      console.log(targetTweet);
+      // throw new Error('Can not find reply to tweet');
+      replyToId = '';
+      return;
     }
     replyToId = currentTweet.in_reply_to_status_id_str;
   }
@@ -396,6 +395,9 @@ const parseInstagramImages = (tweet) => new Promise((resolve, reject) => {
       const newUrls = entities.urls.filter(url => url !== instagramUrl);
       tweet.extended_entities = tweet.extended_entities || {};
       tweet.extended_entities.media = media;
+      tweet.entities.urls.forEach(u=>{
+        tweet.text = tweet.text.replace(u.url, '');
+      })
       // tweet.entities.urls = newUrls;
       return resolve();
     })
@@ -467,42 +469,35 @@ console.log(2);
   try {
     let _tweets;
     do {
+      _tweets = await getTweetsPromise(lastTweet);
+      lastTweet = _tweets.slice(-1)[0];
+      const filtered = _tweets.filter(t => isInDateRange(t, fetchDate));
 
-        _tweets = await getTweetsPromise(lastTweet);
-        lastTweet = _tweets.slice(-1)[0];
-        const filtered = _tweets.filter(t => isInDateRange(t, fetchDate));
-
-        tweets = tweets.concat(filtered);
-        if (!lastTweet) {
-         console.log('test############');
-        }
-        else {
-          console.log('okokok');
-        }
+      tweets = tweets.concat(filtered);
     } while (_tweets.length === 200 && isInDateRange(lastTweet, fetchDate));
   }
   catch (e) {
     console.log(e);
   }
 
-  console.log('>>>');
   tweets = tweets.reverse();
   tweets = trimTweets(tweets);
-
 
   //  find all reply source status
   let _tweets = [];
   try {
-    for (const tweet of tweets){
+    for (const tweet of tweets) {
 
-      if (tweet.in_reply_to_status_id_str) {
-        const inReplyTweets = await getRelatedTweetsPromise(tweet);
-        _tweets = _tweets.concat(inReplyTweets);
-      }
-      else {
-        console.log('not reply skip');
-      }
-      _tweets.push(tweet)
+      // if (tweet.in_reply_to_status_id_str) {
+      //   const inReplyTweets = await getRelatedTweetsPromise(tweet);
+      //   _tweets = _tweets.concat(inReplyTweets);
+      // }
+      // else {
+      //   console.log('not reply skip');
+      // }
+      const inReplyTweets = await getRelatedTweetsPromise(tweet);
+      _tweets = _tweets.concat(inReplyTweets);
+      _tweets.push(tweet);
     }
   }
   catch (e) {
@@ -510,6 +505,36 @@ console.log(2);
   }
 
   tweets = [];
+
+  // add the private tweet that cant be fetch correctly
+  // const hankTweet = {
+  //     "id_str": "782049779232538624",
+  //     "created_at": "Sat Oct 01 2016 11:15:50 GMT+0800 (CST)",
+  //     "user": {
+  //         "name": "Mako",
+  //         "screen_name": "KazuUem",
+  //         "profile_image_url": "https://pbs.twimg.com/profile_images/782057910356455424/zttCctMD_bigger.jpg"
+  //     },
+  //     "text": "@haruka_kdm919 他のメンバーの握手券を当日はるっぴに変える事が可能になった(完売してないメンバーのみ)。\n逆にはるっぴの券を他のメンバーに変えて握手するのも可能。",
+  //     "entities": {
+  //         "hashtags": [],
+  //         "symbols": [],
+  //         "user_mentions": [
+  //             {
+  //                 "screen_name": "haruka_kdm919",
+  //                 "indices": [
+  //                     0,
+  //                     14
+  //                 ]
+  //             }
+  //         ],
+  //         "urls": [],
+  //         "lastIndices": 65
+  //     },
+  //     "in_reply_to_status_id_str": "782048265353080832"
+  // }
+  // tweets.push(hankTweet);
+
   _tweets.forEach(tweet => {
     if (!tweets.find(t => {
 
@@ -532,6 +557,7 @@ console.log(2);
   }
 
   // begin generate transcript template
+  console.log('try generate transcript');
   const transcript = tweets.reduce((a, b) => {
     try{
       if (b.is_quote_status) {
@@ -565,33 +591,18 @@ console.log(2);
     return a;
   }, []);
 
-  // aggregate same conversation
-  tweets = aggregateConversations(tweets);
-
-  // tweets.forEach(t => {
-  //   if (t.in_reply_to_status_id_str) {
-  //     console.log(t.text);
-  //     const pageHTML = yield getRelatedTweetsPromise();
-  //   }
-  // })
-
-  // for(const t of tweets){
-  //   if (t.in_reply_to_status_id_str) {
-  //     const pageHTML = await getRelatedTweetsPromise(t.in_reply_to_status_id_str);
-  //     console.log('jheiieiieieie');
-  //     fs.writeFileSync(t.in_reply_to_status_id_str, pageHTML);
-
-  //     const $ = cheerio.load(pageHTML);
-
-  //   }
-  // }
+  try {
+    tweets = aggregateConversations(tweets);
+  }
+  catch (e) {
+    console.log(e);
+  }
 
 
-  // return
-
-
-
-  console.log(transcript.length);
+  if (tweets.length === 0) {
+    console.log('!!!!!!!!!! empty');
+    return;
+  }
 
   const outputTagName = `${dateString}_${dayCount}`;
   fs.mkdirsSync(OUTPUT_BASE_PATH);

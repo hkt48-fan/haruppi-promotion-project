@@ -83,6 +83,8 @@ const loadTranslateScripts = (dateString, dayCount) => {
 
     fs.writeFileSync('out.html', result);
 
+    return;
+
     const savePath_retina = `snapshots/${dateString}_${dayCount}_retina.png`;
     console.log('Try generate the capture.');
 

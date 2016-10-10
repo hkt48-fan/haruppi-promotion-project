@@ -189,7 +189,7 @@ const renderAdaptiveMedia = (tweet) => {
           {media.map(m => {
             const photoContent = (
               <div className="AdaptiveMedia-photoContainer">
-                <img src={m.media_url} style={{ width: '80%', left: '-1px' }} alt="" />
+                <img src={m.media_url} style={{ width: '120%', left: '-25px' }} alt="" />
               </div>
             );
             return (
@@ -238,7 +238,7 @@ const renderAdaptiveMedia = (tweet) => {
             {media.slice(0, 1).map(m => {
               const photoContent = (
                 <div className="AdaptiveMedia-photoContainer">
-                  <img src={m.media_url} style={{ width: '80%', left: '-0px' }} alt="" />
+                  <img src={m.media_url} style={{ width: '120%', left: '-25%' }} alt="" />
                 </div>
               );
               return photoContent;
@@ -248,7 +248,7 @@ const renderAdaptiveMedia = (tweet) => {
             {media.slice(1).map(m => {
               const photoContent = (
                 <div className="AdaptiveMedia-photoContainer">
-                  <img src={m.media_url} style={{ width: '80%', left: '-26px' }} alt="" />
+                  <img src={m.media_url} style={{ width: '120%', left: '-25%' }} alt="" />
                 </div>
               );
               return (
