@@ -2,19 +2,9 @@ import requestLegacy from 'request';
 import moment from 'moment';
 import fs from 'fs';
 import path from 'path';
+import config from './config.json';
 
-import { TEMPLATE_VERSION, OUTPUT_BASE_PATH } from './common/constant';
-
-// const TEMPLATE_VERSION = 1;
-let fetchId = 'kodama-haruka';
-// fetchId = 'kodamaharuka-anaichihiro';
-// fetchId = 'anai-chihiro';
-// 枕
-// fetchId = 'q3J7NRXCT9Dz';
-// 48cafe
-// fetchId = 'slRMDMXtyEtl';
-
-const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${fetchId}/posts?limit=200`;
+const apiUrlBase = `https://api.7gogo.jp/web/v2/talks/${config.userId}/posts?limit=200`;
 
 const request = (url) => {
   return new Promise((resolve, reject) => {
@@ -109,6 +99,11 @@ const request = (url) => {
       })
     }
 
+    if (matched.length === 0) {
+      console.log('!!!!!!!!!! empty');
+      return;
+    }
+
     // extract text for translate
     matched.forEach(m=>{
       extractTranslateText(m.post.body);
@@ -117,13 +112,13 @@ const request = (url) => {
     const outputTagName = `${dateString}_${dayCount}`;
     // const OutputDirBaseName = 'postMetadata';
     try {
-      fs.accessSync(OUTPUT_BASE_PATH, fs.F_OK);
+      fs.accessSync(config.output_base_path, fs.F_OK);
     }
     catch(e){
-      fs.mkdirSync(OUTPUT_BASE_PATH);
+      fs.mkdirSync(config.output_base_path);
     }
 
-    const outputDirPath = path.join(OUTPUT_BASE_PATH, outputTagName);
+    const outputDirPath = path.join(config.output_base_path, outputTagName);
     try {
       fs.accessSync(outputDirPath, fs.F_OK);
     }
@@ -136,7 +131,7 @@ const request = (url) => {
       source_entry: 'posts.json',
       translate_entry: transFileName,
       commandline: commandline.join(' '),
-      template_version: TEMPLATE_VERSION,
+      template_version: config.template_version,
     };
 
     const metadataPath = path.join(outputDirPath, 'metadata.json');

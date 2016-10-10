@@ -84,20 +84,35 @@ export default class TalkList extends React.Component {
       let ecTitle = '';
       let ecDescription = '';
 
+      let ecImageComponent = null;
       if (matched) {
         if (!matched.content.data) {
-          console.log(JSON.stringify(matched));
+          ecImageComponent = (
+            <div className="media__image OpenGraphCard__thumbnail OpenGraphCard__thumbnail--link">
+              <div className="OpenGraphCard__linkIcon">
+                <svg viewBox="0 0 128 128">
+                  <path d="M72.716 49.032l-2.884 1.676a1.614 1.614 0 0 0-.584 2.214 1.637 1.637 0 0 0 2.232.582l2.884-1.673c2.514-1.463 4.958.046 6.164 2.066a4.764 4.764 0 0 1 .528 3.672 4.794 4.794 0 0 1-2.248 2.954l-9.084 5.274c-4.748 2.76-6.252.24-6.747-.588a1.64 1.64 0 0 0-2.237-.568 1.613 1.613 0 0 0-.57 2.218c1.023 1.712 2.387 2.798 4.058 3.23 2.07.535 4.54.016 7.14-1.496l9.086-5.274a8.02 8.02 0 0 0 3.76-4.94 7.977 7.977 0 0 0-.88-6.134c-2.41-4.036-6.873-5.386-10.618-3.212zM56.994 73.19l-2.314 1.344c-2.336 1.355-5.356.576-6.733-1.736a4.774 4.774 0 0 1-.528-3.672 4.79 4.79 0 0 1 2.247-2.952l8.515-4.945c3.38-1.963 6.046-1.868 7.316.256a1.636 1.636 0 0 0 2.984-.427 1.604 1.604 0 0 0-.18-1.223c-1.272-2.135-3.338-3.226-5.798-3.226-1.825 0-3.87.603-5.97 1.82l-8.514 4.947a8.012 8.012 0 0 0-3.76 4.94 7.966 7.966 0 0 0 .882 6.132 8.134 8.134 0 0 0 4.997 3.72 8.17 8.17 0 0 0 6.188-.84l2.314-1.345a1.608 1.608 0 0 0 .585-2.214 1.638 1.638 0 0 0-2.233-.58z"></path>
+                  <path d="M58.835 90.113l-.272 7.214 10.934-7.212 36.468.045V34.085L23.2 39.545V90.16l35.635-.047zm-3.702 13.31l.38-10.106L20 93.364V36.548l89.165-5.88v62.696l-38.71-.048-15.322 10.108z"></path>
+                </svg>
+              </div>
+            </div>
+          );
         }
-        ecImg = matched.content.data.image;
-        ecTitle = matched.content.data.title;
-        ecDescription = matched.content.data.description;
+        else {
+          ecImg = matched.content.data.image;
+          ecTitle = matched.content.data.title;
+          ecDescription = matched.content.data.description;
+          ecImageComponent = (
+            <div className="media__image OpenGraphCard__thumbnail" style={{ backgroundImage: `url(${ecImg})` }} />
+          );
+        }
       }
 
       return (
         <span className="Linkify">
           <a>{body.text}</a>
           <a className="media OpenGraphCard">
-            <div className="media__image OpenGraphCard__thumbnail" style={{backgroundImage: `url(${ecImg})`}}/>
+            {ecImageComponent}
             <div className="media__body OpenGraphCard__content">
               <div>
                 <div className="OpenGraphCard__title">{ecTitle.substr(0, 25)}</div>

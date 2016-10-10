@@ -10,7 +10,7 @@ import moment from 'moment';
 // import transcript from '../transcript.json';
 import request from 'request';
 
-import { TEMPLATE_VERSION, OUTPUT_BASE_PATH } from './common/constant';
+import config from './config.json';
 
 const sleep = (timeout) => new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -40,7 +40,7 @@ const fetchGooglePlusInfo = (googlePlusUrl) => new Promise((resolve, reject) => 
 
 const loadTranslateScripts = (dateString, dayCount) => {
   const importTagName = `${dateString}_${dayCount}`;
-  const importDirPath = path.join(OUTPUT_BASE_PATH, importTagName);
+  const importDirPath = path.join(config.output_base_path, importTagName);
 
   try {
     const metadataPath = path.join(importDirPath, 'metadata.json');
@@ -161,7 +161,11 @@ const loadTranslateScripts = (dateString, dayCount) => {
 
     console.log('Try generate the capture.');
 
-    const instance = await phantom.create(['--proxy=127.0.0.1:8484', '--proxy-type=socks5']);
+    const phantomArguments = config.proxy.enable
+      ? [`--proxy=${config.proxy.address}`, `--proxy-type=${config.proxy.type}`]
+      : [];
+
+    const instance = await phantom.create(phantomArguments);
     const page = await instance.createPage();
     await page.setContent(resultRetina, '');
 
@@ -178,6 +182,4 @@ const loadTranslateScripts = (dateString, dayCount) => {
   catch(e){
     console.log(e);
   }
-
-
 })();

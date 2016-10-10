@@ -1,0 +1,10 @@
+{
+  "template_version": 1,
+  "output_base_path": "postMetadata",
+  "userId": "watanabe-miria",
+  "proxy": {
+    "endable": true,
+    "type": "socks",
+    "address": "127.0.0.1:8484"
+  }
+}
