@@ -1,0 +1,37 @@
+[
+    {
+        "id_str": "786866257697964032",
+        "created_at": "Fri Oct 14 09:48:29 +0000 2016",
+        "text": "皆さん、こんばんは。\nはじめまして、キャバクラ水族館のタイです💓タイちゃんって呼んでもらえたら嬉しいです。\nヤンキー女子高生からキャバ嬢になりました。キャバクラ初心者ですがNo1目指してがんばります！\n『キャバすか学園』是非観てくださいね😘💕✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/ciKEyTGiHf",
+                    "expanded_url": "https://twitter.com/i/web/status/786866257697964032",
+                    "display_url": "twitter.com/i/web/status/7…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/CuuCrxFUEAAOHNo.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]

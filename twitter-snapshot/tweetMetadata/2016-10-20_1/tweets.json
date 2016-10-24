@@ -1,0 +1,247 @@
+[
+    {
+        "id_str": "788922762882539525",
+        "created_at": "Thu Oct 20 02:00:18 +0000 2016",
+        "text": "むねがくるしい〜(>_<)キュン\n可愛い〜💕💕💕💕",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/JwKhSWy1UR",
+                    "expanded_url": "https://twitter.com/modelpress/status/788862595524505600",
+                    "display_url": "twitter.com/modelpress/sta…",
+                    "indices": [
+                        32,
+                        55
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "788862595524505600",
+        "quoted_status": {
+            "created_at": "Wed Oct 19 22:01:13 +0000 2016",
+            "id": 788862595524505600,
+            "id_str": "788862595524505600",
+            "text": "HKT48なこみく「ラブベリー」初表紙に抜擢　 #ラブベリー #LOVEberry #矢吹奈子 #田中美久 【ほか写真あり】\n\nhttps://t.co/28DYG8dXP4",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "ラブベリー",
+                        "indices": [
+                            24,
+                            30
+                        ]
+                    },
+                    {
+                        "text": "LOVEberry",
+                        "indices": [
+                            31,
+                            41
+                        ]
+                    },
+                    {
+                        "text": "矢吹奈子",
+                        "indices": [
+                            42,
+                            47
+                        ]
+                    },
+                    {
+                        "text": "田中美久",
+                        "indices": [
+                            48,
+                            53
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/28DYG8dXP4",
+                        "expanded_url": "https://mdpr.jp/news/1625170",
+                        "display_url": "mdpr.jp/news/1625170",
+                        "indices": [
+                            64,
+                            87
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://mdpr.jp\" rel=\"nofollow\">modelpress appl</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 142921471,
+                "id_str": "142921471",
+                "name": "モデルプレス",
+                "screen_name": "modelpress",
+                "location": "TOKYO,JAPAN",
+                "description": "モデルプレスは日本最大級の女性向けエンタメ＆ライフスタイルニュースサイトです。ファッション、モデル、恋愛、ヘア、コスメ、ネイル、ダイエット、ディズニー、スイーツ、カフェ、ドラマ、映画、音楽、海外セレブ、トラベルなどの最新情報をお届けします。美容ライター募集中です☆",
+                "url": "https://t.co/5eMAE7fr2T",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/5eMAE7fr2T",
+                                "expanded_url": "http://mdpr.jp/",
+                                "display_url": "mdpr.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 959077,
+                "friends_count": 170428,
+                "listed_count": 4926,
+                "created_at": "Wed May 12 03:06:36 +0000 2010",
+                "favourites_count": 10,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 131334,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FAFAFA",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/142921471/1401708884",
+                "profile_link_color": "FA0A4E",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "FFFFFF",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 324,
+            "favorite_count": 778,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "788862595524505600",
+            "created_at": "Thu Oct 20 2016 06:01:13 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "モデルプレス",
+                "screen_name": "modelpress",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_bigger.png"
+            },
+            "text": "HKT48なこみく「ラブベリー」初表紙に抜擢　     【ほか写真あり】",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "display_url": "",
+                        "indices": [
+                            24,
+                            24
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            25,
+                            25
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            26,
+                            26
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            27,
+                            27
+                        ]
+                    }
+                ],
+                "lastIndices": 36
+            }
+        },
+        {
+            "id_str": "788924958084730880",
+            "created_at": "Thu Oct 20 02:09:02 +0000 2016",
+            "text": "@modelpress あ〜、こういうのはリプの方が見やすいのね🙂",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "modelpress",
+                        "name": "モデルプレス",
+                        "id": 142921471,
+                        "id_str": "142921471",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "788862595524505600",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ]
+]

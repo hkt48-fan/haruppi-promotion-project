@@ -1,0 +1,110 @@
+[
+    {
+        "post": {
+            "postId": 5426,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "16時半から配信しますヽ(´ー｀)ノ\nタイちゃんshowroom\nよろしくお願いします。",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1476681974,
+            "localId": "15550920-7CD6-4936-986E-CA29E51FBE9E",
+            "deleted": null,
+            "rtCount": 24,
+            "likeCount": 406,
+            "commentCount": 3
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5425,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "\n兒玉 遥（HKT48 チームH）\nhttps://www.showroom-live.com/48_HARUKA_KODAMA\n",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1476681944,
+            "localId": "EED9E15B-D8F6-4FEF-9E4A-D9F7C7B5F4C2",
+            "deleted": null,
+            "rtCount": 22,
+            "likeCount": 236,
+            "commentCount": 1
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5423,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "おはようございますヽ(´ー｀)ノ",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1476661467,
+            "localId": "8E2BCD63-FB08-4837-9AFF-372A381F969C",
+            "deleted": null,
+            "rtCount": 8,
+            "likeCount": 423,
+            "commentCount": 4
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

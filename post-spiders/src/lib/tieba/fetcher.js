@@ -99,8 +99,9 @@ var  fetchTiebaPosts = (config)=>{
                                 postPool.push(postObj);
                             }
 
-                            // console.log(postObj);
+                            console.log(postObj.tiebaId, '===' , config.lastPostId);
                             if (postObj.tiebaId === config.lastPostId) {
+                                console.log('skip -> false');
                                 skipPost = false;
                             }
                         }
