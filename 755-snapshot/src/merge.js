@@ -172,7 +172,7 @@ const loadTranslateScripts = (dateString, dayCount) => {
     // phantomjs-node can't trigger callback from event fired(onLoadFinshed)
     // wait for all resource are loaded by using setTimeout()
     // see also: https://github.com/amir20/phantomjs-node/issues/396
-    await sleep(10000);
+    await sleep(20000);
     console.log(savePath_retina);
     await page.render(savePath_retina, { format: 'png' });
 

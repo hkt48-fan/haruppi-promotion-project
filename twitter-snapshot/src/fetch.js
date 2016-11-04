@@ -11,7 +11,10 @@ import cheerio from 'cheerio';
 
 const friends = [
   'Rie_Kitahara3',
-  '345__chan'
+  '345__chan',
+  'lovetannnnnn',
+  'ooyachaaan1228',
+  'saaya3ta',
 ];
 
 const request_options = {
@@ -192,8 +195,8 @@ const _parseTweetEntity = (tweetTextElement) => {
 };
 
 // start of parse related tweets
-const _parseRelatedTweetsHTML = (html, tweetId, lastReplyId) => {
-  const lastId = tweetId + '_' + lastReplyId;
+const _parseRelatedTweetsHTML = (html, sourceTweet, lastReplyId) => {
+  const lastId = sourceTweet.id_str + '_' + lastReplyId;
   fs.writeFileSync('tmp/' + lastId + '.html', html);
   console.log('extract related tweets: ', lastId);
 
@@ -209,7 +212,7 @@ const _parseRelatedTweetsHTML = (html, tweetId, lastReplyId) => {
     const profileElement = _re.find('.js-profile-popup-actionable');
     const name = profileElement.data('name');
     const screen_name = profileElement.data('screen-name');
-    const id_str = profileElement.data('tweet-id');
+    const id_str = profileElement.data('tweet-id').toString();
 
     const avatarElement = _re.find('.avatar');
     const profile_image_url = avatarElement.attr('src').replace(/^https:/, 'http:');
@@ -256,6 +259,32 @@ const _parseRelatedTweetsHTML = (html, tweetId, lastReplyId) => {
     console.log();
   });
 
+  // fetch current tweet info
+  // replace current tweet.text
+  {
+    const tweetElement = $('.permalink-tweet-container');
+    const tweetTextElement = tweetElement.find('.tweet-text');
+    const parsedTweetTextObject = _parseTweetEntity(tweetTextElement);
+
+    const adaptiveMedia = tweetElement.find('.AdaptiveMedia');
+    const imageElements = adaptiveMedia.find('img');
+    const extended_entities = {
+      media: [],
+    };
+    imageElements.each((imgidx, img) => {
+      extended_entities.media.push({
+        media_url: img.attribs.src,
+      });
+    });
+
+    // do not replace extend_entities
+    sourceTweet.extended_entities = sourceTweet.extended_entities || extended_entities;
+    // replace full text when exceed 140 char
+    sourceTweet.text = parsedTweetTextObject.text;
+
+    console.log(sourceTweet);
+  }
+
   // todo reuse following code with inreplyto
   // fetch reply to
   {
@@ -294,7 +323,7 @@ const _parseRelatedTweetsHTML = (html, tweetId, lastReplyId) => {
       id_str,
       created_at,
       extended_entities,
-      in_reply_to_status_id_str: tweetId,
+      in_reply_to_status_id_str: sourceTweet.id_str,
       user: {
         name,
         screen_name,
@@ -346,7 +375,7 @@ const getRelatedTweetsPromise = (tweet, lastReplyId) => new Promise((resolve, re
       return reject(err);
     }
     const obj = JSON.parse(body);
-    const tweets = _parseRelatedTweetsHTML(obj.page, tweet.id_str, (lastReplyId || 'first'));
+    const tweets = _parseRelatedTweetsHTML(obj.page, tweet, (lastReplyId || 'first'));
     return resolve(tweets);
   });
 });
@@ -472,7 +501,7 @@ console.log(2);
       _tweets = await getTweetsPromise(lastTweet);
       lastTweet = _tweets.slice(-1)[0];
       const filtered = _tweets.filter(t => isInDateRange(t, fetchDate));
-
+      // console.log(JSON.stringify(filtered, null, 2));
       tweets = tweets.concat(filtered);
     } while (_tweets.length === 200 && isInDateRange(lastTweet, fetchDate));
   }
