@@ -1,0 +1,241 @@
+[
+    {
+        "id_str": "790704907430928384",
+        "created_at": "Tue Oct 25 00:01:55 +0000 2016",
+        "text": "【MV full】ハイテンション / AKB48[公式]\n👀💕✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/QP5B7MeVAf",
+                    "expanded_url": "https://www.youtube.com/shared?ci=tQdL8qiPv5M",
+                    "display_url": "youtube.com/shared?ci=tQdL…",
+                    "indices": [
+                        33,
+                        56
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "790741619599216640",
+            "created_at": "Tue Oct 25 2016 10:27:48 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": [
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CvlHTmSUsAEuyvT.jpg"
+                    }
+                ]
+            },
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "ハイテンション、ミュージックビデオの時のお気に入りの写真😭💕\nだいすきなまゆちゃんとはな😭💕\nうう〜〜かわいいよーーーー",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 64
+            }
+        },
+        {
+            "id_str": "790773019585028096",
+            "created_at": "Tue Oct 25 04:32:34 +0000 2016",
+            "text": "@345__chan @karaage_mayu かわいい😍😍😍",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "345__chan",
+                        "name": "指原 莉乃",
+                        "id": 2346809580,
+                        "id_str": "2346809580",
+                        "indices": [
+                            0,
+                            10
+                        ]
+                    },
+                    {
+                        "screen_name": "karaage_mayu",
+                        "name": "渡辺麻友",
+                        "id": 3063044467,
+                        "id_str": "3063044467",
+                        "indices": [
+                            11,
+                            24
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "790741619599216640",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "790775001699856385",
+        "created_at": "Tue Oct 25 04:40:26 +0000 2016",
+        "text": "ハイテンションMV撮影のお気に入り写真といえば私はこれ☺️💕\n微笑ましい〜\n\nなにかの動画を一緒にみている、さしまゆさん。\n\n",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ハイテンション",
+                    "indices": [
+                        63,
+                        71
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 790774988445843500,
+                    "id_str": "790774988445843456",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CvllqYuUAAArWLw.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CvllqYuUAAArWLw.jpg",
+                    "url": "https://t.co/Yn2U9bwHkw",
+                    "display_url": "pic.twitter.com/Yn2U9bwHkw",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/790775001699856385/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 790774988445843500,
+                    "id_str": "790774988445843456",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CvllqYuUAAArWLw.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CvllqYuUAAArWLw.jpg",
+                    "url": "https://t.co/Yn2U9bwHkw",
+                    "display_url": "pic.twitter.com/Yn2U9bwHkw",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/790775001699856385/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 790774988559102000,
+                    "id_str": "790774988559101952",
+                    "indices": [
+                        72,
+                        95
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CvllqZJUMAAWPaC.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CvllqZJUMAAWPaC.jpg",
+                    "url": "https://t.co/Yn2U9bwHkw",
+                    "display_url": "pic.twitter.com/Yn2U9bwHkw",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/790775001699856385/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]

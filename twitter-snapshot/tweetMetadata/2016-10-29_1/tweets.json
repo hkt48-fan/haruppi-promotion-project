@@ -1,0 +1,251 @@
+[
+    {
+        "id_str": "792125730788257792",
+        "created_at": "Fri Oct 28 22:07:45 +0000 2016",
+        "text": "おはようございます！！\n中学生の頃、女子バスケ部のみんなで観に行ったなぁ...\nおめでとうございます🎊",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/WoZ7Mj7gAw",
+                    "expanded_url": "https://twitter.com/rz_fukuoka/status/792000957970120704",
+                    "display_url": "twitter.com/rz_fukuoka/sta…",
+                    "indices": [
+                        52,
+                        75
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "792000957970120704",
+        "quoted_status": {
+            "created_at": "Fri Oct 28 13:51:57 +0000 2016",
+            "id": 792000957970120700,
+            "id_str": "792000957970120704",
+            "text": "FIRST SEASON CHAMPION👑✨\n#ライジングゼファーフクオカ https://t.co/rcy3DOUXl4",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "ライジングゼファーフクオカ",
+                        "indices": [
+                            24,
+                            38
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 792000786922283000,
+                        "id_str": "792000786922283008",
+                        "indices": [
+                            39,
+                            62
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Cv3AhP5VIAAbDrX.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Cv3AhP5VIAAbDrX.jpg",
+                        "url": "https://t.co/rcy3DOUXl4",
+                        "display_url": "pic.twitter.com/rcy3DOUXl4",
+                        "expanded_url": "https://twitter.com/rz_fukuoka/status/792000957970120704/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 799,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1363,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 792000786922283000,
+                        "id_str": "792000786922283008",
+                        "indices": [
+                            39,
+                            62
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/Cv3AhP5VIAAbDrX.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/Cv3AhP5VIAAbDrX.jpg",
+                        "url": "https://t.co/rcy3DOUXl4",
+                        "display_url": "pic.twitter.com/rcy3DOUXl4",
+                        "expanded_url": "https://twitter.com/rz_fukuoka/status/792000957970120704/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 799,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1363,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 162980462,
+                "id_str": "162980462",
+                "name": "ライジングゼファーフクオカ",
+                "screen_name": "rz_fukuoka",
+                "location": "福岡県",
+                "description": "福岡県を拠点としているプロバスケットボールチーム『ライジングゼファーフクオカ』の公式ツイッターです！ ▼公式instagram→https://t.co/N2ddn2lzrA▼公式ブログ→https://t.co/JKt6I6ta9k",
+                "url": "https://t.co/pZPZ6CHLPK",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/pZPZ6CHLPK",
+                                "expanded_url": "http://rizing-fukuoka.com/",
+                                "display_url": "rizing-fukuoka.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/N2ddn2lzrA",
+                                "expanded_url": "https://www.instagram.com/rz_fukuoka/",
+                                "display_url": "instagram.com/rz_fukuoka/",
+                                "indices": [
+                                    64,
+                                    87
+                                ]
+                            },
+                            {
+                                "url": "https://t.co/JKt6I6ta9k",
+                                "expanded_url": "http://www.diamondblog.jp/official/rizingfuku/",
+                                "display_url": "diamondblog.jp/official/rizin…",
+                                "indices": [
+                                    94,
+                                    117
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 11522,
+                "friends_count": 5750,
+                "listed_count": 318,
+                "created_at": "Mon Jul 05 06:32:49 +0000 2010",
+                "favourites_count": 156,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 6321,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/750921092202500096/P3s3q5eF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/750921092202500096/P3s3q5eF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/162980462/1477662636",
+                "profile_link_color": "1302B4",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 110,
+            "favorite_count": 221,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    },
+    {
+        "id_str": "792365047867514883",
+        "created_at": "Sat Oct 29 13:58:43 +0000 2016",
+        "text": "キャバすか学園いよいよ今夜放送！\nちょっと遅いけど、みんな観てね〜ヽ(´ー｀)ノ💝\n感想リプお待ちしてます！！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/767527091491393537/LhTF7uJY_normal.jpg"
+        }
+    }
+]

@@ -1,0 +1,778 @@
+[
+    {
+        "id_str": "793615646483296256",
+        "created_at": "Wed Nov 02 00:48:09 +0000 2016",
+        "text": "11月すたーと( °o°)💦\nわくわくぱんだー",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "793619530463350784",
+        "created_at": "Wed Nov 02 01:03:35 +0000 2016",
+        "text": "HKT48指原莉乃、初のCM初監督　Xマスイブ1日限定OA（写真 全4枚）\noricon.co.jp/news/2080799/f …\n\n    @345__chan  ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "HKT48",
+                    "indices": [
+                        78,
+                        84
+                    ]
+                },
+                {
+                    "text": "指原莉乃",
+                    "indices": [
+                        85,
+                        90
+                    ]
+                },
+                {
+                    "text": "宮脇咲良",
+                    "indices": [
+                        91,
+                        96
+                    ]
+                },
+                {
+                    "text": "さっしー",
+                    "indices": [
+                        108,
+                        113
+                    ]
+                },
+                {
+                    "text": "さくらたん",
+                    "indices": [
+                        114,
+                        120
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "oricon",
+                    "name": "ORICON STYLE",
+                    "id": 95207674,
+                    "id_str": "95207674",
+                    "indices": [
+                        3,
+                        10
+                    ]
+                },
+                {
+                    "screen_name": "345__chan",
+                    "name": "指原 莉乃",
+                    "id": 2346809580,
+                    "id_str": "2346809580",
+                    "indices": [
+                        97,
+                        107
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/ueEMColvPd",
+                    "expanded_url": "http://www.oricon.co.jp/news/2080799/full/?ref_cd=tw_pic",
+                    "display_url": "oricon.co.jp/news/2080799/f…",
+                    "indices": [
+                        50,
+                        73
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg"
+                },
+                {
+                    "media_url": "https://pbs.twimg.com/media/CwI2wsqUAAUDbET.jpg"
+                },
+                {
+                    "media_url": "https://pbs.twimg.com/media/CwI2xnBUAAAkx8a.jpg"
+                },
+                {
+                    "media_url": "https://pbs.twimg.com/media/CwI2z7DUsAAgEub.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Tue Nov 01 01:02:15 +0000 2016",
+            "id": 793256806130737200,
+            "id_str": "793256806130737152",
+            "text": "HKT48指原莉乃、初のCM初監督　Xマスイブ1日限定OA（写真 全4枚）\nhttps://t.co/ueEMColvPd …\n\n #HKT48 #指原莉乃 #宮脇咲良 @345__chan #さっしー #さくらたん https://t.co/YG6AdAEsCW",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            66,
+                            72
+                        ]
+                    },
+                    {
+                        "text": "指原莉乃",
+                        "indices": [
+                            73,
+                            78
+                        ]
+                    },
+                    {
+                        "text": "宮脇咲良",
+                        "indices": [
+                            79,
+                            84
+                        ]
+                    },
+                    {
+                        "text": "さっしー",
+                        "indices": [
+                            96,
+                            101
+                        ]
+                    },
+                    {
+                        "text": "さくらたん",
+                        "indices": [
+                            102,
+                            108
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "345__chan",
+                        "name": "指原 莉乃",
+                        "id": 2346809580,
+                        "id_str": "2346809580",
+                        "indices": [
+                            85,
+                            95
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/ueEMColvPd",
+                        "expanded_url": "http://www.oricon.co.jp/news/2080799/full/?ref_cd=tw_pic",
+                        "display_url": "oricon.co.jp/news/2080799/f…",
+                        "indices": [
+                            38,
+                            61
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 793256663092383700,
+                        "id_str": "793256663092383744",
+                        "indices": [
+                            109,
+                            132
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg",
+                        "url": "https://t.co/YG6AdAEsCW",
+                        "display_url": "pic.twitter.com/YG6AdAEsCW",
+                        "expanded_url": "https://twitter.com/oricon/status/793256806130737152/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 286,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 793256663092383700,
+                        "id_str": "793256663092383744",
+                        "indices": [
+                            109,
+                            132
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg",
+                        "url": "https://t.co/YG6AdAEsCW",
+                        "display_url": "pic.twitter.com/YG6AdAEsCW",
+                        "expanded_url": "https://twitter.com/oricon/status/793256806130737152/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 286,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 793256694620880900,
+                        "id_str": "793256694620880901",
+                        "indices": [
+                            109,
+                            132
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwI2wsqUAAUDbET.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwI2wsqUAAUDbET.jpg",
+                        "url": "https://t.co/YG6AdAEsCW",
+                        "display_url": "pic.twitter.com/YG6AdAEsCW",
+                        "expanded_url": "https://twitter.com/oricon/status/793256806130737152/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 286,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 793256710286606300,
+                        "id_str": "793256710286606336",
+                        "indices": [
+                            109,
+                            132
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwI2xnBUAAAkx8a.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwI2xnBUAAAkx8a.jpg",
+                        "url": "https://t.co/YG6AdAEsCW",
+                        "display_url": "pic.twitter.com/YG6AdAEsCW",
+                        "expanded_url": "https://twitter.com/oricon/status/793256806130737152/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 286,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 793256750023487500,
+                        "id_str": "793256750023487488",
+                        "indices": [
+                            109,
+                            132
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwI2z7DUsAAgEub.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwI2z7DUsAAgEub.jpg",
+                        "url": "https://t.co/YG6AdAEsCW",
+                        "display_url": "pic.twitter.com/YG6AdAEsCW",
+                        "expanded_url": "https://twitter.com/oricon/status/793256806130737152/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 286,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1200,
+                                "h": 505,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 95207674,
+                "id_str": "95207674",
+                "name": "ORICON STYLE",
+                "screen_name": "oricon",
+                "location": "東京都港区六本木",
+                "description": "ORICON STYLE（オリコンスタイル）は、話題の最新芸能ニュースや音楽ニュース、オリコンランキングなどのエンタメ情報を毎日発信するエンターテインメントサイトです。",
+                "url": "http://t.co/TBiV19SVaI",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/TBiV19SVaI",
+                                "expanded_url": "http://www.oricon.co.jp/",
+                                "display_url": "oricon.co.jp",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 178343,
+                "friends_count": 22950,
+                "listed_count": 5069,
+                "created_at": "Mon Dec 07 14:15:16 +0000 2009",
+                "favourites_count": 43,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 97835,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_link_color": "006AB7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 492,
+            "favorite_count": 1242,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "793256806130737152",
+            "created_at": "Tue Nov 01 2016 09:02:15 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": [
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CwI2u3NVUAATjIH.jpg"
+                    },
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CwI2wsqUAAUDbET.jpg"
+                    },
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CwI2xnBUAAAkx8a.jpg"
+                    },
+                    {
+                        "media_url": "https://pbs.twimg.com/media/CwI2z7DUsAAgEub.jpg"
+                    }
+                ]
+            },
+            "user": {
+                "name": "ORICON STYLE",
+                "screen_name": "oricon",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_bigger.png"
+            },
+            "text": "HKT48指原莉乃、初のCM初監督　Xマスイブ1日限定OA（写真 全4枚）\noricon.co.jp/news/2080799/f …\n\n    @345__chan  ",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "345__chan",
+                        "indices": [
+                            73,
+                            83
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "display_url": "oricon.co.jp/news/2080799/f",
+                        "indices": [
+                            38,
+                            65
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            70,
+                            70
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            71,
+                            71
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            72,
+                            72
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            84,
+                            84
+                        ]
+                    },
+                    {
+                        "display_url": "",
+                        "indices": [
+                            85,
+                            85
+                        ]
+                    }
+                ],
+                "lastIndices": 85
+            }
+        },
+        {
+            "id_str": "793620400680730625",
+            "created_at": "Wed Nov 02 01:07:02 +0000 2016",
+            "text": "@oricon \n私はなぜかTEAM PLAYのリーダーに😉💦\nさしさん監督のCMたのしみ！！\n皆さん応援よろしくお願いします！！\nそして私、、、コアラだったのね🐼🐨",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "oricon",
+                        "name": "ORICON STYLE",
+                        "id": 95207674,
+                        "id_str": "95207674",
+                        "indices": [
+                            0,
+                            7
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "793256806130737152",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "793760855649193984",
+            "created_at": "Wed Nov 02 10:25:10 +0000 2016",
+            "text": "久しぶりにshowroomしよっかなぁ〜😗\n21時くらいになるとおもう！！\n見てね〜\n\n",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "はるっぴroom",
+                        "indices": [
+                            44,
+                            53
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "793784311870738432",
+            "created_at": "Wed Nov 02 11:58:22 +0000 2016",
+            "text": "@haruka_kdm919 準備中...\nまもなくはじめマース！\n\n",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "はるっぴroom",
+                        "indices": [
+                            35,
+                            44
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "793760855649193984",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "793803087135674368",
+        "created_at": "Wed Nov 02 13:12:58 +0000 2016",
+        "text": "showroom観てくださった皆さん\nありがとうございましたー！\n\n眠たいから、寝よっと。。。\nおやすみなさーい☆",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 793803077421719600,
+                    "id_str": "793803077421719557",
+                    "indices": [
+                        58,
+                        81
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwQnsXNVYAU66ox.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwQnsXNVYAU66ox.jpg",
+                    "url": "https://t.co/TdhJYYHjUS",
+                    "display_url": "pic.twitter.com/TdhJYYHjUS",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/793803087135674368/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 793803077421719600,
+                    "id_str": "793803077421719557",
+                    "indices": [
+                        58,
+                        81
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwQnsXNVYAU66ox.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwQnsXNVYAU66ox.jpg",
+                    "url": "https://t.co/TdhJYYHjUS",
+                    "display_url": "pic.twitter.com/TdhJYYHjUS",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/793803087135674368/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 793803077421703200,
+                    "id_str": "793803077421703168",
+                    "indices": [
+                        58,
+                        81
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwQnsXNVIAAwWMt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwQnsXNVIAAwWMt.jpg",
+                    "url": "https://t.co/TdhJYYHjUS",
+                    "display_url": "pic.twitter.com/TdhJYYHjUS",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/793803087135674368/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 511,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
