@@ -178,11 +178,15 @@ export default class TalkList extends React.Component {
   }
 
   _renderTalkPostTextContent(post){
-    return [
-      post.body.map(b=>this._renderPostBody(b)),
-      <br />,
-      post.body.map(b=>this._renderTranslate(b))
-    ];
+
+    // disable source text
+    // return [
+    //   post.body.map(b=>this._renderPostBody(b)),
+    //   <br />,
+    //   post.body.map(b=>this._renderTranslate(b))
+    // ];
+
+    return post.body.map(b=>this._renderTranslate(b))
   }
 
   _renderTalkpostStampContent(post, baseClass){
@@ -221,19 +225,31 @@ export default class TalkList extends React.Component {
     let {user} = commentObj.comment;
     let replyBody = body.slice(1, body.length);
 
+    // disable source text
+    // return [
+    //     <div className={`${baseClass}Quote aa`}>
+    //       {this._renderUserInfoPart(`${baseClass}Quote`, user)}
+    //       <div className={`${baseClass}Quote__text`}>
+    //         {this._renderPostBody(commentObj)}
+    //         <br />
+    //         {this._renderTranslate(commentObj)}
+    //       </div>
+    //     </div>,
+    //     replyBody.map(b=>this._renderPostBody(b)),
+    //     <br />,
+    //     replyBody.map(b=>this._renderTranslate(b))
+    // ]
+
     return [
         <div className={`${baseClass}Quote aa`}>
           {this._renderUserInfoPart(`${baseClass}Quote`, user)}
           <div className={`${baseClass}Quote__text`}>
-            {this._renderPostBody(commentObj)}
-            <br />
             {this._renderTranslate(commentObj)}
           </div>
         </div>,
-        replyBody.map(b=>this._renderPostBody(b)),
-        <br />,
         replyBody.map(b=>this._renderTranslate(b))
     ]
+
   }
 
   _renderTalkPostRetalkContent(post){
@@ -247,9 +263,14 @@ export default class TalkList extends React.Component {
   }
 
   _renderTalkPostTextImageContent(post){
+    // disable source text
+    // return [
+    //   post.body.map(b=>this._renderPostBody(b)),
+    //   <br />,
+    //   post.body.map(b=>this._renderTranslate(b))
+    // ];
+
     return [
-      post.body.map(b=>this._renderPostBody(b)),
-      <br />,
       post.body.map(b=>this._renderTranslate(b))
     ];
   }

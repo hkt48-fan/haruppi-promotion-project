@@ -35,6 +35,11 @@ body {
   height: 76px;
 }
 
-// .AdaptiveMedia-thirdHeightPhoto {
-//   width: 200%;
-// }
+.tweet-text {
+  display: none;
+}
+
+.tweet-text.translate {
+  display: initial;
+  // color: black;
+}
