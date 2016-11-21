@@ -1,0 +1,296 @@
+[
+    {
+        "id_str": "794711762972987392",
+        "created_at": "Sat Nov 05 01:23:43 +0000 2016",
+        "text": "おはようございます☀︎\nメイクで隠せる程度でした。\nお騒がせ女でごめんなさい💦\nよかった〜\nいろんな対策リプくれてありがと💓",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 794711759017738200,
+                    "id_str": "794711759017738240",
+                    "indices": [
+                        63,
+                        86
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwdiIl8UAAAc8xU.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwdiIl8UAAAc8xU.jpg",
+                    "url": "https://t.co/VC8Wt8xKj8",
+                    "display_url": "pic.twitter.com/VC8Wt8xKj8",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794711762972987392/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 794711759017738200,
+                    "id_str": "794711759017738240",
+                    "indices": [
+                        63,
+                        86
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwdiIl8UAAAc8xU.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwdiIl8UAAAc8xU.jpg",
+                    "url": "https://t.co/VC8Wt8xKj8",
+                    "display_url": "pic.twitter.com/VC8Wt8xKj8",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794711762972987392/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794893828603809796",
+        "created_at": "Sat Nov 05 13:27:11 +0000 2016",
+        "text": "皆さんのつぶやきのおかげで完成しました☺️\n期待に添えているか分かりませんが、、、",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/MqjJJWObIj",
+                    "expanded_url": "https://twitter.com/tsubuyakicm/status/794778513383387136",
+                    "display_url": "twitter.com/tsubuyakicm/st…",
+                    "indices": [
+                        42,
+                        65
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "794778513383387136",
+        "quoted_status": {
+            "created_at": "Sat Nov 05 05:48:58 +0000 2016",
+            "id": 794778513383387100,
+            "id_str": "794778513383387136",
+            "text": "【速報】HKT48の兒玉遥さんが出演するフルーティオのCMができあがりました！ぜひご覧ください！https://t.co/NtCkiTLQDC　#つぶやきCM　#兒玉遥",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "つぶやきCM",
+                        "indices": [
+                            72,
+                            79
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            80,
+                            84
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/NtCkiTLQDC",
+                        "expanded_url": "http://lottegum.jp/shr/cm/ed1ebb466b5c4bf8b20781df5979cc80581887fc",
+                        "display_url": "lottegum.jp/shr/cm/ed1ebb4…",
+                        "indices": [
+                            48,
+                            71
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 783209817779208200,
+                "id_str": "783209817779208192",
+                "name": "ロッテガムつぶやきCMグランプリ【公式】",
+                "screen_name": "tsubuyakicm",
+                "location": "",
+                "description": "◆ロッテガムつぶやきCMグランプリ公式アカウントです。◆HKT４８vs欅坂４６！どっちが主役にふさわしいのか！？勝者を決めるのはキミの企画次第！みんながガムをもっと好きになるCM企画をつぶやいてね！私たちがカラダを張って演じます！面白い企画は、即撮影！即公開！いいと思ったCMには、推しCM♥ボタンで投票してくださいね。",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 9346,
+                "friends_count": 0,
+                "listed_count": 50,
+                "created_at": "Tue Oct 04 07:39:06 +0000 2016",
+                "favourites_count": 0,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 84,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/785654603832360960/ctYCEPMb_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/785654603832360960/ctYCEPMb_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/783209817779208192/1476149621",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 232,
+            "favorite_count": 385,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "794916875868073985",
+            "created_at": "Sat Nov 05 14:58:46 +0000 2016",
+            "text": "今夜は！0時55分～\n「キャバすか学園」第2話放送です💫\nタイちゃんキャバ嬢シーン、地上波初公開！\nぜひみてくださーい🐟♡\n\n",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "キャバすか学園",
+                        "indices": [
+                            63,
+                            71
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "794923162404155392",
+            "created_at": "Sat Nov 05 15:23:45 +0000 2016",
+            "text": "@haruka_kdm919 今日は、01:05～だった！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "794916875868073985",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ]
+]

@@ -1,0 +1,208 @@
+[
+    {
+        "id_str": "798852698829225984",
+        "created_at": "Wed Nov 16 11:38:20 +0000 2016",
+        "text": "でます！\n深夜のおしゃべり楽しみ〜💕\n😴？😉？",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/hCRNiRDzfn",
+                    "expanded_url": "https://twitter.com/showroom_jp/status/798768770143502336",
+                    "display_url": "twitter.com/showroom_jp/st…",
+                    "indices": [
+                        24,
+                        47
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "798768770143502336",
+        "quoted_status": {
+            "created_at": "Wed Nov 16 06:04:49 +0000 2016",
+            "id": 798768770143502300,
+            "id_str": "798768770143502336",
+            "text": "本日25時からの「AKB48のオールナイトニッポン」出演メンバーは、#宮脇咲良（HKT48） #入山杏奈　#兒玉遥（HKT48） #木﨑ゆりあ　#小嶋真子\n\n通常✨\nhttps://t.co/SjXcrI1wso\n\nVR(スマホ)… https://t.co/2GKmWhUd42",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "宮脇咲良",
+                        "indices": [
+                            34,
+                            39
+                        ]
+                    },
+                    {
+                        "text": "入山杏奈",
+                        "indices": [
+                            47,
+                            52
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            53,
+                            57
+                        ]
+                    },
+                    {
+                        "text": "木﨑ゆりあ",
+                        "indices": [
+                            65,
+                            71
+                        ]
+                    },
+                    {
+                        "text": "小嶋真子",
+                        "indices": [
+                            72,
+                            77
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/SjXcrI1wso",
+                        "expanded_url": "https://www.showroom-live.com/allnightnippon",
+                        "display_url": "showroom-live.com/allnightnippon",
+                        "indices": [
+                            83,
+                            106
+                        ]
+                    },
+                    {
+                        "url": "https://t.co/2GKmWhUd42",
+                        "expanded_url": "https://twitter.com/i/web/status/798768770143502336",
+                        "display_url": "twitter.com/i/web/status/7…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2212674829,
+                "id_str": "2212674829",
+                "name": "SHOWROOM公式",
+                "screen_name": "SHOWROOM_jp",
+                "location": "",
+                "description": "ライブストリーミングサービス #SHOWROOM （ショールーム）の公式アカウントです。アプリ：iOS→ https://t.co/nhSl4yLuga / Android→ https://t.co/Z08dY8ZgYm ※お問い合わせ→ https://t.co/Q4YGHOBXiU",
+                "url": "https://t.co/F83ik0MAZM",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/F83ik0MAZM",
+                                "expanded_url": "https://www.showroom-live.com/",
+                                "display_url": "showroom-live.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/nhSl4yLuga",
+                                "expanded_url": "http://bit.ly/1s6GH7x",
+                                "display_url": "bit.ly/1s6GH7x",
+                                "indices": [
+                                    53,
+                                    76
+                                ]
+                            },
+                            {
+                                "url": "https://t.co/Z08dY8ZgYm",
+                                "expanded_url": "http://bit.ly/1s7ce9b",
+                                "display_url": "bit.ly/1s7ce9b",
+                                "indices": [
+                                    88,
+                                    111
+                                ]
+                            },
+                            {
+                                "url": "https://t.co/Q4YGHOBXiU",
+                                "expanded_url": "https://www.showroom-live.com/inquiry/",
+                                "display_url": "showroom-live.com/inquiry/",
+                                "indices": [
+                                    121,
+                                    144
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 33485,
+                "friends_count": 1916,
+                "listed_count": 404,
+                "created_at": "Sun Nov 24 15:45:58 +0000 2013",
+                "favourites_count": 21035,
+                "utc_offset": -28800,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 21046,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000123918812/a8deb7e508b42e93c3a937b790905bc0.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000123918812/a8deb7e508b42e93c3a937b790905bc0.jpeg",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/499441615979560960/v_2UZKXj_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/499441615979560960/v_2UZKXj_normal.jpeg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2212674829/1473748728",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 363,
+            "favorite_count": 551,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

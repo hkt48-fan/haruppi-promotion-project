@@ -1,0 +1,54 @@
+[
+    {
+        "id_str": "797689206910763008",
+        "created_at": "Sun Nov 13 06:35:01 +0000 2016",
+        "text": "HKT48 5th ANNIVERSARYのお知らせ🦄⭐️\nhkt48.jp/lp/5th-anniv",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/QCPmPUcfMS",
+                    "expanded_url": "http://www.hkt48.jp/lp/5th-anniv",
+                    "display_url": "hkt48.jp/lp/5th-anniv",
+                    "indices": [
+                        30,
+                        53
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "797791865651113984",
+        "created_at": "Sun Nov 13 13:22:57 +0000 2016",
+        "text": "🔋１%\n最後の力をふりしぼって...\nおやすみなさー",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

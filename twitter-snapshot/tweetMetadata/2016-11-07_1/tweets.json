@@ -1,0 +1,438 @@
+[
+    {
+        "id_str": "795444423463038976",
+        "created_at": "Mon Nov 07 01:55:03 +0000 2016",
+        "text": "OAで紹介の通り「ももち浜女学院」での、はるっぴ＆まいちゃんのコンビ名を決めます！下記の①～③の候補のうち、いいと思うものに投票をお願いします！暫定の「はるまい」がいい方は④に投票下さい。結果は後日OAで！      ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "rkbhkt",
+                    "indices": [
+                        124,
+                        131
+                    ]
+                },
+                {
+                    "text": "もも女",
+                    "indices": [
+                        132,
+                        136
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "hktmomochihama",
+                    "name": "HKT48のももち浜女学院",
+                    "id": 753450432098218000,
+                    "id_str": "753450432098217984",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Sat Nov 05 14:24:38 +0000 2016",
+            "id": 794908286063521800,
+            "id_str": "794908286063521792",
+            "text": "OAで紹介の通り「ももち浜女学院」での、はるっぴ＆まいちゃんのコンビ名を決めます！下記の①～③の候補のうち、いいと思うものに投票をお願いします！暫定の「はるまい」がいい方は④に投票下さい。結果は後日OAで！ #rkbhkt #もも女 #兒玉遥 #渕上舞 #hkt48 #akb48",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "rkbhkt",
+                        "indices": [
+                            104,
+                            111
+                        ]
+                    },
+                    {
+                        "text": "もも女",
+                        "indices": [
+                            112,
+                            116
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            117,
+                            121
+                        ]
+                    },
+                    {
+                        "text": "渕上舞",
+                        "indices": [
+                            122,
+                            126
+                        ]
+                    },
+                    {
+                        "text": "hkt48",
+                        "indices": [
+                            127,
+                            133
+                        ]
+                    },
+                    {
+                        "text": "akb48",
+                        "indices": [
+                            134,
+                            140
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 753450432098218000,
+                "id_str": "753450432098217984",
+                "name": "HKT48のももち浜女学院",
+                "screen_name": "hktmomochihama",
+                "location": "福岡県福岡市早良区百道浜",
+                "description": "『もも女』公式アカウントです。 　　　　RKBラジオ他3局ネットで超絶放送中！ 出演はHKT48 兒玉遥 & 渕上舞＋ケン坊田中。メールはhkt@rkbr.jpまで。福岡RKBラジオ は土曜夜11：00～11：30 ・鹿児島MBCラジオは日曜夜10：30～・ 山口KRYラジオは月曜夜8時～OA！ 合言葉は「録音よ～！」",
+                "url": "https://t.co/h6BaMlGS57",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/h6BaMlGS57",
+                                "expanded_url": "http://blog.rkbr.jp/hkt/",
+                                "display_url": "blog.rkbr.jp/hkt/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 2983,
+                "friends_count": 25,
+                "listed_count": 35,
+                "created_at": "Thu Jul 14 04:45:56 +0000 2016",
+                "favourites_count": 15,
+                "utc_offset": -28800,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 43,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/753451986524090368/A-cr30Rq_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/753451986524090368/A-cr30Rq_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/753450432098217984/1476265042",
+                "profile_link_color": "F58EA8",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 217,
+            "favorite_count": 425,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [],
+    [
+        {
+            "id_str": "795462000272736256",
+            "created_at": "Mon Nov 07 03:04:54 +0000 2016",
+            "text": "地味にスゴイ！\n台本までかわいい😭💓",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 795461990671974400,
+                        "id_str": "795461990671974400",
+                        "indices": [
+                            19,
+                            42
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwoMd0pUAAAuee5.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwoMd0pUAAAuee5.jpg",
+                        "url": "https://t.co/i2ODrMAGlJ",
+                        "display_url": "pic.twitter.com/i2ODrMAGlJ",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/795462000272736256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 795461990671974400,
+                        "id_str": "795461990671974400",
+                        "indices": [
+                            19,
+                            42
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwoMd0pUAAAuee5.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwoMd0pUAAAuee5.jpg",
+                        "url": "https://t.co/i2ODrMAGlJ",
+                        "display_url": "pic.twitter.com/i2ODrMAGlJ",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/795462000272736256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 900,
+                                "h": 1200,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1536,
+                                "h": 2048,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "795476975582220288",
+            "created_at": "Mon Nov 07 2016 12:04:24 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "795462000272736256",
+            "user": {
+                "name": "ＫｅｉＺｅｅ",
+                "screen_name": "KeiZee_Dosue",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/573899003227570176/AijL4oHj_bigger.jpeg"
+            },
+            "text": "@haruka_kdm919 \nそれはキャバすかなら\nもっと可愛く台本作れよ❗️😳\n\nの批判⁉️😏",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 51
+            }
+        },
+        {
+            "id_str": "795497221995102208",
+            "created_at": "Mon Nov 07 05:24:52 +0000 2016",
+            "text": "@KeiZee_Dosue まったくちがう😞受け取られ方ちがってかなしい。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "KeiZee_Dosue",
+                        "name": "ＫｅｉＺｅｅ",
+                        "id": 3065193594,
+                        "id_str": "3065193594",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "795476975582220288",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "795532248300650498",
+        "created_at": "Mon Nov 07 07:44:02 +0000 2016",
+        "text": "現場にいったら、、、\nこんなものが存在していたみたい😳\nありがたや💝💕✨\nもう半分以上撮り終えましたよ〜\nいよいよ終盤！がんばります！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 795532233805205500,
+                    "id_str": "795532233805205504",
+                    "indices": [
+                        68,
+                        91
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwpMWgtVEAA5WKz.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwpMWgtVEAA5WKz.jpg",
+                    "url": "https://t.co/v6AdG7l6tl",
+                    "display_url": "pic.twitter.com/v6AdG7l6tl",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/795532248300650498/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1536,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 795532233805205500,
+                    "id_str": "795532233805205504",
+                    "indices": [
+                        68,
+                        91
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwpMWgtVEAA5WKz.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwpMWgtVEAA5WKz.jpg",
+                    "url": "https://t.co/v6AdG7l6tl",
+                    "display_url": "pic.twitter.com/v6AdG7l6tl",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/795532248300650498/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 900,
+                            "h": 1200,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1536,
+                            "h": 2048,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

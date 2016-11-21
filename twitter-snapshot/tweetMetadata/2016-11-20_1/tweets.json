@@ -1,0 +1,321 @@
+[
+    {
+        "id_str": "800165915341897729",
+        "created_at": "Sun Nov 20 02:36:35 +0000 2016",
+        "text": "【キャバすかNews】\n発売中の「TVstation」24号に、\n宮脇咲良さん＆兒玉遥さんのインタビューが掲載中！\n仲良し２ショット対談をぜひチェックしてください！\n    ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "キャバすか",
+                    "indices": [
+                        97,
+                        103
+                    ]
+                },
+                {
+                    "text": "宮脇咲良",
+                    "indices": [
+                        104,
+                        109
+                    ]
+                },
+                {
+                    "text": "兒玉遥",
+                    "indices": [
+                        110,
+                        114
+                    ]
+                },
+                {
+                    "text": "HKT48",
+                    "indices": [
+                        115,
+                        121
+                    ]
+                },
+                {
+                    "text": "AKB48",
+                    "indices": [
+                        122,
+                        128
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "cabasuka",
+                    "name": "キャバすか学園【公式】11/26第4話",
+                    "id": 788043826673745900,
+                    "id_str": "788043826673745922",
+                    "indices": [
+                        3,
+                        12
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/CxpjhKuUUAAEppa.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Sat Nov 19 19:40:56 +0000 2016",
+            "id": 800061313112100900,
+            "id_str": "800061313112100864",
+            "text": "【キャバすかNews】\n発売中の「TVstation」24号に、\n宮脇咲良さん＆兒玉遥さんのインタビューが掲載中！\n仲良し２ショット対談をぜひチェックしてください！\n#キャバすか #宮脇咲良 #兒玉遥 #HKT48 #AKB48 https://t.co/uoXU7uIACL",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "キャバすか",
+                        "indices": [
+                            83,
+                            89
+                        ]
+                    },
+                    {
+                        "text": "宮脇咲良",
+                        "indices": [
+                            90,
+                            95
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            96,
+                            100
+                        ]
+                    },
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            101,
+                            107
+                        ]
+                    },
+                    {
+                        "text": "AKB48",
+                        "indices": [
+                            108,
+                            114
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 800061305277141000,
+                        "id_str": "800061305277140992",
+                        "indices": [
+                            115,
+                            138
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CxpjhKuUUAAEppa.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CxpjhKuUUAAEppa.jpg",
+                        "url": "https://t.co/uoXU7uIACL",
+                        "display_url": "pic.twitter.com/uoXU7uIACL",
+                        "expanded_url": "https://twitter.com/cabasuka/status/800061313112100864/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 800061305277141000,
+                        "id_str": "800061305277140992",
+                        "indices": [
+                            115,
+                            138
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CxpjhKuUUAAEppa.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CxpjhKuUUAAEppa.jpg",
+                        "url": "https://t.co/uoXU7uIACL",
+                        "display_url": "pic.twitter.com/uoXU7uIACL",
+                        "expanded_url": "https://twitter.com/cabasuka/status/800061313112100864/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 480,
+                                "h": 640,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 788043826673745900,
+                "id_str": "788043826673745922",
+                "name": "キャバすか学園【公式】11/26第4話",
+                "screen_name": "cabasuka",
+                "location": "",
+                "description": "日本テレビ「キャバすか学園」公式Twitterです！ドラマの最新情報やオフショットをお届けします！毎週土曜24:55〜25:25（※関東ローカル）放送です。Huluで独占先行配信中！",
+                "url": "https://t.co/3gr1zGc6LC",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/3gr1zGc6LC",
+                                "expanded_url": "http://www.ntv.co.jp/kyabasuka/",
+                                "display_url": "ntv.co.jp/kyabasuka/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 29280,
+                "friends_count": 24,
+                "listed_count": 175,
+                "created_at": "Mon Oct 17 15:47:44 +0000 2016",
+                "favourites_count": 1,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 182,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793235272938819584/ukx7nQ_w_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/793235272938819584/ukx7nQ_w_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/788043826673745922/1477943809",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 189,
+            "favorite_count": 840,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "800206239405740032",
+        "created_at": "Sun Nov 20 05:16:49 +0000 2016",
+        "text": "誕プレ選びヽ(´ー｀)ノ✨\nすごく悩むけど、楽しい",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "800238055214891008",
+        "created_at": "Sun Nov 20 07:23:14 +0000 2016",
+        "text": "感謝😭💓\nめろっぴの心にハグしたい。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

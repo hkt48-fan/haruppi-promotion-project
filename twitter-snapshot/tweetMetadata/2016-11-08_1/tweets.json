@@ -1,0 +1,77 @@
+[
+    [
+        {
+            "id_str": "795782714733383680",
+            "created_at": "Tue Nov 08 2016 08:19:18 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "古川泰裕",
+                "screen_name": "Brave1322Proud",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/642763714760847360/hQVRIpPu_bigger.jpg"
+            },
+            "text": "負傷者がいなくてよかった。本当に不幸中の幸い。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 23
+            }
+        },
+        {
+            "id_str": "795804404095938560",
+            "created_at": "Tue Nov 08 01:45:29 +0000 2016",
+            "text": "@Brave1322Proud 😨😢😉",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "Brave1322Proud",
+                        "name": "古川泰裕",
+                        "id": 2911362030,
+                        "id_str": "2911362030",
+                        "indices": [
+                            0,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "795782714733383680",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "795967994115473408",
+        "created_at": "Tue Nov 08 12:35:32 +0000 2016",
+        "text": "今日は歌収録していました😊\n「ハイテンション」この曲すごく好きー！！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

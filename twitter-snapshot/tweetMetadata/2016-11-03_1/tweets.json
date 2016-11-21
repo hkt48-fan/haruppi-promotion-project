@@ -1,0 +1,480 @@
+[
+    {
+        "id_str": "794002854860111874",
+        "created_at": "Thu Nov 03 02:26:47 +0000 2016",
+        "text": "打ち合わせの成果出せるように頑張らなきゃ〜！\nぁあ、ハンバーグ美味しかったなぁ💕\n里英さんごちそうさまでした😭",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/xQf6VySQfP",
+                    "expanded_url": "https://twitter.com/rie_kitahara3/status/793837531351494656",
+                    "display_url": "twitter.com/rie_kitahara3/…",
+                    "indices": [
+                        56,
+                        79
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "793837531351494656",
+        "quoted_status": {
+            "created_at": "Wed Nov 02 15:29:50 +0000 2016",
+            "id": 793837531351494700,
+            "id_str": "793837531351494656",
+            "text": "そして明日の秋祭りステージもありますっ🙈💕今日はステージの打ち合わせも兼ねてはるっぴとランチしてきた🍽気合入ってるぅ⤴︎はるっぴとランチ楽しかったな😘💕 https://t.co/cl1k6v3lPO",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 793837518357614600,
+                        "id_str": "793837518357614592",
+                        "indices": [
+                            77,
+                            100
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwRHBFsVUAAPCIG.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwRHBFsVUAAPCIG.jpg",
+                        "url": "https://t.co/cl1k6v3lPO",
+                        "display_url": "pic.twitter.com/cl1k6v3lPO",
+                        "expanded_url": "https://twitter.com/Rie_Kitahara3/status/793837531351494656/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 750,
+                                "h": 1000,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 1000,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 793837518357614600,
+                        "id_str": "793837518357614592",
+                        "indices": [
+                            77,
+                            100
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CwRHBFsVUAAPCIG.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CwRHBFsVUAAPCIG.jpg",
+                        "url": "https://t.co/cl1k6v3lPO",
+                        "display_url": "pic.twitter.com/cl1k6v3lPO",
+                        "expanded_url": "https://twitter.com/Rie_Kitahara3/status/793837531351494656/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 750,
+                                "h": 1000,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 1000,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 510,
+                                "h": 680,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2265524971,
+                "id_str": "2265524971",
+                "name": "北原里英",
+                "screen_name": "Rie_Kitahara3",
+                "location": "",
+                "description": "NGT48の北原里英です。ほんものです。  最近Inst agramもはじめました。 🍜らぁめん花月嵐 燕三条系ラーメン『旬香』食べてね🍜",
+                "url": "https://t.co/aQx29pOoas",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/aQx29pOoas",
+                                "expanded_url": "http://s.ameblo.jp/kitahara-rie/",
+                                "display_url": "s.ameblo.jp/kitahara-rie/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 485948,
+                "friends_count": 254,
+                "listed_count": 5038,
+                "created_at": "Sat Dec 28 07:18:11 +0000 2013",
+                "favourites_count": 291,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 5051,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/764391940200599552/DZvENoYD_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/764391940200599552/DZvENoYD_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2265524971/1439553310",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 456,
+            "favorite_count": 2784,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794047618561122304",
+        "created_at": "Thu Nov 03 05:24:39 +0000 2016",
+        "text": "秋祭り、、りえさんとのら最初のステージ来てくださった皆さん\nありがとうございました😉😉⭐️\n久しぶりに運動した！笑",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794067691564765184",
+        "created_at": "Thu Nov 03 06:44:25 +0000 2016",
+        "text": "ソロステージありがとーう(^o^)/💓\nすごーくあっという間でしたね、、、\n「最高かよ」早くライブでやりたーい。ツアーしたーい。\n\n",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "AKB48秋祭り",
+                    "indices": [
+                        66,
+                        75
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 794067658220052500,
+                    "id_str": "794067658220052480",
+                    "indices": [
+                        76,
+                        99
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwUYU_fVIAAYTPG.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwUYU_fVIAAYTPG.jpg",
+                    "url": "https://t.co/CWkqCmMSwn",
+                    "display_url": "pic.twitter.com/CWkqCmMSwn",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794067691564765184/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1536,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 794067658220052500,
+                    "id_str": "794067658220052480",
+                    "indices": [
+                        76,
+                        99
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwUYU_fVIAAYTPG.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwUYU_fVIAAYTPG.jpg",
+                    "url": "https://t.co/CWkqCmMSwn",
+                    "display_url": "pic.twitter.com/CWkqCmMSwn",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794067691564765184/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1536,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794138351259389952",
+        "created_at": "Thu Nov 03 11:25:11 +0000 2016",
+        "text": "二つめのソロステージ、みんなありがとう💓\n小泉今日子さんの「学園天国」\nSKE48さんの「アイシテラブル！」NMB48「ナギイチ」\n「ひといきつきながら」はまさかのアカペラ💦💦💦\nハプニングごめんなさい🙏\nでもなんだか、楽しかった！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 794138349300650000,
+                    "id_str": "794138349300649985",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwVYnwSUkAE7_vs.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwVYnwSUkAE7_vs.jpg",
+                    "url": "https://t.co/NJt0ao6cV0",
+                    "display_url": "pic.twitter.com/NJt0ao6cV0",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794138351259389952/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 511,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 794138349300650000,
+                    "id_str": "794138349300649985",
+                    "indices": [
+                        117,
+                        140
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CwVYnwSUkAE7_vs.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CwVYnwSUkAE7_vs.jpg",
+                    "url": "https://t.co/NJt0ao6cV0",
+                    "display_url": "pic.twitter.com/NJt0ao6cV0",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/794138351259389952/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 511,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 751,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794139140988104704",
+        "created_at": "Thu Nov 03 11:28:20 +0000 2016",
+        "text": "次のソロステージ一曲目は「涙サプライズ」😊\nどうしてなのかは、本番で✋\nだいたい予想つくかな？",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "794190168198496257",
+        "created_at": "Thu Nov 03 14:51:06 +0000 2016",
+        "text": "最後のステージは、9月誕生日だけど4公演スケジュール合わなくて生誕祭できてないから、プチ生誕祭開催！\nただ祝ってもらいたくて😂😂😂笑\n1人じゃおぼつかないステージを見守ってくださって、ありがとうございました💕✨みんな優しくて泣ける、、、",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/7BSKzPJMyg",
+                    "expanded_url": "https://twitter.com/i/web/status/794190168198496257",
+                    "display_url": "twitter.com/i/web/status/7…",
+                    "indices": [
+                        117,
+                        140
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/CwWHvZJVIAAbDMl.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
