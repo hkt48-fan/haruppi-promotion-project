@@ -1,0 +1,478 @@
+[
+    {
+        "id_str": "802330315289047040",
+        "created_at": "Sat Nov 26 01:57:08 +0000 2016",
+        "text": "天神コア、行こうかな…😏✌️",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "39saku_chan",
+                    "name": "宮脇 咲良",
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "indices": [
+                        3,
+                        15
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Sat Nov 26 01:38:14 +0000 2016",
+            "id": 802325559900414000,
+            "id_str": "802325559900413953",
+            "text": "天神コア、行こうかな…😏✌️",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "ドクターXスピンオフドラマ「ドクターY」テレ朝動画にて配信中/日テレドラマ「キャバすか学園」毎週土曜24:55〜",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 162361,
+                "friends_count": 181,
+                "listed_count": 1473,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 117,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 141,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 737,
+            "favorite_count": 4089,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "802345847962759168",
+        "created_at": "Sat Nov 26 02:58:51 +0000 2016",
+        "text": "最高かよ",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/zMynjaj8s6",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/802345469703659520",
+                    "display_url": "twitter.com/39saku_chan/st…",
+                    "indices": [
+                        5,
+                        28
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "802345469703659520",
+        "quoted_status": {
+            "created_at": "Sat Nov 26 02:57:21 +0000 2016",
+            "id": 802345469703659500,
+            "id_str": "802345469703659520",
+            "text": "天神コア特設ステージの\n明太子唐揚げ美味しすぎる😢 https://t.co/vZe8VbhmgJ",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 802345462317531100,
+                        "id_str": "802345462317531136",
+                        "indices": [
+                            26,
+                            49
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CyKA8myVQAA2gOS.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CyKA8myVQAA2gOS.jpg",
+                        "url": "https://t.co/vZe8VbhmgJ",
+                        "display_url": "pic.twitter.com/vZe8VbhmgJ",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/802345469703659520/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 1000,
+                                "h": 751,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 511,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1000,
+                                "h": 751,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 802345462317531100,
+                        "id_str": "802345462317531136",
+                        "indices": [
+                            26,
+                            49
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CyKA8myVQAA2gOS.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CyKA8myVQAA2gOS.jpg",
+                        "url": "https://t.co/vZe8VbhmgJ",
+                        "display_url": "pic.twitter.com/vZe8VbhmgJ",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/802345469703659520/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 1000,
+                                "h": 751,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 511,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1000,
+                                "h": 751,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "ドクターXスピンオフドラマ「ドクターY」テレ朝動画にて配信中/日テレドラマ「キャバすか学園」毎週土曜24:55〜",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 162361,
+                "friends_count": 181,
+                "listed_count": 1473,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 117,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 141,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1253,
+            "favorite_count": 6655,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "802489068185522177",
+        "created_at": "Sat Nov 26 12:27:58 +0000 2016",
+        "text": "HKT48 5周年記念特別公演おわりました！劇場の温もり、余韻に浸っています、、、\nこれからもみんなの笑顔がみたい。\n私にできることは本当に少ないけど、夢に向かって日々精進！\nありがとうございました。💓",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 802488791583727600,
+                    "id_str": "802488791583727616",
+                    "indices": [
+                        102,
+                        125
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CyMDTd6UoAA8HKz.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CyMDTd6UoAA8HKz.jpg",
+                    "url": "https://t.co/UUTpkNVof4",
+                    "display_url": "pic.twitter.com/UUTpkNVof4",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/802489068185522177/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 802488791583727600,
+                    "id_str": "802488791583727616",
+                    "indices": [
+                        102,
+                        125
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CyMDTd6UoAA8HKz.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CyMDTd6UoAA8HKz.jpg",
+                    "url": "https://t.co/UUTpkNVof4",
+                    "display_url": "pic.twitter.com/UUTpkNVof4",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/802489068185522177/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 802488792422576100,
+                    "id_str": "802488792422576128",
+                    "indices": [
+                        102,
+                        125
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CyMDThCUcAADy5f.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CyMDThCUcAADy5f.jpg",
+                    "url": "https://t.co/UUTpkNVof4",
+                    "display_url": "pic.twitter.com/UUTpkNVof4",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/802489068185522177/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "802524307515588609",
+        "created_at": "Sat Nov 26 14:47:59 +0000 2016",
+        "text": "きゃっぷちゃんから電話きた😊📞",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

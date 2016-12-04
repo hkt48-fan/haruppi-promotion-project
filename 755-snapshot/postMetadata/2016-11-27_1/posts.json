@@ -1,0 +1,38 @@
+[
+    {
+        "post": {
+            "postId": 5468,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "12月1日は東京案件で撮影しています。",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1480250472,
+            "localId": "EB6A988F-92D0-4454-9AB1-AAC9C08C5A61",
+            "deleted": null,
+            "rtCount": 16,
+            "likeCount": 181,
+            "commentCount": 2
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

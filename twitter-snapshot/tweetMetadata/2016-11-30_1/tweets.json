@@ -1,0 +1,307 @@
+[
+    {
+        "id_str": "803963513303494657",
+        "created_at": "Wed Nov 30 14:06:53 +0000 2016",
+        "text": "おはようございます☀本日の推しメニューは兒玉遥さんの「釜玉明太バターうどん」です😋ご来店お待ちしております🎵",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "akb48cafe",
+                    "name": "AKB48カフェ＆ショップ秋葉原",
+                    "id": 377381265,
+                    "id_str": "377381265",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 803782726683758600,
+                    "id_str": "803782726683758592",
+                    "indices": [
+                        70,
+                        93
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                    "url": "https://t.co/4ahm9NIG92",
+                    "display_url": "pic.twitter.com/4ahm9NIG92",
+                    "expanded_url": "https://twitter.com/akb48cafe/status/803782736171319296/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 800,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 800,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 803782736171319300,
+                    "source_status_id_str": "803782736171319296",
+                    "source_user_id": 377381265,
+                    "source_user_id_str": "377381265"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 803782726683758600,
+                    "id_str": "803782726683758592",
+                    "indices": [
+                        70,
+                        93
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                    "url": "https://t.co/4ahm9NIG92",
+                    "display_url": "pic.twitter.com/4ahm9NIG92",
+                    "expanded_url": "https://twitter.com/akb48cafe/status/803782736171319296/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 800,
+                            "h": 800,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 800,
+                            "h": 800,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 803782736171319300,
+                    "source_status_id_str": "803782736171319296",
+                    "source_user_id": 377381265,
+                    "source_user_id_str": "377381265"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Wed Nov 30 02:08:32 +0000 2016",
+            "id": 803782736171319300,
+            "id_str": "803782736171319296",
+            "text": "おはようございます☀本日の推しメニューは兒玉遥さんの「釜玉明太バターうどん」です😋ご来店お待ちしております🎵 https://t.co/4ahm9NIG92",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 803782726683758600,
+                        "id_str": "803782726683758592",
+                        "indices": [
+                            55,
+                            78
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                        "url": "https://t.co/4ahm9NIG92",
+                        "display_url": "pic.twitter.com/4ahm9NIG92",
+                        "expanded_url": "https://twitter.com/akb48cafe/status/803782736171319296/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 800,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 800,
+                                "h": 800,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 803782726683758600,
+                        "id_str": "803782726683758592",
+                        "indices": [
+                            55,
+                            78
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CyecIZyUkAAk0uo.jpg",
+                        "url": "https://t.co/4ahm9NIG92",
+                        "display_url": "pic.twitter.com/4ahm9NIG92",
+                        "expanded_url": "https://twitter.com/akb48cafe/status/803782736171319296/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 800,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 800,
+                                "h": 800,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 377381265,
+                "id_str": "377381265",
+                "name": "AKB48カフェ＆ショップ秋葉原",
+                "screen_name": "akb48cafe",
+                "location": "秋葉原駅　電気街口すぐ",
+                "description": "AKB48カフェ＆ショップ秋葉原の公式ツイッターです(*´ω`*)\n･※*。ﾟ11/19～12/25＊2016クリスマスキャンペーン･※*。ﾟ",
+                "url": "https://t.co/kp5yCfLIS6",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/kp5yCfLIS6",
+                                "expanded_url": "http://www.akb48cafeshops.com",
+                                "display_url": "akb48cafeshops.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 57837,
+                "friends_count": 170,
+                "listed_count": 690,
+                "created_at": "Wed Sep 21 13:53:32 +0000 2011",
+                "favourites_count": 0,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 12879,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "AB0A45",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/799560913489522688/as9lr-ES_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/799560913489522688/as9lr-ES_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/377381265/1479465169",
+                "profile_link_color": "CC3366",
+                "profile_sidebar_border_color": "DBE9ED",
+                "profile_sidebar_fill_color": "E6F6F9",
+                "profile_text_color": "333333",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 83,
+            "favorite_count": 447,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "803983473497149440",
+        "created_at": "Wed Nov 30 15:26:12 +0000 2016",
+        "text": "「校閲ガール」最高😭💕\nいつも元気もらってます。\nえっちゃんみたいな女の子になりたい、、、\nよし、12月もがんばろう！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
