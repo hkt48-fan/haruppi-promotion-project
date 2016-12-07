@@ -1,0 +1,646 @@
+[
+    {
+        "id_str": "805444772269674496",
+        "created_at": "Sun Dec 04 16:12:52 +0000 2016",
+        "text": "おやすみー⭐️",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "805596943195877377",
+        "created_at": "Mon Dec 05 02:17:33 +0000 2016",
+        "text": "こういうドラマすごく好き。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/ouJMhs2Ka6",
+                    "expanded_url": "https://twitter.com/ooyachaaan1228/status/805593889390227456",
+                    "display_url": "twitter.com/ooyachaaan1228…",
+                    "indices": [
+                        14,
+                        37
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "805593889390227456",
+        "quoted_status": {
+            "created_at": "Mon Dec 05 02:05:25 +0000 2016",
+            "id": 805593889390227500,
+            "id_str": "805593889390227456",
+            "text": "泣いた https://t.co/MrKrcNxEKm",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/MrKrcNxEKm",
+                        "expanded_url": "https://twitter.com/345__chan/status/805582759896891392",
+                        "display_url": "twitter.com/345__chan/stat…",
+                        "indices": [
+                            4,
+                            27
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2294447010,
+                "id_str": "2294447010",
+                "name": "大家志津香(しーちゃん)",
+                "screen_name": "ooyachaaan1228",
+                "location": "",
+                "description": "AKB48 大家志津香です！ 海と、家族が好きです。",
+                "url": "https://t.co/VGsHIS6l96",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/VGsHIS6l96",
+                                "expanded_url": "http://ameblo.jp/shizuka-oya-we/",
+                                "display_url": "ameblo.jp/shizuka-oya-we/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 243209,
+                "friends_count": 267,
+                "listed_count": 3132,
+                "created_at": "Thu Jan 16 13:28:07 +0000 2014",
+                "favourites_count": 3,
+                "utc_offset": 28800,
+                "time_zone": "Irkutsk",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 5998,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/695531604601475072/hdUUEwzo_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/695531604601475072/hdUUEwzo_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2294447010/1462471448",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": true,
+            "quoted_status_id": 805582759896891400,
+            "quoted_status_id_str": "805582759896891392",
+            "retweet_count": 201,
+            "favorite_count": 1281,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [],
+    [
+        {
+            "id_str": "805730810053607425",
+            "created_at": "Mon Dec 05 11:09:29 +0000 2016",
+            "text": "たくさんのリクエストありがとうございました！\nbit.ly/1aQJ9BG  with ",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "有線大賞",
+                        "indices": [
+                            63,
+                            68
+                        ]
+                    },
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            74,
+                            80
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TBS_awards",
+                        "name": "日本有線大賞・輝く！レコード大賞",
+                        "id": 2219623466,
+                        "id_str": "2219623466",
+                        "indices": [
+                            3,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/fZ0t44huV0",
+                        "expanded_url": "http://bit.ly/1aQJ9BG",
+                        "display_url": "bit.ly/1aQJ9BG",
+                        "indices": [
+                            39,
+                            62
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 805723756081492000,
+                        "id_str": "805723756081491968",
+                        "indices": [
+                            81,
+                            104
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                        "url": "https://t.co/xBgw7eb5o9",
+                        "display_url": "pic.twitter.com/xBgw7eb5o9",
+                        "expanded_url": "https://twitter.com/TBS_awards/status/805723860930732032/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 480,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 480,
+                                "h": 480,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 805723860930732000,
+                        "source_status_id_str": "805723860930732032",
+                        "source_user_id": 2219623466,
+                        "source_user_id_str": "2219623466"
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 805723756081492000,
+                        "id_str": "805723756081491968",
+                        "indices": [
+                            81,
+                            104
+                        ],
+                        "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                        "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                        "url": "https://t.co/xBgw7eb5o9",
+                        "display_url": "pic.twitter.com/xBgw7eb5o9",
+                        "expanded_url": "https://twitter.com/TBS_awards/status/805723860930732032/photo/1",
+                        "type": "animated_gif",
+                        "sizes": {
+                            "large": {
+                                "w": 480,
+                                "h": 480,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 340,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 480,
+                                "h": 480,
+                                "resize": "fit"
+                            }
+                        },
+                        "source_status_id": 805723860930732000,
+                        "source_status_id_str": "805723860930732032",
+                        "source_user_id": 2219623466,
+                        "source_user_id_str": "2219623466",
+                        "video_info": {
+                            "aspect_ratio": [
+                                1,
+                                1
+                            ],
+                            "variants": [
+                                {
+                                    "bitrate": 0,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/tweet_video/Cy6BfLxUsAAehSn.mp4"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "retweeted_status": {
+                "created_at": "Mon Dec 05 10:41:52 +0000 2016",
+                "id": 805723860930732000,
+                "id_str": "805723860930732032",
+                "text": "たくさんのリクエストありがとうございました！\nhttps://t.co/fZ0t44huV0 #有線大賞 with #HKT48 https://t.co/xBgw7eb5o9",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "有線大賞",
+                            "indices": [
+                                47,
+                                52
+                            ]
+                        },
+                        {
+                            "text": "HKT48",
+                            "indices": [
+                                58,
+                                64
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/fZ0t44huV0",
+                            "expanded_url": "http://bit.ly/1aQJ9BG",
+                            "display_url": "bit.ly/1aQJ9BG",
+                            "indices": [
+                                23,
+                                46
+                            ]
+                        }
+                    ],
+                    "media": [
+                        {
+                            "id": 805723756081492000,
+                            "id_str": "805723756081491968",
+                            "indices": [
+                                65,
+                                88
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                            "url": "https://t.co/xBgw7eb5o9",
+                            "display_url": "pic.twitter.com/xBgw7eb5o9",
+                            "expanded_url": "https://twitter.com/TBS_awards/status/805723860930732032/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "large": {
+                                    "w": 480,
+                                    "h": 480,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 340,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 480,
+                                    "h": 480,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 805723756081492000,
+                            "id_str": "805723756081491968",
+                            "indices": [
+                                65,
+                                88
+                            ],
+                            "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                            "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cy6BfLxUsAAehSn.jpg",
+                            "url": "https://t.co/xBgw7eb5o9",
+                            "display_url": "pic.twitter.com/xBgw7eb5o9",
+                            "expanded_url": "https://twitter.com/TBS_awards/status/805723860930732032/photo/1",
+                            "type": "animated_gif",
+                            "sizes": {
+                                "large": {
+                                    "w": 480,
+                                    "h": 480,
+                                    "resize": "fit"
+                                },
+                                "small": {
+                                    "w": 340,
+                                    "h": 340,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "medium": {
+                                    "w": 480,
+                                    "h": 480,
+                                    "resize": "fit"
+                                }
+                            },
+                            "video_info": {
+                                "aspect_ratio": [
+                                    1,
+                                    1
+                                ],
+                                "variants": [
+                                    {
+                                        "bitrate": 0,
+                                        "content_type": "video/mp4",
+                                        "url": "https://video.twimg.com/tweet_video/Cy6BfLxUsAAehSn.mp4"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 2219623466,
+                    "id_str": "2219623466",
+                    "name": "日本有線大賞・輝く！レコード大賞",
+                    "screen_name": "TBS_awards",
+                    "location": "",
+                    "description": "TBSテレビ「第49回日本有線大賞」・「第58回輝く！レコード大賞」公式アカウント。",
+                    "url": "https://t.co/m4ClRjn9Pw",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/m4ClRjn9Pw",
+                                    "expanded_url": "http://www.tbs.co.jp/yusenaward/",
+                                    "display_url": "tbs.co.jp/yusenaward/",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 99784,
+                    "friends_count": 7,
+                    "listed_count": 518,
+                    "created_at": "Thu Nov 28 12:31:27 +0000 2013",
+                    "favourites_count": 0,
+                    "utc_offset": 28800,
+                    "time_zone": "Irkutsk",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 1528,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "89C9FA",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/537179906040274944/b9lerKMg.jpeg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/537179906040274944/b9lerKMg.jpeg",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/798353879985373185/YSVd9ywP_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/798353879985373185/YSVd9ywP_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2219623466/1479177363",
+                    "profile_link_color": "E81C4F",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": false,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 2675,
+                "favorite_count": 8350,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "805731112177704960",
+            "created_at": "Mon Dec 05 2016 19:10:41 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "805730810053607425",
+            "user": {
+                "name": "多田愛佳",
+                "screen_name": "lovetannnnnn",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/783486772856500224/CnQ19pSk_bigger.jpg"
+            },
+            "text": "@TBS_awards はるっぴだけテイスト違う😂",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TBS_awards",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 26
+            }
+        }
+    ],
+    {
+        "id_str": "805770084656431104",
+        "created_at": "Mon Dec 05 13:45:33 +0000 2016",
+        "text": "有線大賞。\n有線音楽優秀賞ありがとうございます！！\n皆さんの応援のおかげもあり、、、\nこの番組に出演させていただけたことに感謝です。\nまた歌えるようにがんばります(;_;)",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 805770077807087600,
+                    "id_str": "805770077807087616",
+                    "indices": [
+                        87,
+                        110
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cy6rndpUkAAxjHM.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cy6rndpUkAAxjHM.jpg",
+                    "url": "https://t.co/nqaErmDjNQ",
+                    "display_url": "pic.twitter.com/nqaErmDjNQ",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/805770084656431104/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 805770077807087600,
+                    "id_str": "805770077807087616",
+                    "indices": [
+                        87,
+                        110
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/Cy6rndpUkAAxjHM.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/Cy6rndpUkAAxjHM.jpg",
+                    "url": "https://t.co/nqaErmDjNQ",
+                    "display_url": "pic.twitter.com/nqaErmDjNQ",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/805770084656431104/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 751,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
