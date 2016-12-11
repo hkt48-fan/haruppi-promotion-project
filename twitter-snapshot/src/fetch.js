@@ -15,7 +15,8 @@ const friends = [
   'lovetannnnnn',
   'ooyachaaan1228',
   'KeiZee_Dosue',
-  'WRHMURAMOTO'
+  'WRHMURAMOTO',
+  '0220nicole'
 ];
 
 const request_options = {
