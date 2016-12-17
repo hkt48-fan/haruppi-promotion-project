@@ -1,0 +1,212 @@
+[
+    {
+        "post": {
+            "postId": 5480,
+            "postType": 2,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "packId": 4,
+                    "stampId": 3,
+                    "image": "https://contents.7gogo.jp/stamp/0004/0004_003_01.png",
+                    "width": 300,
+                    "height": 280,
+                    "bodyType": 2
+                }
+            ],
+            "comment": null,
+            "time": 1481207202,
+            "localId": "F90CDBDA-8A6E-4782-98A4-6197E3A84CEA",
+            "deleted": null,
+            "rtCount": 0,
+            "likeCount": 141,
+            "commentCount": 0
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5479,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "夢に近道なんてないと思う。\n遠回りでも1歩ずつ。少しでも前にすすめるように明日もがんばろう。\n\nおやすみなさい☆",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1481207177,
+            "localId": "544BA04A-43EE-44F7-BFEF-F1355B925505",
+            "deleted": null,
+            "rtCount": 16,
+            "likeCount": 233,
+            "commentCount": 3
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5478,
+            "postType": 5,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "talk": {
+                        "talkId": "zRd5ssa2_9eL",
+                        "name": "秋元康のトーク",
+                        "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20140904/17/36/OQ/p/t02400240p.png"
+                    },
+                    "post": {
+                        "talkId": "zRd5ssa2_9eL",
+                        "postId": 9456,
+                        "postType": 1,
+                        "body": [
+                            {
+                                "text": "報われるか、報われないかを考えていたら、本当にやってられないよね。AKBカフェテリアさんが言うように、『報われない努力の方が多い』からね。結局、その努力を楽しめるか？だね。",
+                                "bodyType": 1
+                            }
+                        ],
+                        "likeCount": 780,
+                        "rtCount": 191,
+                        "commentCount": 0,
+                        "owner": "mRARJ_RAEDvl",
+                        "time": 1481192886,
+                        "localId": "499761A0-3DE4-40B1-8731-C0AD11BF8CFF",
+                        "deleted": false
+                    },
+                    "user": {
+                        "userId": "mRARJ_RAEDvl",
+                        "name": "秋元康",
+                        "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20151004/13/1d/bt/p/t02390240p.png",
+                        "description": "頼まれたので、やってみるか。",
+                        "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160210/05/a3/Fg/p/t02200220p.png",
+                        "userType": 1,
+                        "accountStatus": 0
+                    },
+                    "bodyType": 7
+                }
+            ],
+            "comment": null,
+            "time": 1481207074,
+            "localId": "A5F7D314-47E5-434D-A1C8-EE464CA1AE1B",
+            "deleted": null,
+            "rtCount": 0,
+            "likeCount": 0,
+            "commentCount": 0
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5477,
+            "postType": 5,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "talk": {
+                        "talkId": "zRd5ssa2_9eL",
+                        "name": "秋元康のトーク",
+                        "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20140904/17/36/OQ/p/t02400240p.png"
+                    },
+                    "post": {
+                        "talkId": "zRd5ssa2_9eL",
+                        "postId": 9457,
+                        "postType": 1,
+                        "body": [
+                            {
+                                "text": "AKB48の11周年の劇場公演。感無量。公演が始まる前に、メンバーにいろいろ話しました。伝わったかなあ。",
+                                "bodyType": 1
+                            }
+                        ],
+                        "likeCount": 1178,
+                        "rtCount": 126,
+                        "commentCount": 2,
+                        "owner": "mRARJ_RAEDvl",
+                        "time": 1481193259,
+                        "localId": "4CFB9FA2-6B3F-44A8-868E-4EAF8922236B",
+                        "deleted": false
+                    },
+                    "user": {
+                        "userId": "mRARJ_RAEDvl",
+                        "name": "秋元康",
+                        "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20151004/13/1d/bt/p/t02390240p.png",
+                        "description": "頼まれたので、やってみるか。",
+                        "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160210/05/a3/Fg/p/t02200220p.png",
+                        "userType": 1,
+                        "accountStatus": 0
+                    },
+                    "bodyType": 7
+                }
+            ],
+            "comment": null,
+            "time": 1481206982,
+            "localId": "83CD79A2-2128-4242-A6AC-1AD768B82154",
+            "deleted": null,
+            "rtCount": 0,
+            "likeCount": 0,
+            "commentCount": 0
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

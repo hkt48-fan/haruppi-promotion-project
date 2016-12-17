@@ -1,0 +1,139 @@
+[
+    {
+        "id_str": "809234427846893568",
+        "created_at": "Thu Dec 15 03:11:37 +0000 2016",
+        "text": "おはようございます☀️\n今日はAKB紅白歌合戦！\n緊張する〜😓😓😓",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "809234983915167745",
+            "created_at": "Thu Dec 15 2016 11:13:49 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "西野 未姫",
+                "screen_name": "mikinishino4",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/752093498539593728/qbFtk1hm_bigger.jpg"
+            },
+            "text": "今日はAKB紅白〜✨\n\n私は紅組ですよー❤️",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 22
+            }
+        },
+        {
+            "id_str": "809235732611022852",
+            "created_at": "Thu Dec 15 03:16:48 +0000 2016",
+            "text": "@mikinishino4 わたしも紅組！\n一緒にがんばろ〜⚑⚐゛",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "mikinishino4",
+                        "name": "西野 未姫",
+                        "id": 727097884999454700,
+                        "id_str": "727097884999454721",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "809234983915167745",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "809400737402789889",
+            "created_at": "Thu Dec 15 2016 22:12:28 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "ゆりちゃん♡♡",
+                "screen_name": "yuria_akb_love",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/805216317057814528/A2-GBEJ6_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 \n\nはるっぴお疲れ様ー😁\n紅組優勝おめでとう🎉\n\nAKB紅白で６回全勝なのは、はるっぴだけなんだって👍",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 69
+            }
+        },
+        {
+            "id_str": "809401077778911233",
+            "created_at": "Thu Dec 15 14:13:49 +0000 2016",
+            "text": "@yuria_akb_love 😳😳😳",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "yuria_akb_love",
+                        "name": "ゆりちゃん♡♡",
+                        "id": 799999947605090300,
+                        "id_str": "799999947605090304",
+                        "indices": [
+                            0,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "809400737402789889",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ]
+]

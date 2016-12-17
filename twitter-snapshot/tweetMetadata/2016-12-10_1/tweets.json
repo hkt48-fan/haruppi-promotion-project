@@ -1,0 +1,278 @@
+[
+    {
+        "id_str": "807396664524738560",
+        "created_at": "Sat Dec 10 01:29:00 +0000 2016",
+        "text": "おはようございます☀︎\n今日も朝から撮影、、、\n撮影前からこの環境が整っていることが本当にすごい。\n朝早くからありがとうございます。\n今日も1日真心をこめて…😊",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "807582778900393985",
+        "created_at": "Sat Dec 10 13:48:33 +0000 2016",
+        "text": "撮影おわり😊\n完成たのしみ〜",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "807586095722414080",
+        "created_at": "Sat Dec 10 14:01:44 +0000 2016",
+        "text": "最近のお気に入りのアレンジ。\n外ハネ👧🏻❤️",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 807586082279682000,
+                    "id_str": "807586082279682048",
+                    "indices": [
+                        23,
+                        46
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CzUfQ1fUcAAY2Fq.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CzUfQ1fUcAAY2Fq.jpg",
+                    "url": "https://t.co/9WHQ0GMRQK",
+                    "display_url": "pic.twitter.com/9WHQ0GMRQK",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/807586095722414080/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 807586082279682000,
+                    "id_str": "807586082279682048",
+                    "indices": [
+                        23,
+                        46
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/CzUfQ1fUcAAY2Fq.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/CzUfQ1fUcAAY2Fq.jpg",
+                    "url": "https://t.co/9WHQ0GMRQK",
+                    "display_url": "pic.twitter.com/9WHQ0GMRQK",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/807586095722414080/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 750,
+                            "h": 1000,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "807612519095246848",
+        "created_at": "Sat Dec 10 15:46:43 +0000 2016",
+        "text": "本日！\n  第6話放送🐟\nもう放送回も、半分に差し掛かってきちゃいましたよ〜😭😢お見逃しなく😉💕",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "キャバすか学園",
+                    "indices": [
+                        21,
+                        29
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "39saku_chan",
+                    "name": "宮脇 咲良",
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "indices": [
+                        3,
+                        15
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Sat Dec 10 14:58:30 +0000 2016",
+            "id": 807600382847258600,
+            "id_str": "807600382847258624",
+            "text": "本日！\n#キャバすか学園  第6話放送🐟\nもう放送回も、半分に差し掛かってきちゃいましたよ〜😭😢お見逃しなく😉💕",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "キャバすか学園",
+                        "indices": [
+                            4,
+                            12
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "ドクターXスピンオフドラマ「ドクターY」12月16日地上波放送/テレドラマ「キャバすか学園」毎週土曜24:55〜",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 173342,
+                "friends_count": 183,
+                "listed_count": 1509,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 177,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 151,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 634,
+            "favorite_count": 4031,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

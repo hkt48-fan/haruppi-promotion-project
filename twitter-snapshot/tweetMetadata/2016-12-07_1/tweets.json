@@ -1,0 +1,169 @@
+[
+    {
+        "id_str": "806391520748310528",
+        "created_at": "Wed Dec 07 06:54:55 +0000 2016",
+        "text": " \n本日19時からです＼(^o^)／\nオープニングから盛り上げますよ〜🎤\nよろしくお願いします！！",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "FNS歌謡祭",
+                    "indices": [
+                        0,
+                        7
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "806514239024164864",
+            "created_at": "Wed Dec 07 15:02:33 +0000 2016",
+            "text": "# FNS歌謡祭\nおわりー！！\nいろんなアーティストさんの歌を聴き、私自身すごくパワーをもらえました。\n観てくださった皆さんありがとうございました😊",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 806514228974653400,
+                        "id_str": "806514228974653440",
+                        "indices": [
+                            75,
+                            98
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CzFQawxVEAAGFH3.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CzFQawxVEAAGFH3.jpg",
+                        "url": "https://t.co/aDgnnoaTYw",
+                        "display_url": "pic.twitter.com/aDgnnoaTYw",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/806514239024164864/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 806514228974653400,
+                        "id_str": "806514228974653440",
+                        "indices": [
+                            75,
+                            98
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/CzFQawxVEAAGFH3.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/CzFQawxVEAAGFH3.jpg",
+                        "url": "https://t.co/aDgnnoaTYw",
+                        "display_url": "pic.twitter.com/aDgnnoaTYw",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/806514239024164864/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "806514380644892672",
+            "created_at": "Wed Dec 07 15:03:07 +0000 2016",
+            "text": "@haruka_kdm919 ハッシュタグ失敗😢\n",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "FNS歌謡祭",
+                        "indices": [
+                            25,
+                            32
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "806514239024164864",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ]
+]

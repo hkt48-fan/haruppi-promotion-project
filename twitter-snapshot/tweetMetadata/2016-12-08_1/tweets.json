@@ -1,0 +1,312 @@
+[
+    {
+        "id_str": "806530135000117248",
+        "created_at": "Wed Dec 07 16:05:43 +0000 2016",
+        "text": "私も一緒にお祝いしたかったです😢\nゆいさん、おめでとうございます！！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/rCpWlV0f7c",
+                    "expanded_url": "https://twitter.com/yui_yoko1208/status/806517800676098048",
+                    "display_url": "twitter.com/yui_yoko1208/s…",
+                    "indices": [
+                        35,
+                        58
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "806517800676098048",
+        "quoted_status": {
+            "created_at": "Wed Dec 07 15:16:42 +0000 2016",
+            "id": 806517800676098000,
+            "id_str": "806517800676098048",
+            "text": "12月8日\n24歳になりました！！\n大好きなAKB48と一緒の誕生日🎂\n\n改めていつも支えてくださるみなさま本当にありがとうございます！\n少しでも恩返しできるよう\n24歳全力で楽しみます✨\n\n0:00ちょうどは\nだーいすきなメンバ… https://t.co/e8UGvXocwb",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/e8UGvXocwb",
+                        "expanded_url": "https://twitter.com/i/web/status/806517800676098048",
+                        "display_url": "twitter.com/i/web/status/8…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2292265376,
+                "id_str": "2292265376",
+                "name": "横山由依",
+                "screen_name": "Yui_yoko1208",
+                "location": "",
+                "description": "AKB48グループ総監督 チームA 横山由依です！ 京都府出身の24歳です。[関西テレビ]横山由依(AKB48)がはんなり巡る 京都いろどり日記→https://t.co/KotpF9AuDU",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/KotpF9AuDU",
+                                "expanded_url": "http://www.ktv.jp/hannari/index.html",
+                                "display_url": "ktv.jp/hannari/index.…",
+                                "indices": [
+                                    73,
+                                    96
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 758687,
+                "friends_count": 277,
+                "listed_count": 6248,
+                "created_at": "Wed Jan 15 06:36:01 +0000 2014",
+                "favourites_count": 0,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 4057,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/424380778961588225/wiQkdGLg_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/424380778961588225/wiQkdGLg_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2292265376/1452081884",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4599,
+            "favorite_count": 17363,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "806665325110390784",
+        "created_at": "Thu Dec 08 01:02:55 +0000 2016",
+        "text": "やだ…😭\nそんなに心つよくないから。\nこんな気持ちになるのもなんだか。\n\nごめんなさい、、",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "806709267843588096",
+            "created_at": "Thu Dec 08 03:57:32 +0000 2016",
+            "text": "いよいよ今日から開始！！\n\n\n私も、夢をみたいです😊\nぜひ皆さんの推しメンちゃんを応援してください！\n\n投票はコチラ👇",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "夢の紅白選抜",
+                        "indices": [
+                            13,
+                            20
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/HLm4fnzJhr",
+                        "expanded_url": "http://www.nhk.or.jp/kouhaku/akb/",
+                        "display_url": "nhk.or.jp/kouhaku/akb/",
+                        "indices": [
+                            67,
+                            90
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "806726508807000066",
+            "created_at": "Thu Dec 08 05:06:02 +0000 2016",
+            "text": "@nhk_kouhaku アプリダウンロードしなきゃ投票できないみたい😓😓\nAKB48の他、いろんなアーティストさんの情報も更新されます！カウントダウンもあるよ。\nちょっぴり面倒かと思いますが、ぜひ〜😉💓",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "nhk_kouhaku",
+                        "name": "NHK紅白歌合戦",
+                        "id": 85765327,
+                        "id_str": "85765327",
+                        "indices": [
+                            0,
+                            12
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "806709267843588096",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "806836013838442497",
+            "created_at": "Thu Dec 08 12:21:10 +0000 2016",
+            "text": "AKB48 11周年記念公演に出演していただきました😉私は兼任という身分ですが、、、\n恩返しできるようにがんばる。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        },
+        {
+            "id_str": "806855018556989440",
+            "created_at": "Thu Dec 08 13:36:41 +0000 2016",
+            "text": "@haruka_kdm919 \n訂正⇒出演させていただきました。\n😓😓😓\nこういうの落ち込むタイプ😞😞😞",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "806836013838442497",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "806863529705750528",
+        "created_at": "Thu Dec 08 14:10:30 +0000 2016",
+        "text": "今さらかと思われる方もいるかもしれませんが、毎日こういったブログみたいなものを更新しています、、、",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/T7Vr7FEAN6",
+                    "expanded_url": "https://plus.google.com/111907069956262615426/posts/agLwuXZpiMZ",
+                    "display_url": "plus.google.com/11190706995626…",
+                    "indices": [
+                        50,
+                        73
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
