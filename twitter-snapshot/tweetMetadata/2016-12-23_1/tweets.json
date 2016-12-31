@@ -1,0 +1,1183 @@
+[
+    {
+        "id_str": "812275341037187072",
+        "created_at": "Fri Dec 23 2016 20:35:07 GMT+0800 (CST)",
+        "extended_entities": {
+            "media": []
+        },
+        "user": {
+            "name": "宮脇 咲良",
+            "screen_name": "39saku_chan",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_bigger.jpg"
+        },
+        "text": "セサミストリートのエルモとクッキーモンスターと遊んだよ😌\n急にMステの『テレテレテン!』を出来るかゲーム…笑 ",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "display_url": "",
+                    "indices": [
+                        56,
+                        56
+                    ]
+                }
+            ],
+            "lastIndices": 56
+        }
+    },
+    {
+        "id_str": "812276395082551296",
+        "created_at": "Fri Dec 23 12:39:18 +0000 2016",
+        "text": "@39saku_chan  エルモ失敗バージョン😂 ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Mステ",
+                    "indices": [
+                        43,
+                        47
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "39saku_chan",
+                    "name": "宮脇 咲良",
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "indices": [
+                        3,
+                        15
+                    ]
+                },
+                {
+                    "screen_name": "39saku_chan",
+                    "name": "宮脇 咲良",
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "indices": [
+                        17,
+                        29
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 812275686362648600,
+                    "id_str": "812275686362648576",
+                    "indices": [
+                        48,
+                        71
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                    "url": "https://t.co/ziU41upJjm",
+                    "display_url": "pic.twitter.com/ziU41upJjm",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/812275759721037825/video/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 576,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 812275759721037800,
+                    "source_status_id_str": "812275759721037825",
+                    "source_user_id": 768405521757974500,
+                    "source_user_id_str": "768405521757974532"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 812275686362648600,
+                    "id_str": "812275686362648576",
+                    "indices": [
+                        48,
+                        71
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                    "url": "https://t.co/ziU41upJjm",
+                    "display_url": "pic.twitter.com/ziU41upJjm",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/812275759721037825/video/1",
+                    "type": "video",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 576,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 812275759721037800,
+                    "source_status_id_str": "812275759721037825",
+                    "source_user_id": 768405521757974500,
+                    "source_user_id_str": "768405521757974532",
+                    "video_info": {
+                        "aspect_ratio": [
+                            16,
+                            9
+                        ],
+                        "duration_millis": 6200,
+                        "variants": [
+                            {
+                                "bitrate": 832000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/640x360/hIEROaFyShijP15I.mp4"
+                            },
+                            {
+                                "bitrate": 2176000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/1280x720/yoMpMhJEQle7suXs.mp4"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/pl/uhP17TDoSEnXmlKN.m3u8"
+                            },
+                            {
+                                "bitrate": 320000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/320x180/Howt1nfJ6fknwK2j.mp4"
+                            },
+                            {
+                                "content_type": "application/dash+xml",
+                                "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/pl/uhP17TDoSEnXmlKN.mpd"
+                            }
+                        ]
+                    },
+                    "additional_media_info": {
+                        "monetizable": false,
+                        "source_user": {
+                            "id": 768405521757974500,
+                            "id_str": "768405521757974532",
+                            "name": "宮脇 咲良",
+                            "screen_name": "39saku_chan",
+                            "location": "",
+                            "description": "ドクターXスピンオフドラマ「ドクターY」/日テレドラマ「キャバすか学園」毎週土曜24:55〜/テレ朝系ドラマ「豆腐プロレス」2017年1月21日スタート",
+                            "url": "https://t.co/mhWep4VroQ",
+                            "entities": {
+                                "url": {
+                                    "urls": [
+                                        {
+                                            "url": "https://t.co/mhWep4VroQ",
+                                            "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                            "display_url": "instagram.com/39saku_chan/",
+                                            "indices": [
+                                                0,
+                                                23
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "description": {
+                                    "urls": []
+                                }
+                            },
+                            "protected": false,
+                            "followers_count": 179065,
+                            "friends_count": 192,
+                            "listed_count": 1548,
+                            "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                            "favourites_count": 230,
+                            "utc_offset": 32400,
+                            "time_zone": "Tokyo",
+                            "geo_enabled": false,
+                            "verified": true,
+                            "statuses_count": 168,
+                            "lang": "ja",
+                            "contributors_enabled": false,
+                            "is_translator": false,
+                            "is_translation_enabled": false,
+                            "profile_background_color": "F5F8FA",
+                            "profile_background_image_url": null,
+                            "profile_background_image_url_https": null,
+                            "profile_background_tile": false,
+                            "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                            "profile_link_color": "1DA1F2",
+                            "profile_sidebar_border_color": "C0DEED",
+                            "profile_sidebar_fill_color": "DDEEF6",
+                            "profile_text_color": "333333",
+                            "profile_use_background_image": true,
+                            "has_extended_profile": true,
+                            "default_profile": true,
+                            "default_profile_image": false,
+                            "following": false,
+                            "follow_request_sent": false,
+                            "notifications": false,
+                            "translator_type": "none"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Fri Dec 23 12:36:47 +0000 2016",
+            "id": 812275759721037800,
+            "id_str": "812275759721037825",
+            "text": "@39saku_chan  エルモ失敗バージョン😂 #Mステ https://t.co/ziU41upJjm",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Mステ",
+                        "indices": [
+                            26,
+                            30
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "39saku_chan",
+                        "name": "宮脇 咲良",
+                        "id": 768405521757974500,
+                        "id_str": "768405521757974532",
+                        "indices": [
+                            0,
+                            12
+                        ]
+                    }
+                ],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 812275686362648600,
+                        "id_str": "812275686362648576",
+                        "indices": [
+                            31,
+                            54
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                        "url": "https://t.co/ziU41upJjm",
+                        "display_url": "pic.twitter.com/ziU41upJjm",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/812275759721037825/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 338,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 191,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 576,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 812275686362648600,
+                        "id_str": "812275686362648576",
+                        "indices": [
+                            31,
+                            54
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275686362648576/pu/img/sY4AeoJuBCrUZWss.jpg",
+                        "url": "https://t.co/ziU41upJjm",
+                        "display_url": "pic.twitter.com/ziU41upJjm",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/812275759721037825/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 338,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 191,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 576,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 6200,
+                            "variants": [
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/640x360/hIEROaFyShijP15I.mp4"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/1280x720/yoMpMhJEQle7suXs.mp4"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/pl/uhP17TDoSEnXmlKN.m3u8"
+                                },
+                                {
+                                    "bitrate": 320000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/vid/320x180/Howt1nfJ6fknwK2j.mp4"
+                                },
+                                {
+                                    "content_type": "application/dash+xml",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275686362648576/pu/pl/uhP17TDoSEnXmlKN.mpd"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": 812275341037187100,
+            "in_reply_to_status_id_str": "812275341037187072",
+            "in_reply_to_user_id": 768405521757974500,
+            "in_reply_to_user_id_str": "768405521757974532",
+            "in_reply_to_screen_name": "39saku_chan",
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "ドクターXスピンオフドラマ「ドクターY」/日テレドラマ「キャバすか学園」毎週土曜24:55〜/テレ朝系ドラマ「豆腐プロレス」2017年1月21日スタート",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 179065,
+                "friends_count": 192,
+                "listed_count": 1548,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 230,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 168,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1421,
+            "favorite_count": 5611,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "812276420642684929",
+        "created_at": "Fri Dec 23 12:39:24 +0000 2016",
+        "text": "セサミストリートのエルモとクッキーモンスターと遊んだよ😌\n急にMステの『テレテレテン!』を出来るかゲーム…笑 ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Mステ",
+                    "indices": [
+                        72,
+                        76
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "39saku_chan",
+                    "name": "宮脇 咲良",
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "indices": [
+                        3,
+                        15
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 812275252050788400,
+                    "id_str": "812275252050788352",
+                    "indices": [
+                        77,
+                        100
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                    "url": "https://t.co/IAjSKUtChi",
+                    "display_url": "pic.twitter.com/IAjSKUtChi",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/812275341037187072/video/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 576,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 812275341037187100,
+                    "source_status_id_str": "812275341037187072",
+                    "source_user_id": 768405521757974500,
+                    "source_user_id_str": "768405521757974532"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 812275252050788400,
+                    "id_str": "812275252050788352",
+                    "indices": [
+                        77,
+                        100
+                    ],
+                    "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                    "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                    "url": "https://t.co/IAjSKUtChi",
+                    "display_url": "pic.twitter.com/IAjSKUtChi",
+                    "expanded_url": "https://twitter.com/39saku_chan/status/812275341037187072/video/1",
+                    "type": "video",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 600,
+                            "h": 338,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 340,
+                            "h": 191,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 576,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 812275341037187100,
+                    "source_status_id_str": "812275341037187072",
+                    "source_user_id": 768405521757974500,
+                    "source_user_id_str": "768405521757974532",
+                    "video_info": {
+                        "aspect_ratio": [
+                            16,
+                            9
+                        ],
+                        "duration_millis": 8100,
+                        "variants": [
+                            {
+                                "bitrate": 320000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/320x180/OHntOdzW9Z8dXkYZ.mp4"
+                            },
+                            {
+                                "bitrate": 2176000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/1280x720/RVwPWg9C5YuNaUu4.mp4"
+                            },
+                            {
+                                "content_type": "application/dash+xml",
+                                "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/pl/4uL4rlnJgb_vNTmZ.mpd"
+                            },
+                            {
+                                "bitrate": 832000,
+                                "content_type": "video/mp4",
+                                "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/640x360/9Wp046kCf3odgrvW.mp4"
+                            },
+                            {
+                                "content_type": "application/x-mpegURL",
+                                "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/pl/4uL4rlnJgb_vNTmZ.m3u8"
+                            }
+                        ]
+                    },
+                    "additional_media_info": {
+                        "monetizable": false,
+                        "source_user": {
+                            "id": 768405521757974500,
+                            "id_str": "768405521757974532",
+                            "name": "宮脇 咲良",
+                            "screen_name": "39saku_chan",
+                            "location": "",
+                            "description": "ドクターXスピンオフドラマ「ドクターY」/日テレドラマ「キャバすか学園」毎週土曜24:55〜/テレ朝系ドラマ「豆腐プロレス」2017年1月21日スタート",
+                            "url": "https://t.co/mhWep4VroQ",
+                            "entities": {
+                                "url": {
+                                    "urls": [
+                                        {
+                                            "url": "https://t.co/mhWep4VroQ",
+                                            "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                            "display_url": "instagram.com/39saku_chan/",
+                                            "indices": [
+                                                0,
+                                                23
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "description": {
+                                    "urls": []
+                                }
+                            },
+                            "protected": false,
+                            "followers_count": 179065,
+                            "friends_count": 192,
+                            "listed_count": 1548,
+                            "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                            "favourites_count": 230,
+                            "utc_offset": 32400,
+                            "time_zone": "Tokyo",
+                            "geo_enabled": false,
+                            "verified": true,
+                            "statuses_count": 168,
+                            "lang": "ja",
+                            "contributors_enabled": false,
+                            "is_translator": false,
+                            "is_translation_enabled": false,
+                            "profile_background_color": "F5F8FA",
+                            "profile_background_image_url": null,
+                            "profile_background_image_url_https": null,
+                            "profile_background_tile": false,
+                            "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                            "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                            "profile_link_color": "1DA1F2",
+                            "profile_sidebar_border_color": "C0DEED",
+                            "profile_sidebar_fill_color": "DDEEF6",
+                            "profile_text_color": "333333",
+                            "profile_use_background_image": true,
+                            "has_extended_profile": true,
+                            "default_profile": true,
+                            "default_profile_image": false,
+                            "following": false,
+                            "follow_request_sent": false,
+                            "notifications": false,
+                            "translator_type": "none"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Fri Dec 23 12:35:07 +0000 2016",
+            "id": 812275341037187100,
+            "id_str": "812275341037187072",
+            "text": "セサミストリートのエルモとクッキーモンスターと遊んだよ😌\n急にMステの『テレテレテン!』を出来るかゲーム…笑 #Mステ https://t.co/IAjSKUtChi",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Mステ",
+                        "indices": [
+                            55,
+                            59
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 812275252050788400,
+                        "id_str": "812275252050788352",
+                        "indices": [
+                            60,
+                            83
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                        "url": "https://t.co/IAjSKUtChi",
+                        "display_url": "pic.twitter.com/IAjSKUtChi",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/812275341037187072/video/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 338,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 191,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 576,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 812275252050788400,
+                        "id_str": "812275252050788352",
+                        "indices": [
+                            60,
+                            83
+                        ],
+                        "media_url": "http://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                        "media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/812275252050788352/pu/img/_12HSvowoycezzFm.jpg",
+                        "url": "https://t.co/IAjSKUtChi",
+                        "display_url": "pic.twitter.com/IAjSKUtChi",
+                        "expanded_url": "https://twitter.com/39saku_chan/status/812275341037187072/video/1",
+                        "type": "video",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 600,
+                                "h": 338,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 340,
+                                "h": 191,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1024,
+                                "h": 576,
+                                "resize": "fit"
+                            }
+                        },
+                        "video_info": {
+                            "aspect_ratio": [
+                                16,
+                                9
+                            ],
+                            "duration_millis": 8100,
+                            "variants": [
+                                {
+                                    "bitrate": 320000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/320x180/OHntOdzW9Z8dXkYZ.mp4"
+                                },
+                                {
+                                    "bitrate": 2176000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/1280x720/RVwPWg9C5YuNaUu4.mp4"
+                                },
+                                {
+                                    "content_type": "application/dash+xml",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/pl/4uL4rlnJgb_vNTmZ.mpd"
+                                },
+                                {
+                                    "bitrate": 832000,
+                                    "content_type": "video/mp4",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/vid/640x360/9Wp046kCf3odgrvW.mp4"
+                                },
+                                {
+                                    "content_type": "application/x-mpegURL",
+                                    "url": "https://video.twimg.com/ext_tw_video/812275252050788352/pu/pl/4uL4rlnJgb_vNTmZ.m3u8"
+                                }
+                            ]
+                        },
+                        "additional_media_info": {
+                            "monetizable": false
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 768405521757974500,
+                "id_str": "768405521757974532",
+                "name": "宮脇 咲良",
+                "screen_name": "39saku_chan",
+                "location": "",
+                "description": "ドクターXスピンオフドラマ「ドクターY」/日テレドラマ「キャバすか学園」毎週土曜24:55〜/テレ朝系ドラマ「豆腐プロレス」2017年1月21日スタート",
+                "url": "https://t.co/mhWep4VroQ",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mhWep4VroQ",
+                                "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                "display_url": "instagram.com/39saku_chan/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 179065,
+                "friends_count": 192,
+                "listed_count": 1548,
+                "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                "favourites_count": 230,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 168,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 2101,
+            "favorite_count": 8333,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "812277021552218112",
+        "created_at": "Fri Dec 23 12:41:47 +0000 2016",
+        "text": "😨😏😏😏👌✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/t1RJBS6A3w",
+                    "expanded_url": "https://twitter.com/345__chan/status/812275737830899713",
+                    "display_url": "twitter.com/345__chan/stat…",
+                    "indices": [
+                        7,
+                        30
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "812275737830899713",
+        "quoted_status": {
+            "created_at": "Fri Dec 23 12:36:41 +0000 2016",
+            "id": 812275737830899700,
+            "id_str": "812275737830899713",
+            "text": "小嶋さんだけマネキンチャレンジ失敗したので楽屋で練習してます😢\n\n#Mステ #マネキン再チャレンジ https://t.co/chAiEgWDLc",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "Mステ",
+                        "indices": [
+                            33,
+                            37
+                        ]
+                    },
+                    {
+                        "text": "マネキン再チャレンジ",
+                        "indices": [
+                            38,
+                            49
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 812275719468249100,
+                        "id_str": "812275719468249088",
+                        "indices": [
+                            50,
+                            73
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C0XIdpaUcAAGlZr.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C0XIdpaUcAAGlZr.jpg",
+                        "url": "https://t.co/chAiEgWDLc",
+                        "display_url": "pic.twitter.com/chAiEgWDLc",
+                        "expanded_url": "https://twitter.com/345__chan/status/812275737830899713/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1500,
+                                "h": 1124,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 899,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 812275719468249100,
+                        "id_str": "812275719468249088",
+                        "indices": [
+                            50,
+                            73
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C0XIdpaUcAAGlZr.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C0XIdpaUcAAGlZr.jpg",
+                        "url": "https://t.co/chAiEgWDLc",
+                        "display_url": "pic.twitter.com/chAiEgWDLc",
+                        "expanded_url": "https://twitter.com/345__chan/status/812275737830899713/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1500,
+                                "h": 1124,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 899,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 812275719468290000,
+                        "id_str": "812275719468290048",
+                        "indices": [
+                            50,
+                            73
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C0XIdpaVEAAmukK.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C0XIdpaVEAAmukK.jpg",
+                        "url": "https://t.co/chAiEgWDLc",
+                        "display_url": "pic.twitter.com/chAiEgWDLc",
+                        "expanded_url": "https://twitter.com/345__chan/status/812275737830899713/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 900,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 2016,
+                                "h": 1512,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2346809580,
+                "id_str": "2346809580",
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "location": "",
+                "description": "💛https://t.co/FbRPAshfuv💛",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/FbRPAshfuv",
+                                "expanded_url": "http://Instagram.com/345insta",
+                                "display_url": "Instagram.com/345insta",
+                                "indices": [
+                                    1,
+                                    24
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 1454508,
+                "friends_count": 326,
+                "listed_count": 7959,
+                "created_at": "Sun Feb 16 12:57:31 +0000 2014",
+                "favourites_count": 450,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 6593,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2346809580/1466265291",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4039,
+            "favorite_count": 20041,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "812305207027585025",
+        "created_at": "Fri Dec 23 14:33:47 +0000 2016",
+        "text": "Mステおわり〜！\nマネキンチャレンジ楽しかった😊\n観てくださった皆さん、ありがとうございました。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

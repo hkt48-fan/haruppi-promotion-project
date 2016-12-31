@@ -1,0 +1,273 @@
+[
+    {
+        "id_str": "813169466016043008",
+        "created_at": "Sun Dec 25 23:48:03 +0000 2016",
+        "text": "初めてAKB48のアルバムジャケット選抜に選んでいただきました😭\nやっとだ…すっごく嬉しい。\nみんな、いつもありがとう！！\n内容もお楽しみに😏😏😏✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/rn3pTYpbdb",
+                    "expanded_url": "https://twitter.com/oricon/status/813097471005949952",
+                    "display_url": "twitter.com/oricon/status/…",
+                    "indices": [
+                        75,
+                        98
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "813097471005949952",
+        "quoted_status": {
+            "created_at": "Sun Dec 25 19:01:58 +0000 2016",
+            "id": 813097471005950000,
+            "id_str": "813097471005949952",
+            "text": "AKB48新アルバム収録曲＆アートワーク公開　指原×モー娘。コラボも（写真 全3枚）\nhttps://t.co/bIWJfWXyfy …\n\n #AKB48 #小嶋陽菜 @kojiharunyan #こじはる https://t.co/2SsoTqRwQV",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "AKB48",
+                        "indices": [
+                            71,
+                            77
+                        ]
+                    },
+                    {
+                        "text": "小嶋陽菜",
+                        "indices": [
+                            78,
+                            83
+                        ]
+                    },
+                    {
+                        "text": "こじはる",
+                        "indices": [
+                            98,
+                            103
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "kojiharunyan",
+                        "name": "小嶋 陽菜",
+                        "id": 135064055,
+                        "id_str": "135064055",
+                        "indices": [
+                            84,
+                            97
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/bIWJfWXyfy",
+                        "expanded_url": "http://www.oricon.co.jp/news/2083622/full/?ref_cd=tw_pic",
+                        "display_url": "oricon.co.jp/news/2083622/f…",
+                        "indices": [
+                            43,
+                            66
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 813097408879935500,
+                        "id_str": "813097408879935488",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C0izyRAUQAAlvZ8.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C0izyRAUQAAlvZ8.jpg",
+                        "url": "https://t.co/2SsoTqRwQV",
+                        "display_url": "pic.twitter.com/2SsoTqRwQV",
+                        "expanded_url": "https://twitter.com/oricon/status/813097471005949952/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 564,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 319,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 962,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 813097408879935500,
+                        "id_str": "813097408879935488",
+                        "indices": [
+                            104,
+                            127
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C0izyRAUQAAlvZ8.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C0izyRAUQAAlvZ8.jpg",
+                        "url": "https://t.co/2SsoTqRwQV",
+                        "display_url": "pic.twitter.com/2SsoTqRwQV",
+                        "expanded_url": "https://twitter.com/oricon/status/813097471005949952/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "medium": {
+                                "w": 1200,
+                                "h": 564,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 319,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 962,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 95207674,
+                "id_str": "95207674",
+                "name": "ORICON STYLE",
+                "screen_name": "oricon",
+                "location": "東京都港区六本木",
+                "description": "ORICON STYLE（オリコンスタイル）は、話題の最新芸能ニュースや音楽ニュース、オリコンランキングなどのエンタメ情報を毎日発信するエンターテインメントサイトです。",
+                "url": "http://t.co/TBiV19SVaI",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/TBiV19SVaI",
+                                "expanded_url": null,
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 182978,
+                "friends_count": 22895,
+                "listed_count": 5112,
+                "created_at": "Mon Dec 07 14:15:16 +0000 2009",
+                "favourites_count": 43,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 101103,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/492236206172684288/5AiUspVz_normal.png",
+                "profile_link_color": "006AB7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1342,
+            "favorite_count": 3127,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    },
+    {
+        "id_str": "813351350792617984",
+        "created_at": "Mon Dec 26 11:50:48 +0000 2016",
+        "text": "観に行けないから、Twitterで猛検索😅笑\nセトリ最高。\nぱるるさんの笑顔がとっても美しい。\n\n",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "ぱるる卒業公演",
+                    "indices": [
+                        49,
+                        57
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]

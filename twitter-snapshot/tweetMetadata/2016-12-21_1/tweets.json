@@ -1,0 +1,23 @@
+[
+    {
+        "id_str": "811535837678563328",
+        "created_at": "Wed Dec 21 11:36:35 +0000 2016",
+        "text": "おつかれさまですヽ(´ー｀)ノ\n今日お世話になった皆さん、ありがとうございました。\nいっぱい笑った。\n新しい風、感じた。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/793259467714342913/xSs0B_XJ_normal.jpg"
+        }
+    }
+]
