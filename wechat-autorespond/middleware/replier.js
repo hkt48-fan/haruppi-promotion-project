@@ -37,18 +37,18 @@ var userMsgCommands = [
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
         content += '📺'  +
-          s.begin +'\n' +
-          s.end + '\n' +
+          s.date +'\n' +
+          s.time + '\n' +
           s.description + '\n';
       }
 
-      if(liveData.room.length !== 0){
-        content +="\n直播中:\n";
-      }
-      for(var j=0;j<liveData.room.length;j++){
-        var r = liveData.room[j];
-        content += r.room_name + '\n';
-      }
+      // if(liveData.room.length !== 0){
+      //   content +="\n直播中:\n";
+      // }
+      // for(var j=0;j<liveData.room.length;j++){
+      //   var r = liveData.room[j];
+      //   content += r.room_name + '\n';
+      // }
 
       respd.xml.Content=content;
       return respd;
