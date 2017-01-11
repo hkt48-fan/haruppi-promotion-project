@@ -33,9 +33,10 @@ var userMsgCommands = [
 
       var liveData = liveManager.getLiveData();
       var content = "番组表:\n";
-
+//console.log(liveData);
       for(var i=0;i<liveData.schedule.length;i++){
         var s = liveData.schedule[i];
+        console.log(s);
         content += '📺'  +
           s.date +'\n' +
           s.time + '\n' +

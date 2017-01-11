@@ -35,7 +35,7 @@ var LiveManager = function(){
   };
 
   LiveManager.prototype.refreshSchedule = function(){
-    // console.log(self.scheduleAPI);
+     console.log(self.scheduleAPI);
     request(self.scheduleAPI,function(err,res,data){
 
       if (err) {
@@ -46,8 +46,8 @@ var LiveManager = function(){
 
         try{
           
-            var schedule = JSON.parse(data);
-            self.bag.schedule = schedule.data;
+            var bag = JSON.parse(data);
+            self.bag.schedule = bag.schedule.data;
         }
         catch(e){
             console.log(e);
