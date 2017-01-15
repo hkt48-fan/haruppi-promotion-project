@@ -5,8 +5,8 @@ var _ = require('lodash');
 var LiveManager = function(){
   this.bag = {};
   this._baseAPI = 'http://' + config['tentoumu-chu-server'] +'/api';
-  this.scheduleAPI = this._baseAPI + '/list';
-  this.roomAPI = this._baseAPI + '/room';
+  this.scheduleAPI = this._baseAPI + '/miichan/haruppi-ha-consumer';
+  // this.roomAPI = this._baseAPI + '/room';
   var self = this;
 
 
@@ -35,7 +35,7 @@ var LiveManager = function(){
   };
 
   LiveManager.prototype.refreshSchedule = function(){
-    // console.log(self.scheduleAPI);
+     console.log(self.scheduleAPI);
     request(self.scheduleAPI,function(err,res,data){
 
       if (err) {
@@ -46,8 +46,8 @@ var LiveManager = function(){
 
         try{
           
-            var schedule = JSON.parse(data);
-            self.bag.schedule = schedule;
+            var bag = JSON.parse(data);
+            self.bag.schedule = bag.schedule.data;
         }
         catch(e){
             console.log(e);
@@ -61,7 +61,7 @@ var LiveManager = function(){
 
   LiveManager.prototype.startRefresh = function(){
     this.refreshSchedule();
-    this.refreshRoom();
+    // this.refreshRoom();
   };
 
   LiveManager.prototype.getLiveData = function(){
