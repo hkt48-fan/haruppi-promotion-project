@@ -8,8 +8,9 @@ import config from '../config';
 
 const INSTAGRAM_HARUPPI_ID = 3469541695;
 const SAVED_MEDIA_PATH = 'saved_media';
-const PROXY = 'http://127.0.0.1:8119';
-
+// const PROXY = 'http://127.0.0.1:8119';
+const PROXY = null;
+//
 // const rl = readline.createInterface({
 //   input: process.stdin,
 //   output: process.stdout,
@@ -202,14 +203,25 @@ const perserveMedia = (media) => {
 
 (async() => {
   try {
-    const session = await Client.Session.create(device, storage, config.username, config.password);
+    const session = await Client.Session.create(device, storage, config.username, config.password, PROXY);
     const timer = setInterval(async () => {
       try {
         const stories = await getStoryTray(session);
         // get the high quality videos
         // console.log(stories);
-        const hqs = stories.map(s => {
-          const hq = s.video_versions.sort((a, b) => b.width - a.width);
+        const hqs = stories.filter(s => s.user.pk === INSTAGRAM_HARUPPI_ID).map(s => {
+          console.log(JSON.stringify(s.image_versions2, null, 2));
+          // there are two types media of story
+          // 1. video: video_versions
+          // 2. picture: image_versions2
+          let hq = null;
+          if (s.video_versions) {
+            hq = s.video_versions.sort((a, b) => b.width - a.width);
+          }
+          else if(s.image_versions2){
+            hq = s.image_versions2.candidates.sort((a, b) => b.width - a.width);
+          }
+
           const result = hq[0];
           result.id = s.id;
           result.takenAt = s.taken_at*1000;
@@ -217,6 +229,7 @@ const perserveMedia = (media) => {
         });
         // console.log(hqs);
         perserveMedia(hqs);
+        console.log('output stories: ', new Date());
 
 
         const feed = new Client.Feed.UserMedia(session, INSTAGRAM_HARUPPI_ID);
@@ -231,6 +244,7 @@ const perserveMedia = (media) => {
         // console.log('tl',images);
 
         perserveMedia(images);
+        console.log('output images: ', new Date());
       }
       catch(e){
         console.log(e);
