@@ -1,0 +1,673 @@
+[
+    {
+        "id_str": "818943160596529153",
+        "created_at": "Tue Jan 10 22:10:39 +0000 2017",
+        "text": "The name of the woman is Ma jailing . She's from Taiwan.\nAlways thank you very much💓\n\n… instagram.com/p/BPGYurxDTPg/",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "馬嘉伶",
+                    "indices": [
+                        86,
+                        90
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/dst19f8VZa",
+                    "expanded_url": "https://www.instagram.com/p/BPGYurxDTPg/",
+                    "display_url": "instagram.com/p/BPGYurxDTPg/",
+                    "indices": [
+                        92,
+                        115
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://scontent.cdninstagram.com/t51.2885-15/s1080x1080/e15/fr/15802121_1233863383368479_7368985585723113472_n.jpg?ig_cache_key=MTQyNDkzNTA5MzMxNTM4NDI4OA%3D%3D.2"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "818963642599079936",
+        "created_at": "Tue Jan 10 23:32:02 +0000 2017",
+        "text": "おはよーさん🌅\n成人式たのしかったな〜\nなにがとかないけども😂笑",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 818963633975631900,
+                    "id_str": "818963633975631873",
+                    "indices": [
+                        33,
+                        56
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C12LFgcUoAEiA1-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C12LFgcUoAEiA1-.jpg",
+                    "url": "https://t.co/x0qNVMy1bc",
+                    "display_url": "pic.twitter.com/x0qNVMy1bc",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/818963642599079936/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 592,
+                            "h": 959,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 420,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 592,
+                            "h": 959,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 818963633975631900,
+                    "id_str": "818963633975631873",
+                    "indices": [
+                        33,
+                        56
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C12LFgcUoAEiA1-.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C12LFgcUoAEiA1-.jpg",
+                    "url": "https://t.co/x0qNVMy1bc",
+                    "display_url": "pic.twitter.com/x0qNVMy1bc",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/818963642599079936/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 592,
+                            "h": 959,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 420,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 592,
+                            "h": 959,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 818963633925300200,
+                    "id_str": "818963633925300224",
+                    "indices": [
+                        33,
+                        56
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C12LFgQUoAAsVHr.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C12LFgQUoAAsVHr.jpg",
+                    "url": "https://t.co/x0qNVMy1bc",
+                    "display_url": "pic.twitter.com/x0qNVMy1bc",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/818963642599079936/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 652,
+                            "h": 870,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 652,
+                            "h": 870,
+                            "resize": "fit"
+                        }
+                    }
+                },
+                {
+                    "id": 818963633925275600,
+                    "id_str": "818963633925275648",
+                    "indices": [
+                        33,
+                        56
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C12LFgQUQAASpLE.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C12LFgQUQAASpLE.jpg",
+                    "url": "https://t.co/x0qNVMy1bc",
+                    "display_url": "pic.twitter.com/x0qNVMy1bc",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/818963642599079936/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "819148748383105025",
+            "created_at": "Wed Jan 11 11:47:35 +0000 2017",
+            "text": "ずっとプロレス〜\nまだまだ眼晴ります！！💎\n\n -wrestling",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "wip",
+                        "indices": [
+                            23,
+                            27
+                        ]
+                    },
+                    {
+                        "text": "worldidolpro",
+                        "indices": [
+                            28,
+                            41
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "819149042521210881",
+            "created_at": "Wed Jan 11 11:48:45 +0000 2017",
+            "text": "@haruka_kdm919 タグ付けよく分からん🤤🙄🤢",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "819148748383105025",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "819170462999531521",
+        "created_at": "Wed Jan 11 13:13:52 +0000 2017",
+        "text": "本日、学校制服ブランドO.C.S.D.の公式ブランドサイトをリニューアルいたしました🆕✨4月から実際に着用される新制服を公開中です😊制服を可愛く着こなしてくれたモデルさん達にも大注目です💖\n ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "学校制服",
+                    "indices": [
+                        113,
+                        118
+                    ]
+                },
+                {
+                    "text": "オサレカンパニー",
+                    "indices": [
+                        119,
+                        128
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "osarecompany",
+                    "name": "オサレカンパニー",
+                    "id": 4342755799,
+                    "id_str": "4342755799",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Wed Jan 11 11:06:18 +0000 2017",
+            "id": 819138360493019100,
+            "id_str": "819138360493019138",
+            "text": "本日、学校制服ブランドO.C.S.D.の公式ブランドサイトをリニューアルいたしました🆕✨4月から実際に着用される新制服を公開中です😊制服を可愛く着こなしてくれたモデルさん達にも大注目です💖\n#学校制服 #オサレカンパニー\nhttps://t.co/3IA0JlPTYh",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "学校制服",
+                        "indices": [
+                            95,
+                            100
+                        ]
+                    },
+                    {
+                        "text": "オサレカンパニー",
+                        "indices": [
+                            101,
+                            110
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/3IA0JlPTYh",
+                        "expanded_url": "https://www.ocsd.jp/",
+                        "display_url": "ocsd.jp",
+                        "indices": [
+                            111,
+                            134
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 4342755799,
+                "id_str": "4342755799",
+                "name": "オサレカンパニー",
+                "screen_name": "osarecompany",
+                "location": "東京 千代田区",
+                "description": "株式会社オサレカンパニーの公式アカウントです。 衣装やヘアメイクに関する様々な情報をお届けします✏︎ 学校制服ブランド『O.C.S.D. 』誕生！https://t.co/QrBC6uwPDF",
+                "url": "https://t.co/DBng5N4QEI",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/DBng5N4QEI",
+                                "expanded_url": "https://www.osarecompany.com",
+                                "display_url": "osarecompany.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/QrBC6uwPDF",
+                                "expanded_url": "https://www.ocsd.jp/index.html",
+                                "display_url": "ocsd.jp/index.html",
+                                "indices": [
+                                    73,
+                                    96
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 13938,
+                "friends_count": 84,
+                "listed_count": 227,
+                "created_at": "Tue Nov 24 07:46:56 +0000 2015",
+                "favourites_count": 28,
+                "utc_offset": -28800,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 202,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/669063585293688832/7eSnmU_B_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/669063585293688832/7eSnmU_B_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/4342755799/1448352191",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 182,
+            "favorite_count": 556,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "819170687201853440",
+        "created_at": "Wed Jan 11 13:14:45 +0000 2017",
+        "text": "Hulu限定サイン入りコースタープレゼント企画スペシャルムービー🎬\n\nタイちゃん（兒玉遥）からのメッセージをどうぞ✨✨\n詳細は bit.ly/2gFu5G2\n\n    ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "兒玉遥",
+                    "indices": [
+                        103,
+                        107
+                    ]
+                },
+                {
+                    "text": "キャバすか",
+                    "indices": [
+                        108,
+                        114
+                    ]
+                },
+                {
+                    "text": "HKT48",
+                    "indices": [
+                        115,
+                        121
+                    ]
+                },
+                {
+                    "text": "AKB48",
+                    "indices": [
+                        122,
+                        128
+                    ]
+                },
+                {
+                    "text": "Hulu",
+                    "indices": [
+                        129,
+                        134
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "cabasuka",
+                    "name": "キャバすか学園【公式】1/14 最終回",
+                    "id": 788043826673745900,
+                    "id_str": "788043826673745922",
+                    "indices": [
+                        3,
+                        12
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/27YDmsEgOJ",
+                    "expanded_url": "http://bit.ly/2gFu5G2",
+                    "display_url": "bit.ly/2gFu5G2",
+                    "indices": [
+                        78,
+                        101
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Wed Jan 11 13:09:41 +0000 2017",
+            "id": 819169410912878600,
+            "id_str": "819169410912878593",
+            "text": "Hulu限定サイン入りコースタープレゼント企画スペシャルムービー🎬\n\nタイちゃん（兒玉遥）からのメッセージをどうぞ✨✨\n詳細は https://t.co/27YDmsEgOJ\n\n#兒玉遥 #キャバすか #HKT48 #AKB48… https://t.co/WrXGcHd1sx",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            89,
+                            93
+                        ]
+                    },
+                    {
+                        "text": "キャバすか",
+                        "indices": [
+                            94,
+                            100
+                        ]
+                    },
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            101,
+                            107
+                        ]
+                    },
+                    {
+                        "text": "AKB48",
+                        "indices": [
+                            108,
+                            114
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/27YDmsEgOJ",
+                        "expanded_url": "http://bit.ly/2gFu5G2",
+                        "display_url": "bit.ly/2gFu5G2",
+                        "indices": [
+                            64,
+                            87
+                        ]
+                    },
+                    {
+                        "url": "https://t.co/WrXGcHd1sx",
+                        "expanded_url": "https://twitter.com/i/web/status/819169410912878593",
+                        "display_url": "twitter.com/i/web/status/8…",
+                        "indices": [
+                            116,
+                            139
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 788043826673745900,
+                "id_str": "788043826673745922",
+                "name": "キャバすか学園【公式】1/14 最終回",
+                "screen_name": "cabasuka",
+                "location": "",
+                "description": "日本テレビ「キャバすか学園」公式Twitterです！ドラマの最新情報やオフショットをお届けします！毎週土曜深夜放送（※関東ローカル）です。Huluで独占先行配信中！",
+                "url": "https://t.co/3gr1zGc6LC",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/3gr1zGc6LC",
+                                "expanded_url": "http://www.ntv.co.jp/kyabasuka/",
+                                "display_url": "ntv.co.jp/kyabasuka/",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 30832,
+                "friends_count": 38,
+                "listed_count": 186,
+                "created_at": "Mon Oct 17 15:47:44 +0000 2016",
+                "favourites_count": 9,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": false,
+                "statuses_count": 379,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/793235272938819584/ukx7nQ_w_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/793235272938819584/ukx7nQ_w_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/788043826673745922/1477943809",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 256,
+            "favorite_count": 910,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    }
+]

@@ -1,0 +1,261 @@
+[
+    {
+        "id_str": "819413099916599296",
+        "created_at": "Thu Jan 12 05:18:01 +0000 2017",
+        "text": "🛫HaKaTa👩🏻👒",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "819413559390023680",
+        "created_at": "Thu Jan 12 05:19:51 +0000 2017",
+        "text": "【福岡ガチ移住ブログvol.11】「福岡は音楽の街」って知ってた？　その理由を音楽イベントプロデューサー深町健二郎さんに聞いてみた｜HASH  hash.city.fukuoka.lg.jp/ijyu-yui/archi   ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "FUKUOKA",
+                    "indices": [
+                        91,
+                        99
+                    ]
+                },
+                {
+                    "text": "福岡",
+                    "indices": [
+                        124,
+                        127
+                    ]
+                },
+                {
+                    "text": "博多",
+                    "indices": [
+                        128,
+                        131
+                    ]
+                },
+                {
+                    "text": "hakata",
+                    "indices": [
+                        132,
+                        139
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "Fukuokacity_pr",
+                    "name": "福岡市　広報戦略室",
+                    "id": 297314465,
+                    "id_str": "297314465",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/cwzFAbJG3A",
+                    "expanded_url": "http://hash.city.fukuoka.lg.jp/ijyu-yui/archives/11",
+                    "display_url": "hash.city.fukuoka.lg.jp/ijyu-yui/archi…",
+                    "indices": [
+                        100,
+                        123
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/C0LVz5uUkAAf0BM.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Wed Dec 21 05:39:39 +0000 2016",
+            "id": 811446009159004200,
+            "id_str": "811446009159004160",
+            "text": "【福岡ガチ移住ブログvol.11】「福岡は音楽の街」って知ってた？　その理由を音楽イベントプロデューサー深町健二郎さんに聞いてみた｜HASH #FUKUOKA https://t.co/cwzFAbJG3A #福岡 #博多… https://t.co/uA1731MtRH",
+            "truncated": true,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "FUKUOKA",
+                        "indices": [
+                            71,
+                            79
+                        ]
+                    },
+                    {
+                        "text": "福岡",
+                        "indices": [
+                            104,
+                            107
+                        ]
+                    },
+                    {
+                        "text": "博多",
+                        "indices": [
+                            108,
+                            111
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/cwzFAbJG3A",
+                        "expanded_url": "http://hash.city.fukuoka.lg.jp/ijyu-yui/archives/11",
+                        "display_url": "hash.city.fukuoka.lg.jp/ijyu-yui/archi…",
+                        "indices": [
+                            80,
+                            103
+                        ]
+                    },
+                    {
+                        "url": "https://t.co/uA1731MtRH",
+                        "expanded_url": "https://twitter.com/i/web/status/811446009159004160",
+                        "display_url": "twitter.com/i/web/status/8…",
+                        "indices": [
+                            113,
+                            136
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 297314465,
+                "id_str": "297314465",
+                "name": "福岡市　広報戦略室",
+                "screen_name": "Fukuokacity_pr",
+                "location": "福岡県福岡市中央区天神１－８－１",
+                "description": "福岡市から市政情報や緊急情報等をお知らせします。本アカウントのツイートに対する利用者からのフォロー、リプライ、ダイレクトメッセージ等への個別対応は原則行いませんのであらかじめご承知おきください。ツイート掲載のリンク先ＵＲＬのファイルは、データ容量が大きいものがあるため、パソコンでのご利用をお勧めします。",
+                "url": "http://t.co/f2pJ219m5w",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/f2pJ219m5w",
+                                "expanded_url": "http://www.city.fukuoka.lg.jp/index.html",
+                                "display_url": "city.fukuoka.lg.jp/index.html",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 51463,
+                "friends_count": 4,
+                "listed_count": 895,
+                "created_at": "Thu May 12 09:26:52 +0000 2011",
+                "favourites_count": 23,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 84041,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1361770897/image_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1361770897/image_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/297314465/1418610918",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 72,
+            "favorite_count": 301,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "819530628076929025",
+        "created_at": "Thu Jan 12 13:05:02 +0000 2017",
+        "text": "",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/MmCgPaeR2j",
+                    "expanded_url": "https://plus.google.com/111907069956262615426/posts/1gkr7rDajct?iem=4&gpawv=1&hl=ja-JP",
+                    "display_url": "plus.google.com/11190706995626…",
+                    "indices": [
+                        0,
+                        23
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    }
+]

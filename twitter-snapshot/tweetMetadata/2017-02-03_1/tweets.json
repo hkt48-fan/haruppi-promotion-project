@@ -1,0 +1,556 @@
+[
+    {
+        "id_str": "827424088176013312",
+        "created_at": "Fri Feb 03 07:50:50 +0000 2017",
+        "text": "今までで1番楽しかったMVでーす😊💕\nチェックよろしくお願いします。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/vnmgQayejy",
+                    "expanded_url": "https://twitter.com/hkt48_official_/status/826959912030777344",
+                    "display_url": "twitter.com/hkt48_official…",
+                    "indices": [
+                        35,
+                        58
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "826959912030777344",
+        "quoted_status": {
+            "created_at": "Thu Feb 02 01:06:21 +0000 2017",
+            "id": 826959912030777300,
+            "id_str": "826959912030777344",
+            "text": "《WEB担当》2/15発売「バグっていいじゃん」のミュージックビデオを公式YouTubeチャンネルにて公開いたしました！是非ご覧下さい！\n\nhttps://t.co/FFeOx2r49a\n\n#HKT48 #バグっていいじゃん https://t.co/mXVdkkHKH9",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            95,
+                            101
+                        ]
+                    },
+                    {
+                        "text": "バグっていいじゃん",
+                        "indices": [
+                            102,
+                            112
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/FFeOx2r49a",
+                        "expanded_url": "https://youtu.be/abWA4p6iKdU",
+                        "display_url": "youtu.be/abWA4p6iKdU",
+                        "indices": [
+                            70,
+                            93
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 826959901872136200,
+                        "id_str": "826959901872136192",
+                        "indices": [
+                            113,
+                            136
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C3nzpjqUoAA49HQ.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C3nzpjqUoAA49HQ.jpg",
+                        "url": "https://t.co/mXVdkkHKH9",
+                        "display_url": "pic.twitter.com/mXVdkkHKH9",
+                        "expanded_url": "https://twitter.com/hkt48_official_/status/826959912030777344/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 386,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 681,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1920,
+                                "h": 1090,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 826959901872136200,
+                        "id_str": "826959901872136192",
+                        "indices": [
+                            113,
+                            136
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C3nzpjqUoAA49HQ.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C3nzpjqUoAA49HQ.jpg",
+                        "url": "https://t.co/mXVdkkHKH9",
+                        "display_url": "pic.twitter.com/mXVdkkHKH9",
+                        "expanded_url": "https://twitter.com/hkt48_official_/status/826959912030777344/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 386,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 681,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 1920,
+                                "h": 1090,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 800520921387700200,
+                "id_str": "800520921387700224",
+                "name": "HKT48",
+                "screen_name": "hkt48_official_",
+                "location": "HKT48劇場（西鉄ホール）",
+                "description": "AKB48・SKE48・NMB48に続き、AKB48プロジェクト第4弾として福岡・博多に発足した「HKT48」の公式アカウントです。 支配人の尾崎を始め、運営スタッフ全員で一丸となってHKT48の情報をつぶやいていきます。",
+                "url": "https://t.co/J6SUB9E50G",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/J6SUB9E50G",
+                                "expanded_url": "http://www.hkt48.jp",
+                                "display_url": "hkt48.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 44565,
+                "friends_count": 4,
+                "listed_count": 469,
+                "created_at": "Mon Nov 21 02:07:15 +0000 2016",
+                "favourites_count": 1,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 389,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/800570232767008768/uYfJtrdD_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/800570232767008768/uYfJtrdD_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/800520921387700224/1479703334",
+                "profile_link_color": "231816",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1029,
+            "favorite_count": 2297,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    },
+    {
+        "id_str": "827486361921785858",
+        "created_at": "Fri Feb 03 11:58:17 +0000 2017",
+        "text": "エメラルド遥、ピンチ!!\n\n第3話は、2月4日(土)深夜！\nいつもより10分遅い、深夜0時45分からの放送です。(一部地域を除く)\n\n  ",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "豆腐プロレス",
+                    "indices": [
+                        85,
+                        92
+                    ]
+                },
+                {
+                    "text": "まめプロ",
+                    "indices": [
+                        93,
+                        98
+                    ]
+                },
+                {
+                    "text": "テレビ朝日",
+                    "indices": [
+                        99,
+                        105
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "tofu_prowres",
+                    "name": "豆腐プロレス（テレビ朝日）",
+                    "id": 815972223672422400,
+                    "id_str": "815972223672422400",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 827468640366714900,
+                    "id_str": "827468640366714880",
+                    "indices": [
+                        106,
+                        129
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                    "url": "https://t.co/F4klguOkeY",
+                    "display_url": "pic.twitter.com/F4klguOkeY",
+                    "expanded_url": "https://twitter.com/tofu_prowres/status/827468678300004352/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 454,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 802,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1368,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 827468678300004400,
+                    "source_status_id_str": "827468678300004352",
+                    "source_user_id": 815972223672422400,
+                    "source_user_id_str": "815972223672422400"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 827468640366714900,
+                    "id_str": "827468640366714880",
+                    "indices": [
+                        106,
+                        129
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                    "url": "https://t.co/F4klguOkeY",
+                    "display_url": "pic.twitter.com/F4klguOkeY",
+                    "expanded_url": "https://twitter.com/tofu_prowres/status/827468678300004352/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 454,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 802,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1368,
+                            "resize": "fit"
+                        }
+                    },
+                    "source_status_id": 827468678300004400,
+                    "source_status_id_str": "827468678300004352",
+                    "source_user_id": 815972223672422400,
+                    "source_user_id_str": "815972223672422400"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Fri Feb 03 10:48:01 +0000 2017",
+            "id": 827468678300004400,
+            "id_str": "827468678300004352",
+            "text": "エメラルド遥、ピンチ!!\n\n第3話は、2月4日(土)深夜！\nいつもより10分遅い、深夜0時45分からの放送です。(一部地域を除く)\n\n#豆腐プロレス #まめプロ #テレビ朝日 https://t.co/F4klguOkeY",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "豆腐プロレス",
+                        "indices": [
+                            67,
+                            74
+                        ]
+                    },
+                    {
+                        "text": "まめプロ",
+                        "indices": [
+                            75,
+                            80
+                        ]
+                    },
+                    {
+                        "text": "テレビ朝日",
+                        "indices": [
+                            81,
+                            87
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 827468640366714900,
+                        "id_str": "827468640366714880",
+                        "indices": [
+                            88,
+                            111
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                        "url": "https://t.co/F4klguOkeY",
+                        "display_url": "pic.twitter.com/F4klguOkeY",
+                        "expanded_url": "https://twitter.com/tofu_prowres/status/827468678300004352/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 802,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1368,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 827468640366714900,
+                        "id_str": "827468640366714880",
+                        "indices": [
+                            88,
+                            111
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C3vCWCPVYAA_tLD.jpg",
+                        "url": "https://t.co/F4klguOkeY",
+                        "display_url": "pic.twitter.com/F4klguOkeY",
+                        "expanded_url": "https://twitter.com/tofu_prowres/status/827468678300004352/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 802,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1368,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 815972223672422400,
+                "id_str": "815972223672422400",
+                "name": "豆腐プロレス（テレビ朝日）",
+                "screen_name": "tofu_prowres",
+                "location": "",
+                "description": "ドラマ『豆腐プロレス』テレビ朝日系列毎週土曜深夜0:35～（※一部地域を除く）公式アカウントです！　AKB48グループメンバーがガチでプロレスに挑戦！？“夢が欲しけりゃ、リングに上がれ！”",
+                "url": "https://t.co/nxHOMZB4uN",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/nxHOMZB4uN",
+                                "expanded_url": "http://www.tv-asahi.co.jp/tofu-prowrestling/",
+                                "display_url": "tv-asahi.co.jp/tofu-prowrestl…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 7138,
+                "friends_count": 27,
+                "listed_count": 107,
+                "created_at": "Mon Jan 02 17:25:12 +0000 2017",
+                "favourites_count": 296,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 167,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/820940891040821248/dxIp8H00_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/820940891040821248/dxIp8H00_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/815972223672422400/1484641256",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 260,
+            "favorite_count": 917,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    }
+]

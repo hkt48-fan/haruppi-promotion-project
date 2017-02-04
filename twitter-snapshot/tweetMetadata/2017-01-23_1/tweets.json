@@ -1,0 +1,633 @@
+[
+    {
+        "id_str": "823366970103861248",
+        "created_at": "Mon Jan 23 03:09:17 +0000 2017",
+        "text": "初ソロ表紙をさせていただきました！\n撮影さむかったなぁ😂笑",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/r9ru29Wf0o",
+                    "expanded_url": "https://twitter.com/magazine_young/status/823289346920972289",
+                    "display_url": "twitter.com/magazine_young…",
+                    "indices": [
+                        30,
+                        53
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "823289346920972289",
+        "quoted_status": {
+            "created_at": "Sun Jan 22 22:00:50 +0000 2017",
+            "id": 823289346920972300,
+            "id_str": "823289346920972289",
+            "text": "ヤンマガ初ソロ表紙！ 兒玉遥さん（HKT48）さんが表紙・巻頭グラビアに登場する、ヤングマガジン第8号本日発売!!\nhttps://t.co/yYIyjjlIfo\n#ヤンマガ https://t.co/Wxc3UBjx5X",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "ヤンマガ",
+                        "indices": [
+                            82,
+                            87
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/yYIyjjlIfo",
+                        "expanded_url": "http://yanmaga.jp/weekly/",
+                        "display_url": "yanmaga.jp/weekly/",
+                        "indices": [
+                            58,
+                            81
+                        ]
+                    }
+                ],
+                "media": [
+                    {
+                        "id": 823289344634986500,
+                        "id_str": "823289344634986497",
+                        "indices": [
+                            88,
+                            111
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C2zpTAZVIAEbKmY.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C2zpTAZVIAEbKmY.jpg",
+                        "url": "https://t.co/Wxc3UBjx5X",
+                        "display_url": "pic.twitter.com/Wxc3UBjx5X",
+                        "expanded_url": "https://twitter.com/magazine_young/status/823289346920972289/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 680,
+                                "h": 962,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 481,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 680,
+                                "h": 962,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 823289344634986500,
+                        "id_str": "823289344634986497",
+                        "indices": [
+                            88,
+                            111
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C2zpTAZVIAEbKmY.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C2zpTAZVIAEbKmY.jpg",
+                        "url": "https://t.co/Wxc3UBjx5X",
+                        "display_url": "pic.twitter.com/Wxc3UBjx5X",
+                        "expanded_url": "https://twitter.com/magazine_young/status/823289346920972289/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 680,
+                                "h": 962,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 481,
+                                "h": 680,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 680,
+                                "h": 962,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 533035000,
+                "id_str": "533035000",
+                "name": "ヤングマガジン編集部",
+                "screen_name": "magazine_young",
+                "location": "東京都文京区",
+                "description": "毎週月曜日発売の週刊ヤングマガジン公式ツイッターです。ヤンマガの最新情報をつぶやいていきます。個別のご質問などにはお答えできない場合がありますので、ご了承くださいm(__)m",
+                "url": "http://t.co/JqQaAKS3XR",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/JqQaAKS3XR",
+                                "expanded_url": "http://yanmaga.jp/",
+                                "display_url": "yanmaga.jp",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 17602,
+                "friends_count": 3160,
+                "listed_count": 338,
+                "created_at": "Thu Mar 22 11:02:22 +0000 2012",
+                "favourites_count": 225,
+                "utc_offset": 28800,
+                "time_zone": "Irkutsk",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 6051,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/606000280182779904/pXKm9Mur_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/606000280182779904/pXKm9Mur_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/533035000/1399957846",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 123,
+            "favorite_count": 296,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "823369898910810112",
+        "created_at": "Mon Jan 23 03:20:56 +0000 2017",
+        "text": "広報部【メディア情報】\n本日発売！\n豆腐プロレスが表紙の週刊プレイボーイさん！\nそして兒玉遥ソロ初表紙のヤングマガジンさん！\n是非チェックお願いします！\n※写真はヤンマガさんのアザーカットです♪",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "hkt48_official_",
+                    "name": "HKT48",
+                    "id": 800520921387700200,
+                    "id_str": "800520921387700224",
+                    "indices": [
+                        3,
+                        19
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://pbs.twimg.com/media/C20wt4FUQAAtqbN.jpg"
+                },
+                {
+                    "media_url": "https://pbs.twimg.com/media/C20wt4HUsAIOQ3f.jpg"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Mon Jan 23 03:12:58 +0000 2017",
+            "id": 823367894272573400,
+            "id_str": "823367894272573440",
+            "text": "広報部【メディア情報】\n本日発売！\n豆腐プロレスが表紙の週刊プレイボーイさん！\nそして兒玉遥ソロ初表紙のヤングマガジンさん！\n是非チェックお願いします！\n※写真はヤンマガさんのアザーカットです♪ https://t.co/0e5suqMBxj",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 823367871585599500,
+                        "id_str": "823367871585599488",
+                        "indices": [
+                            98,
+                            121
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C20wt4FUQAAtqbN.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C20wt4FUQAAtqbN.jpg",
+                        "url": "https://t.co/0e5suqMBxj",
+                        "display_url": "pic.twitter.com/0e5suqMBxj",
+                        "expanded_url": "https://twitter.com/hkt48_official_/status/823367894272573440/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1364,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 799,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 823367871585599500,
+                        "id_str": "823367871585599488",
+                        "indices": [
+                            98,
+                            121
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C20wt4FUQAAtqbN.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C20wt4FUQAAtqbN.jpg",
+                        "url": "https://t.co/0e5suqMBxj",
+                        "display_url": "pic.twitter.com/0e5suqMBxj",
+                        "expanded_url": "https://twitter.com/hkt48_official_/status/823367894272573440/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 453,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1364,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 799,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 823367871594016800,
+                        "id_str": "823367871594016770",
+                        "indices": [
+                            98,
+                            121
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C20wt4HUsAIOQ3f.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C20wt4HUsAIOQ3f.jpg",
+                        "url": "https://t.co/0e5suqMBxj",
+                        "display_url": "pic.twitter.com/0e5suqMBxj",
+                        "expanded_url": "https://twitter.com/hkt48_official_/status/823367894272573440/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 454,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 800,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 2048,
+                                "h": 1366,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 800520921387700200,
+                "id_str": "800520921387700224",
+                "name": "HKT48",
+                "screen_name": "hkt48_official_",
+                "location": "HKT48劇場（西鉄ホール）",
+                "description": "AKB48・SKE48・NMB48に続き、AKB48プロジェクト第4弾として福岡・博多に発足した「HKT48」の公式アカウントです。 支配人の尾崎を始め、運営スタッフ全員で一丸となってHKT48の情報をつぶやいていきます。",
+                "url": "https://t.co/J6SUB9E50G",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/J6SUB9E50G",
+                                "expanded_url": "http://www.hkt48.jp",
+                                "display_url": "hkt48.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 43350,
+                "friends_count": 4,
+                "listed_count": 453,
+                "created_at": "Mon Nov 21 02:07:15 +0000 2016",
+                "favourites_count": 1,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 361,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/800570232767008768/uYfJtrdD_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/800570232767008768/uYfJtrdD_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/800520921387700224/1479703334",
+                "profile_link_color": "231816",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "has_extended_profile": true,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 580,
+            "favorite_count": 2703,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "823446764489347072",
+        "created_at": "Mon Jan 23 08:26:22 +0000 2017",
+        "text": "ameblo.jp/no3b-official/\nみいちゃんのこと、みんな大好きです☺わたしがこうやって夢をみれていること、AKB48の一員としてステージに立てるのは、一期生の先輩方はじめ峯岸さんがいるからです。お誕生日おめでとうございます！今年もいっぱい笑いましょう✌🏼",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/HQQsJUaqHQ",
+                    "expanded_url": "http://ameblo.jp/no3b-official/entry-12240740522.html",
+                    "display_url": "ameblo.jp/no3b-official/…",
+                    "indices": [
+                        0,
+                        23
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "823527870765170692",
+        "created_at": "Mon Jan 23 13:48:39 +0000 2017",
+        "text": "  instagram.com/p/BPm-HUTj9DB/",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "タブーの色",
+                    "indices": [
+                        0,
+                        6
+                    ]
+                },
+                {
+                    "text": "サクラハルカ",
+                    "indices": [
+                        7,
+                        14
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/fD1P1t69Jl",
+                    "expanded_url": "https://www.instagram.com/p/BPm-HUTj9DB/",
+                    "display_url": "instagram.com/p/BPm-HUTj9DB/",
+                    "indices": [
+                        15,
+                        38
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "media_url": "https://scontent-nrt1-1.cdninstagram.com/t51.2885-15/e35/16230738_110597562786401_6869929726165647360_n.jpg?ig_cache_key=MTQzNDEwNjcxMzA4NzEzNTkzNw%3D%3D.2"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "823542751127969792",
+            "created_at": "Mon Jan 23 14:47:47 +0000 2017",
+            "text": "テレ朝の 橋下✖️羽鳥の番組\n勉強になる〜🤔",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "823545358101790723",
+            "created_at": "Mon Jan 23 14:58:08 +0000 2017",
+            "text": "@haruka_kdm919 日本中が笑顔になるためには、、、🤔？",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "823542751127969792",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "823548945808752640",
+            "created_at": "Mon Jan 23 15:12:24 +0000 2017",
+            "text": "@haruka_kdm919 マンボウやしろさん好きになっちゃった〜😽",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "823542751127969792",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ]
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "post": {
+            "postId": 5520,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "キューん",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1483116924,
+            "localId": "B65F5A92-7E47-4162-B070-A47EE2523BA9",
+            "deleted": null,
+            "rtCount": 19,
+            "likeCount": 700,
+            "commentCount": 3
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    },
+    {
+        "post": {
+            "postId": 5519,
+            "postType": 1,
+            "owner": "eaIiGytNG3Qo",
+            "body": [
+                {
+                    "text": "西野カナさんの「あなたの好きなところ」めちゃいい歌詞（ ;  ; ）💓",
+                    "bodyType": 1
+                }
+            ],
+            "comment": null,
+            "time": 1483116875,
+            "localId": "14F04BA4-52F8-4031-AB7B-7A760DC2D921",
+            "deleted": null,
+            "rtCount": 24,
+            "likeCount": 534,
+            "commentCount": 3
+        },
+        "user": {
+            "userId": "eaIiGytNG3Qo",
+            "name": "兒玉遥（HKT48/AKB48）",
+            "thumbnailUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/80/jH/j/t02400240p.jpg",
+            "description": "1st写真集「ロックオン」7月27日発売決定＼(^o^)／",
+            "coverImageUrl": "https://stat.7gogo.jp/appimg_images/20160225/19/5a/yV/j/t02200220p.jpg",
+            "coverImageThumbnailUrl": null,
+            "sex": null,
+            "registerType": null,
+            "accountStatus": 0,
+            "userType": 1,
+            "followed": false,
+            "following": false,
+            "isParticipating": false,
+            "visible": true
+        }
+    }
+]

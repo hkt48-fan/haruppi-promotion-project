@@ -1,0 +1,520 @@
+[
+    {
+        "id_str": "817855628144017408",
+        "created_at": "Sat Jan 07 22:09:11 +0000 2017",
+        "text": "おはの〜✨\nたくさん眠れた！スッキリ〜",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "817856903556448256",
+            "created_at": "Sat Jan 07 22:14:15 +0000 2017",
+            "text": "公式とは、、、🤔❔💞",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/67lnHjNYfp",
+                        "expanded_url": "https://twitter.com/meroppi0919/status/816845589069467650",
+                        "display_url": "twitter.com/meroppi0919/st…",
+                        "indices": [
+                            11,
+                            34
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": true,
+            "quoted_status_id_str": "816845589069467650",
+            "quoted_status": {
+                "created_at": "Thu Jan 05 03:15:39 +0000 2017",
+                "id": 816845589069467600,
+                "id_str": "816845589069467650",
+                "text": "🎉はるっぴっぴ女子会 グループLINE🎉\nはるっぴ大好き💕という活発&amp;控えめ&amp;在宅な女子めろっぴさんのコミュニティーです✨\n（はるっぴも認知👌しています）\n参加希望の方、どうぞ気兼ねなくメッセージ下さい😊🎶\n#兒玉遥 #はるっぴ… https://t.co/zRhtQsdXbv",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "兒玉遥",
+                            "indices": [
+                                112,
+                                116
+                            ]
+                        },
+                        {
+                            "text": "はるっぴ",
+                            "indices": [
+                                117,
+                                122
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/zRhtQsdXbv",
+                            "expanded_url": "https://twitter.com/i/web/status/816845589069467650",
+                            "display_url": "twitter.com/i/web/status/8…",
+                            "indices": [
+                                124,
+                                147
+                            ]
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 801386581139472400,
+                    "id_str": "801386581139472384",
+                    "name": "【公式】はるっぴっぴ女子会",
+                    "screen_name": "meroppi0919",
+                    "location": "",
+                    "description": "#HKT48 #AKB48 #はるっぴ こと #兒玉遥 ちゃん（@haruka_kdm919）を応援する、女子会グループです。グループ名は、はるっぴが命名💝してくれました✨はるっぴに興味のある女性の皆様☝️️一緒にはるっぴを応援しませんか❓グループLINEもあります🎗ご参加、心からお待ちしております😊",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 206,
+                    "friends_count": 237,
+                    "listed_count": 2,
+                    "created_at": "Wed Nov 23 11:27:04 +0000 2016",
+                    "favourites_count": 277,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 399,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "F5F8FA",
+                    "profile_background_image_url": null,
+                    "profile_background_image_url_https": null,
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/801623311419486208/IShCoHMx_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/801623311419486208/IShCoHMx_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/801386581139472384/1482756289",
+                    "profile_link_color": "1DA1F2",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 30,
+                "favorite_count": 93,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "817858417117118465",
+            "created_at": "Sun Jan 08 2017 06:20:16 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "neofairyeippi＠はるっぴ",
+                "screen_name": "neofairy_eippi",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/704945199106097152/LudANU5D_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 握手会とかで、はるっぴが女の子に言われて軽い気持ちでokしたことかも知れないよ！それを下手にイジるとまたファン減らすキッカケになりかねないけど大丈夫？",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 90
+            },
+            "in_reply_to_status_id_str": "817856903556448256"
+        },
+        {
+            "id_str": "817863127677050880",
+            "created_at": "Sat Jan 07 22:38:59 +0000 2017",
+            "text": "@neofairy_eippi 考えすぎ！😂笑",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "neofairy_eippi",
+                        "name": "neofairyeippi＠はるっぴ",
+                        "id": 704943859894239200,
+                        "id_str": "704943859894239234",
+                        "indices": [
+                            0,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "817858417117118465",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "817933594307936256",
+            "created_at": "Sun Jan 08 03:19:00 +0000 2017",
+            "text": "指原サンタさんからお洋服💞\nありがたや〜\n4期生のみんなと、舞ちゃん☺",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 817933576532410400,
+                        "id_str": "817933576532410368",
+                        "indices": [
+                            36,
+                            59
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C1niQRcUQAA6upM.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C1niQRcUQAA6upM.jpg",
+                        "url": "https://t.co/sxwmN0ebzL",
+                        "display_url": "pic.twitter.com/sxwmN0ebzL",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/817933594307936256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 2048,
+                                "h": 1536,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 900,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 817933576532410400,
+                        "id_str": "817933576532410368",
+                        "indices": [
+                            36,
+                            59
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C1niQRcUQAA6upM.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C1niQRcUQAA6upM.jpg",
+                        "url": "https://t.co/sxwmN0ebzL",
+                        "display_url": "pic.twitter.com/sxwmN0ebzL",
+                        "expanded_url": "https://twitter.com/haruka_kdm919/status/817933594307936256/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "large": {
+                                "w": 2048,
+                                "h": 1536,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1200,
+                                "h": 900,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "817933728039088128",
+            "created_at": "Sun Jan 08 03:19:31 +0000 2017",
+            "text": "@haruka_kdm919 あ、まりあにめるちゃんも！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "817933594307936256",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "817947000729575424",
+        "created_at": "Sun Jan 08 04:12:16 +0000 2017",
+        "text": "新成人 生まれた年を振り返る  - Y!ニュース \nたまごっち持ってたな〜\n懐かしい☺",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Yahooニュースアプリ",
+                    "indices": [
+                        25,
+                        38
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/WpICz4iIop",
+                    "expanded_url": "http://news.yahoo.co.jp/pickup/6226585",
+                    "display_url": "news.yahoo.co.jp/pickup/6226585",
+                    "indices": [
+                        57,
+                        80
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "817515711207653376",
+            "created_at": "Sat Jan 07 2017 07:38:28 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_bigger.jpg"
+            },
+            "text": "私から皆さんへクイズです！\n\n⓵この日、ちーはるである曲を一緒にうたいました。\nさて、誰のなんて曲でしょうか？",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 55
+            }
+        },
+        {
+            "id_str": "818029514219393024",
+            "created_at": "Sun Jan 08 09:40:09 +0000 2017",
+            "text": "@haruka_kdm919 正解は、、、\n西野カナさんの「best friend」でした！HKT48のオーディション歌唱審査で歌ったの。この曲のおかげ☺💓",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "817515711207653376",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "818046518942760961",
+        "created_at": "Sun Jan 08 10:47:43 +0000 2017",
+        "text": "握手会ありがとうございました〜\nたのしかったね☺",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "818058234837667841",
+            "created_at": "Sun Jan 08 11:34:16 +0000 2017",
+            "text": "明日は成人式です🌸\nさて、私は、何色の振り袖でしょうか？\n予想大会！すたーと！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "818103845997801472",
+            "created_at": "Sun Jan 08 14:35:31 +0000 2017",
+            "text": "@haruka_kdm919 結構あたってる💡\n結果は明日〜💫おやすみかーん🍊",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "818058234837667841",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ]
+]

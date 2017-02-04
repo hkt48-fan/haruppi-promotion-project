@@ -1,0 +1,431 @@
+[
+    [],
+    [
+        {
+            "id_str": "821010738298822656",
+            "created_at": "Mon Jan 16 2017 23:06:28 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "821178974822744064",
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "@39saku_chan お面作らなきゃ。。（メンバーにしかわからない🙃）",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "39saku_chan",
+                        "indices": [
+                            0,
+                            12
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 38
+            }
+        },
+        {
+            "id_str": "821178974822744064",
+            "created_at": "Tue Jan 17 02:14:59 +0000 2017",
+            "text": "HKT48春のホールツアーの日程が遂に発表されました！私の誕生日に二回公演〜〜😊💕（サプライズ期待！笑）しかも、今発表されている日程全て土日！社会人に優しい〜〜☺️みんな待ってるよ〜☺️",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "39saku_chan",
+                        "name": "宮脇 咲良",
+                        "id": 768405521757974500,
+                        "id_str": "768405521757974532",
+                        "indices": [
+                            3,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "retweeted_status": {
+                "created_at": "Mon Jan 16 09:16:42 +0000 2017",
+                "id": 820922716827979800,
+                "id_str": "820922716827979776",
+                "text": "HKT48春のホールツアーの日程が遂に発表されました！私の誕生日に二回公演〜〜😊💕（サプライズ期待！笑）しかも、今発表されている日程全て土日！社会人に優しい〜〜☺️みんな待ってるよ〜☺️",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": []
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 768405521757974500,
+                    "id_str": "768405521757974532",
+                    "name": "宮脇 咲良",
+                    "screen_name": "39saku_chan",
+                    "location": "",
+                    "description": "テレ朝系ドラマ『豆腐プロレス』2017年1月21日深夜24時35分スタート",
+                    "url": "https://t.co/mhWep4VroQ",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/mhWep4VroQ",
+                                    "expanded_url": "http://www.instagram.com/39saku_chan/",
+                                    "display_url": "instagram.com/39saku_chan/",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 193953,
+                    "friends_count": 200,
+                    "listed_count": 1655,
+                    "created_at": "Wed Aug 24 11:12:07 +0000 2016",
+                    "favourites_count": 334,
+                    "utc_offset": 32400,
+                    "time_zone": "Tokyo",
+                    "geo_enabled": false,
+                    "verified": true,
+                    "statuses_count": 194,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "F5F8FA",
+                    "profile_background_image_url": null,
+                    "profile_background_image_url_https": null,
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/796309662110887936/OVJ86TWF_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/768405521757974532/1478689996",
+                    "profile_link_color": "1DA1F2",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 1428,
+                "favorite_count": 7168,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "821198634410655749",
+            "created_at": "Tue Jan 17 03:33:06 +0000 2017",
+            "text": "元祖セーラー服は博多たい！「発祥地」看板、福岡市に設置  news.line.me/issue/oa-nishi ",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "linenews",
+                        "indices": [
+                            53,
+                            62
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/JD6GYXmCmB",
+                        "expanded_url": "http://news.line.me/issue/oa-nishinippon/t4q658hv5owz?utm_source=Twitter&utm_medium=share&utm_campaign=none&share_id=ixq84623857644",
+                        "display_url": "news.line.me/issue/oa-nishi…",
+                        "indices": [
+                            29,
+                            52
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "821199021247074304",
+            "created_at": "Tue Jan 17 03:34:38 +0000 2017",
+            "text": "@news_line_me セーラー服懐かしい、、、ラインの色が学校によって違うっちゃんね〜☺",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "news_line_me",
+                        "name": "LINE NEWS",
+                        "id": 1516060316,
+                        "id_str": "1516060316",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "821198634410655749",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "821244037097078784",
+            "created_at": "Tue Jan 17 2017 14:33:31 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "showroomで話したことをまさか秋元さんが覚えててくれたなんて、、、😭😭どのスタッフも絶対知らないはずなのに😭showroomドリーム😭\n好きな曲が増えた！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 84
+            }
+        },
+        {
+            "id_str": "821284781451161600",
+            "created_at": "Tue Jan 17 09:15:25 +0000 2017",
+            "text": "@345__chan あの曲のことかな🤔？\n私もすっかりお気に入りです💓",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "345__chan",
+                        "name": "指原 莉乃",
+                        "id": 2346809580,
+                        "id_str": "2346809580",
+                        "indices": [
+                            0,
+                            10
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "821244037097078784",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "821294955532414978",
+            "created_at": "Tue Jan 17 2017 17:55:50 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "821244037097078784",
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 😃♡",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 18
+            }
+        }
+    ],
+    {
+        "id_str": "821329456916631554",
+        "created_at": "Tue Jan 17 12:12:56 +0000 2017",
+        "text": "本日の公演でグループからの卒業を発表させて頂きました。\n卒業の経緯や理由は後ほどゆっくり書きたいと思います。",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "lovetannnnnn",
+                    "name": "多田愛佳",
+                    "id": 781401083054739500,
+                    "id_str": "781401083054739456",
+                    "indices": [
+                        3,
+                        16
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Tue Jan 17 11:59:31 +0000 2017",
+            "id": 821326079553978400,
+            "id_str": "821326079553978368",
+            "text": "本日の公演でグループからの卒業を発表させて頂きました。\n卒業の経緯や理由は後ほどゆっくり書きたいと思います。",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": []
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 781401083054739500,
+                "id_str": "781401083054739456",
+                "name": "多田愛佳",
+                "screen_name": "lovetannnnnn",
+                "location": "",
+                "description": "OTA AIKA🔔2/2〜舞台「緋色八犬伝」に出演します😘😘※お腹すいたら機嫌が悪くなります。インスタhttps://t.co/6dEqPFuMW1 レムりん♡",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/6dEqPFuMW1",
+                                "expanded_url": "http://Instagram.com/lovetannnnnn/",
+                                "display_url": "Instagram.com/lovetannnnnn/",
+                                "indices": [
+                                    51,
+                                    74
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 33104,
+                "friends_count": 100,
+                "listed_count": 569,
+                "created_at": "Thu Sep 29 07:51:50 +0000 2016",
+                "favourites_count": 0,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 553,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/811950591182151680/eDEw01Wy_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/811950591182151680/eDEw01Wy_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/781401083054739456/1475633014",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 4294,
+            "favorite_count": 8466,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    }
+]

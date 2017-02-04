@@ -1,0 +1,1365 @@
+[
+    {
+        "id_str": "822638368408371200",
+        "created_at": "Sat Jan 21 02:54:05 +0000 2017",
+        "text": "えいえいおーっ！！",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/f4AZipp7yP",
+                    "expanded_url": "https://twitter.com/jurina38g/status/822628477639806981",
+                    "display_url": "twitter.com/jurina38g/stat…",
+                    "indices": [
+                        10,
+                        33
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "822628477639806981",
+        "quoted_status": {
+            "created_at": "Sat Jan 21 02:14:47 +0000 2017",
+            "id": 822628477639807000,
+            "id_str": "822628477639806981",
+            "text": "本日リクエストアワー初日✨\nみなさんのリクエスト曲は入ってるかな？？\n1曲でも多く歌えますように🌟\nみなさんからリクエストしていただいた曲なので、全力で歌ってきまーす🎤🎵\n「豆腐プロレス」も今日からスタート💪\nパワーストーンズよろ… https://t.co/PQ0ZrarDrl",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/PQ0ZrarDrl",
+                        "expanded_url": "https://twitter.com/i/web/status/822628477639806981",
+                        "display_url": "twitter.com/i/web/status/8…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 706826757500866600,
+                "id_str": "706826757500866560",
+                "name": "松井珠理奈",
+                "screen_name": "JURINA38G",
+                "location": "",
+                "description": "SKE48の松井珠理奈です💛\nアービングに事務所移籍することになりました😊\nそして、スターウォーズ展名古屋会場のアンバサダーを務めさせていただきます❗\n選抜総選挙では、3位をいただきました✨\nこれからも、変わらず応援よろしくお願いします🎵\nhttps://t.co/lfF9vkIGlW",
+                "url": "https://t.co/AmTwEiJ0lT",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/AmTwEiJ0lT",
+                                "expanded_url": "http://spn.ske48.co.jp/profile/index.php?id=matsui_jurina",
+                                "display_url": "spn.ske48.co.jp/profile/index.…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/lfF9vkIGlW",
+                                "expanded_url": "http://instagram.com/jurinamatsui3",
+                                "display_url": "instagram.com/jurinamatsui3",
+                                "indices": [
+                                    120,
+                                    143
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 148176,
+                "friends_count": 201,
+                "listed_count": 2096,
+                "created_at": "Mon Mar 07 13:00:06 +0000 2016",
+                "favourites_count": 8,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 1895,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/819397195937910785/hK8C8P_9_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/819397195937910785/hK8C8P_9_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/706826757500866560/1484194489",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 774,
+            "favorite_count": 3262,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "822714166288863232",
+        "created_at": "Sat Jan 21 07:55:17 +0000 2017",
+        "text": "TDCホール昼公演\n2017リクアワベスト100\nありがとうございました〜💓🙏\n夜公演もがんばるぞーぅ",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 822714154704244700,
+                    "id_str": "822714154704244738",
+                    "indices": [
+                        52,
+                        75
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C2reKi7VEAI1glu.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C2reKi7VEAI1glu.jpg",
+                    "url": "https://t.co/3cUaUG9JjX",
+                    "display_url": "pic.twitter.com/3cUaUG9JjX",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/822714166288863232/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1536,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 822714154704244700,
+                    "id_str": "822714154704244738",
+                    "indices": [
+                        52,
+                        75
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C2reKi7VEAI1glu.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C2reKi7VEAI1glu.jpg",
+                    "url": "https://t.co/3cUaUG9JjX",
+                    "display_url": "pic.twitter.com/3cUaUG9JjX",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/822714166288863232/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "large": {
+                            "w": 2048,
+                            "h": 1536,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "822715136016150528",
+            "created_at": "Sat Jan 21 07:59:08 +0000 2017",
+            "text": "小嶋さんからのいいね❤️がほしいのですなhomiesはどこで購入できますか？",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/quebxKeQiV",
+                        "expanded_url": "https://twitter.com/kojiharunyan/status/822634761311096832",
+                        "display_url": "twitter.com/kojiharunyan/s…",
+                        "indices": [
+                            39,
+                            62
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": true,
+            "quoted_status_id_str": "822634761311096832",
+            "quoted_status": {
+                "created_at": "Sat Jan 21 02:39:45 +0000 2017",
+                "id": 822634761311096800,
+                "id_str": "822634761311096832",
+                "text": "統一できるように \n#こじまつり  にしよう🐈✨\nいいね❤したいのでhomies届いたらハッシュタグ #こじまつり 使ってインスタに写真載せて😊",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [
+                        {
+                            "text": "こじまつり",
+                            "indices": [
+                                10,
+                                16
+                            ]
+                        },
+                        {
+                            "text": "こじまつり",
+                            "indices": [
+                                51,
+                                57
+                            ]
+                        }
+                    ],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": []
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 135064055,
+                    "id_str": "135064055",
+                    "name": "小嶋 陽菜",
+                    "screen_name": "kojiharunyan",
+                    "location": "Tokyo",
+                    "description": "❤https://t.co/fWdUDvg2uR",
+                    "url": "https://t.co/SmoVH4n9KN",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/SmoVH4n9KN",
+                                    "expanded_url": "http://Instagram.com/nyanchan22",
+                                    "display_url": "Instagram.com/nyanchan22",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/fWdUDvg2uR",
+                                    "expanded_url": "http://harunakojima.jp",
+                                    "display_url": "harunakojima.jp",
+                                    "indices": [
+                                        1,
+                                        24
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 2847421,
+                    "friends_count": 162,
+                    "listed_count": 18257,
+                    "created_at": "Tue Apr 20 06:57:44 +0000 2010",
+                    "favourites_count": 129,
+                    "utc_offset": 32400,
+                    "time_zone": "Tokyo",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 9867,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": true,
+                    "profile_background_color": "FFFFFF",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/742197692/67d9015b0ba0de97107be193a40b5e87.jpeg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/742197692/67d9015b0ba0de97107be193a40b5e87.jpeg",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/814380725134708737/DA952vpc_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/814380725134708737/DA952vpc_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/135064055/1482729268",
+                    "profile_link_color": "0084B4",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "regular"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 386,
+                "favorite_count": 2905,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "822715355982274560",
+            "created_at": "Sat Jan 21 08:00:00 +0000 2017",
+            "text": "@kojiharunyan あせった😂😂😂誤字。\n\nな→が",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "kojiharunyan",
+                        "name": "小嶋 陽菜",
+                        "id": 135064055,
+                        "id_str": "135064055",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822715136016150528",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "822756974576029697",
+        "created_at": "Sat Jan 21 10:45:23 +0000 2017",
+        "text": "ちよりさんいたので混ぜたら予想以上に騒いでた😭w",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "345__chan",
+                    "name": "指原 莉乃",
+                    "id": 2346809580,
+                    "id_str": "2346809580",
+                    "indices": [
+                        3,
+                        13
+                    ]
+                }
+            ],
+            "urls": [],
+            "media": [
+                {
+                    "id": 822753000871428100,
+                    "id_str": "822753000871428099",
+                    "indices": [
+                        40,
+                        63
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                    "url": "https://t.co/mTSzWt1NOH",
+                    "display_url": "pic.twitter.com/mTSzWt1NOH",
+                    "expanded_url": "https://twitter.com/345__chan/status/822753008714776577/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    },
+                    "source_status_id": 822753008714776600,
+                    "source_status_id_str": "822753008714776577",
+                    "source_user_id": 2346809580,
+                    "source_user_id_str": "2346809580"
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 822753000871428100,
+                    "id_str": "822753000871428099",
+                    "indices": [
+                        40,
+                        63
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                    "url": "https://t.co/mTSzWt1NOH",
+                    "display_url": "pic.twitter.com/mTSzWt1NOH",
+                    "expanded_url": "https://twitter.com/345__chan/status/822753008714776577/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1000,
+                            "h": 750,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        }
+                    },
+                    "source_status_id": 822753008714776600,
+                    "source_status_id_str": "822753008714776577",
+                    "source_user_id": 2346809580,
+                    "source_user_id_str": "2346809580"
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Sat Jan 21 10:29:37 +0000 2017",
+            "id": 822753008714776600,
+            "id_str": "822753008714776577",
+            "text": "ちよりさんいたので混ぜたら予想以上に騒いでた😭w https://t.co/mTSzWt1NOH",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "media": [
+                    {
+                        "id": 822753000871428100,
+                        "id_str": "822753000871428099",
+                        "indices": [
+                            25,
+                            48
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                        "url": "https://t.co/mTSzWt1NOH",
+                        "display_url": "pic.twitter.com/mTSzWt1NOH",
+                        "expanded_url": "https://twitter.com/345__chan/status/822753008714776577/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 822753000871428100,
+                        "id_str": "822753000871428099",
+                        "indices": [
+                            25,
+                            48
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/C2sBfsLUAAMCvwa.jpg",
+                        "url": "https://t.co/mTSzWt1NOH",
+                        "display_url": "pic.twitter.com/mTSzWt1NOH",
+                        "expanded_url": "https://twitter.com/345__chan/status/822753008714776577/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "small": {
+                                "w": 680,
+                                "h": 510,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 1000,
+                                "h": 750,
+                                "resize": "fit"
+                            },
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            }
+                        }
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 2346809580,
+                "id_str": "2346809580",
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "location": "",
+                "description": "💛https://t.co/FbRPAshfuv💛",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/FbRPAshfuv",
+                                "expanded_url": "http://Instagram.com/345insta",
+                                "display_url": "Instagram.com/345insta",
+                                "indices": [
+                                    1,
+                                    24
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 1484224,
+                "friends_count": 332,
+                "listed_count": 8015,
+                "created_at": "Sun Feb 16 12:57:31 +0000 2014",
+                "favourites_count": 487,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 6785,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/2346809580/1466265291",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": true,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 1400,
+            "favorite_count": 8615,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "822760010056773633",
+            "created_at": "Sat Jan 21 2017 18:57:27 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "豊島圭介",
+                "screen_name": "toyoshima1113",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/819543083117264896/aLTrfss-_bigger.jpg"
+            },
+            "text": " 夜から本編集。第1話オンエアまでに帰れるのか？",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "display_url": "",
+                        "indices": [
+                            0,
+                            0
+                        ]
+                    }
+                ],
+                "lastIndices": 24
+            }
+        },
+        {
+            "id_str": "822768797173956608",
+            "created_at": "Sat Jan 21 11:32:22 +0000 2017",
+            "text": "@toyoshima1113 帰れますように〜\nふぁいとでーす！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "toyoshima1113",
+                        "name": "豊島圭介",
+                        "id": 147033811,
+                        "id_str": "147033811",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822760010056773633",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "822769170827780096",
+        "created_at": "Sat Jan 21 11:33:51 +0000 2017",
+        "text": "リクエストアワー夜公演終了！\nなんと、ラスト曲は「メロンジュース」偶然とはいえやっぱり最後に合う曲だなぁと感激😭😭\n応援してくださった皆さん、ありがとうございました〜💓",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "822771195737083904",
+            "created_at": "Sat Jan 21 11:41:54 +0000 2017",
+            "text": "new album 4649🔔✨♬coming soon …",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/eIFEiGn4JD",
+                        "expanded_url": "http://www.nikkansports.com/m/entertainment/akb48/news/1768302_m.html?utm_source=twitter&utm_medium=social&utm_campaign=nikkansports_ogp",
+                        "display_url": "nikkansports.com/m/entertainmen…",
+                        "indices": [
+                            30,
+                            53
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "822782026562404352",
+            "created_at": "Sat Jan 21 12:24:56 +0000 2017",
+            "text": "@haruka_kdm919 日刊スポーツさんありがとうございまーす！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822771195737083904",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "822786437061877760",
+        "created_at": "Sat Jan 21 12:42:27 +0000 2017",
+        "text": "あ！みんなまだ寝ちゃダメです😾",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "822787269526290435",
+            "created_at": "Sat Jan 21 2017 20:45:46 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "小嶋 陽菜",
+                "screen_name": "kojiharunyan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/814380725134708737/DA952vpc_bigger.jpg"
+            },
+            "text": "プロフィールのURLから飛べます。再販は週明けを予定しております😊✨😂笑",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 38
+            }
+        },
+        {
+            "id_str": "822789570680918020",
+            "created_at": "Sat Jan 21 12:54:54 +0000 2017",
+            "text": "@kojiharunyan やった〜！週明けね！かしこまりです😼👍ぜったい買います💓💓💓",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "kojiharunyan",
+                        "name": "小嶋 陽菜",
+                        "id": 135064055,
+                        "id_str": "135064055",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822787269526290435",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        },
+        {
+            "id_str": "822791091934007297",
+            "created_at": "Sat Jan 21 13:00:57 +0000 2017",
+            "text": "@kojiharunyan こじはるさん、ファン想い。本当に優しい先輩😭",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "kojiharunyan",
+                        "name": "小嶋 陽菜",
+                        "id": 135064055,
+                        "id_str": "135064055",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822789570680918020",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "822801553408991234",
+        "created_at": "Sat Jan 21 13:42:31 +0000 2017",
+        "text": "テレビ（ナレーション）出演！\n今夜スタート.毎週土曜深夜0:35～\nテレビ朝日『豆腐プロレス』\nAKB48のプロレス ドラマがスタートします.\n冒頭ナレは加藤登紀子.\nご覧ください.\ntv-asahi.co.jp/tofu-prowrestl",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "TokikoKato",
+                    "name": "加藤登紀子",
+                    "id": 73883832,
+                    "id_str": "73883832",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/xIc3BTzPCo",
+                    "expanded_url": "http://www.tv-asahi.co.jp/tofu-prowrestling/#intro",
+                    "display_url": "tv-asahi.co.jp/tofu-prowrestl…",
+                    "indices": [
+                        108,
+                        131
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Fri Jan 20 23:07:24 +0000 2017",
+            "id": 822581321025417200,
+            "id_str": "822581321025417218",
+            "text": "テレビ（ナレーション）出演！\n今夜スタート.毎週土曜深夜0:35～\nテレビ朝日『豆腐プロレス』\nAKB48のプロレス ドラマがスタートします.\n冒頭ナレは加藤登紀子.\nご覧ください.\nhttps://t.co/xIc3BTzPCo",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/xIc3BTzPCo",
+                        "expanded_url": "http://www.tv-asahi.co.jp/tofu-prowrestling/#intro",
+                        "display_url": "tv-asahi.co.jp/tofu-prowrestl…",
+                        "indices": [
+                            92,
+                            115
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 73883832,
+                "id_str": "73883832",
+                "name": "加藤登紀子",
+                "screen_name": "TokikoKato",
+                "location": "東京都渋谷区,千葉県鴨川市",
+                "description": "歌手／鴨川自然王国T&T研究所長",
+                "url": "https://t.co/jnoGdcFs8W",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/jnoGdcFs8W",
+                                "expanded_url": "http://tokiko.com",
+                                "display_url": "tokiko.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 67661,
+                "friends_count": 217,
+                "listed_count": 5182,
+                "created_at": "Sun Sep 13 13:34:39 +0000 2009",
+                "favourites_count": 113,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 26013,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "0A7BF5",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/488863832945590275/RSOcNbAm.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/488863832945590275/RSOcNbAm.jpeg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1225320701/_____5_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1225320701/_____5_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/73883832/1478350487",
+                "profile_link_color": "0A80FF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "E0A8D5",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 165,
+            "favorite_count": 454,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "822581321025417218",
+            "created_at": "Sat Jan 21 2017 07:07:24 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "加藤登紀子",
+                "screen_name": "TokikoKato",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1225320701/_____5_bigger.png"
+            },
+            "text": "テレビ（ナレーション）出演！\n今夜スタート.毎週土曜深夜0:35～\nテレビ朝日『豆腐プロレス』\nAKB48のプロレス ドラマがスタートします.\n冒頭ナレは加藤登紀子.\nご覧ください.\ntv-asahi.co.jp/tofu-prowrestl",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "display_url": "tv-asahi.co.jp/tofu-prowrestl",
+                        "indices": [
+                            92,
+                            121
+                        ]
+                    }
+                ],
+                "lastIndices": 121
+            }
+        },
+        {
+            "id_str": "822801935354896385",
+            "created_at": "Sat Jan 21 13:44:02 +0000 2017",
+            "text": "@TokikoKato ありがとうございます！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "TokikoKato",
+                        "name": "加藤登紀子",
+                        "id": 73883832,
+                        "id_str": "73883832",
+                        "indices": [
+                            0,
+                            11
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "822581321025417218",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+            }
+        }
+    ],
+    {
+        "id_str": "822814599166627840",
+        "created_at": "Sat Jan 21 14:34:22 +0000 2017",
+        "text": "👍💕",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "822816206432256000",
+        "created_at": "Sat Jan 21 14:40:45 +0000 2017",
+        "text": "同じく☺💓\n\nshowroom-live.com/48_HARUKA_KODA\n待っとうけん🤳📲",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "はるっぴroom",
+                    "indices": [
+                        5,
+                        14
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/nqIKBiMZXh",
+                    "expanded_url": "https://www.showroom-live.com/48_HARUKA_KODAMA",
+                    "display_url": "showroom-live.com/48_HARUKA_KODA…",
+                    "indices": [
+                        16,
+                        39
+                    ]
+                },
+                {
+                    "url": "https://t.co/6aQQDuRRRq",
+                    "expanded_url": "https://twitter.com/jurina38g/status/822765826100989953",
+                    "display_url": "twitter.com/jurina38g/stat…",
+                    "indices": [
+                        49,
+                        72
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "822765826100989953",
+        "quoted_status": {
+            "created_at": "Sat Jan 21 11:20:33 +0000 2017",
+            "id": 822765826100990000,
+            "id_str": "822765826100989953",
+            "text": "今日、1月21日深夜0：35から「豆腐プロレス」始まります❗\nしかも、SHOWROOMで実況するので遊びに来てください🎵\nプロレスファンのみなさまもお待ちしています😆\nぜひ、みんなで一緒にみましょう✌\n第1話から、激しい試合してま… https://t.co/GoDPUBYJhJ",
+            "truncated": true,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/GoDPUBYJhJ",
+                        "expanded_url": "https://twitter.com/i/web/status/822765826100989953",
+                        "display_url": "twitter.com/i/web/status/8…",
+                        "indices": [
+                            117,
+                            140
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 706826757500866600,
+                "id_str": "706826757500866560",
+                "name": "松井珠理奈",
+                "screen_name": "JURINA38G",
+                "location": "",
+                "description": "SKE48の松井珠理奈です💛\nアービングに事務所移籍することになりました😊\nそして、スターウォーズ展名古屋会場のアンバサダーを務めさせていただきます❗\n選抜総選挙では、3位をいただきました✨\nこれからも、変わらず応援よろしくお願いします🎵\nhttps://t.co/lfF9vkIGlW",
+                "url": "https://t.co/AmTwEiJ0lT",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/AmTwEiJ0lT",
+                                "expanded_url": "http://spn.ske48.co.jp/profile/index.php?id=matsui_jurina",
+                                "display_url": "spn.ske48.co.jp/profile/index.…",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/lfF9vkIGlW",
+                                "expanded_url": "http://instagram.com/jurinamatsui3",
+                                "display_url": "instagram.com/jurinamatsui3",
+                                "indices": [
+                                    120,
+                                    143
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 148176,
+                "friends_count": 201,
+                "listed_count": 2096,
+                "created_at": "Mon Mar 07 13:00:06 +0000 2016",
+                "favourites_count": 8,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 1895,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/819397195937910785/hK8C8P_9_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/819397195937910785/hK8C8P_9_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/706826757500866560/1484194489",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 862,
+            "favorite_count": 2944,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    },
+    {
+        "id_str": "822830651179008000",
+        "created_at": "Sat Jan 21 15:38:09 +0000 2017",
+        "text": "てこずってる",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/815482543440961537/T5kAAvAS_normal.jpg"
+        }
+    }
+]
