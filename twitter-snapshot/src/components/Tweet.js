@@ -110,7 +110,7 @@ const renderQuoteTweet = (tweet, trans) => {
         <div className="quoteMedia-container">
           <div className="quoteMedia-singlePhoto">
             <div className="quoteMedia-photoContainer">
-              <img src={entities.media[0].media_url} style={{ width: '100%', top: '-11px' }} />
+              <img src={entities.media[0].media_url} style={{ width: '200%', left: '-54px'}} />
             </div>
           </div>
         </div>
@@ -121,11 +121,11 @@ const renderQuoteTweet = (tweet, trans) => {
   return (
     <div className="QuoteTweet u-block">
       <div className="QuoteTweet-container">
-        <div className="QuoteTweet-innerContainer" data-item-type="tweet">
+        <div className="QuoteTweet-innerContainer u-cf" data-item-type="tweet">
           <div className="tweet-content">
             {quoteMediaContent}
             <div className="QuoteTweet-authorAndText u-alignTop">
-              <span className="QuoteTweet-originalAuthor u-cf u-textTruncate">
+              <div className="QuoteTweet-originalAuthor u-cf u-textTruncate">
                 <b className="QuoteTweet-fullname">
                   {user.name}
                 </b>{'\n'}
@@ -133,7 +133,7 @@ const renderQuoteTweet = (tweet, trans) => {
                   <span className="at">@</span>
                   {user.screen_name}{'\n'}
                 </span>
-              </span>
+              </div>
               <div
                 className="QuoteTweet-text tweet-text u-dir"
                 dir="ltr"

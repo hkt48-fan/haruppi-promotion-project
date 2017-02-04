@@ -9,6 +9,12 @@ import baseRequest from 'request';
 
 import cheerio from 'cheerio';
 
+const sleep = (interval = 3000) => new Promise((resolve, reject) => {
+  setTimeout(()=>{
+    resolve()
+  }, 0);
+});
+
 const friends = [
   'Rie_Kitahara3',
   '345__chan',
@@ -198,6 +204,7 @@ const _parseTweetEntity = (tweetTextElement) => {
 
 // start of parse related tweets
 const _parseRelatedTweetsHTML = (html, sourceTweet, lastReplyId) => {
+
   const lastId = sourceTweet.id_str + '_' + lastReplyId;
   fs.writeFileSync('tmp/' + lastId + '.html', html);
   console.log('extract related tweets: ', lastId);
@@ -295,6 +302,11 @@ const _parseRelatedTweetsHTML = (html, sourceTweet, lastReplyId) => {
     const permalinkReplies = $('.permalink-replies .stream');
     const hotThreaded = permalinkReplies.first('.ThreadedConversation .stream-item');
     const hotThreadedTweet = hotThreaded.find('.tweet');
+
+    console.log(lastId);
+    if (hotThreadedTweet.html() === null) {
+      return {}
+    }
 
     const name = hotThreadedTweet.data('name');
     const screen_name = hotThreadedTweet.data('screen-name');

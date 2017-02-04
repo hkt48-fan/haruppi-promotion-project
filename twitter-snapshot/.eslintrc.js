@@ -1,11 +1,8 @@
 module.exports = {
     "parser": "babel-eslint",
-    "extends": "airbnb",
-    "plugins": [
-        "react"
-    ],
+    "extends": "google",
     "rules": {
-      "no-underscore-dangle": 0,
-      "camelcase": 0
+      "require-jsdoc": 0,
+      "brace-style": 0
     }
 };
