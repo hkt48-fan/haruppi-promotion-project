@@ -142,6 +142,9 @@ const getStoryTray = (session) => {
     .setUrl(u)
     .send()
     .then((data) => {
+      if (data.tray.length === 0) {
+        return [];
+      }
       console.log('story success');
       const stories = data.tray[0].items.filter(s => {
         return true;
