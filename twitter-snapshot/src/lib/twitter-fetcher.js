@@ -126,7 +126,14 @@ class TwitterFetcher {
   _fetchConversations(tweets, lastResultTweetsWithReplies = [], lastReplyId) {
     const tweet = tweets.shift(1);
     if (!tweet) {
-      return Promise.resolve(lastResultTweetsWithReplies);
+      // remove the duplicated tweets
+      // the duplicated tweets will be added by parseRelatedTweetsHTML()
+      // when parsed the tweet already referenced in periovs tweet,
+      // duplicated tweet will be generated
+      const uniqueTweetIds = [...new Set(lastResultTweetsWithReplies.map((t) => t.id_str))];
+      const uniqueTweets = uniqueTweetIds.map((id) => lastResultTweetsWithReplies.find((t) => t.id_str === id));
+
+      return Promise.resolve(uniqueTweets);
     }
     // add current tweet
     lastResultTweetsWithReplies.push(tweet);
@@ -166,43 +173,53 @@ class TwitterFetcher {
     });
   }
 
-  _parseInstragramImages(tweets, lastResultTweets = []){
-    const tweet = tweets.shift(1);
-    if (!tweet) {
-      return Promise.resolve(lastResultTweets);
-    }
-    // the tweet is pushed as an reference
-    // after the url update there is no need to do the extra update for lastResutTweets
-    lastResultTweets.push(tweet);
-
-    const {entities} = tweet;
-    if (entities && entities.urls) {
-      const instagramUrl = entities.urls.find((url) => url.expanded_url && url.expanded_url.includes('www.instagram.com'));
-      if (!instagramUrl) {
-        // not a instragram url try next tweet
-        return this._parseInstragramImages(tweets, lastResultTweets);
+  _parseInstragramImages(tweets, lastResultTweets = []) {
+    // return new Promise((resolve, reject) => {
+      const tweet = tweets.shift(1);
+      if (!tweet) {
+        return Promise.resolve(lastResultTweets);
       }
-      this.request({
-        url: instagramUrl.expanded_url,
-      }, (err, res, body) => {
-        if (err) {
-          return reject(e);
+
+      // the tweet is pushed as an reference
+      // after the url update there is no need to do the extra update for lastResultTweets
+      lastResultTweets.push(tweet);
+
+      const {entities} = tweet;
+      if (entities && entities.urls) {
+        const instagramUrl = entities.urls.find((url) => url.expanded_url && url.expanded_url.includes('www.instagram.com'));
+        if (instagramUrl) {
+          return new Promise((resolve, reject) => {
+            this.request({
+              url: instagramUrl.expanded_url,
+            }, (err, res, body) => {
+              if (err) {
+                return reject(err);
+              }
+              const matches = body.match(/"display_src":\s"([^"]*)/);
+              if (matches.length !== 2) {
+                return reject(new Error('failed get instagramUrl'));
+              }
+              const media = [{
+                media_url: matches[1],
+              }];
+              tweet.extended_entities = tweet.extended_entities || {};
+              tweet.extended_entities.media = media;
+              tweet.entities.urls.forEach((u) => {
+                tweet.text = tweet.text.replace(u.url, '');
+              });
+              return resolve();
+            });
+          })
+          .then(() => {
+            // instagram url updated
+            // call next _parseInstragramImages to continue
+            return this._parseInstragramImages(tweets, lastResultTweets);
+          });
         }
-        const matches = body.match(/"display_src":\s"([^"]*)/);
-        if (matches.length !== 2) {
-          return reject(new Error('failed get instagramUrl'));
-        }
-        const media = [{
-          media_url: matches[1],
-        }];
-        tweet.extended_entities = tweet.extended_entities || {};
-        tweet.extended_entities.media = media;
-        tweet.entities.urls.forEach((u) => {
-          tweet.text = tweet.text.replace(u.url, '');
-        });
-        return this._parseInstragramImages(tweets, lastResultTweets);
-      });
-    }
+      }
+
+      // not a instragram url try next tweet
+      return this._parseInstragramImages(tweets, lastResultTweets);
   }
 
   _aggregateConversations(tweets) {
@@ -224,11 +241,12 @@ class TwitterFetcher {
         return ta - tb;
       });
 
+      // const exists =
       if (conversation.length === 0) {
         // first tweet of conversation, skip it
         console.log('is first tweet of conversation');
       }
-      if (conversation.length === 1) {
+      else if (conversation.length === 1) {
         // not a conversation
         console.log('not conversation');
         _tweets.push(tweet);
@@ -238,7 +256,16 @@ class TwitterFetcher {
         console.log('is conversation');
         const repliesId = conversation.map((rp) => rp.id_str);
         manipulatedIds = manipulatedIds.concat(repliesId);
-        _tweets.push(conversation);
+        // sort before add conversation
+        // when a retweet in a conversation
+        // only compare the id_str will cause the tweet disorder
+        // compare the retweet source tweet if possible
+        const sortedConversation = conversation.sort((a, b) => {
+          const tid1 = (a.retweeted_status && +a.retweeted_status.id_str) || +a.id_str;
+          const tid2 = (b.retweeted_status && +b.retweeted_status.id_str) || +b.id_str;
+          return tid1 - tid2;
+        });
+        _tweets.push(sortedConversation);
       }
     });
     return _tweets;

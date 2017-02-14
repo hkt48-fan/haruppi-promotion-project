@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d build",
     "watch": "babel src -d build -w",
-    "fetch": "node build/fetch",
+    "fetch": "node build/fetch2",
     "merge": "node build/merge"
   },
   "keywords": [],

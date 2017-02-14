@@ -166,6 +166,19 @@ const parseTweetEntity = (tweetTextElement) => {
     }
     else if (child.type === 'tag'
       && child.name === 'a'
+      && child.attribs.class.includes('twitter-hashtag')) {
+      // hashtag
+      _text = $(child).text();
+      entities.hashtags.push({
+        text: _text,
+        indices: [
+          entities.lastIndices,
+          (entities.lastIndices + _text.length),
+        ],
+      });
+    }
+    else if (child.type === 'tag'
+      && child.name === 'a'
       && !child.attribs.class.includes('u-hidden')) {
       //  normal link
       _text = $(child).find('.js-display-url').text();
@@ -197,10 +210,8 @@ const parseTweetEntity = (tweetTextElement) => {
   };
 };
 
+// todo split to two parts: parseInReplyToTweets, parseUserReplyTweets
 const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
-  // const lastId = sourceTweet.id_str + '_' + lastReplyId;
-  // fs.writeFileSync('tmp/' + lastId + '.html', html);
-  // console.log('extract related tweets: ', lastId);
 
   // fetch in reply to
   const $ = cheerio.load(html);
@@ -237,6 +248,7 @@ const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
       });
     });
 
+    // todo extract following code to createTweetEntity()
     const tweet = {
       id_str,
       created_at,
@@ -258,6 +270,7 @@ const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
 
   // fetch current tweet info
   // replace current tweet.text
+  // todo: ??? why overwrite current tweet object
   {
     const tweetElement = $('.permalink-tweet-container');
     const tweetTextElement = tweetElement.find('.tweet-text');
@@ -281,7 +294,8 @@ const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
   }
 
   // todo reuse following code with inreplyto
-  // fetch reply to
+  // fetch permalink replies(other user replies)
+  // for now, the function only can get the first reply and may lost useful replies
   {
     // todo fix bug cannot get correct exteded_entities
     // inner block
