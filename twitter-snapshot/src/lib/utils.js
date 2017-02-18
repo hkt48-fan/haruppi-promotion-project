@@ -288,7 +288,13 @@ const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
     });
 
     // do not replace extend_entities
-    sourceTweet.extended_entities = sourceTweet.extended_entities || extended_entities;
+    if (sourceTweet.retweeted_status) {
+      // isRetweet add the media to the source tweet
+      sourceTweet.retweeted_status.extended_entities = sourceTweet.retweeted_status.extended_entities || extended_entities;
+    }
+    else {
+      sourceTweet.extended_entities = sourceTweet.extended_entities || extended_entities;
+    }
     // replace full text when exceed 140 char
     sourceTweet.text = parsedTweetTextObject.text;
   }
