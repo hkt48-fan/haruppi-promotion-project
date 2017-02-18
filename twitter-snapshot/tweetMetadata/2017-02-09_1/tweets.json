@@ -1,0 +1,497 @@
+[
+    {
+        "id_str": "829493780386451456",
+        "created_at": "Thu Feb 09 00:55:03 +0000 2017",
+        "text": "はーい🙋🍖",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "https://t.co/SDRpAC12nb",
+                    "expanded_url": "https://twitter.com/cityjohofukuoka/status/829483905371746305",
+                    "display_url": "twitter.com/cityjohofukuok…",
+                    "indices": [
+                        6,
+                        29
+                    ]
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": true,
+        "quoted_status_id_str": "829483905371746305",
+        "quoted_status": {
+            "created_at": "Thu Feb 09 00:15:48 +0000 2017",
+            "id": 829483905371746300,
+            "id_str": "829483905371746305",
+            "text": "平成29年2月9日、今日はなんともゴロのいい\n2・9・2・9（ニクニク）の日！！\n今日行くと必ずトクするお店から、\n2月一杯楽しめるお店まで厳選ピックアップ！\nこの機会に美味しいお肉食べに行きましょう★ https://t.co/5KfrtcZomm",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/5KfrtcZomm",
+                        "expanded_url": "http://fb.me/7zmXZEuYw",
+                        "display_url": "fb.me/7zmXZEuYw",
+                        "indices": [
+                            102,
+                            125
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 106909883,
+                "id_str": "106909883",
+                "name": "シティ情報Fukuoka",
+                "screen_name": "CityJohoFukuoka",
+                "location": "福岡県福岡市中央区天神",
+                "description": "福岡のタウン誌《シティ情報Fukuoka》です。",
+                "url": "https://t.co/mXkfgcYz4f",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/mXkfgcYz4f",
+                                "expanded_url": "http://www.fukuoka-navi.jp/",
+                                "display_url": "fukuoka-navi.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 23215,
+                "friends_count": 6841,
+                "listed_count": 712,
+                "created_at": "Thu Jan 21 01:50:54 +0000 2010",
+                "favourites_count": 13,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 4575,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "EDECE9",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/186054425/____2007color.JPG",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/186054425/____2007color.JPG",
+                "profile_background_tile": true,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1200646485/____2007color_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1200646485/____2007color_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/106909883/1484875830",
+                "profile_link_color": "088253",
+                "profile_sidebar_border_color": "D3D2CF",
+                "profile_sidebar_fill_color": "E3E2DE",
+                "profile_text_color": "3D282C",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 7,
+            "favorite_count": 35,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja"
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    },
+    [
+        {
+            "id_str": "829494015611449344",
+            "created_at": "Thu Feb 09 00:55:59 +0000 2017",
+            "text": "どっちやね〜ん？🙃",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "https://t.co/qyZdL0by7G",
+                        "expanded_url": "https://twitter.com/takaratomytoys/status/829465586753216513",
+                        "display_url": "twitter.com/takaratomytoys…",
+                        "indices": [
+                            10,
+                            33
+                        ]
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": true,
+            "quoted_status_id_str": "829465586753216513",
+            "quoted_status": {
+                "created_at": "Wed Feb 08 23:03:01 +0000 2017",
+                "id": 829465586753216500,
+                "id_str": "829465586753216513",
+                "text": "＼本日は福の日／\n２月９日は「ふ(2)く(9)」の語呂合せで福の日！\n\n特に根拠はないんですが、福が来そうな弊社宝富のロゴ置いておきますね(・∀・)⊃ https://t.co/N4tIfokvuW",
+                "truncated": false,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [],
+                    "media": [
+                        {
+                            "id": 828246422407434200,
+                            "id_str": "828246422407434240",
+                            "indices": [
+                                76,
+                                99
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/C36Fu6IVUAA5xWd.png",
+                            "media_url_https": "https://pbs.twimg.com/media/C36Fu6IVUAA5xWd.png",
+                            "url": "https://t.co/N4tIfokvuW",
+                            "display_url": "pic.twitter.com/N4tIfokvuW",
+                            "expanded_url": "https://twitter.com/takaratomytoys/status/829465586753216513/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "medium": {
+                                    "w": 1200,
+                                    "h": 657,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 372,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1500,
+                                    "h": 821,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "extended_entities": {
+                    "media": [
+                        {
+                            "id": 828246422407434200,
+                            "id_str": "828246422407434240",
+                            "indices": [
+                                76,
+                                99
+                            ],
+                            "media_url": "http://pbs.twimg.com/media/C36Fu6IVUAA5xWd.png",
+                            "media_url_https": "https://pbs.twimg.com/media/C36Fu6IVUAA5xWd.png",
+                            "url": "https://t.co/N4tIfokvuW",
+                            "display_url": "pic.twitter.com/N4tIfokvuW",
+                            "expanded_url": "https://twitter.com/takaratomytoys/status/829465586753216513/photo/1",
+                            "type": "photo",
+                            "sizes": {
+                                "medium": {
+                                    "w": 1200,
+                                    "h": 657,
+                                    "resize": "fit"
+                                },
+                                "thumb": {
+                                    "w": 150,
+                                    "h": 150,
+                                    "resize": "crop"
+                                },
+                                "small": {
+                                    "w": 680,
+                                    "h": 372,
+                                    "resize": "fit"
+                                },
+                                "large": {
+                                    "w": 1500,
+                                    "h": 821,
+                                    "resize": "fit"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 145144333,
+                    "id_str": "145144333",
+                    "name": "タカラトミー",
+                    "screen_name": "takaratomytoys",
+                    "location": "東京都葛飾区",
+                    "description": "タカラトミーの商品紹介やイベントはもちろん、楽しいことをあれこれおしらせします。みなさんのフォローをお待ちしてます！商品・サービスのお問い合わせはこちらのお客様相談室にご連絡ください⇒ https://t.co/38aoOm6C2f",
+                    "url": "https://t.co/bvZMeklCaO",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/bvZMeklCaO",
+                                    "expanded_url": "http://www.takaratomy.co.jp",
+                                    "display_url": "takaratomy.co.jp",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/38aoOm6C2f",
+                                    "expanded_url": "http://www.takaratomy.co.jp/support/other.html",
+                                    "display_url": "takaratomy.co.jp/support/other.…",
+                                    "indices": [
+                                        93,
+                                        116
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 82821,
+                    "friends_count": 789,
+                    "listed_count": 1168,
+                    "created_at": "Tue May 18 06:38:48 +0000 2010",
+                    "favourites_count": 51091,
+                    "utc_offset": 32400,
+                    "time_zone": "Tokyo",
+                    "geo_enabled": true,
+                    "verified": true,
+                    "statuses_count": 27924,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "C0DEED",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/663658017766817792/FwPkByFo.jpg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/663658017766817792/FwPkByFo.jpg",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/827150122282688512/TZKDR2kb_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/827150122282688512/TZKDR2kb_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/145144333/1475720988",
+                    "profile_link_color": "024EAB",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "E6F6F9",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 157,
+                "favorite_count": 271,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja"
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+            }
+        },
+        {
+            "id_str": "829497624285704192",
+            "created_at": "Thu Feb 09 2017 09:10:19 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": [
+                    {
+                        "media_url": "https://pbs.twimg.com/media/C4L3CdVUYAAPOlz.png"
+                    }
+                ]
+            },
+            "user": {
+                "name": "タカラトミー",
+                "screen_name": "takaratomytoys",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/827150122282688512/TZKDR2kb_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 あと「ふ(2)く(9)」(吹く)の語呂合せで風の日でもあるそうです！僕らの風の日ですね(=ﾟωﾟ)ﾉ",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 65
+            },
+            "in_reply_to_status_id_str": "829494015611449344"
+        },
+        {
+            "id_str": "829498155934715904",
+            "created_at": "Thu Feb 09 01:12:26 +0000 2017",
+            "text": "@takaratomytoys わわわ！感激。勉強になります😘",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "takaratomytoys",
+                        "name": "タカラトミー",
+                        "id": 145144333,
+                        "id_str": "145144333",
+                        "indices": [
+                            0,
+                            15
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "829497624285704192",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "829494254145658880",
+            "created_at": "Thu Feb 09 2017 08:56:56 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "春の三日月💮はなまる越冬隊",
+                "screen_name": "harunomikazki",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/769884238032150528/UsPtaStt_bigger.jpg"
+            },
+            "text": "@haruka_kdm919 \n服の日でもあるる👍",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 26
+            }
+        },
+        {
+            "id_str": "829494644283039744",
+            "created_at": "Thu Feb 09 00:58:29 +0000 2017",
+            "text": "@harunomikazki ほんとだ…🤔#肉 #服 #福 #29",
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "肉",
+                        "indices": [
+                            21,
+                            23
+                        ]
+                    },
+                    {
+                        "text": "服",
+                        "indices": [
+                            24,
+                            26
+                        ]
+                    },
+                    {
+                        "text": "福",
+                        "indices": [
+                            27,
+                            29
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "harunomikazki",
+                        "name": "春の三日月💮越冬民",
+                        "id": 59739134,
+                        "id_str": "59739134",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "829494254145658880",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+            }
+        }
+    ]
+]

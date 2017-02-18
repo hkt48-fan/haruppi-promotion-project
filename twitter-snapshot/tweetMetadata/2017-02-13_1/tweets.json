@@ -1,0 +1,266 @@
+[
+    [
+        {
+            "id_str": "830936736742006785",
+            "created_at": "Mon Feb 13 00:28:50 +0000 2017",
+            "text": "アイドルとして最後の握手会ありがとうございました♡\n本当にみんなに出会えてよかったって心の底から思える。\n大好き。そんな言葉じゃ足りない。\n感謝もしてもしきれない。\n卒業してもみんなと会える機会作るよ！待っててね。\nお花ありがと✨\nこんなにたくさんの方に愛してもらってる。幸せ。",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "lovetannnnnn",
+                        "name": "多田愛佳",
+                        "id": 781401083054739500,
+                        "id_str": "781401083054739456",
+                        "indices": [
+                            3,
+                            16
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "in_reply_to_status_id_str": null,
+            "is_quote_status": false,
+            "retweeted_status": {
+                "created_at": "Sun Feb 12 12:46:42 +0000 2017",
+                "id": 830760036272005100,
+                "id_str": "830760036272005120",
+                "text": "アイドルとして最後の握手会ありがとうございました♡\n本当にみんなに出会えてよかったって心の底から思える。\n大好き。そんな言葉じゃ足りない。\n感謝もしてもしきれない。\n卒業してもみんなと会える機会作るよ！待っててね。\nお花ありがと✨… https://t.co/m0awL6vzRi",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/m0awL6vzRi",
+                            "expanded_url": "https://twitter.com/i/web/status/830760036272005120",
+                            "display_url": "twitter.com/i/web/status/8…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 781401083054739500,
+                    "id_str": "781401083054739456",
+                    "name": "多田愛佳",
+                    "screen_name": "lovetannnnnn",
+                    "location": "",
+                    "description": "OTA AIKA🔔3/9〜舞台『僕らのピンクスパイダー』@紀伊国屋ホール 出演します✨   🔔「ラブホの上野さん 」第7話ゲスト出演😍😍※お腹すいたら機嫌が悪くなります。インスタhttps://t.co/6dEqPFdc4t HKT48が大好きです！！！！",
+                    "url": null,
+                    "entities": {
+                        "description": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/6dEqPFdc4t",
+                                    "expanded_url": "http://Instagram.com/lovetannnnnn/",
+                                    "display_url": "Instagram.com/lovetannnnnn/",
+                                    "indices": [
+                                        89,
+                                        112
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 36007,
+                    "friends_count": 122,
+                    "listed_count": 591,
+                    "created_at": "Thu Sep 29 07:51:50 +0000 2016",
+                    "favourites_count": 0,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": false,
+                    "verified": true,
+                    "statuses_count": 710,
+                    "lang": "ja",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "F5F8FA",
+                    "profile_background_image_url": null,
+                    "profile_background_image_url_https": null,
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/811950591182151680/eDEw01Wy_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/811950591182151680/eDEw01Wy_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/781401083054739456/1486909020",
+                    "profile_link_color": "1DA1F2",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": false,
+                    "follow_request_sent": false,
+                    "notifications": false,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 2137,
+                "favorite_count": 9138,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "ja",
+                "extended_entities": {
+                    "media": [
+                        {
+                            "media_url": "https://pbs.twimg.com/media/C4dz1-8UMAE2PXI.jpg"
+                        },
+                        {
+                            "media_url": "https://pbs.twimg.com/media/C4dz1-9VMAA1K0K.jpg"
+                        },
+                        {
+                            "media_url": "https://pbs.twimg.com/media/C4dz1-7UkAASalr.jpg"
+                        }
+                    ]
+                }
+            },
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+            }
+        },
+        {
+            "id_str": "830768379011031041",
+            "created_at": "Sun Feb 12 2017 21:19:51 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "830936736742006785",
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "@lovetannnnnn このサイズでもらぶたんおじさん見つけられた",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "lovetannnnnn",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 35
+            }
+        }
+    ],
+    [
+        {
+            "id_str": "830943918728499200",
+            "created_at": "Mon Feb 13 2017 08:57:23 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "指原 莉乃",
+                "screen_name": "345__chan",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/641819928190840832/1MoFyDRM_bigger.jpg"
+            },
+            "text": "huluにあるドラマ、映画でオススメのものありますか？\nドラマ、映画ともに普段あまり観ないので毎回ハラハラできる展開があるものしか観れません😨\nhuluマスターのみなさまお願いします！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [],
+                "lastIndices": 93
+            }
+        },
+        {
+            "id_str": "830968017093734400",
+            "created_at": "Mon Feb 13 2017 10:33:08 GMT+0800 (CST)",
+            "extended_entities": {
+                "media": []
+            },
+            "user": {
+                "name": "柳英里紗",
+                "screen_name": "elisa_yanagi",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/815242195787624449/SFmfI0aG_bigger.jpg"
+            },
+            "text": "@345__chan りのちゃん、、代償ってドラマ良かったら、、観てね(*^^*)",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "345__chan",
+                        "indices": [
+                            0,
+                            10
+                        ]
+                    }
+                ],
+                "urls": [],
+                "lastIndices": 41
+            },
+            "in_reply_to_status_id_str": "830943918728499200"
+        },
+        {
+            "id_str": "831038179390021632",
+            "created_at": "Mon Feb 13 07:11:56 +0000 2017",
+            "text": "@elisa_yanagi @345__chan 全部チェック済みです！偶然😮あとから知ったパターン！",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "elisa_yanagi",
+                        "name": "柳英里紗",
+                        "id": 385287369,
+                        "id_str": "385287369",
+                        "indices": [
+                            0,
+                            13
+                        ]
+                    },
+                    {
+                        "screen_name": "345__chan",
+                        "name": "指原 莉乃",
+                        "id": 2346809580,
+                        "id_str": "2346809580",
+                        "indices": [
+                            14,
+                            24
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "extended_entities": {
+                "media": []
+            },
+            "in_reply_to_status_id_str": "830968017093734400",
+            "is_quote_status": false,
+            "user": {
+                "name": "兒玉 遥 (はるっぴ)",
+                "screen_name": "haruka_kdm919",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+            }
+        }
+    ]
+]

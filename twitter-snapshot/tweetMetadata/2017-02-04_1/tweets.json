@@ -1,0 +1,23 @@
+[
+    {
+        "id_str": "827665673396445184",
+        "created_at": "Fri Feb 03 23:50:48 +0000 2017",
+        "text": "おはようございます＼(^^)／\n握手会よろしくお願いしまーす🗣",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "extended_entities": {
+            "media": []
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    }
+]
