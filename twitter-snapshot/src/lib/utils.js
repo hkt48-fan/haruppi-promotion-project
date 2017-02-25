@@ -306,52 +306,68 @@ const parseRelatedTweetsHTML = (html, sourceTweet, friends) => {
     // todo fix bug cannot get correct exteded_entities
     // inner block
     const permalinkReplies = $('.permalink-replies .stream');
-    const hotThreaded = permalinkReplies.first('.ThreadedConversation .stream-item');
-    const hotThreadedTweet = hotThreaded.find('.tweet');
 
-    if (hotThreadedTweet.html() === null) {
-      return {};
-    }
+    // only parse first conversation block
+    const firstHotThreaded = permalinkReplies.find('.ThreadedConversation').first();
+    const hotThreadedTweets = firstHotThreaded.find('.tweet');
 
-    const name = hotThreadedTweet.data('name');
-    const screen_name = hotThreadedTweet.data('screen-name');
-    const id_str = hotThreadedTweet.data('tweet-id').toString();
+    hotThreadedTweets.each((idx, tweetElement) => {
+      const hotThreadedTweet = $(tweetElement);
 
-    const avatarElement = hotThreadedTweet.find('.avatar');
-    const profile_image_url = avatarElement.attr('src').replace(/^https:/, 'http:');
-    const timestampElement = hotThreadedTweet.find('.tweet-timestamp ._timestamp');
-    const _time_ms = timestampElement.data('time-ms');
-    const created_at = new Date(+_time_ms).toString();
+      // const hotThreaded = permalinkReplies.first('.ThreadedConversation .stream-item');
+      // const hotThreadedTweet = hotThreaded.find('.tweet');
 
-    const tweetTextElement = hotThreadedTweet.find('.tweet-text');
-    const parsedTweetTextObject = parseTweetEntity(tweetTextElement);
+      if (hotThreadedTweet.html() === null) {
+        return {};
+      }
 
-    const extended_entities = {
-      media: [],
-    };
+      const name = hotThreadedTweet.data('name');
+      const screen_name = hotThreadedTweet.data('screen-name');
+      const id_str = hotThreadedTweet.data('tweet-id').toString();
 
-    const tweet = {
-      id_str,
-      created_at,
-      extended_entities,
-      in_reply_to_status_id_str: sourceTweet.id_str,
-      user: {
-        name,
-        screen_name,
-        profile_image_url,
-      },
-    };
+      const avatarElement = hotThreadedTweet.find('.avatar');
+      const profile_image_url = avatarElement.attr('src').replace(/^https:/, 'http:');
+      const timestampElement = hotThreadedTweet.find('.tweet-timestamp ._timestamp');
+      const _time_ms = timestampElement.data('time-ms');
+      const created_at = new Date(+_time_ms).toString();
 
-    Object.assign(tweet, parsedTweetTextObject);
-    tweet.in_reply_to_status_id_str = sourceTweet.id_str;
+      const tweetTextElement = hotThreadedTweet.find('.tweet-text');
+      const parsedTweetTextObject = parseTweetEntity(tweetTextElement);
 
-    if (friends.includes(screen_name)) {
-      replySourceTweets.push(tweet);
-      console.log('parsed a tweet from friend', screen_name);
-    }
-    else {
-      console.log('unknow screen_name:', screen_name);
-    }
+      const adaptiveMedia = hotThreadedTweet.find('.AdaptiveMedia');
+      const imageElements = adaptiveMedia.find('img');
+      const extended_entities = {
+        media: [],
+      };
+      imageElements.each((imgidx, img) => {
+        extended_entities.media.push({
+          media_url: img.attribs.src,
+        });
+      });
+
+      const tweet = {
+        id_str,
+        created_at,
+        extended_entities,
+        in_reply_to_status_id_str: sourceTweet.id_str,
+        user: {
+          name,
+          screen_name,
+          profile_image_url,
+        },
+      };
+
+      Object.assign(tweet, parsedTweetTextObject);
+      tweet.in_reply_to_status_id_str = sourceTweet.id_str;
+
+      if (friends.includes(screen_name)) {
+        replySourceTweets.push(tweet);
+        console.log('parsed a tweet from friend', screen_name);
+      }
+      else {
+        console.log('unknow screen_name:', screen_name);
+      }
+    });
   }
   return replySourceTweets;
 };

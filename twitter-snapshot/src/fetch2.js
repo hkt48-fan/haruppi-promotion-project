@@ -35,6 +35,7 @@ const options = {
     'KeiZee_Dosue',
     'WRHMURAMOTO',
     '0220nicole',
+    '39saku_chan',
   ],
   requestOptions,
 };
