@@ -1,0 +1,292 @@
+[
+    {
+        "id_str": "832748057183744002",
+        "created_at": "Sat Feb 18 00:26:23 +0000 2017",
+        "text": "HKT48兒玉遥、大胆ビキニでクールに攻める　貫禄漂う美貌解放 #HKT48 #兒玉遥 @haruka_kdm919 【ほか写真あり】",
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "HKT48",
+                    "indices": [
+                        48,
+                        54
+                    ]
+                },
+                {
+                    "text": "兒玉遥",
+                    "indices": [
+                        55,
+                        59
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "modelpress",
+                    "name": "モデルプレス",
+                    "id": 142921471,
+                    "id_str": "142921471",
+                    "indices": [
+                        3,
+                        14
+                    ]
+                },
+                {
+                    "screen_name": "haruka_kdm919",
+                    "name": "兒玉 遥 (はるっぴ)",
+                    "id": 747611144756465700,
+                    "id_str": "747611144756465664",
+                    "indices": [
+                        60,
+                        74
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/4uNjDozzFs",
+                    "expanded_url": "https://mdpr.jp/news/1664302",
+                    "display_url": "mdpr.jp/news/1664302",
+                    "indices": [
+                        85,
+                        108
+                    ]
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "retweeted_status": {
+            "created_at": "Fri Feb 17 15:01:16 +0000 2017",
+            "id": 832605843359035400,
+            "id_str": "832605843359035392",
+            "text": "HKT48兒玉遥、大胆ビキニでクールに攻める　貫禄漂う美貌解放 #HKT48 #兒玉遥 @haruka_kdm919 【ほか写真あり】\n\nhttps://t.co/4uNjDozzFs",
+            "truncated": false,
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "HKT48",
+                        "indices": [
+                            32,
+                            38
+                        ]
+                    },
+                    {
+                        "text": "兒玉遥",
+                        "indices": [
+                            39,
+                            43
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "haruka_kdm919",
+                        "name": "兒玉 遥 (はるっぴ)",
+                        "id": 747611144756465700,
+                        "id_str": "747611144756465664",
+                        "indices": [
+                            44,
+                            58
+                        ]
+                    }
+                ],
+                "urls": [
+                    {
+                        "url": "https://t.co/4uNjDozzFs",
+                        "expanded_url": "https://mdpr.jp/news/1664302",
+                        "display_url": "mdpr.jp/news/1664302",
+                        "indices": [
+                            69,
+                            92
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://mdpr.jp\" rel=\"nofollow\">modelpress appl</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 142921471,
+                "id_str": "142921471",
+                "name": "モデルプレス",
+                "screen_name": "modelpress",
+                "location": "TOKYO,JAPAN",
+                "description": "日本最大級の女性向けエンタメ＆ライフスタイルニュースサイト。ファッション、モデル、恋愛、ヘア、コスメ、ダイエット、ディズニー、カフェ、ドラマ、映画、音楽、海外セレブ、女子旅の最新情報をお届け [#バチェラー x #モデルプレス] [#テラスハウス x #モデルプレス]  取材記事展開中☆",
+                "url": "https://t.co/5eMAE7fr2T",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/5eMAE7fr2T",
+                                "expanded_url": "http://mdpr.jp/",
+                                "display_url": "mdpr.jp",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 1000669,
+                "friends_count": 169258,
+                "listed_count": 5122,
+                "created_at": "Wed May 12 03:06:36 +0000 2010",
+                "favourites_count": 3,
+                "utc_offset": 32400,
+                "time_zone": "Tokyo",
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 148741,
+                "lang": "ja",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "FAFAFA",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000408336681/d2c462324fb542da3aa9573f4afa3012_normal.png",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/142921471/1486948630",
+                "profile_link_color": "FA0A4E",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "000000",
+                "profile_text_color": "FFFFFF",
+                "profile_use_background_image": false,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 203,
+            "favorite_count": 849,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "ja",
+            "extended_entities": {
+                "media": []
+            }
+        },
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    },
+    {
+        "id_str": "832826487799640064",
+        "created_at": "Sat Feb 18 05:38:02 +0000 2017",
+        "text": "欅坂46の皆さんとHKT48のみんな＼(^^)／✨",
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 832826478546989000,
+                    "id_str": "832826478546989057",
+                    "indices": [
+                        26,
+                        49
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C47LRQ1VMAEV_Gn.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C47LRQ1VMAEV_Gn.jpg",
+                    "url": "https://t.co/IVfNWg69Kg",
+                    "display_url": "pic.twitter.com/IVfNWg69Kg",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/832826487799640064/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 832826478546989000,
+                    "id_str": "832826478546989057",
+                    "indices": [
+                        26,
+                        49
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/C47LRQ1VMAEV_Gn.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/C47LRQ1VMAEV_Gn.jpg",
+                    "url": "https://t.co/IVfNWg69Kg",
+                    "display_url": "pic.twitter.com/IVfNWg69Kg",
+                    "expanded_url": "https://twitter.com/haruka_kdm919/status/832826487799640064/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 1478,
+                            "h": 1108,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 1200,
+                            "h": 900,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 510,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "in_reply_to_status_id_str": null,
+        "is_quote_status": false,
+        "user": {
+            "name": "兒玉 遥 (はるっぴ)",
+            "screen_name": "haruka_kdm919",
+            "profile_image_url": "http://pbs.twimg.com/profile_images/824994202488442880/46EmBy9C_normal.jpg"
+        }
+    }
+]
