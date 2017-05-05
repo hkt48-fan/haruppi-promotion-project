@@ -1,10 +1,10 @@
 // import readline from 'readline';
-import fs from 'fs';
-import url from 'url';
-import request from 'request';
-import moment from 'moment';
-import { V1 } from 'instagram-private-api';
-import config from '../config';
+const fs = require('fs');
+const url = require('url');
+const request = require('request');
+const moment = require('moment');
+const { V1 } = require('instagram-private-api');
+const config = require('../config');
 
 const INSTAGRAM_HARUPPI_ID = 3469541695;
 const SAVED_MEDIA_PATH = 'saved_media';
