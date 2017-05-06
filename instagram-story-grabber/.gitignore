@@ -4,3 +4,4 @@ node_modules/
 build/
 config.json
 saved_media/
+cookies.json

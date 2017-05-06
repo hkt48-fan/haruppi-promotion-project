@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel src -d build && node build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "babel src -d build -w"
+    "start": "node src",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
